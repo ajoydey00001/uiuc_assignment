@@ -1,0 +1,5 @@
+model,provider,prompt_id,run_id,url,domain,source_type,claimed_purpose,validation_status
+demo_gemini_like,demo,P01_CONFERENCE_RANKING,demo01,https://csrankings.org/#/index?soft,csrankings.org,unknown,CSRankings software engineering area,unvalidated
+demo_gemini_like,demo,P04_EXACT_SOURCES,demo01,https://arxiv.org/abs/2107.03374,arxiv.org,arxiv,Evaluating Large Language Models Trained on Code,unvalidated
+demo_gemini_like,demo,P04_EXACT_SOURCES,demo01,https://arxiv.org/abs/2310.06770,arxiv.org,arxiv,SWE-bench: Can Language Models Resolve Real-World GitHub Issues?,unvalidated
+demo_gemini_like,demo,P04_EXACT_SOURCES,demo01,https://docs.github.com/en/copilot,docs.github.com,github_repository,GitHub Copilot documentation,unvalidated

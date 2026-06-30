@@ -1,0 +1,5 @@
+model,provider,prompt_id,run_id,title,authors,venue,year,doi,arxiv_id,url
+demo_gemini_like,demo,P01_CONFERENCE_RANKING,demo01,CSRankings software engineering area,,conference_page,,,,https://csrankings.org/#/index?soft
+demo_gemini_like,demo,P04_EXACT_SOURCES,demo01,Evaluating Large Language Models Trained on Code,Mark Chen et al.,arXiv,2021,,2107.03374,https://arxiv.org/abs/2107.03374
+demo_gemini_like,demo,P04_EXACT_SOURCES,demo01,SWE-bench: Can Language Models Resolve Real-World GitHub Issues?,Jimenez et al.,ICLR,2024,,2310.06770,https://arxiv.org/abs/2310.06770
+demo_gemini_like,demo,P04_EXACT_SOURCES,demo01,GitHub Copilot documentation,GitHub,Documentation,2026,,,https://docs.github.com/en/copilot

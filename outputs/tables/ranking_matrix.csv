@@ -1,0 +1,9 @@
+acronym_norm,demo_gemini_like,baseline_rank
+ICSE,1.0,1.0
+FSE,2.0,2.0
+ASE,3.0,3.0
+ISSTA,4.0,4.0
+MSR,5.0,5.0
+PLDI,6.0,10.0
+ICLR,7.0,20.0
+NAN,1.0,

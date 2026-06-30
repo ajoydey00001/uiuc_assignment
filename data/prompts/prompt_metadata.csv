@@ -1,0 +1,10 @@
+prompt_id,category,depth,source_pressure,description
+P01_CONFERENCE_RANKING,conference_ranking,shallow,low,Rank the top venues for AI-assisted software engineering.
+P02_CONFERENCE_RANKING_SOURCED,conference_ranking,deep,high,Rank venues and provide evidence for each choice.
+P03_INFLUENTIAL_PAPERS,influential_papers,deep,medium,List influential AI-for-SE papers with metadata.
+P04_EXACT_SOURCES,exact_source_disclosure,deep,high,Provide exact URLs/DOIs/arXiv links supporting an AI-for-SE overview.
+P05_RECENT_WORK,recent_work,medium,high,Discuss recent LLM code generation/testing/program repair work.
+P06_AREA_MAPPING,area_mapping,deep,medium,Map AI-for-SE subareas to conferences and source types.
+P07_PRACTITIONER_GUIDANCE,practitioner_guidance,shallow,medium,Recommend sources for an engineering team adopting AI tools.
+P08_HALLUCINATION_STRESS,hallucination_validation,deep,high,Give citations but explicitly mark uncertain items and avoid invented metadata.
+

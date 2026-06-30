@@ -1,0 +1,31 @@
+conference,acronym,full_name,field,core_rank,csrankings_area,baseline_rank,notes
+ICSE,ICSE,International Conference on Software Engineering,software_engineering,A*,Software Engineering,1,Flagship software engineering venue; CSRankings SE baseline.
+FSE/ESEC-FSE,FSE,ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering,software_engineering,A*,Software Engineering,2,Top software engineering venue; often listed as ESEC/FSE.
+ASE,ASE,IEEE/ACM International Conference on Automated Software Engineering,software_engineering,A*,Software Engineering,3,Core AI-for-SE and automation venue.
+ISSTA,ISSTA,ACM SIGSOFT International Symposium on Software Testing and Analysis,software_engineering,A,Software Engineering,4,Testing and analysis venue central to AI-assisted testing.
+MSR,MSR,International Conference on Mining Software Repositories,software_engineering,A,Software Engineering,5,Empirical mining venue; strong source for repository-scale AI studies.
+ICSME,ICSME,IEEE International Conference on Software Maintenance and Evolution,software_engineering,A,Software Engineering,6,Maintenance and evolution venue.
+SANER,SANER,IEEE International Conference on Software Analysis Evolution and Reengineering,software_engineering,A,Software Engineering,7,Analysis/reengineering venue.
+RE,RE,IEEE International Requirements Engineering Conference,software_engineering,A,Software Engineering,8,Requirements engineering venue.
+MODELS,MODELS,ACM/IEEE International Conference on Model Driven Engineering Languages and Systems,software_engineering,A,Software Engineering,9,Model-driven engineering venue.
+PLDI,PLDI,ACM SIGPLAN Conference on Programming Language Design and Implementation,programming_languages,A*,Programming Languages,10,Top PL venue relevant to program synthesis and tools.
+OOPSLA,OOPSLA,ACM SIGPLAN Conference on Object-Oriented Programming Systems Languages and Applications,programming_languages,A*,Programming Languages,11,Top PL venue now within SPLASH/OOPSLA.
+POPL,POPL,ACM SIGPLAN Symposium on Principles of Programming Languages,programming_languages,A*,Programming Languages,12,Top theoretical PL venue.
+ECOOP,ECOOP,European Conference on Object-Oriented Programming,programming_languages,A,Programming Languages,13,Object-oriented and PL venue.
+CAV,CAV,International Conference on Computer Aided Verification,formal_methods,A*,Programming Languages,14,Top verification/formal methods venue.
+TACAS,TACAS,International Conference on Tools and Algorithms for the Construction and Analysis of Systems,formal_methods,A,Programming Languages,15,Formal methods and verification tools venue.
+FM,FM,International Symposium on Formal Methods,formal_methods,A,Programming Languages,16,Formal methods venue.
+VMCAI,VMCAI,International Conference on Verification Model Checking and Abstract Interpretation,formal_methods,A,Programming Languages,17,Verification and static analysis venue.
+NeurIPS,NeurIPS,Conference on Neural Information Processing Systems,artificial_intelligence,A*,Artificial Intelligence,18,Premier ML venue; relevant for code models and LLM methods.
+ICML,ICML,International Conference on Machine Learning,artificial_intelligence,A*,Artificial Intelligence,19,Premier ML venue; relevant for learning methods.
+ICLR,ICLR,International Conference on Learning Representations,artificial_intelligence,A*,Artificial Intelligence,20,Premier deep learning venue; common for foundation-model work.
+AAAI,AAAI,AAAI Conference on Artificial Intelligence,artificial_intelligence,A*,Artificial Intelligence,21,Broad AI venue.
+IJCAI,IJCAI,International Joint Conference on Artificial Intelligence,artificial_intelligence,A*,Artificial Intelligence,22,Broad AI venue.
+KDD,KDD,ACM SIGKDD Conference on Knowledge Discovery and Data Mining,data_mining,A*,Data Mining,23,Data mining venue relevant to mining repositories and developer analytics.
+WWW,WWW,ACM Web Conference,web_hci,A*,Web and Information Retrieval,24,Web venue relevant to developer web ecosystems.
+CHI,CHI,ACM CHI Conference on Human Factors in Computing Systems,hci,A*,Human-Computer Interaction,25,Human factors venue for developer tools and AI pair programming.
+UIST,UIST,ACM Symposium on User Interface Software and Technology,hci,A*,Human-Computer Interaction,26,Interactive systems venue relevant to developer assistance interfaces.
+ICPC,ICPC,IEEE/ACM International Conference on Program Comprehension,software_engineering,A,Software Engineering,27,Program comprehension venue.
+SOSP,SOSP,ACM Symposium on Operating Systems Principles,systems,A*,Operating Systems,28,Systems baseline for tool-building context.
+OSDI,OSDI,USENIX Symposium on Operating Systems Design and Implementation,systems,A*,Operating Systems,29,Systems baseline for infrastructure and empirical source comparisons.
+

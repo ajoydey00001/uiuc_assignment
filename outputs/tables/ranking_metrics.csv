@@ -1,0 +1,2 @@
+model,prompt_id,run_id,n_matched,spearman_vs_baseline,kendall_vs_baseline,spearman_vs_core_score,top5_overlap_vs_baseline,mean_abs_rank_difference
+demo_gemini_like,P01_CONFERENCE_RANKING,demo01,7,1.0,1.0,0.15811388300841897,1.0,2.4285714285714284
