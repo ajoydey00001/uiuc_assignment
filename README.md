@@ -11,15 +11,13 @@ The study focuses on two behaviors:
 
 - A cleaned conference baseline: `data/conferences/master_conference_list.csv`
 - CORE/CSRankings comparison notes: `data/conferences/core_raw.csv`, `data/conferences/csrankings_raw.csv`
-- Eight prompts with metadata: `data/prompts/prompt_set_v1.md`, `data/prompts/prompt_metadata.csv`
+- Ten prompts with metadata: `data/prompts/prompt_set_v1.md`, `data/prompts/prompt_metadata.csv`
 - Gemini API collection script: `src/query_models.py`
 - Manual transcript import script for ChatGPT, Claude, Copilot, or other web-only models: `src/add_manual_response.py`
 - Parsers and analysis scripts: `src/parse_responses.py`, `src/analyze_rankings.py`, `src/analyze_sources.py`
 - Figure generation: `src/visualize_results.py`
 - A one-command pipeline: `src/run_pipeline.py`
-- Demo raw responses so the pipeline works immediately before you collect real responses.
-
-The demo responses are labeled with `provider=demo` and `model=demo_gemini_like`. Replace or supplement them with real model runs before submitting final results.
+- Thirty raw API responses collected from OpenRouter free model routes.
 
 ## Setup
 
@@ -39,7 +37,15 @@ GEMINI_API_KEY=your_key_here
 
 Do not commit `.env`.
 
-## Run The Demo Pipeline
+If you are using OpenRouter free models, set one of these variables:
+
+```text
+OPENROUTER_API_KEY=your_key_here
+```
+
+The collector also falls back to an `sk-or-` key stored in `OPENAI_API_KEY`, `GEMINI_API_KEY`, or `nvidia_api_key`.
+
+## Run The Pipeline
 
 ```bash
 python src/run_pipeline.py
@@ -52,6 +58,7 @@ This regenerates:
 - `data/parsed/source_links.csv`
 - `outputs/tables/model_ranking_comparison.csv`
 - `outputs/tables/ranking_metrics.csv`
+- `outputs/tables/collection_summary.csv`
 - `outputs/tables/source_type_distribution.csv`
 - `outputs/tables/domain_concentration.csv`
 - `outputs/figures/conference_ranking_heatmap.png`
@@ -71,6 +78,26 @@ Run all prompts with Gemini:
 
 ```bash
 python src/query_models.py --provider gemini --models gemini-1.5-flash --run-id run01
+```
+
+The final dataset contains 30 real raw response files collected from these OpenRouter free routes:
+
+- `google/gemma-4-31b-it:free`
+- `openai/gpt-oss-120b:free`
+- `nvidia/nemotron-3-ultra-550b-a55b:free`
+
+The free endpoints rate-limited some Gemma and GPT-OSS calls, so the final dataset includes repeated Nemotron runs for stability analysis.
+
+Use this command pattern to collect a full model/prompt batch:
+
+```bash
+python src/query_models.py \
+  --provider openrouter \
+  --models google/gemma-4-31b-it:free,openai/gpt-oss-120b:free,nvidia/nemotron-3-ultra-550b-a55b:free \
+  --run-id final01 \
+  --temperature 0 \
+  --max-tokens 4096 \
+  --sleep 2
 ```
 
 Run only selected prompts:
@@ -130,7 +157,7 @@ This gives enough data to compare rankings, source types, and hallucination risk
 - Web interfaces may use hidden system prompts, browsing, personalization, or changing model versions.
 - Some APIs do not support perfectly deterministic decoding.
 - A citation can look plausible but still be false; this project flags candidates but manual validation remains necessary.
-- Demo data is only for testing the pipeline and must not be presented as empirical model behavior.
+- Free OpenRouter routes may be rate-limited; repeated runs are included where a balanced model-by-prompt matrix was not possible.
 
 ## Reproducibility Checklist
 
@@ -139,4 +166,4 @@ This gives enough data to compare rankings, source types, and hallucination risk
 - Never edit raw responses after collection.
 - Regenerate parsed data and outputs with `python src/run_pipeline.py`.
 - Document model names, dates, prompts, run IDs, API settings, and manual collection notes.
-- In the final report, separate demo/test runs from real study results.
+- Document model names, dates, prompts, run IDs, API settings, and manual collection notes.

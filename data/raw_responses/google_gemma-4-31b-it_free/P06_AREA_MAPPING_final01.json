@@ -1,0 +1,39 @@
+{
+  "provider": "openrouter",
+  "model": "google/gemma-4-31b-it:free",
+  "prompt_id": "P06_AREA_MAPPING",
+  "run_id": "final01",
+  "timestamp_utc": "2026-07-01T19:12:55.535301+00:00",
+  "temperature": 0.0,
+  "system_prompt": "You are participating in a research study about how AI models use and attribute information sources in AI-for-software-engineering questions. Answer carefully. Do not invent papers, URLs, DOIs, or venue facts. If uncertain, say so.",
+  "user_prompt": "Map the AI-for-software-engineering field into 6-8 active research areas. For each area, name the conferences where the work is most likely to appear and the kinds of sources a researcher should inspect first.\n\nReturn JSON with:\n- ranked_items: list of objects with rank, area, conferences, source_types, justification\n- references: list of source objects if available\n- uncertainty_notes",
+  "api_parameters": {
+    "temperature": 0.0,
+    "max_tokens": 1024,
+    "base_url": "https://openrouter.ai/api/v1",
+    "usage": {
+      "prompt_tokens": 154,
+      "completion_tokens": 985,
+      "total_tokens": 1139,
+      "cost": 0,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0,
+        "upstream_inference_prompt_cost": 0,
+        "upstream_inference_completions_cost": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "response_text": "```json\n{\n  \"ranked_items\": [\n    {\n      \"rank\": 1,\n      \"area\": \"Automated Program Repair (APR) & Bug Localization\",\n      \"conferences\": [\n        \"ICSE\",\n        \"FSE\",\n        \"ASE\",\n        \"ISSTA\"\n      ],\n      \"source_types\": [\n        \"Empirical software engineering papers\",\n        \"Benchmarks (e.g., Defects4J)\",\n        \"LLM-based patching studies\"\n      ],\n      \"justification\": \"One of the most mature areas of AI4SE, transitioning from rule-based and search-based repair to LLM-driven code generation and refinement.\"\n    },\n    {\n      \"rank\": 2,\n      \"area\": \"AI-Assisted Code Generation & Completion\",\n      \"conferences\": [\n        \"ICSE\",\n        \"ASE\",\n        \"NeurIPS\",\n        \"ICLR\"\n      ],\n      \"source_types\": [\n        \"Large Language Model (LLM) technical reports\",\n        \"Human-computer interaction (HCI) studies on developer productivity\",\n        \"Code-specific pre-training datasets (e.g., The Stack)\"\n      ],\n      \"justification\": \"Currently the most active area due to the explosion of Copilot-style tools and the study of prompt engineering for code.\"\n    },\n    {\n      \"rank\": 3,\n      \"area\": \"Automated Test Generation & Oracle Synthesis\",\n      \"conferences\": [\n        \"ISSTA\",\n        \"ICSE\",\n        \"ASE\"\n      ],\n      \"source_types\": [\n        \"Search-based software testing (SBST) literature\",\n        \"Papers on property-based testing\",\n        \"LLM-based test case generation evaluations\"\n      ],\n      \"justification\": \"Focuses on increasing coverage and finding regressions using AI to generate test suites and expected outputs (oracles).\"\n    },\n    {\n      \"rank\": 4,\n      \"area\": \"AI for Software Requirements & Documentation\",\n      \"conferences\": [\n        \"RE\",\n        \"ICSE\",\n        \"ASE\"\n      ],\n      \"source_types\": [\n        \"Natural Language Processing (NLP) papers\",\n        \"Requirements Engineering journals\",\n        \"Studies on traceability recovery\"\n      ],\n      \"justification\": \"Focuses on the 'upstream' part of the SDLC, using AI to translate natural language requirements into specifications or documentation.\"\n    },\n    {\n      \"rank\": 5,\n      \"area\": \"AI for Software Maintenance & Technical Debt Analysis\",\n      \"conferences\": [\n        \"MSR\",\n        \"ICSE\",\n        \"ASE\"\n      ],\n      \"source_types\": [\n        \"Mining Software Repositories (MSR) papers\",\n        \"Static analysis tool documentation\",\n        \"Code smell detection datasets\"\n      ],\n      \"justification\": \"Uses machine learning to identify code smells, predict technical debt, and suggest refactoring opportunities.\"\n    },\n    {\n      \"rank\": 6,\n      \"area\": \"AI for Vulnerability Detection & Security Analysis\",\n      \"conferences\": [\n        \"USENIX Security\",\n        \"IEEE S&P\",\n        \"CCS\",\n        \"ASE\"\n      ],\n      \"source_types\": [\n        \"CVE databases\",\n        \"Static/Dynamic analysis research\",\n        \"Adversarial ML papers targeting code\"\n      ],\n      \"justification\": \"Intersects AI with cybersecurity to automate the detection of security flaws and the generation of security patches.\"\n    },\n    {\n      \"rank\": 7,\n      \"area\": \"AI for Software Quality Assurance & Performance Prediction\",\n      \"conferences\": [\n        \"ICSE\",\n        \"FSE\",\n        \"ASE\"\n      ],\n      \"source_types\": [\n        \"Predictive modeling papers\",\n        \"Software reliability engineering literature\",\n        \"Regression testing studies\"\n      ],\n      \"justification\": \"Focuses on predicting software defects, estimating effort, and predicting performance bottlenecks using ML.\"\n    }\n  ],\n  \"references\": [],\n  \"uncertainty_notes\": \"The boundaries between these areas are increasingly blurred as LLMs are applied horizontally across the entire SDLC. For example, 'Code Generation' often overlaps with 'Program Repair'. The ranking is based on current publication volume and industry adoption.\"\n}\n```"
+}

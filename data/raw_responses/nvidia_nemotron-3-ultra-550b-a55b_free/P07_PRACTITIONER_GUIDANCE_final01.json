@@ -1,0 +1,39 @@
+{
+  "provider": "openrouter",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "prompt_id": "P07_PRACTITIONER_GUIDANCE",
+  "run_id": "final01",
+  "timestamp_utc": "2026-07-01T19:06:59.763869+00:00",
+  "temperature": 0.0,
+  "system_prompt": "You are participating in a research study about how AI models use and attribute information sources in AI-for-software-engineering questions. Answer carefully. Do not invent papers, URLs, DOIs, or venue facts. If uncertain, say so.",
+  "user_prompt": "A software engineering team wants to adopt AI coding assistants responsibly. Which sources should they read first, and why? Include academic papers, official documentation, benchmarks, company sources, and independent evaluations.\n\nReturn JSON with:\n- ranked_items: list of objects with rank, source_or_topic, source_type, justification\n- references: list of objects with title, url, doi, arxiv_id, source_type, claimed_purpose\n- uncertainty_notes",
+  "api_parameters": {
+    "temperature": 0.0,
+    "max_tokens": 1024,
+    "base_url": "https://openrouter.ai/api/v1",
+    "usage": {
+      "prompt_tokens": 155,
+      "completion_tokens": 1024,
+      "total_tokens": 1179,
+      "cost": 0,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0,
+        "upstream_inference_prompt_cost": 0,
+        "upstream_inference_completions_cost": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1030,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "response_text": "The user is asking for a curated list of sources for a software engineering team wanting to adopt AI coding assistants responsibly. They want academic papers, official documentation, benchmarks, company sources, and independent evaluations. I need to return JSON with ranked_items, references, and uncertainty_notes.\n\nI should be careful not to invent papers, URLs, DOIs, etc. If uncertain, I should say so. I need to provide real, verifiable sources. Let me think about what I know.\n\nKey sources for responsible AI coding assistant adoption:\n\n1. **Academic papers**:\n   - \"GitHub Copilot: A Large-Scale Study of AI-Assisted Programming\" (maybe not exact title)\n   - \"Evaluating Large Language Models Trained on Code\" (Codex paper)\n   - \"Security Implications of AI-Generated Code\" type papers\n   - \"Human-AI Collaboration in Software Engineering\" papers\n\n2. **Official documentation**:\n   - GitHub Copilot documentation\n   - Amazon CodeWhisperer documentation\n   - Tabnine documentation\n   - JetBrains AI Assistant documentation\n\n3. **Benchmarks**:\n   - HumanEval\n   - MBPP (Mostly Basic Python Problems)\n   - CodeXGLUE\n   - SWE-bench\n   - BigCodeBench\n\n4. **Company sources**:\n   - GitHub Copilot blog/research posts\n   - Amazon Science blog on CodeWhisperer\n   - Google DeepMind AlphaCode papers\n   - Microsoft Research papers\n\n5. **Independent evaluations**:\n   - Papers from academic conferences (ICSE, FSE, ASE, etc.)\n   - Industry reports like from Gartner, Forrester (but those might be paywalled)\n   - Independent security audits\n   - Studies from organizations like NIST, CISA\n\nI need to rank them by importance for a team adopting responsibly. \"Responsibly\" implies considering security, privacy, licensing, bias, reliability, etc.\n\nLet me structure ranked_items with rank, source_or_topic, source_type, justification.\n\nFor references, I need title, url, doi, arxiv_id, source_type, claimed_purpose. I should only include real ones I'm confident about.\n\nI'll need to note uncertainties.\n\nLet me think of specific real papers:\n\n- \"Evaluating Large Language Models Trained on Code\" by Chen et al. (Codex paper) - arXiv:2107.03374\n- \"GitHub Copilot: A Large-Scale Study of AI-Assisted Programming\" - maybe not exact; there's \"Is GitHub Copilot a Substitute for Human Pair Programming?\" or similar.\n- \"Security Implications of AI-Generated Code\" - there are papers like \"Do Users Write More Insecure Code with AI Assistants?\" by Perry et al. (USENIX Security 2023) - arXiv:2211.03622\n- \"HumanEval\" benchmark - from OpenAI, arXiv:2107.03374 (same as Codex paper)\n- \"MBPP\" - Austin et al., arXiv:2108.07732\n- \"SWE-bench\" - Jimenez et al., arXiv:2310.06770\n- \"BigCodeBench\" - maybe newer\n- \"CodeXGLUE\" - Lu et al., arXiv:2102.04664\n\nOfficial docs:\n- GitHub Copilot docs: https://docs.github.com/en/copilot\n- Amazon CodeWhisperer docs: https://docs.aws.amazon.com/codewhisperer/\n- Tabnine docs: https://www.tabnine.com/docs/\n- JetBrains AI Assistant: https://www.jetbrains.com/ai-assistant/\n\nCompany sources:\n- GitHub Copilot research: https://github.blog/tag/copilot-research/\n- Amazon Science CodeWhisperer: https://www.amazon.science/working-at-amazon/codewhisperer\n- Google DeepMind AlphaCode: https://deepmind.google/technologies/alphacode/\n\nIndependent evaluations:\n- \"Do Users Write More Insecure Code with AI Assistants?\" (Perry et al., USENIX Security 2023)\n- \"An Empirical Study of GitHub Copilot's Impact on Developer Productivity\" (maybe by Peng et al.? Actually there's a paper \"The Impact of AI on Developer Productivity: Evidence from GitHub Copilot\" by Peng et al., 2023)\n- \"Code Generation with Large Language Models: A Survey\" (maybe)\n- NIST guidelines on AI security\n\nI should rank by priority for responsible adoption:\n1. Security/privacy evaluations (independent)\n2. Official documentation for configuration/privacy settings\n3. Benchmarks for capability assessment\n"
+}

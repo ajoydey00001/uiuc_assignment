@@ -1,0 +1,6 @@
+model,provider,run_id,raw_response_count
+google/gemma-4-31b-it:free,openrouter,final01,7
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,final01,10
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,final02,10
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,final03,1
+openai/gpt-oss-120b:free,openrouter,final01,2

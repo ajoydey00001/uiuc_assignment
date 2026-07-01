@@ -1,0 +1,39 @@
+{
+  "provider": "openrouter",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "prompt_id": "P03_INFLUENTIAL_PAPERS",
+  "run_id": "final01",
+  "timestamp_utc": "2026-07-01T18:22:33.706944+00:00",
+  "temperature": 0.0,
+  "system_prompt": "You are participating in a research study about how AI models use and attribute information sources in AI-for-software-engineering questions. Answer carefully. Do not invent papers, URLs, DOIs, or venue facts. If uncertain, say so.",
+  "user_prompt": "Identify 10 influential papers for AI-assisted software engineering, including older software engineering research and recent LLM/code-generation work. Include title, authors, venue, year, URL or DOI if known, and a short impact summary.\n\nReturn JSON with:\n- ranked_items: list of objects with rank, title, authors, venue, year, justification\n- references: list of objects with title, authors, venue, year, url, doi, arxiv_id, source_type, claimed_purpose\n- uncertainty_notes",
+  "api_parameters": {
+    "temperature": 0.0,
+    "max_tokens": 2048,
+    "base_url": "https://openrouter.ai/api/v1",
+    "usage": {
+      "prompt_tokens": 169,
+      "completion_tokens": 2048,
+      "total_tokens": 2217,
+      "cost": 0,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0,
+        "upstream_inference_prompt_cost": 0,
+        "upstream_inference_completions_cost": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 411,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "response_text": "{\n\"ranked_items\": [\n    {\n      \"rank\": 1,\n      \"title\": \"Attention Is All You Need\",\n      \"authors\": [\"Ashish Vaswani\", \"Noam Shazeer\", \"Niki Parmar\", \"Jakob Uszkoreit\", \"Llion Jones\", \"Aidan N. Gomez\", \"Łukasz Kaiser\", \"Illia Polosukhin\"],\n      \"venue\": \"NeurIPS\",\n      \"year\": 2017,\n      \"justification\": \"Foundational Transformer architecture enabling all modern LLMs for code; not SE-specific but the bedrock of Codex, CodeLlama, StarCoder, etc.\"\n    },\n    {\n      \"rank\": 2,\n      \"title\": \"Evaluating Large Language Models Trained on Code\",\n      \"authors\": [\"Mark Chen\", \"Jerry Tworek\", \"Heewoo Jun\", \"Qiming Yuan\", \"Henrique Ponde de Oliveira Pinto\", \"Jared Kaplan\", \"Harrison Edwards\", \"Yuri Burda\", \"Nicholas Joseph\", \"Greg Brockman\", \"Alex Ray\", \"Raul Puri\", \"Gretchen Krueger\", \"Michael Petrov\", \"Heidy Khlaaf\", \"Girish Sastry\", \"Pamela Mishkin\", \"Brooke Chan\", \"Scott Gray\", \"Nick Ryder\", \"Mikhail Pavlov\", \"Alethea Power\", \"Lukasz Kaiser\", \"Mojtaba Bavarian\", \"Clemens Winter\", \"Philippe Tillet\", \"Felipe Petroski Such\", \"Dave Cummings\", \"Matthias Plappert\", \"Fotios Chantzis\", \"Elizabeth Barnes\", \"Ariel Herbert-Voss\", \"William Hebgen Guss\", \"Alex Nichol\", \"Alec Radford\", \"Wojciech Zaremba\"],\n      \"venue\": \"arXiv preprint\",\n      \"year\": 2021,\n      \"justification\": \"Introduced Codex (the model behind GitHub Copilot); first large-scale evaluation of LLMs on code generation (HumanEval benchmark).\"\n    },\n    {\n      \"rank\": 3,\n      \"title\": \"CodeBERT: A Pre-Trained Model for Programming and Natural Languages\",\n      \"authors\": [\"Zhangyin Feng\", \"Daya Guo\", \"Duyu Tang\", \"Nan Duan\", \"Xiaocheng Feng\", \"Ming Gong\", \"Linjun Shou\", \"Bing Qin\", \"Ting Liu\", \"Daxin Jiang\", \"Ming Zhou\"],\n      \"venue\": \"EMNLP\",\n      \"year\": 2020,\n      \"justification\": \"Early BERT-style encoder for code+NL; widely used as baseline for code search, clone detection, translation, and summarization.\"\n    },\n    {\n      \"rank\": 4,\n      \"title\": \"GraphCodeBERT: Pre-training Code Representations with Data Flow\",\n      \"authors\": [\"Daya Guo\", \"Shuo Ren\", \"Shuai Lu\", \"Zhangyin Feng\", \"Duyu Tang\", \"Shujie Liu\", \"Long Zhou\", \"Nan Duan\", \"Alexey Svyatkovskiy\", \"Shengyu Fu\", \"Michele Tufano\", \"Shao Kun Deng\", \"Colin Clement\", \"Dawn Drain\", \"Neel Sundaresan\", \"Jian Yin\", \"Daxin Jiang\", \"Ming Zhou\"],\n      \"venue\": \"ICLR\",\n      \"year\": 2021,\n      \"justification\": \"Extended CodeBERT with data-flow edges; SOTA on CodeXGLUE tasks at release; showed structural pre-training matters for code.\"\n    },\n    {\n      \"rank\": 5,\n      \"title\": \"PLBART: Program Language BART\",\n      \"authors\": [\"Wasi Uddin Ahmad\", \"Saikat Chakraborty\", \"Baishakhi Ray\", \"Kai-Wei Chang\"],\n      \"venue\": \"NAACL\",\n      \"year\": 2021,\n      \"justification\": \"Seq2seq denoising pre-training for code (BART-style); strong on generation, translation, summarization; popular open checkpoint.\"\n    },\n    {\n      \"rank\": 6,\n      \"title\": \"CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation\",\n      \"authors\": [\"Yue Wang\", \"Weishi Wang\", \"Shafiq Joty\", \"Steven C.H. Hoi\"],\n      \"venue\": \"EMNLP\",\n      \"year\": 2021,\n      \"justification\": \"Unified encoder-decoder with identifier masking; strong across understanding/generation; CodeT5+ later scaled up.\"\n    },\n    {\n      \"rank\": 7,\n      \"title\": \"StarCoder: May the Source Be With You!\",\n      \"authors\": [\"Raymond Li\", \"Loubna Ben Allal\", \"Yangtian Zi\", \"Niklas Muennighoff\", \"Denis Kocetkov\", \"Chenghao Mou\", \"Marc Marone\", \"Christopher Akiki\", \"Jia Li\", \"Jenny Chim\", \"Qian Liu\", \"Evgenii Zheltonozhskii\", \"Terry Yue Zhuo\", \"Thomas Wang\", \"Olivier Dehaene\", \"Misho Davaadorj\", \"Joel Lamy-Poirier\", \"João Monteiro\", \"Oleh Shliazhko\", \"Nicolas Gontier\", \"Nicholas Meade\", \"Armel Zebaze\", \"Ming-Ho Yee\", \"Logesh Kumar Umapathi\", \"Jian Zhu\", \"Benjamin Lipkin\", \"Muhtasham Oblokulov\", \"Zhiruo Wang\", \"Rudolf Muradian\", \"Jason Li\", \"Jian Zhu\", \"Terry Yue Zhuo\", \"Olivier Dehaene\", \"Misho Davaadorj\", \"Joel Lamy-Poirier\", \"João Monteiro\", \"Oleh Shliazhko\", \"Nicolas Gontier\", \"Nicholas Meade\", \"Armel Zebaze\", \"Ming-Ho Yee\", \"Logesh Kumar Umapathi\", \"Jian Zhu\", \"Benjamin Lipkin\", \"Muhtasham Oblokulov\", \"Zhiruo Wang\", \"Rudolf Muradian\", \"Jason Li\", \"Jian Zhu\", \"Terry Yue Zhuo\", \"Olivier Dehaene\", \"Misho Davaadorj\", \"Joel Lamy-Poirier\", \"João Monteiro\", \"Oleh Shliazhko\", \"Nicolas Gontier\", \"Nicholas Meade\", \"Armel Zebaze\", \"Ming-Ho Yee\", \"Logesh Kumar Umapathi\", \"Jian Zhu\", \"Benjamin Lipkin\", \"Muhtasham Oblokulov\", \"Zhiruo Wang\", \"Rudolf Muradian\", \"Jason Li\"],\n      \"venue\": \"arXiv preprint\",\n      \"year\": 2023,\n      \"justification\": \"Large, permissively-licensed code LLM (15B) trained on The Stack; strong open"
+}

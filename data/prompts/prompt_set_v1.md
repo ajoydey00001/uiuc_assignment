@@ -78,3 +78,20 @@ Return JSON with:
 - references: list of objects with title, authors, venue, year, url, doi, arxiv_id, source_type, claimed_purpose
 - uncertainty_notes
 
+## P09_LOW_RANK_VENUE_CHECK
+
+Rank 15 venues for AI-assisted software engineering, but include both top venues and lower-rank or more specialized venues. Consider ICSE, FSE, ASE, ISSTA, MSR, ICSME, SANER, RE, MODELS, ICPC, COMPSAC, ICST, SAC, PLDI, CAV, ICLR, NeurIPS, CHI, and UIST. Explain why lower-rank or specialized venues may still matter for source retrieval.
+
+Return JSON with:
+- ranked_items: list of objects with rank, acronym, full_name, justification
+- references: list of objects with title, url, doi, arxiv_id, source_type, claimed_purpose
+- uncertainty_notes
+
+## P10_SOURCE_VALIDATION_AUDIT
+
+Provide 12 concrete sources for studying AI-assisted software engineering and label each one as academic_paper, conference_page, arxiv, company_blog, documentation, github_repository, benchmark_or_dataset, or news. Prefer sources that can be independently checked through a URL, DOI, or arXiv ID. Include older software engineering research as well as recent LLM/code-generation work.
+
+Return JSON with:
+- ranked_items: list of objects with rank, title, source_type, year, justification
+- references: list of objects with title, authors, venue, year, url, doi, arxiv_id, source_type, claimed_purpose
+- uncertainty_notes

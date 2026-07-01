@@ -1,0 +1,39 @@
+{
+  "provider": "openrouter",
+  "model": "google/gemma-4-31b-it:free",
+  "prompt_id": "P07_PRACTITIONER_GUIDANCE",
+  "run_id": "final01",
+  "timestamp_utc": "2026-07-01T19:22:30.423709+00:00",
+  "temperature": 0.0,
+  "system_prompt": "You are participating in a research study about how AI models use and attribute information sources in AI-for-software-engineering questions. Answer carefully. Do not invent papers, URLs, DOIs, or venue facts. If uncertain, say so.",
+  "user_prompt": "A software engineering team wants to adopt AI coding assistants responsibly. Which sources should they read first, and why? Include academic papers, official documentation, benchmarks, company sources, and independent evaluations.\n\nReturn JSON with:\n- ranked_items: list of objects with rank, source_or_topic, source_type, justification\n- references: list of objects with title, url, doi, arxiv_id, source_type, claimed_purpose\n- uncertainty_notes",
+  "api_parameters": {
+    "temperature": 0.0,
+    "max_tokens": 512,
+    "base_url": "https://openrouter.ai/api/v1",
+    "usage": {
+      "prompt_tokens": 164,
+      "completion_tokens": 799,
+      "total_tokens": 963,
+      "cost": 0,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0,
+        "upstream_inference_prompt_cost": 0,
+        "upstream_inference_completions_cost": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "response_text": "```json\n{\n  \"ranked_items\": [\n    {\n      \"rank\": 1,\n      \"source_or_topic\": \"Official Tool Documentation (e.g., GitHub Copilot, Cursor, Tabnine)\",\n      \"source_type\": \"Official Documentation\",\n      \"justification\": \"Essential for understanding the specific data privacy policies, opt-out mechanisms for training, and the technical limitations of the specific tool being deployed.\"\n    },\n    {\n      \"rank\": 2,\n      \"source_or_topic\": \"HumanEval and MBPP Benchmarks\",\n      \"source_type\": \"Benchmarks\",\n      \"justification\": \"Provides a baseline for the model's ability to solve isolated coding tasks, helping the team understand the gap between 'passing a test' and 'production-ready code'.\"\n    },\n    {\n      \"rank\": 3,\n      \"source_or_topic\": \"Academic research on LLM Hallucinations in Code\",\n      \"source_type\": \"Academic Papers\",\n      \"justification\": \"Crucial for establishing a 'trust but verify' culture, as research demonstrates that AI can generate syntactically correct but logically flawed or insecure code.\"\n    },\n    {\n      \"rank\": 4,\n      \"source_or_topic\": \"OWASP Top 10 for LLMs\",\n      \"source_type\": \"Independent Evaluations\",\n      \"justification\": \"Provides a framework for identifying security vulnerabilities introduced by AI, such as prompt injection or the introduction of insecure coding patterns.\"\n    },\n    {\n      \"rank\": 5,\n      \"source_or_topic\": \"Company Engineering Blogs (e.g., Shopify, Stripe, Google)\",\n      \"source_type\": \"Company Sources\",\n      \"justification\": \"Offers real-world case studies on how large-scale organizations integrate AI into their SDLC, including governance and productivity measurement.\"\n    }\n  ],\n  \"references\": [\n    {\n      \"title\": \"HumanEval: Evaluating Large Language Models Trained on Code\",\n      \"url\": \"https://arxiv.org/abs/2107.03374\",\n      \"doi\": null,\n      \"arxiv_id\": \"2107.03374\",\n      \"source_type\": \"Academic Paper\",\n      \"claimed_purpose\": \"To provide a benchmark for evaluating the code generation capabilities of LLMs using unit tests.\"\n    },\n    {\n      \"title\": \"OWASP Top 10 for Large Language Model Applications\",\n      \"url\": \"https://owasp.org/www-project-top-10-for-large-language-model-applications/\",\n      \"doi\": null,\n      \"arxiv_id\": null,\n      \"source_type\": \"Independent Evaluation\",\n      \"claimed_purpose\": \"To identify and mitigate the most critical security risks associated with LLM integration.\"\n    },\n    {\n      \"title\": \"GitHub Copilot Trust Center\",\n      \"url\": \"https://github.com/features/copilot/trust\",\n      \"doi\": null,\n      \"arxiv_id\": null,\n      \"source_type\": \"Official Documentation\",\n      \"claimed_purpose\": \"To explain data handling, privacy, and security measures for enterprise users.\"\n    }\n  ],\n  \"uncertainty_notes\": \"Specific 'company sources' (engineering blogs) are highly dynamic and often lack permanent DOIs; therefore, they are listed as a general category rather than specific URLs to avoid link rot. The ranking assumes a priority of Security/Privacy > Reliability > Productivity.\"\n}\n```"
+}

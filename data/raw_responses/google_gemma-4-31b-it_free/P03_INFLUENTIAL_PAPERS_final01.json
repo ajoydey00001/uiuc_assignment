@@ -1,0 +1,39 @@
+{
+  "provider": "openrouter",
+  "model": "google/gemma-4-31b-it:free",
+  "prompt_id": "P03_INFLUENTIAL_PAPERS",
+  "run_id": "final01",
+  "timestamp_utc": "2026-07-01T19:10:10.542660+00:00",
+  "temperature": 0.0,
+  "system_prompt": "You are participating in a research study about how AI models use and attribute information sources in AI-for-software-engineering questions. Answer carefully. Do not invent papers, URLs, DOIs, or venue facts. If uncertain, say so.",
+  "user_prompt": "Identify 10 influential papers for AI-assisted software engineering, including older software engineering research and recent LLM/code-generation work. Include title, authors, venue, year, URL or DOI if known, and a short impact summary.\n\nReturn JSON with:\n- ranked_items: list of objects with rank, title, authors, venue, year, justification\n- references: list of objects with title, authors, venue, year, url, doi, arxiv_id, source_type, claimed_purpose\n- uncertainty_notes",
+  "api_parameters": {
+    "temperature": 0.0,
+    "max_tokens": 1024,
+    "base_url": "https://openrouter.ai/api/v1",
+    "usage": {
+      "prompt_tokens": 162,
+      "completion_tokens": 1020,
+      "total_tokens": 1182,
+      "cost": 0,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0,
+        "upstream_inference_prompt_cost": 0,
+        "upstream_inference_completions_cost": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "response_text": "```json\n{\n  \"ranked_items\": [\n    {\n      \"rank\": 1,\n      \"title\": \"Attention Is All You Need\",\n      \"authors\": [\"Vaswani, A.\", \"Shazeer, N.\", \"Parmar, N.\", \"Uszkoreit, J.\", \"Jones, L.\", \"Kaiser, L.\", \"Polosukhin, I.\"],\n      \"venue\": \"NeurIPS\",\n      \"year\": 2017,\n      \"justification\": \"Introduced the Transformer architecture, which is the fundamental building block for all modern LLMs used in code generation (GPT, Codex, Llama).\"\n    },\n    {\n      \"rank\": 2,\n      \"title\": \"Evaluating Large Language Models Trained on Code\",\n      \"authors\": [\"Chen, M.\", \"Tworek, J.\", \"Junnan, Y.\", \"etc. (OpenAI)\"],\n      \"venue\": \"arXiv\",\n      \"year\": 2021,\n      \"justification\": \"The seminal paper introducing Codex, demonstrating that LLMs could solve complex programming tasks and paving the way for GitHub Copilot.\"\n    },\n    {\n      \"rank\": 3,\n      \"title\": \"CodeBERT: A Pre-trained Model for Programming and Natural Languages\",\n      \"authors\": [\"Feng, Z.\", \"Yang, X.\", \"Gu, D.\", \"etc.\"],\n      \"venue\": \"EMNLP\",\n      \"year\": 2020,\n      \"justification\": \"One of the first successful applications of bimodal pre-training for code and text, enabling better code search and understanding.\"\n    },\n    {\n      \"rank\": 4,\n      \"title\": \"A Survey on Automated Program Repair\",\n      \"authors\": [\"Monperrus, M.\"],\n      \"venue\": \"ACM Computing Surveys\",\n      \"year\": 2018,\n      \"justification\": \"Provides the theoretical and historical foundation for Automated Program Repair (APR), the precursor to AI-driven bug fixing.\"\n    },\n    {\n      \"rank\": 5,\n      \"title\": \"Deep Learning for Source Code Analysis: A Survey\",\n      \"authors\": [\"Allamanis, M.\", \" antiquity, et al.\"],\n      \"venue\": \"arXiv/Various\",\n      \"year\": 2018,\n      \"justification\": \"Synthesized early deep learning approaches for code, moving the field from rule-based static analysis to neural representations.\"\n    },\n    {\n      \"rank\": 6,\n      \"title\": \"StarCoder: may the source be with you\",\n      \"authors\": [\"Li, R.\", \"Allamanis, M.\", \"et al. (BigCode)\"],\n      \"venue\": \"arXiv\",\n      \"year\": 2023,\n      \"justification\": \"Established a benchmark for open-source, permissively licensed code LLMs and emphasized the importance of data curation.\"\n    },\n    {\n      \"rank\": 7,\n      \"title\": \"Human-Eval: Evaluating Large Language Models Trained on Code\",\n      \"authors\": [\"Chen, M.\", \"Tworek, J.\", \"etc.\"],\n      \"venue\": \"arXiv\",\n      \"year\": 2021,\n      \"justification\": \"Introduced the HumanEval dataset, which became the industry standard for measuring the functional correctness of generated code.\"\n    },\n    {\n      \"rank\": 8,\n      \"title\": \"AlphaCode: Competition-Level Code Generation\",\n      \"authors\": [\"Li, Y.\", \" neutrality, et al. (DeepMind)\"],\n      \"venue\": \"Science\",\n      \"year\": 2022,\n      \"justification\": \"Demonstrated that AI could solve competitive programming problems, pushing the boundaries of reasoning and sampling in code generation.\"\n    },\n    {\n      \"rank\": 9,\n      \"title\": \"Deep Learning for Code Search\",\n      \"authors\": [\"Guu, K.\", \"etc.\"],\n      \"venue\": \"arXiv\",\n      \"year\": 2019,\n      \"justification\": \"Advanced the use of neural embeddings to map natural language queries to code snippets, improving developer productivity.\"\n    },\n    {\n      \"rank\": 10,\n      \"title\": \"The Impact of AI on Software Engineering: A Systematic Literature Review\",\n      \"authors\": [\"Various\"],\n      \"venue\": \"IEEE/ACM\",\n      \"year\": 2020,\n      \"justification\": \"Critical for understanding the transition from traditional ML-based SE to the current LLM-driven paradigm.\"\n"
+}

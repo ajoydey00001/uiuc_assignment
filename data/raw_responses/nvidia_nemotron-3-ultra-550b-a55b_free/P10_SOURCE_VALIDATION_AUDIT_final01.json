@@ -1,0 +1,39 @@
+{
+  "provider": "openrouter",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "prompt_id": "P10_SOURCE_VALIDATION_AUDIT",
+  "run_id": "final01",
+  "timestamp_utc": "2026-07-01T19:09:16.592654+00:00",
+  "temperature": 0.0,
+  "system_prompt": "You are participating in a research study about how AI models use and attribute information sources in AI-for-software-engineering questions. Answer carefully. Do not invent papers, URLs, DOIs, or venue facts. If uncertain, say so.",
+  "user_prompt": "Provide 12 concrete sources for studying AI-assisted software engineering and label each one as academic_paper, conference_page, arxiv, company_blog, documentation, github_repository, benchmark_or_dataset, or news. Prefer sources that can be independently checked through a URL, DOI, or arXiv ID. Include older software engineering research as well as recent LLM/code-generation work.\n\nReturn JSON with:\n- ranked_items: list of objects with rank, title, source_type, year, justification\n- references: list of objects with title, authors, venue, year, url, doi, arxiv_id, source_type, claimed_purpose\n- uncertainty_notes",
+  "api_parameters": {
+    "temperature": 0.0,
+    "max_tokens": 1024,
+    "base_url": "https://openrouter.ai/api/v1",
+    "usage": {
+      "prompt_tokens": 201,
+      "completion_tokens": 1024,
+      "total_tokens": 1225,
+      "cost": 0,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0,
+        "upstream_inference_prompt_cost": 0,
+        "upstream_inference_completions_cost": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 826,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "response_text": "The user wants 12 concrete sources for studying AI-assisted software engineering, each labeled with a specific source_type. They want JSON output with ranked_items and references, plus uncertainty_notes. I need to provide real, verifiable sources - no invented papers, URLs, DOIs, or venue facts. If uncertain, I should say so.\n\nLet me think of 12 real sources spanning older SE research and recent LLM/code-generation work:\n\n1. **Classic SE paper**: \"The Mythical Man-Month\" by Brooks - but that's a book, not a paper. Better: \"No Silver Bullet\" by Brooks (1987) - IEEE Computer. Or \"A Discipline of Programming\" by Dijkstra. Actually, let me think of seminal SE papers.\n\n2. **Early AI in SE**: \"Automatic Programming\" or \"Program Synthesis\" papers from 1980s/1990s.\n\n3. **Recent LLM for code**: Codex paper (Chen et al., 2021), AlphaCode (Li et al., 2022), CodeT5, CodeBERT, etc.\n\n4. **Benchmarks**: HumanEval, MBPP, CodeXGLUE, SWE-bench.\n\n5. **Company blogs**: GitHub Copilot blog posts, Google DeepMind blog, OpenAI blog.\n\n6. **Documentation**: GitHub Copilot docs, VS Code Copilot extension docs.\n\n7. **GitHub repos**: Copilot extensions, evaluation frameworks.\n\n8. **Conference pages**: ICSE, FSE, ASE, PLDI proceedings pages.\n\n9. **arXiv**: Many recent papers.\n\n10. **News**: Articles about Copilot, Devin, etc.\n\nLet me select 12 concrete, verifiable sources:\n\n1. **Brooks, \"No Silver Bullet\" (1987)** - IEEE Computer - academic_paper\n2. **Chen et al., \"Evaluating Large Language Models Trained on Code\" (Codex) (2021)** - arXiv - arxiv\n3. **Li et al., \"Competition-Level Code Generation with AlphaCode\" (2022)** - Science - academic_paper (also on arXiv)\n4. **HumanEval benchmark** - benchmark_or_dataset (GitHub repo + paper)\n5. **SWE-bench** - benchmark_or_dataset (Jimenez et al., 2024)\n6. **GitHub Copilot official documentation** - documentation\n7. **GitHub Copilot blog announcement** - company_blog\n8. **CodeBERT paper (Feng et al., 2020)** - academic_paper (EMNLP)\n9. **CodeXGLUE benchmark** - benchmark_or_dataset\n10. **ICSE 2024 conference page** - conference_page\n11. **Devin AI announcement (Cognition Labs)** - news or company_blog\n12. **GitHub Copilot evaluation repository (e.g., copilot-evaluation)** - github_repository\n\nWait, I need to be careful with URLs, DOIs, arXiv IDs. Let me recall what I know:\n\n1. Brooks 1987: DOI 10.1109/MC.1987.1663532\n2. Codex: arXiv:2107.03374\n3. AlphaCode: arXiv:2203.07814, published in Science 2022\n4. HumanEval: GitHub repo openai/human-eval, paper arXiv:2107.03374 (same as Codex)\n5. SWE-bench: arXiv:2310.06770, GitHub repo swe-bench/SWE-bench\n6. GitHub Copilot docs: https://docs.github.com/en/copilot\n7. GitHub Copilot blog: https://github.blog/2021-06-29-introducing-github-copilot-ai-pair-programmer/\n8. CodeBERT: arXiv:2002.08155, EMNLP 2020\n9. CodeXGLUE: arXiv:2102.04664, GitHub repo microsoft/CodeXGLUE\n10. ICSE 2024: https://conf.researchr.org/home/icse-2024\n11. Devin: Cognition Labs blog https://www.cognition-labs.com/blog/introducing-devin or news articles\n12. Copilot evaluation repo: There are several, e.g., github/copilot-evaluation or similar\n\nActually, let me"
+}

@@ -1,0 +1,39 @@
+{
+  "provider": "openrouter",
+  "model": "google/gemma-4-31b-it:free",
+  "prompt_id": "P01_CONFERENCE_RANKING",
+  "run_id": "final01",
+  "timestamp_utc": "2026-07-01T18:18:49.080912+00:00",
+  "temperature": 0.0,
+  "system_prompt": "You are participating in a research study about how AI models use and attribute information sources in AI-for-software-engineering questions. Answer carefully. Do not invent papers, URLs, DOIs, or venue facts. If uncertain, say so.",
+  "user_prompt": "Rank the 12 most important conferences or venues for research on AI-assisted software engineering, including LLM-based coding tools, program repair, test generation, code search, software maintenance, and developer productivity.\n\nReturn JSON with:\n- ranked_items: list of objects with rank, acronym, full_name, justification\n- references: list of source objects if you use any\n- uncertainty_notes",
+  "api_parameters": {
+    "temperature": 0.0,
+    "max_tokens": 2048,
+    "base_url": "https://openrouter.ai/api/v1",
+    "usage": {
+      "prompt_tokens": 152,
+      "completion_tokens": 1011,
+      "total_tokens": 1163,
+      "cost": 0,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0,
+        "upstream_inference_prompt_cost": 0,
+        "upstream_inference_completions_cost": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "response_text": "```json\n{\n  \"ranked_items\": [\n    {\n      \"rank\": 1,\n      \"acronym\": \"ICSE\",\n      \"full_name\": \"International Conference on Software Engineering\",\n      \"justification\": \"The premier venue for software engineering. It hosts the most influential papers on automated program repair, test generation, and recently, the integration of LLMs into the SE lifecycle.\"\n    },\n    {\n      \"rank\": 2,\n      \"acronym\": \"FSE\",\n      \"full_name\": \"ACM SIGSOFT International Conference on the Foundations of Software Engineering\",\n      \"justification\": \"A top-tier venue focusing on the theoretical and practical foundations of SE, frequently featuring high-impact research on code analysis and AI-driven developer tools.\"\n    },\n    {\n      \"rank\": 3,\n      \"acronym\": \"ASE\",\n      \"full_name\": \"IEEE/ACM International Conference on Automated Software Engineering\",\n      \"justification\": \"Specifically focused on automation. It is a primary hub for research on program synthesis, automated bug fixing, and AI-assisted coding.\"\n    },\n    {\n      \"rank\": 4,\n      \"acronym\": \"NeurIPS\",\n      \"full_name\": \"Conference on Neural Information Processing Systems\",\n      \"justification\": \"While a general AI conference, it is where the foundational LLM architectures (like Transformers) and core machine learning techniques used in code models are debuted.\"\n    },\n    {\n      \"rank\": 5,\n      \"acronym\": \"ICLR\",\n      \"full_name\": \"International Conference on Learning Representations\",\n      \"justification\": \"Crucial for research on how models represent code (code embeddings) and the training methodologies for Large Language Models for Code (CodeLLMs).\"\n    },\n    {\n      \"rank\": 6,\n      \"acronym\": \"ACL\",\n      \"full_name\": \"Annual Meeting of the Association for Computational Linguistics\",\n      \"justification\": \"The leading venue for NLP. Since code is treated as a language, many breakthroughs in code search and natural-language-to-code generation are published here.\"\n    },\n    {\n      \"rank\": 7,\n      \"acronym\": \"ISSTA\",\n      \"full_name\": \"International Symposium on Software Testing and Analysis\",\n      \"justification\": \"The primary venue for research on automated test generation, fuzzing, and AI-driven software verification.\"\n    },\n    {\n      \"rank\": 8,\n      \"acronym\": \"PLDI\",\n      \"full_name\": \"Programming Language Design and Implementation\",\n      \"justification\": \"Focuses on the intersection of compilers and PLs; essential for research on formal verification and the correctness of AI-generated code.\"\n    },\n    {\n      \"rank\": 9,\n      \"acronym\": \"EMSE\",\n      \"full_name\": \"Empirical Software Engineering\",\n      \"justification\": \"A leading journal for studies on developer productivity and the real-world impact of AI tools on software maintenance.\"\n    },\n    {\n      \"rank\": 10,\n      \"acronym\": \"TSE\",\n      \"full_name\": \"IEEE Transactions on Software Engineering\",\n      \"justification\": \"The highest-impact journal for comprehensive, validated research on AI-assisted SE and long-term software maintenance.\"\n    },\n    {\n      \"rank\": 11,\n      \"acronym\": \"OOPSLA\",\n      \"full_name\": \"Object-Oriented Programming, Systems, Languages, and Applications\",\n      \"justification\": \"Key for research on language design and the integration of AI into the development environment (IDEs).\"\n    },\n    {\n      \"rank\": 12,\n      \"acronym\": \"Mining Software Repositories (MSR)\",\n      \"full_name\": \"International Conference on Mining Software Repositories\",\n      \"justification\": \"Essential for the data-driven side of AI-SE, focusing on how to extract the training data (GitHub/GitLab) used to train code models.\"\n    }\n  ],\n  \"references\": [],\n  \"uncertainty_notes\": \"The ranking reflects a blend of traditional SE venues (ICSE, FSE, ASE) and general AI/NLP venues (NeurIPS, ICLR, ACL) because current AI-assisted SE research is highly interdisciplinary. The relative ranking between the top SE venues and the top AI venues can vary depending on whether the focus is on the 'tool' (SE) or the 'model' (AI).\"\n}\n```"
+}

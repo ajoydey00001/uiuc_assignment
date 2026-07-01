@@ -1,5 +1,87 @@
 model,provider,prompt_id,run_id,title,authors,venue,year,doi,arxiv_id,url
-demo_gemini_like,demo,P01_CONFERENCE_RANKING,demo01,CSRankings software engineering area,,conference_page,,,,https://csrankings.org/#/index?soft
-demo_gemini_like,demo,P04_EXACT_SOURCES,demo01,Evaluating Large Language Models Trained on Code,Mark Chen et al.,arXiv,2021,,2107.03374,https://arxiv.org/abs/2107.03374
-demo_gemini_like,demo,P04_EXACT_SOURCES,demo01,SWE-bench: Can Language Models Resolve Real-World GitHub Issues?,Jimenez et al.,ICLR,2024,,2310.06770,https://arxiv.org/abs/2310.06770
-demo_gemini_like,demo,P04_EXACT_SOURCES,demo01,GitHub Copilot documentation,GitHub,Documentation,2026,,,https://docs.github.com/en/copilot
+google/gemma-4-31b-it:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,CORE Rankings,,Ranking Portal,,,,http://portal.core.edu.au/conf-ranks/
+google/gemma-4-31b-it:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,CSRankings,,Ranking Portal,,,,https://csrankings.org/
+google/gemma-4-31b-it:free,openrouter,P04_EXACT_SOURCES,final01,Evaluating Large Language Models Trained on Code,,arXiv,,,2107.03374,https://arxiv.org/abs/2107.03374
+google/gemma-4-31b-it:free,openrouter,P04_EXACT_SOURCES,final01,HumanEval: Evaluating Large Language Models via Unit Testing,,GitHub repository,,,,https://github.com/openai/human-eval
+google/gemma-4-31b-it:free,openrouter,P04_EXACT_SOURCES,final01,SWE-bench: Can Language Models Resolve Real-World GitHub Issues?,,arXiv,,,2310.15916,https://arxiv.org/abs/2310.15916
+google/gemma-4-31b-it:free,openrouter,P04_EXACT_SOURCES,final01,Measuring Massive Code Generation: The MBPP Benchmark,,arXiv,,,2108.07732,https://arxiv.org/abs/2108.07732
+google/gemma-4-31b-it:free,openrouter,P05_RECENT_WORK,final01,SWE-bench: Can Language Models Resolve Real-World GitHub Issues?,,academic_paper,,,2310.15916,https://arxiv.org/abs/2310.15916
+google/gemma-4-31b-it:free,openrouter,P05_RECENT_WORK,final01,Introducing Devin,,company_blog,,,,https://cognition.ai/blog/introducing-devin
+google/gemma-4-31b-it:free,openrouter,P05_RECENT_WORK,final01,Code Llama: Open Foundation Models for Code,,academic_paper,,,2308.12950,https://arxiv.org/abs/2308.12950
+google/gemma-4-31b-it:free,openrouter,P05_RECENT_WORK,final01,StarCoder2,,repository_documentation,,,,https://huggingface.co/blog/starcoder2
+google/gemma-4-31b-it:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,HumanEval: Evaluating Large Language Models Trained on Code,,Academic Paper,,,2107.03374,https://arxiv.org/abs/2107.03374
+google/gemma-4-31b-it:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,OWASP Top 10 for Large Language Model Applications,,Independent Evaluation,,,,https://owasp.org/www-project-top-10-for-large-language-model-applications/
+google/gemma-4-31b-it:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,GitHub Copilot Trust Center,,Official Documentation,,,,https://github.com/features/copilot/trust
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,CORE Conference Portal (2023/2024 rankings),,ranking_body,,,,https://www.core.edu.au/conference-portal
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,"CSRankings: Computer Science Rankings (Software Engineering, AI, ML, PL areas)",,ranking_body,,,,https://csrankings.org/
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,ICSE 2024 Call for Papers — AI for Software Engineering Track,,venue_page,,,,https://conf.researchr.org/track/icse-2024/icse-2024-ai-for-software-engineering
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,ASE 2024 Call for Papers,,venue_page,,,,https://ase2024.org/call-for-papers/
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,MSR 2024 Call for Papers,,venue_page,,,,https://2024.msrconf.org/track/msr-2024-papers
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,,,https://arxiv.org/abs/2107.03374
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,,,https://arxiv.org/abs/2203.13474
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,,,https://arxiv.org/abs/2305.06161
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,,,https://github.com/openai/human-eval
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,,,https://arxiv.org/abs/2108.07732
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,,,https://arxiv.org/abs/2102.04664
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,,,https://arxiv.org/abs/2105.09938
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,,,https://arxiv.org/abs/2303.17012
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,,,https://github.com/features/copilot
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,,,https://aws.amazon.com/codewhisperer/
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,,,https://conf.researchr.org/track/icse-2024/icse-2024-technical-papers?
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,,,https://arxiv.org/abs/2002.06853
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,,,https://arxiv.org/abs/2009.08366
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,,,https://arxiv.org/abs/2104.02823
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,,,https://arxiv.org/abs/2109.00859
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,,,https://arxiv.org/abs/2310.06770
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,,,10.48550/arXiv.XXXX.XXXXX,,https://doi.org/10.48550/arXiv.XXXX.XXXXX
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,arXiv,,,2107.03374,https://arxiv.org/abs/2107.03374
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,arXiv,,,2203.13474,https://arxiv.org/abs/2203.13474
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,arXiv,,,2305.06161,https://arxiv.org/abs/2305.06161
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,arXiv,,,2108.07732,https://arxiv.org/abs/2108.07732
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,arXiv,,,2102.04664,https://arxiv.org/abs/2102.04664
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,arXiv,,,2105.09938,https://arxiv.org/abs/2105.09938
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,arXiv,,,2303.17012,https://arxiv.org/abs/2303.17012
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,arXiv,,,2002.06853,https://arxiv.org/abs/2002.06853
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,arXiv,,,2009.08366,https://arxiv.org/abs/2009.08366
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,arXiv,,,2104.02823,https://arxiv.org/abs/2104.02823
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,arXiv,,,2109.00859,https://arxiv.org/abs/2109.00859
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,,,arXiv,,,2310.06770,https://arxiv.org/abs/2310.06770
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,,,,,,,https://docs.github.com/en/copilot
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,,,,,,,https://docs.aws.amazon.com/codewhisperer/
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,,,,,,,https://www.tabnine.com/docs/
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,,,,,,,https://www.jetbrains.com/ai-assistant/
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,,,,,,,https://github.blog/tag/copilot-research/
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,,,,,,,https://www.amazon.science/working-at-amazon/codewhisperer
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,,,,,,,https://deepmind.google/technologies/alphacode/
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,,,arXiv,,,2107.03374,https://arxiv.org/abs/2107.03374
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,,,arXiv,,,2211.03622,https://arxiv.org/abs/2211.03622
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,,,arXiv,,,2108.07732,https://arxiv.org/abs/2108.07732
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,,,arXiv,,,2310.06770,https://arxiv.org/abs/2310.06770
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,,,arXiv,,,2102.04664,https://arxiv.org/abs/2102.04664
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final02,,,arXiv,,,2107.03374,https://arxiv.org/abs/2107.03374
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,,,,,,,https://docs.github.com/en/copilot
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,,,,,,,https://github.blog/2021-06-29-introducing-github-copilot-ai-pair-programmer/
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,,,,,,,https://conf.researchr.org/home/icse-2024
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,,,,,,,https://www.cognition-labs.com/blog/introducing-devin
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,,,,,10.1109/MC.1987.1663532,,https://doi.org/10.1109/MC.1987.1663532
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,,,arXiv,,,2107.03374,https://arxiv.org/abs/2107.03374
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,,,arXiv,,,2203.07814,https://arxiv.org/abs/2203.07814
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,,,arXiv,,,2310.06770,https://arxiv.org/abs/2310.06770
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,,,arXiv,,,2002.08155,https://arxiv.org/abs/2002.08155
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,,,arXiv,,,2102.04664,https://arxiv.org/abs/2102.04664
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final02,,,arXiv,,,2107.03374,https://arxiv.org/abs/2107.03374
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final02,,,arXiv,,,2102.04664,https://arxiv.org/abs/2102.04664
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final02,,,arXiv,,,2108.07732,https://arxiv.org/abs/2108.07732
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final02,,,arXiv,,,2203.07814,https://arxiv.org/abs/2203.07814
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final02,,,arXiv,,,2305.06161,https://arxiv.org/abs/2305.06161
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final02,,,arXiv,,,2308.12950,https://arxiv.org/abs/2308.12950
+openai/gpt-oss-120b:free,openrouter,P01_CONFERENCE_RANKING,final01,,,,,,,http://csrankings.org
+openai/gpt-oss-120b:free,openrouter,P01_CONFERENCE_RANKING,final01,,,,,,,https://conf.researchr.org/home/icse-2024/seip
+openai/gpt-oss-120b:free,openrouter,P01_CONFERENCE_RANKING,final01,,,,,,,https://neurips.cc/Conferences/2023/CallForPapers
+openai/gpt-oss-120b:free,openrouter,P01_CONFERENCE_RANKING,final01,,,,,,,https://www.msrconf.org/2024
+openai/gpt-oss-120b:free,openrouter,P01_CONFERENCE_RANKING,final01,,,,,,,https://ase2023.org
+openai/gpt-oss-120b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,CORE Conference Ranking 2023,,venue ranking,,,,https://core.edu.au/ranking
+openai/gpt-oss-120b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,CSRankings – Computer Science Rankings,,venue ranking,,,,http://csrankings.org
+openai/gpt-oss-120b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,The State of the Art in AI‑Assisted Software Engineering,,survey paper,,10.1109/TSE.2022.3151234,,https://doi.org/10.1109/TSE.2022.3151234
+openai/gpt-oss-120b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,Deep Learning for Code: A Survey,,survey paper,,,2006.10730,https://arxiv.org/abs/2006.10730
+openai/gpt-oss-120b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,Program Synthesis and Its Applications in Software Engineering,,conference paper,,10.1145/3377811.3380415,,https://doi.org/10.1145/3377811.3380415

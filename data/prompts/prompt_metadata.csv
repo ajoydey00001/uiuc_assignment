@@ -7,4 +7,5 @@ P05_RECENT_WORK,recent_work,medium,high,Discuss recent LLM code generation/testi
 P06_AREA_MAPPING,area_mapping,deep,medium,Map AI-for-SE subareas to conferences and source types.
 P07_PRACTITIONER_GUIDANCE,practitioner_guidance,shallow,medium,Recommend sources for an engineering team adopting AI tools.
 P08_HALLUCINATION_STRESS,hallucination_validation,deep,high,Give citations but explicitly mark uncertain items and avoid invented metadata.
-
+P09_LOW_RANK_VENUE_CHECK,conference_ranking,deep,medium,Rank both high-prestige and lower-rank venues for AI-assisted software engineering.
+P10_SOURCE_VALIDATION_AUDIT,exact_source_disclosure,deep,high,Provide sources with validation cues and separate academic/company/repository evidence.
