@@ -1,0 +1,288 @@
+\documentclass[acmsmall,review,nonacm]{acmart}
+
+\settopmatter{printacmref=false, printccs=false}
+
+\begin{document}
+
+\title[Review of Optimizing Confidential Deep Learning for Real-Time Systems]%
+{Review of ``Optimizing Confidential Deep Learning for Real-Time Systems''}
+
+\author{Ajoy Dey}
+\affiliation{%
+  \institution{Bangladesh University of Engineering and Technology}
+  \country{Bangladesh}}
+
+\begin{abstract}
+This document reviews the paper ``Optimizing Confidential Deep Learning for
+Real-Time Systems'' by summarizing its key findings, identifying useful ideas
+and limitations, and proposing possible extensions.
+\end{abstract}
+
+\maketitle
+
+\noindent\textbf{Date:} 13 June 2026
+
+\section{Review by Myself}
+
+\subsection{Summary}
+
+This paper introduces new time-aware scheduling models for dynamic
+earliest-deadline-first (EDF) and fixed-priority rate-monotonic (RM)
+schedulers to preserve the confidentiality of DNN tasks by running them inside
+trusted enclaves~\cite{babar2025optimizing}. A technique is proposed that
+slices each DNN layer and runs the slices sequentially in the trusted enclave.
+Deep Compression is also applied to reduce the DNN model size according to the
+limitations of the enclave.
+
+However, due to the extra context-switch overheads of individual layer slices,
+the paper introduces a novel layer fusion technique. Layer fusion improves
+real-time guarantees by grouping multiple layers of DNN workload from multiple
+tasks, allowing them to fit and run concurrently within the enclaves while
+maintaining timing constraints.
+
+The authors consider a uniprocessor real-time system and implement the ideas
+on a Raspberry Pi platform running a DNN-enabled trusted operating system
+(OP-TEE with DarkNet-TZ). They evaluate the approach using three DNN
+architectures: AlexNet-squeezed, Tiny Darknet, and YOLOv3-tiny. Compared to
+the layer-wise partitioning approach, layer fusion can schedule up to 3x more
+tasksets for EDF and 5x more tasksets for RM. Moreover, the layer fusion
+technique reduces context switches by up to 11.12x for EDF and up to 11.06x
+for RM. Therefore, layer fusion helps provide timing guarantees for
+confidential deep inference in learning-enabled real-time systems.
+
+\subsection{The Ideas I Like}
+
+I like the ideas of layer slicing, layer fusion, and Deep Compression. Among
+these, I like the layer fusion technique the most because it significantly
+reduces the number of context switches. This reduction also contributes to
+higher schedulability, which is very important for real-time systems.
+
+\subsection{Limitation}
+
+I identify the following limitations in the proposed approach.
+
+\begin{itemize}
+  \item \textbf{Rigid layer execution:} The current system assumes that all
+  neural network layers must run inside the trusted execution environment
+  using EDF or RM scheduling. It does not provide flexibility to execute only
+  selected layers, such as the input and output layers, when full-pipeline
+  confidentiality is unnecessary.
+
+  \item \textbf{Inflexible enclave fitting:} The current design can select and
+  fuse whole slices of a layer, but it cannot split an individual layer into
+  partial slices when enclave capacity is limited.
+
+  \item \textbf{Restricted workload assumptions:} The implementation assumes
+  that only DNN inference tasks use the trusted execution environment. As a
+  result, it does not currently handle mixed workloads or reclaim extra slack
+  time from non-inference tasks sharing the enclave.
+
+  \item \textbf{Vulnerability to schedule-based attacks:} The current setup
+  relies on the underlying TrustZone architecture without adding scheduling
+  noise. This may leave the system predictable and exposed to information
+  leakage from real-time schedule-based side-channel attacks.
+\end{itemize}
+
+\subsection{As an Author How I Extend}
+
+If I were the author of the paper, I would extend the proposed ideas in the
+following directions.
+
+\begin{itemize}
+  \item \textbf{Partial confidentiality execution:} I would implement a
+  flexible framework that executes only critical layers, such as input and
+  output layers, inside the trusted execution environment while running
+  intermediate layers outside it to improve real-time performance.
+
+  \item \textbf{Fine-grained sub-layer partitioning:} I would develop a
+  sub-layer splitting algorithm that breaks whole network slices into partial
+  layers. This could help the scheduler fit DNN workloads into tightly
+  constrained enclave capacities and improve schedulability.
+
+  \item \textbf{Mixed-workload slack reclamation:} I would extend the
+  scheduling model to include non-inference tasks in the trusted execution
+  environment and use a dynamic slack reclamation mechanism to share enclave
+  availability efficiently.
+
+  \item \textbf{Obfuscated scheduling architecture:} I would introduce
+  randomized scheduling noise into the task fusion process, together with a
+  dedicated schedulability analysis, to reduce the risk of schedule-based
+  side-channel attacks.
+
+\end{itemize}
+
+\section{Review by ChatGPT}
+
+\subsection{Summary}
+
+This paper presents DeepTrust, a framework for enabling confidential deep
+neural network (DNN) inference in real-time cyber-physical systems using
+trusted execution environments (TEEs) such as ARM TrustZone. The authors
+address the challenge of executing large DNN models within memory-constrained
+enclaves while still meeting strict real-time deadlines. They first introduce a
+layer-wise partitioning approach that executes DNN layers sequentially inside
+the enclave and develop schedulability analyses for both earliest deadline
+first (EDF) and rate monotonic (RM) scheduling. However, they show that
+frequent transitions between the normal and secure worlds introduce substantial
+context-switch overheads, significantly degrading schedulability. To overcome
+this limitation, the paper proposes a novel layer fusion technique that groups
+multiple DNN layers, potentially from different tasks, into a single enclave
+execution, reducing the number of secure-world transitions while maximizing
+enclave utilization. The approach is evaluated on a Raspberry Pi platform
+running OP-TEE with three realistic DNN models: AlexNet-squeezed, Tiny
+Darknet, and YOLOv3-tiny. Experimental results demonstrate that layer fusion
+can schedule up to 3x more tasksets under EDF and 5x more tasksets under RM,
+while reducing context-switch overheads by up to 11x compared to layer-wise
+execution. These findings show that DeepTrust effectively balances security,
+memory constraints, and real-time requirements, making confidential DNN
+inference practical for safety-critical embedded and autonomous
+systems~\cite{babar2025optimizing}.
+
+\subsection{Ideas, Tools, Methodologies, and Limitations}
+
+One aspect I particularly liked in this paper is its practical integration of
+security and real-time systems, two areas that are often studied separately.
+The authors not only recognize the memory limitations of trusted execution
+environments (TEEs) but also develop a complete schedulability analysis for
+both EDF and RM scheduling, making the solution applicable to real-time
+cyber-physical systems. The proposed layer fusion technique is especially
+elegant because it addresses the root cause of performance degradation:
+frequent enclave transitions. It intelligently groups layers from multiple
+tasks to reduce context-switch overhead while maximizing enclave utilization.
+The experimental evaluation on a real ARM TrustZone platform further
+strengthens the work's practicality. However, the approach has several
+limitations. It assumes a uniprocessor system, whereas many modern embedded AI
+platforms use multicore architectures. The security model primarily protects
+model confidentiality and does not analyze potential side-channel attacks on
+TEEs, which are a known concern in TrustZone-based systems. The framework also
+relies on offline schedulability analysis and assumes relatively predictable
+workloads, which may limit its applicability to highly dynamic environments.
+Additionally, model compression and layer fusion may introduce implementation
+complexity and could become less effective for extremely large foundation
+models or DNNs with irregular architectures. Finally, the evaluation is limited
+to a small set of compressed CNN-based models and a Raspberry Pi platform,
+leaving open questions about scalability to larger networks, heterogeneous
+accelerators, and modern edge AI hardware.
+
+\subsection{As an Author How I Extend}
+
+If I were the author, I would extend this work in the following concrete
+directions.
+
+\begin{enumerate}
+  \item \textbf{Multicore and heterogeneous platforms:} The current framework
+  assumes a uniprocessor system. A natural extension would be to develop
+  scheduling and fusion algorithms for multicore processors and heterogeneous
+  edge platforms that combine CPUs, GPUs, and NPUs. This would make the
+  approach more applicable to modern autonomous vehicles, drones, and robotics
+  systems.
+
+  \item \textbf{Adaptive runtime layer fusion:} The proposed fusion strategy
+  is largely static and based on offline schedulability analysis. I would
+  investigate a runtime-adaptive fusion mechanism that dynamically adjusts
+  fusion decisions based on current workload, enclave utilization, and system
+  load to improve responsiveness under varying operating conditions.
+
+  \item \textbf{Security beyond confidentiality:} While the paper focuses on
+  protecting model parameters and inference execution, future work could
+  address side-channel attacks, such as cache-timing, memory-access pattern
+  leakage, and power analysis, against TrustZone enclaves. Integrating
+  side-channel-aware scheduling and memory management would strengthen the
+  overall security guarantees.
+
+  \item \textbf{Support for modern DNN architectures:} The evaluation focuses
+  primarily on compressed CNN-based models such as AlexNet-squeezed, Tiny
+  Darknet, and YOLOv3-tiny. Extending the framework to transformer-based
+  architectures, vision transformers, and multimodal foundation models would
+  demonstrate scalability to contemporary AI workloads.
+
+  \item \textbf{Joint optimization of compression and scheduling:} Currently,
+  model compression and scheduling are treated as separate steps. A promising
+  direction would be a co-design framework that jointly determines compression
+  levels, layer fusion strategies, and scheduling parameters to optimize
+  security, accuracy, memory usage, and deadline satisfaction simultaneously.
+
+  \item \textbf{Energy-aware confidential inference:} Many cyber-physical
+  systems operate on limited battery power. Extending the framework with
+  energy-aware schedulability analysis and fusion policies could reduce both
+  context-switch overhead and energy consumption while preserving timing
+  guarantees.
+
+  \item \textbf{Distributed and edge-cloud TEEs:} Future autonomous systems may
+  execute parts of DNN inference across multiple trusted devices or edge-cloud
+  infrastructures. Investigating distributed enclave scheduling and secure
+  partitioning of DNN workloads across multiple TEEs would significantly
+  broaden the applicability of the proposed approach.
+
+  \item \textbf{Formal verification and end-to-end case studies:} Finally, I
+  would validate the framework on larger real-world applications, such as
+  autonomous driving perception stacks or UAV mission systems, and formally
+  verify the schedulability and security properties to provide stronger
+  guarantees for safety-critical deployments.
+\end{enumerate}
+
+\section{Discussion}
+
+\subsection{Which Generative Tool Did I Use and Why?}
+
+I used ChatGPT as the generative AI tool for this review. I used ChatGPT
+because I do not have a subscription to Claude, and I usually use ChatGPT to
+summarize research papers. It helped me generate a concise summary, identify
+important ideas and limitations, and suggest possible future research
+directions.
+
+\subsection{Prompts Used and Prompt Refinement}
+
+I used the following prompts.
+
+\begin{enumerate}
+  \item Please read the research paper. Write a summary of the paper,
+  including key findings in one paragraph.
+
+  \item What are the ideas/tools/methodologies you liked, and what limitations
+  do you identify for the proposed approach? Write in one paragraph.
+
+  \item If you were the author of the paper, how would you extend the proposed
+  ideas? List a couple of concrete directions in points.
+\end{enumerate}
+
+Yes, I refined my prompts to get the desired results. I used Deep Research
+mode in ChatGPT so that it could think for a longer time and provide more
+appropriate and precise answers. I also refined my prompts to make the
+responses smaller, more focused, and more precise. For example, I specifically
+asked for a one-paragraph summary and a one-paragraph discussion of liked
+ideas and limitations. For future directions, I asked ChatGPT to list concrete
+directions in points so the answer would be easier to organize and compare
+with my own understanding.
+
+\subsection{Divergence Between My Understanding and ChatGPT's Response}
+
+Yes, I observed a divergence between my understanding and ChatGPT's response,
+especially in the future direction part. In this paper, the authors consider a
+uniprocessor real-time system running on a TEE-enabled platform and use
+non-preemptive enclave execution. My proposed future directions are based on
+this consideration. For example, I focused on partial confidentiality
+execution, fine-grained sub-layer partitioning, mixed-workload slack
+reclamation, and obfuscated scheduling for schedule-based side-channel
+protection.
+
+ChatGPT's response, however, suggested extending the work toward multicore and
+heterogeneous processors. I think this is a useful long-term direction, but it
+moves beyond the immediate system model of the paper. Therefore, I would first
+stick to my own future directions because they are more directly connected to
+the paper's current assumptions and limitations. After applying those
+extensions, I would then consider a multicore real-time system running on a
+TEE-enabled platform. In that later stage, I would investigate both
+non-preemptive and preemptive enclave execution and study how the scheduling
+analysis changes in a multicore setting.
+
+\begin{thebibliography}{1}
+
+\bibitem{babar2025optimizing}
+Mohammad Fakhruddin Babar and Monowar Hasan.
+\newblock Optimizing Confidential Deep Learning for Real-Time Systems.
+\newblock \emph{ACM Transactions on Cyber-Physical Systems}, 2025.
+
+\end{thebibliography}
+
+\end{document}
