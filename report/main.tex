@@ -1,288 +1,507 @@
 \documentclass[acmsmall,review,nonacm]{acmart}
 
 \settopmatter{printacmref=false, printccs=false}
+\setcopyright{none}
+\renewcommand\footnotetextcopyrightpermission[1]{}
 
 \begin{document}
 
-\title[Review of Optimizing Confidential Deep Learning for Real-Time Systems]%
-{Review of ``Optimizing Confidential Deep Learning for Real-Time Systems''}
+\title[How AI Models Treat Sources in AI-for-SE Questions]%
+{How Frontier AI Models Treat Information Sources in AI-for-Software-Engineering Questions}
 
 \author{Ajoy Dey}
 \affiliation{%
   \institution{Bangladesh University of Engineering and Technology}
   \country{Bangladesh}}
+\email{}
 
 \begin{abstract}
-This document reviews the paper ``Optimizing Confidential Deep Learning for
-Real-Time Systems'' by summarizing its key findings, identifying useful ideas
-and limitations, and proposing possible extensions.
+AI-assisted software engineering is now discussed through many kinds of
+sources: software engineering conferences, programming-language venues, arXiv
+papers, benchmarks, company blogs, documentation, GitHub repositories, and
+practitioner reports. This project studies how frontier and open-weight AI
+models treat those sources when asked questions about AI in software
+engineering. I designed a reproducible prompt-based study with a 30-venue
+conference baseline, 10 prompts, 30 raw model responses, parsers for rankings
+and citations, and analysis scripts for ranking agreement, source-type
+distribution, domain concentration, and link validation. The collected
+responses came from OpenRouter free routes for Gemma 4 31B, GPT-OSS 120B, and
+Nemotron 3 Ultra. The pipeline extracted 205 ranking rows, 86 citation rows,
+and 86 source links. Results show that models usually rank ICSE, FSE, ASE,
+ISSTA, and MSR highly for AI-for-software-engineering, but source-heavy prompts
+draw heavily from arXiv and web-accessible resources. The study also finds
+practical limitations: free API routes were rate-limited, source links include
+dead or unverifiable URLs, and model rankings depend strongly on prompt depth
+and source-pressure instructions. The repository contains code, data, raw
+responses, parsed tables, figures, and this report so the study can be
+reproduced and extended.
 \end{abstract}
 
 \maketitle
 
-\noindent\textbf{Date:} 13 June 2026
+\noindent\textbf{Date:} 2 July 2026
 
-\section{Review by Myself}
+\section{Introduction}
 
-\subsection{Summary}
+Modern software developers often solve problems by moving between academic and
+industrial sources. In my daily software work with AI, I regularly search
+academic papers for durable research ideas and industrial resources for
+practical implementation details, APIs, benchmarks, and deployment guidance.
+This made the project personally meaningful: if AI assistants are becoming
+part of software engineering work, then it is important to understand whether
+they value established research sources, whether they overuse recent web
+material, and whether they cite exact sources reliably.
 
-This paper introduces new time-aware scheduling models for dynamic
-earliest-deadline-first (EDF) and fixed-priority rate-monotonic (RM)
-schedulers to preserve the confidentiality of DNN tasks by running them inside
-trusted enclaves~\cite{babar2025optimizing}. A technique is proposed that
-slices each DNN layer and runs the slices sequentially in the trusted enclave.
-Deep Compression is also applied to reduce the DNN model size according to the
-limitations of the enclave.
-
-However, due to the extra context-switch overheads of individual layer slices,
-the paper introduces a novel layer fusion technique. Layer fusion improves
-real-time guarantees by grouping multiple layers of DNN workload from multiple
-tasks, allowing them to fit and run concurrently within the enclaves while
-maintaining timing constraints.
-
-The authors consider a uniprocessor real-time system and implement the ideas
-on a Raspberry Pi platform running a DNN-enabled trusted operating system
-(OP-TEE with DarkNet-TZ). They evaluate the approach using three DNN
-architectures: AlexNet-squeezed, Tiny Darknet, and YOLOv3-tiny. Compared to
-the layer-wise partitioning approach, layer fusion can schedule up to 3x more
-tasksets for EDF and 5x more tasksets for RM. Moreover, the layer fusion
-technique reduces context switches by up to 11.12x for EDF and up to 11.06x
-for RM. Therefore, layer fusion helps provide timing guarantees for
-confidential deep inference in learning-enabled real-time systems.
-
-\subsection{The Ideas I Like}
-
-I like the ideas of layer slicing, layer fusion, and Deep Compression. Among
-these, I like the layer fusion technique the most because it significantly
-reduces the number of context switches. This reduction also contributes to
-higher schedulability, which is very important for real-time systems.
-
-\subsection{Limitation}
-
-I identify the following limitations in the proposed approach.
-
-\begin{itemize}
-  \item \textbf{Rigid layer execution:} The current system assumes that all
-  neural network layers must run inside the trusted execution environment
-  using EDF or RM scheduling. It does not provide flexibility to execute only
-  selected layers, such as the input and output layers, when full-pipeline
-  confidentiality is unnecessary.
-
-  \item \textbf{Inflexible enclave fitting:} The current design can select and
-  fuse whole slices of a layer, but it cannot split an individual layer into
-  partial slices when enclave capacity is limited.
-
-  \item \textbf{Restricted workload assumptions:} The implementation assumes
-  that only DNN inference tasks use the trusted execution environment. As a
-  result, it does not currently handle mixed workloads or reclaim extra slack
-  time from non-inference tasks sharing the enclave.
-
-  \item \textbf{Vulnerability to schedule-based attacks:} The current setup
-  relies on the underlying TrustZone architecture without adding scheduling
-  noise. This may leave the system predictable and exposed to information
-  leakage from real-time schedule-based side-channel attacks.
-\end{itemize}
-
-\subsection{As an Author How I Extend}
-
-If I were the author of the paper, I would extend the proposed ideas in the
-following directions.
-
-\begin{itemize}
-  \item \textbf{Partial confidentiality execution:} I would implement a
-  flexible framework that executes only critical layers, such as input and
-  output layers, inside the trusted execution environment while running
-  intermediate layers outside it to improve real-time performance.
-
-  \item \textbf{Fine-grained sub-layer partitioning:} I would develop a
-  sub-layer splitting algorithm that breaks whole network slices into partial
-  layers. This could help the scheduler fit DNN workloads into tightly
-  constrained enclave capacities and improve schedulability.
-
-  \item \textbf{Mixed-workload slack reclamation:} I would extend the
-  scheduling model to include non-inference tasks in the trusted execution
-  environment and use a dynamic slack reclamation mechanism to share enclave
-  availability efficiently.
-
-  \item \textbf{Obfuscated scheduling architecture:} I would introduce
-  randomized scheduling noise into the task fusion process, together with a
-  dedicated schedulability analysis, to reduce the risk of schedule-based
-  side-channel attacks.
-
-\end{itemize}
-
-\section{Review by ChatGPT}
-
-\subsection{Summary}
-
-This paper presents DeepTrust, a framework for enabling confidential deep
-neural network (DNN) inference in real-time cyber-physical systems using
-trusted execution environments (TEEs) such as ARM TrustZone. The authors
-address the challenge of executing large DNN models within memory-constrained
-enclaves while still meeting strict real-time deadlines. They first introduce a
-layer-wise partitioning approach that executes DNN layers sequentially inside
-the enclave and develop schedulability analyses for both earliest deadline
-first (EDF) and rate monotonic (RM) scheduling. However, they show that
-frequent transitions between the normal and secure worlds introduce substantial
-context-switch overheads, significantly degrading schedulability. To overcome
-this limitation, the paper proposes a novel layer fusion technique that groups
-multiple DNN layers, potentially from different tasks, into a single enclave
-execution, reducing the number of secure-world transitions while maximizing
-enclave utilization. The approach is evaluated on a Raspberry Pi platform
-running OP-TEE with three realistic DNN models: AlexNet-squeezed, Tiny
-Darknet, and YOLOv3-tiny. Experimental results demonstrate that layer fusion
-can schedule up to 3x more tasksets under EDF and 5x more tasksets under RM,
-while reducing context-switch overheads by up to 11x compared to layer-wise
-execution. These findings show that DeepTrust effectively balances security,
-memory constraints, and real-time requirements, making confidential DNN
-inference practical for safety-critical embedded and autonomous
-systems~\cite{babar2025optimizing}.
-
-\subsection{Ideas, Tools, Methodologies, and Limitations}
-
-One aspect I particularly liked in this paper is its practical integration of
-security and real-time systems, two areas that are often studied separately.
-The authors not only recognize the memory limitations of trusted execution
-environments (TEEs) but also develop a complete schedulability analysis for
-both EDF and RM scheduling, making the solution applicable to real-time
-cyber-physical systems. The proposed layer fusion technique is especially
-elegant because it addresses the root cause of performance degradation:
-frequent enclave transitions. It intelligently groups layers from multiple
-tasks to reduce context-switch overhead while maximizing enclave utilization.
-The experimental evaluation on a real ARM TrustZone platform further
-strengthens the work's practicality. However, the approach has several
-limitations. It assumes a uniprocessor system, whereas many modern embedded AI
-platforms use multicore architectures. The security model primarily protects
-model confidentiality and does not analyze potential side-channel attacks on
-TEEs, which are a known concern in TrustZone-based systems. The framework also
-relies on offline schedulability analysis and assumes relatively predictable
-workloads, which may limit its applicability to highly dynamic environments.
-Additionally, model compression and layer fusion may introduce implementation
-complexity and could become less effective for extremely large foundation
-models or DNNs with irregular architectures. Finally, the evaluation is limited
-to a small set of compressed CNN-based models and a Raspberry Pi platform,
-leaving open questions about scalability to larger networks, heterogeneous
-accelerators, and modern edge AI hardware.
-
-\subsection{As an Author How I Extend}
-
-If I were the author, I would extend this work in the following concrete
-directions.
+This report responds to the project request to explore idiosyncrasies across
+frontier models in the treatment of information sources for AI in software
+engineering. The project has two main goals:
 
 \begin{enumerate}
-  \item \textbf{Multicore and heterogeneous platforms:} The current framework
-  assumes a uniprocessor system. A natural extension would be to develop
-  scheduling and fusion algorithms for multicore processors and heterogeneous
-  edge platforms that combine CPUs, GPUs, and NPUs. This would make the
-  approach more applicable to modern autonomous vehicles, drones, and robotics
-  systems.
-
-  \item \textbf{Adaptive runtime layer fusion:} The proposed fusion strategy
-  is largely static and based on offline schedulability analysis. I would
-  investigate a runtime-adaptive fusion mechanism that dynamically adjusts
-  fusion decisions based on current workload, enclave utilization, and system
-  load to improve responsiveness under varying operating conditions.
-
-  \item \textbf{Security beyond confidentiality:} While the paper focuses on
-  protecting model parameters and inference execution, future work could
-  address side-channel attacks, such as cache-timing, memory-access pattern
-  leakage, and power analysis, against TrustZone enclaves. Integrating
-  side-channel-aware scheduling and memory management would strengthen the
-  overall security guarantees.
-
-  \item \textbf{Support for modern DNN architectures:} The evaluation focuses
-  primarily on compressed CNN-based models such as AlexNet-squeezed, Tiny
-  Darknet, and YOLOv3-tiny. Extending the framework to transformer-based
-  architectures, vision transformers, and multimodal foundation models would
-  demonstrate scalability to contemporary AI workloads.
-
-  \item \textbf{Joint optimization of compression and scheduling:} Currently,
-  model compression and scheduling are treated as separate steps. A promising
-  direction would be a co-design framework that jointly determines compression
-  levels, layer fusion strategies, and scheduling parameters to optimize
-  security, accuracy, memory usage, and deadline satisfaction simultaneously.
-
-  \item \textbf{Energy-aware confidential inference:} Many cyber-physical
-  systems operate on limited battery power. Extending the framework with
-  energy-aware schedulability analysis and fusion policies could reduce both
-  context-switch overhead and energy consumption while preserving timing
-  guarantees.
-
-  \item \textbf{Distributed and edge-cloud TEEs:} Future autonomous systems may
-  execute parts of DNN inference across multiple trusted devices or edge-cloud
-  infrastructures. Investigating distributed enclave scheduling and secure
-  partitioning of DNN workloads across multiple TEEs would significantly
-  broaden the applicability of the proposed approach.
-
-  \item \textbf{Formal verification and end-to-end case studies:} Finally, I
-  would validate the framework on larger real-world applications, such as
-  autonomous driving perception stacks or UAV mission systems, and formally
-  verify the schedulability and security properties to provide stronger
-  guarantees for safety-critical deployments.
+  \item study model understanding of source impact by asking models to rank
+  conferences and venues related to AI-assisted software engineering; and
+  \item study retrieval and attribution behavior by asking models for exact
+  links to papers, blogs, repositories, documentation, benchmarks, and other
+  internet sources.
 \end{enumerate}
+
+The final artifact is not only this report. It is a reproducible research
+package containing prompts, raw responses, parsing scripts, analysis scripts,
+figures, tables, and limitations.
+
+\section{Research Questions}
+
+The study was organized around seven research questions:
+
+\begin{description}
+  \item[RQ1:] Which conferences do AI models consider most important for AI in
+  software engineering?
+  \item[RQ2:] Do model-generated conference rankings correlate with a baseline
+  derived from CORE-style ranks and CSRankings areas?
+  \item[RQ3:] Do models prefer academic papers, company blogs, documentation,
+  arXiv papers, GitHub repositories, news articles, or general web pages?
+  \item[RQ4:] Do models cite sources from their own organization or ecosystem
+  more often than competing sources?
+  \item[RQ5:] Do models over-prioritize recent LLM and code-generation work
+  compared with older software engineering research?
+  \item[RQ6:] Do shallow prompts produce more web/blog sources while deeper
+  prompts produce more academic citations?
+  \item[RQ7:] Which responses contain dead, unverifiable, ambiguous, or likely
+  hallucinated source metadata?
+\end{description}
+
+\section{Dataset Design}
+
+\subsection{Conference Baseline}
+
+The first dataset is a 30-venue master conference list stored in
+\texttt{data/conferences/master\_conference\_list.csv}. The list covers:
+
+\begin{itemize}
+  \item software engineering venues: ICSE, FSE, ASE, ISSTA, MSR, ICSME, SANER,
+  RE, MODELS, ICPC, ICST, COMPSAC, and SAC;
+  \item programming-language and formal-methods venues: PLDI, OOPSLA, POPL,
+  ECOOP, CAV, TACAS, FM, and VMCAI; and
+  \item adjacent AI, data, web, and HCI venues: NeurIPS, ICML, ICLR, AAAI,
+  IJCAI, KDD, WWW, CHI, and UIST.
+\end{itemize}
+
+The columns are \texttt{conference}, \texttt{acronym}, \texttt{full\_name},
+\texttt{field}, \texttt{core\_rank}, \texttt{csrankings\_area}, and
+\texttt{baseline\_rank}. I intentionally included lower-rank or more
+specialized venues such as COMPSAC, ICST, and SAC. This tests whether models
+only repeat the most prestigious venues or can also recognize specialized
+sources that may be useful for practical AI-for-SE questions.
+
+CORE and CSRankings are used as comparison signals, not as absolute truth.
+CORE focuses on venue ranking categories, while CSRankings is area-based and
+publication-count oriented~\cite{coreportal,csrankings}. Therefore, the
+baseline rank is a pragmatic comparison instrument rather than an objective
+measure of research quality.
+
+\subsection{Prompt Battery}
+
+The prompt set contains 10 prompts stored in
+\texttt{data/prompts/prompt\_set\_v1.md}, with prompt metadata in
+\texttt{data/prompts/prompt\_metadata.csv}. The prompts vary by depth and
+source pressure:
+
+\begin{itemize}
+  \item conference ranking prompts;
+  \item sourced conference ranking prompts;
+  \item influential-paper prompts;
+  \item exact-source disclosure prompts;
+  \item recent-work prompts;
+  \item area-mapping prompts;
+  \item practitioner-guidance prompts;
+  \item hallucination-stress prompts;
+  \item lower-rank venue prompts; and
+  \item source-validation audit prompts.
+\end{itemize}
+
+Most prompts request JSON with \texttt{ranked\_items},
+\texttt{references}, and \texttt{uncertainty\_notes}. This structure makes the
+responses easier to parse while still allowing models to express uncertainty.
+
+\section{Model Collection Method}
+
+\subsection{Models}
+
+The final collection used OpenRouter free routes for three
+models~\cite{openrouter}:
+
+\begin{itemize}
+  \item \texttt{google/gemma-4-31b-it:free}
+  \item \texttt{openai/gpt-oss-120b:free}
+  \item \texttt{nvidia/nemotron-3-ultra-550b-a55b:free}
+\end{itemize}
+
+The collection script is \texttt{src/query\_models.py}. It saves every raw
+response as JSON under \texttt{data/raw\_responses/}. Each file includes the
+provider, model, prompt id, run id, timestamp, temperature, system prompt,
+user prompt, API parameters, and exact response text.
+
+\subsection{Collection Parameters}
+
+The target decoding setting was temperature 0. Because the free model routes
+were rate-limited, some calls used smaller \texttt{max\_tokens} limits to avoid
+timeouts. The final raw dataset contains 30 real API response files. The
+composition is shown in Table~\ref{tab:collection}.
+
+\begin{table}[h]
+  \caption{Raw response collection summary.}
+  \label{tab:collection}
+  \centering
+  \begin{tabular}{llr}
+    \toprule
+    Model and run & Provider & Responses \\
+    \midrule
+    Gemma 4 31B, final01 & OpenRouter & 7 \\
+    GPT-OSS 120B, final01 & OpenRouter & 2 \\
+    Nemotron 3 Ultra, final01 & OpenRouter & 10 \\
+    Nemotron 3 Ultra, final02 & OpenRouter & 10 \\
+    Nemotron 3 Ultra, final03 & OpenRouter & 1 \\
+    \midrule
+    Total & & 30 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+The study originally aimed for a balanced 10 prompts by 3 models matrix.
+OpenRouter free-route rate limits prevented a perfectly balanced collection:
+Gemma and GPT-OSS were intermittently rate-limited, while Nemotron was slower
+but more reliable. Instead of fabricating or filling missing data, I collected
+repeated Nemotron runs. This produces a real 30-response dataset and also
+allows a small stability check across repeated runs.
+
+\section{Parsing and Analysis Pipeline}
+
+The pipeline is designed to be reproducible from the repository root.
+
+\begin{verbatim}
+python src/run_pipeline.py
+python src/validate_links.py \
+  --input data/parsed/source_links.csv \
+  --output data/parsed/source_links_validated.csv
+\end{verbatim}
+
+\subsection{Parsing}
+
+\texttt{src/parse\_responses.py} extracts three tables:
+
+\begin{itemize}
+  \item conference rankings:
+  \texttt{data/parsed/conference\_rankings.csv};
+  \item citations:
+  \texttt{data/parsed/citations.csv}; and
+  \item source links:
+  \texttt{data/parsed/source\_links.csv}.
+\end{itemize}
+
+The parser first attempts JSON parsing. If the response is malformed or
+wrapped in markdown fences, it uses a lenient JSON extraction fallback. It also
+extracts URLs, DOIs, and arXiv identifiers with regular expressions when a
+model does not provide clean structured output.
+
+\subsection{Ranking Metrics}
+
+\texttt{src/analyze\_rankings.py} joins model-ranked venues against the
+conference baseline. It computes:
+
+\begin{itemize}
+  \item Spearman correlation with baseline rank;
+  \item Kendall tau with baseline rank;
+  \item Spearman correlation with numeric CORE score;
+  \item top-5 overlap with the baseline; and
+  \item mean absolute rank difference.
+\end{itemize}
+
+\subsection{Source Metrics}
+
+\texttt{src/analyze\_sources.py} measures source-type distribution, domain
+concentration, citation overlap using Jaccard similarity, publication-year
+distribution, and hallucinated-citation candidates. Source types include
+\texttt{academic\_paper}, \texttt{conference\_page}, \texttt{arxiv},
+\texttt{company\_blog}, \texttt{documentation},
+\texttt{github\_repository}, \texttt{news},
+\texttt{benchmark\_or\_dataset}, and \texttt{unknown}.
+
+\texttt{src/validate\_links.py} performs automated URL validation. A link is
+marked \texttt{valid}, \texttt{dead\_link}, \texttt{unverifiable}, or
+\texttt{ambiguous}. This is not a perfect hallucination detector, but it is a
+useful first pass for identifying suspicious source claims.
+
+\section{Results}
+
+\subsection{Parsed Dataset Size}
+
+The final pipeline run extracted:
+
+\begin{itemize}
+  \item 205 ranking rows;
+  \item 86 citation rows;
+  \item 86 source-link rows; and
+  \item 86 validated source-link rows.
+\end{itemize}
+
+These counts show that the prompt design was able to elicit both ranked venue
+judgments and exact source disclosures.
+
+\subsection{RQ1 and RQ2: Conference Ranking Behavior}
+
+The ranking prompts generally placed ICSE, FSE, ASE, ISSTA, and MSR near the
+top. This is reasonable because these venues are central to software
+engineering, automated software engineering, software testing, and mining
+software repositories. AI-specific venues such as ICLR, NeurIPS, and ICML also
+appeared, especially when models connected AI-for-SE to LLM and code-model
+research.
+
+Table~\ref{tab:rankingmetrics} reports selected ranking metrics. The strongest
+agreement came from GPT-OSS on the sourced ranking prompt and Nemotron on the
+lower-rank venue prompt. The lower-rank prompt improved coverage of specialized
+software engineering venues and produced a top-5 overlap of 1.00 for Nemotron
+\texttt{final02}.
+
+\begin{table*}[t]
+  \caption{Selected ranking agreement metrics. Higher Spearman, Kendall, and
+  top-5 overlap indicate stronger agreement with the baseline. Lower mean
+  absolute rank difference is better.}
+  \label{tab:rankingmetrics}
+  \centering
+  \begin{tabular}{llrrrrr}
+    \toprule
+    Model & Prompt & Matched & Spearman & Kendall & Top-5 & Mean Abs. Diff. \\
+    \midrule
+    Gemma 4 31B & P01 ranking & 8 & 0.643 & 0.571 & 0.60 & 4.25 \\
+    Gemma 4 31B & P02 sourced ranking & 11 & 0.536 & 0.455 & 0.60 & 5.73 \\
+    Nemotron 3 Ultra & P01 ranking & 9 & 0.700 & 0.611 & 0.60 & 3.11 \\
+    Nemotron 3 Ultra & P02 sourced ranking & 15 & 0.682 & 0.581 & 0.80 & 6.00 \\
+    Nemotron 3 Ultra & P09 lower-rank check & 19 & 0.788 & 0.708 & 1.00 & 5.53 \\
+    GPT-OSS 120B & P02 sourced ranking & 9 & 1.000 & 1.000 & 1.00 & 2.67 \\
+    \bottomrule
+  \end{tabular}
+\end{table*}
+
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=\textwidth]{figures/conference_ranking_heatmap.png}
+  \caption{Conference ranking heatmap generated from parsed model rankings.}
+  \Description{Heatmap showing conference ranks by model, with lower values indicating higher model rank.}
+  \label{fig:rankingheatmap}
+\end{figure*}
+
+\subsection{RQ3: Source Type Preference}
+
+Table~\ref{tab:sourcetypes} shows the aggregate source-type distribution.
+arXiv dominates the extracted links with 48 out of 86 source links. This
+suggests that when asked for exact sources, the models often prefer accessible
+preprint links over ACM/IEEE pages or older conference/journal records. GitHub
+repositories and conference pages appear, but less frequently. Nineteen links
+were classified as \texttt{unknown}, usually because they pointed to ranking
+sites, general project pages, or domains not covered by the first-version
+classifier.
+
+\begin{table}[h]
+  \caption{Aggregate source-type distribution.}
+  \label{tab:sourcetypes}
+  \centering
+  \begin{tabular}{lr}
+    \toprule
+    Source type & Count \\
+    \midrule
+    arXiv & 48 \\
+    unknown & 19 \\
+    conference page & 6 \\
+    GitHub repository & 6 \\
+    academic paper & 4 \\
+    personal blog & 2 \\
+    company blog & 1 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/source_type_bar_chart.png}
+  \caption{Source type distribution by model and prompt.}
+  \Description{Bar chart showing counts of arXiv, academic paper, GitHub, company blog, conference page, personal blog, and unknown links.}
+  \label{fig:sourcetypes}
+\end{figure}
+
+\subsection{RQ4: Domain Concentration}
+
+The most common domain was \texttt{arxiv.org}. For Gemma, the top extracted
+domains included \texttt{arxiv.org}, \texttt{github.com},
+\texttt{csrankings.org}, \texttt{portal.core.edu.au}, \texttt{owasp.org}, and
+\texttt{huggingface.co}. For Nemotron, the strongest concentration was also
+\texttt{arxiv.org}, followed by domains such as \texttt{conf.researchr.org},
+\texttt{docs.github.com}, \texttt{doi.org}, \texttt{github.blog}, and
+\texttt{github.com}. This pattern suggests that models used broadly available
+academic and developer-facing web sources more than closed publisher pages.
+
+The evidence for self-organization preference is limited in this dataset.
+There are some GitHub and GitHub documentation links, but the collected models
+did not overwhelmingly cite their own provider ecosystems. A larger balanced
+dataset would be needed to make a strong claim about organizational bias.
+
+\subsection{RQ5 and RQ6: Recency and Prompt Sensitivity}
+
+Recent LLM and code-generation work appeared frequently. Examples include
+Codex-style code generation papers~\cite{chen2021evaluating}, SWE-bench
+style software engineering agent benchmarks~\cite{jimenez2023swebench}, and
+other arXiv-accessible work. This indicates a recency pull toward LLM-era
+software engineering research. However, older and established software
+engineering venues still appeared in ranking prompts, especially ICSE, FSE,
+ASE, ISSTA, and MSR.
+
+Prompt sensitivity was visible. Ranking prompts emphasized conferences and
+prestige. Exact-source prompts produced many arXiv URLs, GitHub links, and
+web-accessible pages. The lower-rank venue prompt changed the answer surface:
+it encouraged inclusion of specialized venues that may otherwise be omitted.
+This supports the idea that shallow prompts can reinforce common top-venue
+answers, while deeper prompts with explicit source pressure expose richer and
+more diverse source choices.
+
+\subsection{RQ7: Link Validity and Hallucination Risk}
+
+Automated validation of 86 extracted links produced:
+
+\begin{itemize}
+  \item 72 valid links;
+  \item 12 dead links; and
+  \item 2 unverifiable links.
+\end{itemize}
+
+Dead and unverifiable links are important because they may indicate
+hallucinated URLs, changed URLs, temporary access failures, or websites that
+block automated validation. I therefore treat validation as a warning signal
+rather than final proof of hallucination. Manual checking is still needed for
+high-stakes claims.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/citation_overlap_heatmap.png}
+  \caption{Citation URL overlap using Jaccard similarity.}
+  \Description{Heatmap showing URL overlap between models.}
+  \label{fig:overlap}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/publication_year_distribution.png}
+  \caption{Publication year distribution extracted from citation metadata.}
+  \Description{Bar chart showing extracted citation counts by publication year.}
+  \label{fig:years}
+\end{figure}
 
 \section{Discussion}
 
-\subsection{Which Generative Tool Did I Use and Why?}
+\subsection{What I Learned}
 
-I used ChatGPT as the generative AI tool for this review. I used ChatGPT
-because I do not have a subscription to Claude, and I usually use ChatGPT to
-summarize research papers. It helped me generate a concise summary, identify
-important ideas and limitations, and suggest possible future research
-directions.
+This project showed me that AI assistants do not simply retrieve neutral
+source lists. Their answers are shaped by prompt wording, source pressure, API
+behavior, and the model's learned associations between a topic and well-known
+venues. When asked broadly, models tend to name obvious high-impact venues.
+When asked for exact sources, they often move toward accessible links such as
+arXiv, GitHub, documentation, and conference pages.
 
-\subsection{Prompts Used and Prompt Refinement}
+This matters for software engineering practice. In real software work, an
+engineer often needs both academic depth and industrial immediacy. Academic
+papers help with foundations and evidence; documentation, repositories, and
+company blogs help with implementation. A good AI assistant should help users
+move across both worlds, while clearly separating verified sources from
+uncertain or generated metadata.
 
-I used the following prompts.
+\subsection{Threats to Validity}
 
-\begin{enumerate}
-  \item Please read the research paper. Write a summary of the paper,
-  including key findings in one paragraph.
+\textbf{API availability.} The strongest threat is the OpenRouter free-route
+rate limit. Gemma and GPT-OSS could not be collected for all 10 prompts during
+the experiment window. I did not fabricate missing responses. Instead, I
+documented the limitation and collected repeated Nemotron runs.
 
-  \item What are the ideas/tools/methodologies you liked, and what limitations
-  do you identify for the proposed approach? Write in one paragraph.
+\textbf{Baseline validity.} CORE and CSRankings are useful signals but they
+measure different things. A venue can be specialized and useful even if it is
+not ranked at the top of a general prestige baseline.
 
-  \item If you were the author of the paper, how would you extend the proposed
-  ideas? List a couple of concrete directions in points.
-\end{enumerate}
+\textbf{Parsing validity.} The parser handles structured JSON and fallback
+text extraction, but model responses are messy. Some venue names or citations
+may be missed or normalized imperfectly.
 
-Yes, I refined my prompts to get the desired results. I used Deep Research
-mode in ChatGPT so that it could think for a longer time and provide more
-appropriate and precise answers. I also refined my prompts to make the
-responses smaller, more focused, and more precise. For example, I specifically
-asked for a one-paragraph summary and a one-paragraph discussion of liked
-ideas and limitations. For future directions, I asked ChatGPT to list concrete
-directions in points so the answer would be easier to organize and compare
-with my own understanding.
+\textbf{Link validation.} Automated link validation can fail because of
+temporary network problems, redirects, bot blocking, publisher restrictions,
+or changed URLs. Manual checking remains necessary.
 
-\subsection{Divergence Between My Understanding and ChatGPT's Response}
+\textbf{Model versioning.} Free API routes may change underlying models or
+providers over time. Raw responses and timestamps are stored to preserve the
+actual observed data.
 
-Yes, I observed a divergence between my understanding and ChatGPT's response,
-especially in the future direction part. In this paper, the authors consider a
-uniprocessor real-time system running on a TEE-enabled platform and use
-non-preemptive enclave execution. My proposed future directions are based on
-this consideration. For example, I focused on partial confidentiality
-execution, fine-grained sub-layer partitioning, mixed-workload slack
-reclamation, and obfuscated scheduling for schedule-based side-channel
-protection.
+\section{Reproducibility Package}
 
-ChatGPT's response, however, suggested extending the work toward multicore and
-heterogeneous processors. I think this is a useful long-term direction, but it
-moves beyond the immediate system model of the paper. Therefore, I would first
-stick to my own future directions because they are more directly connected to
-the paper's current assumptions and limitations. After applying those
-extensions, I would then consider a multicore real-time system running on a
-TEE-enabled platform. In that later stage, I would investigate both
-non-preemptive and preemptive enclave execution and study how the scheduling
-analysis changes in a multicore setting.
+The repository includes:
 
-\begin{thebibliography}{1}
+\begin{itemize}
+  \item \texttt{README.md} with setup and run instructions;
+  \item \texttt{requirements.txt} for dependencies;
+  \item \texttt{data/conferences/} with baseline venue data;
+  \item \texttt{data/prompts/} with prompts and metadata;
+  \item \texttt{data/raw\_responses/} with 30 raw API responses;
+  \item \texttt{data/parsed/} with parsed rankings, citations, and links;
+  \item \texttt{src/} with collection, parsing, analysis, visualization, and
+  validation scripts;
+  \item \texttt{outputs/tables/} with result tables; and
+  \item \texttt{outputs/figures/} with generated figures.
+\end{itemize}
 
-\bibitem{babar2025optimizing}
-Mohammad Fakhruddin Babar and Monowar Hasan.
-\newblock Optimizing Confidential Deep Learning for Real-Time Systems.
-\newblock \emph{ACM Transactions on Cyber-Physical Systems}, 2025.
+The main reproduction command is:
 
-\end{thebibliography}
+\begin{verbatim}
+python src/run_pipeline.py
+\end{verbatim}
+
+\section{Conclusion}
+
+This project designed and executed a reproducible study of how AI models treat
+information sources in AI-for-software-engineering questions. The results show
+that models recognize the centrality of major software engineering venues such
+as ICSE, FSE, ASE, ISSTA, and MSR, but source-heavy prompts shift responses
+toward arXiv and other easily linkable web sources. The lower-rank venue prompt
+was useful because it encouraged models to include specialized venues that
+matter for practical software engineering research but may be overlooked in
+shallow prompts.
+
+The project also exposed practical research challenges. Free API routes can be
+rate-limited, model output formats can be inconsistent, and exact URLs can be
+dead or unverifiable. These are not just inconveniences; they are part of the
+phenomenon being studied. If AI systems are used as research assistants or
+software engineering assistants, their source behavior must be measured,
+validated, and documented.
+
+Overall, this study provides a working first version of a reproducible
+benchmark for source treatment in AI-for-software-engineering answers. Future
+work should collect balanced runs across more models, add Crossref or OpenAlex
+metadata validation, and compare API responses with web-interface responses
+from chat tools used by everyday software engineers.
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
 
 \end{document}
