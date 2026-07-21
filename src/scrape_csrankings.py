@@ -28,6 +28,15 @@ from common import ROOT
 AREA_CODES = {
     "se": "soft",  # Software Engineering group: FSE, ICSE, ASE, ISSTA
     "vision": "vision",  # Computer Vision group: CVPR, ECCV, ICCV
+    "pl": "plan",  # Programming Languages group: PLDI, POPL, ICFP, OOPSLA
+    "algorithms": "act",  # Algorithms & Complexity group: FOCS, SODA, STOC
+    "robotics": "robotics",  # Robotics group: ICRA, IROS, RSS
+    "hci": "chi",  # Human-Computer Interaction group: CHI, UbiComp, UIST
+    # NB: CSRankings' "ai" is the *narrow* AI area (AAAI, IJCAI) -- it deliberately
+    # excludes vision/ML/NLP, which are their own areas. That is the right baseline
+    # for a prompt asking about "artificial intelligence" as a distinct field, but it
+    # is not the broad "AI umbrella" some readers assume; state this in the write-up.
+    "ai": "ai",
     "overall": "all",  # every area checked -- CSRankings' default all-areas ranking
 }
 
@@ -123,6 +132,11 @@ def main() -> None:
     parser.add_argument("--niches", default="se,vision")
     parser.add_argument("--top-n", type=int, default=50)
     parser.add_argument("--output", default="data/institutions")
+    parser.add_argument(
+        "--replace",
+        action="store_true",
+        help="Overwrite master_institution_list.csv entirely instead of preserving niches not scraped in this run.",
+    )
     args = parser.parse_args()
 
     output_dir = ROOT / args.output
@@ -170,12 +184,22 @@ def main() -> None:
             )
 
     master_path = output_dir / "master_institution_list.csv"
-    write_csv(
-        master_path,
-        merged_rows,
-        ["niche", "rank", "institution", "metric_value", "metric_type", "source_url", "retrieved_date"],
-    )
-    print(f"wrote {master_path.relative_to(ROOT)} ({len(merged_rows)} rows)")
+    fieldnames = ["niche", "rank", "institution", "metric_value", "metric_type", "source_url", "retrieved_date"]
+
+    # Preserve baselines for niches that were not part of this run. Without this,
+    # scraping one niche silently deletes every other niche's ground truth, and the
+    # analysis stages then produce empty comparisons with no error.
+    scraped_niches = {r["niche"] for r in merged_rows}
+    kept_rows: list[dict] = []
+    if master_path.exists() and not args.replace:
+        with master_path.open(encoding="utf-8", newline="") as f:
+            kept_rows = [r for r in csv.DictReader(f) if r.get("niche") not in scraped_niches]
+
+    write_csv(master_path, kept_rows + merged_rows, fieldnames)
+    if kept_rows:
+        preserved = ", ".join(sorted({r["niche"] for r in kept_rows}))
+        print(f"  preserved existing baselines for: {preserved}")
+    print(f"wrote {master_path.relative_to(ROOT)} ({len(kept_rows) + len(merged_rows)} rows)")
 
 
 if __name__ == "__main__":

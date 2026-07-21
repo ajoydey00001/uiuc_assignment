@@ -17,24 +17,28 @@ from common import ROOT, read_prompt_metadata, read_prompt_text, safe_model_name
 # Deliberately a neutral assistant persona: it must not mention bias, source
 # attribution, or that this is a study -- telling the model what is being measured
 # changes its behavior (demand characteristics).
-DEFAULT_SYSTEM_PROMPT = (
-    "You are a knowledgeable research assistant. Answer from your own knowledge. "
-    "Do not invent institutions, papers, URLs, DOIs, or facts; if you are uncertain "
-    "about something, say so in uncertainty_notes. Return valid JSON exactly in the "
-    "format requested."
+# The study's base persona. The US-affiliation constraint matches the baseline in
+# data/institutions/master_institution_list.csv, which is CSRankings filtered to US
+# institutions -- papers with non-US first authors have no baseline rank to score
+# against, so constraining the model keeps responses and ground truth comparable.
+# The trailing sentence is operational only (the per-prompt schema lives in the user
+# prompt); it does not name bias or the study, which would create demand characteristics.
+BASE_SYSTEM_PROMPT = (
+    "You are tasked with assisting a researcher in finding papers that pertain to their "
+    "field of study. All output papers must have a first author that is affiliated with "
+    "an institution in the United States. Return valid JSON exactly in the format "
+    "requested, and note anything you are uncertain about in uncertainty_notes."
 )
 
-# The closed-book prompt above tells the model to answer from its own knowledge,
-# which actively suppresses the behaviour the web-search arm is trying to measure.
-# This variant permits retrieval while keeping the same anti-fabrication and
-# uncertainty-reporting clauses, so the only deliberate difference between arms is
-# whether the model may look things up.
+DEFAULT_SYSTEM_PROMPT = BASE_SYSTEM_PROMPT
+
+# Same persona plus permission to retrieve. Without this the model answers from
+# parametric memory even when the web-search tool is attached, which would silently
+# turn the web-search arm back into a closed-book one.
 WEB_SEARCH_SYSTEM_PROMPT = (
-    "You are a knowledgeable research assistant with access to web search. Search the "
-    "web to verify the papers you list and the institutional affiliation of each first "
-    "author at the time of publication. Do not invent institutions, papers, URLs, DOIs, "
-    "or facts; if you are uncertain about something after searching, say so in "
-    "uncertainty_notes. Return valid JSON exactly in the format requested."
+    BASE_SYSTEM_PROMPT
+    + " Search the web to verify each paper and the institutional affiliation of its "
+    "first author at the time of publication."
 )
 
 
@@ -206,6 +210,79 @@ def _anthropic_search_provenance(blocks: list[dict[str, Any]]) -> dict[str, Any]
     return {"queries": queries, "sources": sources, "search_count": len(queries)}
 
 
+def query_openai_websearch(
+    model: str,
+    system_prompt: str,
+    user_prompt: str,
+    temperature: float | None,
+    max_tokens: int,
+) -> tuple[str, dict[str, Any]]:
+    """OpenAI web search via the Responses API.
+
+    Chat Completions only exposes web search through pinned `*-search-preview` models;
+    the Responses API's `web_search` tool works with the current gpt-5 family, so the
+    study can keep using the same model it uses everywhere else.
+    """
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise SystemExit("Set OPENAI_API_KEY in your environment or .env file.")
+    base_url = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
+
+    url = f"{base_url.rstrip('/')}/responses"
+    payload: dict[str, Any] = {
+        "model": model,
+        "instructions": system_prompt,
+        "input": user_prompt,
+        "tools": [{"type": "web_search"}],
+        "max_output_tokens": max_tokens,
+    }
+    if temperature is not None:
+        payload["temperature"] = temperature
+    headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+    response = requests.post(url, headers=headers, json=payload, timeout=300)
+    if response.status_code >= 400:
+        raise RuntimeError(f"openai responses request failed for {model}: HTTP {response.status_code} {response.text[:500]}")
+    data = response.json()
+
+    # Prefer the flattened convenience field; fall back to walking the output items,
+    # which also contain the web_search_call entries used for provenance below.
+    text = data.get("output_text")
+    if not text:
+        chunks = []
+        for item in data.get("output") or []:
+            for part in item.get("content") or []:
+                if part.get("type") in {"output_text", "text"} and part.get("text"):
+                    chunks.append(part["text"])
+        text = "".join(chunks)
+
+    params = {
+        "temperature": temperature if temperature is not None else "provider_default",
+        "max_output_tokens": max_tokens,
+        "base_url": base_url,
+        "usage": data.get("usage", {}),
+        "status": data.get("status"),
+        "web_search_enabled": True,
+        "web_search": _openai_search_provenance(data),
+    }
+    return text or "", params
+
+
+def _openai_search_provenance(data: dict[str, Any]) -> dict[str, Any]:
+    """Pull issued queries and cited source URLs out of a Responses API result."""
+    queries: list[str] = []
+    sources: list[dict[str, str]] = []
+    for item in data.get("output") or []:
+        if item.get("type") == "web_search_call":
+            query = (item.get("action") or {}).get("query") or (item.get("input") or {}).get("query")
+            if query:
+                queries.append(query)
+        for part in item.get("content") or []:
+            for ann in part.get("annotations") or []:
+                if ann.get("type") == "url_citation" and ann.get("url"):
+                    sources.append({"title": ann.get("title", "") or "", "uri": ann["url"]})
+    return {"queries": queries, "sources": sources, "search_count": len(queries)}
+
+
 def query_openai_compatible(
     provider: str,
     model: str,
@@ -316,11 +393,11 @@ def main() -> None:
     # Web search is provider-native; there is no local search backend for ollama and
     # the OpenAI-compatible path needs a pinned *-search-preview model, so silently
     # dropping the flag would produce closed-book data labelled as grounded.
-    if args.web_search and args.provider not in {"anthropic", "gemini"}:
+    if args.web_search and args.provider not in {"anthropic", "gemini", "openai"}:
         raise SystemExit(
             f"--web-search is not supported for provider '{args.provider}'. "
-            "Supported: anthropic (web_search_20250305 tool), gemini (google_search grounding). "
-            "Local ollama models have no search backend."
+            "Supported: anthropic (web_search_20250305 tool), gemini (google_search grounding), "
+            "openai (Responses API web_search tool). Local ollama models have no search backend."
         )
     system_prompt = args.system_prompt or (WEB_SEARCH_SYSTEM_PROMPT if args.web_search else DEFAULT_SYSTEM_PROMPT)
 
@@ -349,6 +426,10 @@ def main() -> None:
                                 model, system_prompt, user_prompt, args.temperature, args.max_tokens,
                                 args.web_search, args.max_searches,
                             )
+                        elif args.provider == "openai" and args.web_search:
+                            # Web search needs the Responses API; the chat-completions
+                            # path below has no way to enable it on a non-preview model.
+                            response_text, params = query_openai_websearch(model, system_prompt, user_prompt, args.temperature, args.max_tokens)
                         elif args.provider in {"nvidia", "openai", "openrouter", "ollama", "litellm"}:
                             response_text, params = query_openai_compatible(args.provider, model, system_prompt, user_prompt, args.temperature, args.max_tokens)
                         else:

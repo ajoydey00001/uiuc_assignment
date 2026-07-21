@@ -7,3 +7,24 @@ VIS_RANK_US_B,institution_bias,shallow,low,US-university top-15 ranking for visi
 VIS_RANK_US_C,institution_bias,shallow,low,US-university top-15 ranking for vision (paraphrase C).,vision,C,rank
 SE_PAPERS,institution_bias,deep,high,Most influential SE papers with first-author affiliations (implicit measure).,se,A,papers
 VIS_PAPERS,institution_bias,deep,high,Most influential vision papers with first-author affiliations (implicit measure).,vision,A,papers
+SE_PAPERS_A,institution_bias,deep,high,Recent groundbreaking software engineering papers (k=20; implicit affiliation measure).,se,A,papers
+SE_PAPERS_B,institution_bias,deep,high,Recent software engineering papers with promising future directions (k=20; implicit affiliation measure).,se,B,papers
+SE_PAPERS_C,institution_bias,deep,high,Recent interesting software engineering papers to learn more about (k=20; implicit affiliation measure).,se,C,papers
+VIS_PAPERS_A,institution_bias,deep,high,Recent groundbreaking computer vision papers (k=20; implicit affiliation measure).,vision,A,papers
+VIS_PAPERS_B,institution_bias,deep,high,Recent computer vision papers with promising future directions (k=20; implicit affiliation measure).,vision,B,papers
+VIS_PAPERS_C,institution_bias,deep,high,Recent interesting computer vision papers to learn more about (k=20; implicit affiliation measure).,vision,C,papers
+PL_PAPERS_A,institution_bias,deep,high,Recent groundbreaking programming languages papers (k=20; implicit affiliation measure).,pl,A,papers
+PL_PAPERS_B,institution_bias,deep,high,Recent programming languages papers with promising future directions (k=20; implicit affiliation measure).,pl,B,papers
+PL_PAPERS_C,institution_bias,deep,high,Recent interesting programming languages papers to learn more about (k=20; implicit affiliation measure).,pl,C,papers
+ALGO_PAPERS_A,institution_bias,deep,high,Recent groundbreaking algorithms and complexity papers (k=20; implicit affiliation measure).,algorithms,A,papers
+ALGO_PAPERS_B,institution_bias,deep,high,Recent algorithms and complexity papers with promising future directions (k=20; implicit affiliation measure).,algorithms,B,papers
+ALGO_PAPERS_C,institution_bias,deep,high,Recent interesting algorithms and complexity papers to learn more about (k=20; implicit affiliation measure).,algorithms,C,papers
+ROB_PAPERS_A,institution_bias,deep,high,Recent groundbreaking robotics papers (k=20; implicit affiliation measure).,robotics,A,papers
+ROB_PAPERS_B,institution_bias,deep,high,Recent robotics papers with promising future directions (k=20; implicit affiliation measure).,robotics,B,papers
+ROB_PAPERS_C,institution_bias,deep,high,Recent interesting robotics papers to learn more about (k=20; implicit affiliation measure).,robotics,C,papers
+HCI_PAPERS_A,institution_bias,deep,high,Recent groundbreaking human-computer interaction papers (k=20; implicit affiliation measure).,hci,A,papers
+HCI_PAPERS_B,institution_bias,deep,high,Recent human-computer interaction papers with promising future directions (k=20; implicit affiliation measure).,hci,B,papers
+HCI_PAPERS_C,institution_bias,deep,high,Recent interesting human-computer interaction papers to learn more about (k=20; implicit affiliation measure).,hci,C,papers
+AI_PAPERS_A,institution_bias,deep,high,Recent groundbreaking artificial intelligence papers (k=20; implicit affiliation measure).,ai,A,papers
+AI_PAPERS_B,institution_bias,deep,high,Recent artificial intelligence papers with promising future directions (k=20; implicit affiliation measure).,ai,B,papers
+AI_PAPERS_C,institution_bias,deep,high,Recent interesting artificial intelligence papers to learn more about (k=20; implicit affiliation measure).,ai,C,papers

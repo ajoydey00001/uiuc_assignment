@@ -1,9 +1,20 @@
 """Web-search arm of the implicit institutional-bias study.
 
-Asks each model for the 15 most influential SE papers *with web search enabled*,
-repeatedly, then ranks institutions by how often they appear as the first author's
-affiliation. If a model favours famous universities, those institutions dominate the
-derived ranking regardless of their actual SE publication output in CSRankings.
+Asks each model, *with web search enabled*, for k=20 recent papers in a field, then
+ranks institutions by how often they appear as the first author's affiliation. If a
+model favours famous universities, those institutions dominate the derived ranking
+regardless of their actual publication output in CSRankings.
+
+The prompt matrix is 7 fields x 3 question phrasings (21 prompts):
+
+    fields    se, vision, pl, algorithms, robotics, hci, ai
+    phrasings A "recent groundbreaking papers ... to stay updated"
+              B "recent papers ... promising directions for future research"
+              C "recent interesting papers ... should learn more about"
+
+Three phrasings of the same underlying request separate a stable institutional prior
+from wording sensitivity: an institution that dominates all three is a robust result,
+one that appears under a single phrasing is an artifact of that wording.
 
 This arm is kept in its own directory tree so it never mixes with the closed-book
 data collected earlier:
@@ -30,10 +41,14 @@ which would silently invalidate the whole arm.
 from __future__ import annotations
 
 import argparse
+import csv
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
+
+from dotenv import load_dotenv
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -43,14 +58,78 @@ PARSED_DIR = "data/websearch/parsed"
 TABLE_DIR = "outputs/websearch/tables"
 FIGURE_DIR = "outputs/websearch/figures"
 
+# 7 fields x 3 question phrasings, k=20 papers each. Field prefixes match the niche
+# codes in data/prompts/prompt_metadata.csv and the CSRankings area codes in
+# scrape_csrankings.AREA_CODES, so every niche has a baseline to be scored against.
+FIELD_PREFIXES = ["SE", "VIS", "PL", "ALGO", "ROB", "HCI", "AI"]
+ALL_PAPER_PROMPTS = ",".join(
+    f"{prefix}_PAPERS_{variant}" for prefix in FIELD_PREFIXES for variant in ("A", "B", "C")
+)
+
 
 def run(args: list[str]) -> None:
     print("+", " ".join(args))
     subprocess.run([sys.executable, *args], cwd=ROOT, check=True)
 
 
-def collect(anthropic_model: str, gemini_model: str, prompt_ids: str, run_id: str, samples: int, sleep: float) -> None:
-    for provider, model in (("anthropic", anthropic_model), ("gemini", gemini_model)):
+KEY_FOR_PROVIDER = {
+    "anthropic": "ANTHROPIC_API_KEY",
+    "gemini": "GEMINI_API_KEY",
+    "openai": "OPENAI_API_KEY",
+}
+
+
+def check_keys(providers: list[tuple[str, str]]) -> None:
+    """Fail before collection starts if a provider's key is missing.
+
+    Without this the run dies partway through, after already spending calls on the
+    providers that did have keys, leaving a half-collected and unusable matrix.
+    """
+    load_dotenv(ROOT / ".env")
+    missing = [
+        (provider, KEY_FOR_PROVIDER[provider])
+        for provider, _ in providers
+        if provider in KEY_FOR_PROVIDER and not os.getenv(KEY_FOR_PROVIDER[provider])
+    ]
+    if missing:
+        lines = "\n".join(f"    {key}   (needed for {provider})" for provider, key in missing)
+        raise SystemExit(
+            f"Missing API key(s) in {ROOT / '.env'}:\n{lines}\n\n"
+            "Add them to .env, or skip that provider, e.g.:\n"
+            "    python src/run_websearch_study.py --collect --anthropic-model ''"
+        )
+
+
+def check_baselines(prompt_ids: str) -> None:
+    """Warn about niches with no CSRankings baseline to be scored against.
+
+    Without a baseline row the derived ranking for that niche has nothing to compare
+    to, so the analysis silently produces no deviation numbers for it.
+    """
+    meta_path = ROOT / "data/prompts/prompt_metadata.csv"
+    baseline_path = ROOT / "data/institutions/master_institution_list.csv"
+    if not meta_path.exists() or not baseline_path.exists():
+        return
+    with meta_path.open(encoding="utf-8", newline="") as f:
+        wanted = {p.strip() for p in prompt_ids.split(",")}
+        niches = {r["niche"] for r in csv.DictReader(f) if r["prompt_id"] in wanted}
+    with baseline_path.open(encoding="utf-8", newline="") as f:
+        have = {r["niche"] for r in csv.DictReader(f)}
+    missing = sorted(niches - have)
+    if missing:
+        print(f"\nWARNING: no CSRankings baseline for niche(s): {', '.join(missing)}")
+        print("Those fields will produce rankings with nothing to score against. Fix with:")
+        print(f"    python src/scrape_csrankings.py --niches {','.join(missing)}\n")
+
+
+def collect(providers: list[tuple[str, str]], prompt_ids: str, run_id: str, samples: int, sleep: float) -> None:
+    n_prompts = len([p for p in prompt_ids.split(",") if p.strip()])
+    n_calls = n_prompts * samples * len(providers)
+    print(f"\nCollecting ~{n_calls} web-search responses "
+          f"({n_prompts} prompts x {samples} samples x {len(providers)} models).")
+    print("Web-search calls are slow and billed per search; Ctrl-C now to abort.\n")
+
+    for provider, model in providers:
         if not model:
             continue
         run([
@@ -108,9 +187,14 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--collect", action="store_true", help="Query the models first (costs API credits).")
     parser.add_argument("--verify", action="store_true", help="Only check whether web search fired; no analysis.")
-    parser.add_argument("--anthropic-model", default="claude-sonnet-4-6")
-    parser.add_argument("--gemini-model", default="gemini-3.1-pro-preview")
-    parser.add_argument("--prompt-ids", default="SE_PAPERS")
+    parser.add_argument("--anthropic-model", default="claude-sonnet-4-6", help="Empty string to skip this provider.")
+    parser.add_argument("--gemini-model", default="gemini-3.1-pro-preview", help="Empty string to skip this provider.")
+    parser.add_argument("--openai-model", default="gpt-5.4", help="Empty string to skip this provider.")
+    parser.add_argument(
+        "--prompt-ids",
+        default=ALL_PAPER_PROMPTS,
+        help="Comma-separated prompt ids. Defaults to the full 7-field x 3-variant matrix.",
+    )
     parser.add_argument("--run-id", default="web01")
     parser.add_argument("--samples", type=int, default=5)
     parser.add_argument("--sleep", type=float, default=2.0, help="Seconds between calls; web search is rate-limited.")
@@ -119,7 +203,15 @@ def main() -> None:
     raw_dir = ROOT / RAW_DIR
 
     if args.collect:
-        collect(args.anthropic_model, args.gemini_model, args.prompt_ids, args.run_id, args.samples, args.sleep)
+        providers = [
+            ("anthropic", args.anthropic_model),
+            ("gemini", args.gemini_model),
+            ("openai", args.openai_model),
+        ]
+        providers = [(p, m) for p, m in providers if m]
+        check_keys(providers)
+        check_baselines(args.prompt_ids)
+        collect(providers, args.prompt_ids, args.run_id, args.samples, args.sleep)
 
     if args.verify:
         raise SystemExit(1 if verify(raw_dir) else 0)

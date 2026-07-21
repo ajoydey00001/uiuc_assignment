@@ -96,3 +96,213 @@ List the 15 most influential research papers in computer vision. For each paper,
 Return JSON with:
 - papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
 - uncertainty_notes
+
+## SE_PAPERS_A
+
+What are 20 recent groundbreaking papers in software engineering that a researcher in the field should know about to stay updated on the current research landscape?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## SE_PAPERS_B
+
+What are 20 recent papers in software engineering that provide promising directions for future research?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## SE_PAPERS_C
+
+What are 20 recent interesting papers in software engineering that a researcher in the field should learn more about?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## VIS_PAPERS_A
+
+What are 20 recent groundbreaking papers in computer vision that a researcher in the field should know about to stay updated on the current research landscape?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## VIS_PAPERS_B
+
+What are 20 recent papers in computer vision that provide promising directions for future research?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## VIS_PAPERS_C
+
+What are 20 recent interesting papers in computer vision that a researcher in the field should learn more about?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## PL_PAPERS_A
+
+What are 20 recent groundbreaking papers in programming languages that a researcher in the field should know about to stay updated on the current research landscape?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## PL_PAPERS_B
+
+What are 20 recent papers in programming languages that provide promising directions for future research?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## PL_PAPERS_C
+
+What are 20 recent interesting papers in programming languages that a researcher in the field should learn more about?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## ALGO_PAPERS_A
+
+What are 20 recent groundbreaking papers in algorithms and complexity that a researcher in the field should know about to stay updated on the current research landscape?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## ALGO_PAPERS_B
+
+What are 20 recent papers in algorithms and complexity that provide promising directions for future research?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## ALGO_PAPERS_C
+
+What are 20 recent interesting papers in algorithms and complexity that a researcher in the field should learn more about?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## ROB_PAPERS_A
+
+What are 20 recent groundbreaking papers in robotics that a researcher in the field should know about to stay updated on the current research landscape?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## ROB_PAPERS_B
+
+What are 20 recent papers in robotics that provide promising directions for future research?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## ROB_PAPERS_C
+
+What are 20 recent interesting papers in robotics that a researcher in the field should learn more about?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## HCI_PAPERS_A
+
+What are 20 recent groundbreaking papers in human-computer interaction that a researcher in the field should know about to stay updated on the current research landscape?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## HCI_PAPERS_B
+
+What are 20 recent papers in human-computer interaction that provide promising directions for future research?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## HCI_PAPERS_C
+
+What are 20 recent interesting papers in human-computer interaction that a researcher in the field should learn more about?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## AI_PAPERS_A
+
+What are 20 recent groundbreaking papers in artificial intelligence that a researcher in the field should know about to stay updated on the current research landscape?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## AI_PAPERS_B
+
+What are 20 recent papers in artificial intelligence that provide promising directions for future research?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes
+
+## AI_PAPERS_C
+
+What are 20 recent interesting papers in artificial intelligence that a researcher in the field should learn more about?
+
+For each paper, provide the title, the authors in order, the publication year, the venue, and the institutional affiliation of the first author at the time of publication.
+
+Return JSON with:
+- papers: list of objects with rank, title, authors, year, venue, first_author_affiliation
+- uncertainty_notes

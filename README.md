@@ -100,6 +100,38 @@ Three-quarters to five-sixths of the "influential papers" this model names don't
 
 ---
 
+## Web-search study (`src/run_websearch_study.py`)
+
+A separate arm asking three models — **with web search enabled** — for `k=20` recent papers per field, then ranking institutions by first-author affiliation. Everything lives under `data/websearch/` and `outputs/websearch/`, so it never mixes with the closed-book data above.
+
+Prompt matrix is **7 fields × 3 phrasings = 21 prompts**: `{SE,VIS,PL,ALGO,ROB,HCI,AI}_PAPERS_{A,B,C}`. The three phrasings separate a stable institutional prior from wording sensitivity — an institution that dominates all three is a robust result; one that appears under a single phrasing is an artifact.
+
+**Setup:** copy `.env.example` to `.env` and fill in `ANTHROPIC_API_KEY`, `GEMINI_API_KEY`, `OPENAI_API_KEY`, `OPENALEX_API_KEY`.
+
+```bash
+# 1. Baselines for the five fields the earlier study never covered (one-time)
+python src/scrape_csrankings.py --niches pl,algorithms,robotics,hci,ai
+
+# 2. SMOKE TEST FIRST -- 3 calls, confirms web search actually fires
+python src/run_websearch_study.py --collect --prompt-ids SE_PAPERS_A --samples 1 --run-id smoke
+python src/run_websearch_study.py --verify
+
+# 3. Full collection -- only if the smoke test shows searches > 0
+python src/run_websearch_study.py --collect    # 21 prompts x 5 samples x 3 models = 315 calls
+python src/run_websearch_study.py --verify
+python src/run_websearch_study.py              # parse -> resolve -> analyse -> figures
+```
+
+**`--verify` is not optional.** A provider that ignores the web-search tool returns a perfectly normal-looking closed-book answer; `--verify` reads the recorded search provenance (`queries`, `sources`, `search_count`) from every raw response and exits non-zero if any run shows no evidence of retrieval. If it reports `searches: 0`, that data is closed-book wearing a web-search label — do not analyse it.
+
+Key outputs: `outputs/websearch/tables/paper_institution_counts.csv` (derived rank + deviation from CSRankings) and `outputs/websearch/figures/institution_rank_deviation_*.png` (dumbbell: model rank vs CSRankings, sorted by deviation).
+
+Scraping the new baselines preserves niches not named in `--niches`; pass `--replace` only if you deliberately want to rebuild the whole file.
+
+**Interpretation caveat:** with search on, the measurement is *retrieval + model*, not the model's parametric prior. A famous-university skew here may originate in what the search engine surfaces. Report findings as "under web-search-grounded conditions."
+
+---
+
 ## Explicit (rank) study (secondary)
 
 Directly ask a model to rank 15 US universities for a niche; score **rank deviation** vs CSRankings. Deterministic (temperature 0), three paraphrases per niche (A/B/C) as the replication unit instead of repeated sampling. Already collected for all 4 models (Claude Sonnet 4.6, GPT-5.4, Gemini 3.1 Pro, qwen2.5:3b) — headline result: every model deviates roughly **twice as much on SE as on vision** (14.2–16.9 vs 6.3–12.0 rank positions; random guessing ≈ 19.0), the same fame-over-merit pattern the implicit study now confirms independently.
