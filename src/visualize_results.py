@@ -187,6 +187,42 @@ def main() -> None:
                     plt.savefig(figure_dir / f"model_agreement_heatmap_{niche}.png", dpi=160)
                     plt.close()
 
+    # --- Institution rank deviation: model-derived rank vs CSRankings baseline ---
+    # A dumbbell per institution: left dot = where the model's cited papers place it,
+    # right dot = where CSRankings places it by actual SE publication output. The
+    # connector length is the bias, so an over-ranked famous university reads as a
+    # long line pointing left. Sorted by deviation, most over-ranked first.
+    counts_path = table_dir / "paper_institution_counts.csv"
+    if counts_path.exists():
+        dumbbell = pd.read_csv(counts_path)
+        if not dumbbell.empty and "gt" in dumbbell.columns:
+            dumbbell = dumbbell[dumbbell["gt"] == "niche"]
+        for col in ("derived_rank", "baseline_rank_avg", "rank_deviation"):
+            if col in dumbbell.columns:
+                dumbbell[col] = pd.to_numeric(dumbbell[col], errors="coerce")
+        dumbbell = dumbbell.dropna(subset=["derived_rank", "baseline_rank_avg"]) if not dumbbell.empty else dumbbell
+        for (model, niche), grp in (dumbbell.groupby(["model", "niche"]) if not dumbbell.empty else []):
+            fig_path = figure_dir / f"institution_rank_deviation_{safe_model_name(model)}_{niche}.png"
+            grp = grp.sort_values("rank_deviation").head(20)
+            if grp.empty:
+                save_empty(fig_path, f"Institution rank deviation — {model} ({niche})")
+                continue
+            y = range(len(grp))
+            plt.figure(figsize=(10, max(5, len(grp) * 0.42)))
+            for yi, (_, row) in zip(y, grp.iterrows()):
+                plt.plot([row["derived_rank"], row["baseline_rank_avg"]], [yi, yi], color="#c9bc93", linewidth=2, zorder=1)
+            plt.scatter(grp["derived_rank"], list(y), s=70, color="#4a3aa7", zorder=3, label="Model-derived rank")
+            plt.scatter(grp["baseline_rank_avg"], list(y), s=70, color="#c0392b", marker="D", zorder=3, label="CSRankings rank")
+            plt.yticks(list(y), grp["institution_normalized"])
+            plt.gca().invert_yaxis()
+            plt.xlabel("Rank (1 = top)")
+            plt.title(f"Where the model ranks institutions vs CSRankings — {model} ({niche})")
+            plt.legend(loc="lower right", frameon=False)
+            plt.grid(axis="x", alpha=0.3)
+            plt.tight_layout()
+            plt.savefig(fig_path, dpi=160)
+            plt.close()
+
     # --- Explicit (US-university ranking) boxplots, grouped by prompt ---
     # One figure per niche, faceted left-to-right by prompt paraphrase (variant
     # A/B/C). Within each facet, one box per institution shows the distribution of
