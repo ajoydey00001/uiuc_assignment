@@ -104,6 +104,7 @@ def extract_citations(payload: dict, parsed, text: str) -> list[dict]:
             "doi": clean_scalar(item.get("doi")),
             "arxiv_id": clean_scalar(item.get("arxiv_id")),
             "url": clean_scalar(item.get("url")),
+            "institution": clean_scalar(item.get("institution") or item.get("institution_or_lab") or item.get("affiliation")),
         })
 
     if rows:
@@ -113,12 +114,70 @@ def extract_citations(payload: dict, parsed, text: str) -> list[dict]:
     dois = DOI_RE.findall(text)
     arxivs = ARXIV_RE.findall(text)
     for url in urls:
-        rows.append(base_row(payload) | {"title": "", "authors": "", "venue": "", "year": "", "doi": "", "arxiv_id": "", "url": url})
+        rows.append(base_row(payload) | {"title": "", "authors": "", "venue": "", "year": "", "doi": "", "arxiv_id": "", "url": url, "institution": ""})
     for doi in dois:
-        rows.append(base_row(payload) | {"title": "", "authors": "", "venue": "", "year": "", "doi": doi, "arxiv_id": "", "url": f"https://doi.org/{doi}"})
+        rows.append(base_row(payload) | {"title": "", "authors": "", "venue": "", "year": "", "doi": doi, "arxiv_id": "", "url": f"https://doi.org/{doi}", "institution": ""})
     for arxiv in arxivs:
-        rows.append(base_row(payload) | {"title": "", "authors": "", "venue": "arXiv", "year": "", "doi": "", "arxiv_id": arxiv, "url": f"https://arxiv.org/abs/{arxiv}"})
+        rows.append(base_row(payload) | {"title": "", "authors": "", "venue": "arXiv", "year": "", "doi": "", "arxiv_id": arxiv, "url": f"https://arxiv.org/abs/{arxiv}", "institution": ""})
     return dedupe_dicts(rows)
+
+
+def extract_papers(payload: dict, parsed, text: str) -> list[dict]:
+    """Structured-only extraction for the papers (implicit) prompt family.
+
+    Reads parsed["papers"]; falls back to ranked_items entries that look like papers
+    (carry a title and authors). No regex fallback -- there is no reliable way to
+    recover structured paper metadata from free text, and a partially-recovered
+    paper list would silently bias the institution counts downstream.
+    """
+    rows = []
+    if not isinstance(parsed, dict):
+        return rows
+    items = normalize_items(parsed.get("papers"))
+    if not items:
+        items = [
+            item for item in normalize_items(parsed.get("ranked_items"))
+            if isinstance(item, dict) and item.get("title") and (item.get("authors") or item.get("first_author_affiliation"))
+        ]
+    for idx, item in enumerate(items, start=1):
+        if not isinstance(item, dict):
+            continue
+        title = item.get("title") or item.get("paper") or item.get("name")
+        if not title:
+            continue
+        rows.append(base_row(payload) | {
+            "rank": item.get("rank") or idx,
+            "title": clean_scalar(title),
+            "authors": clean_scalar(item.get("authors")),
+            "year": clean_scalar(item.get("year")),
+            "venue": clean_scalar(item.get("venue")),
+            "claimed_affiliation": clean_scalar(
+                item.get("first_author_affiliation") or item.get("affiliation") or item.get("institution")
+            ),
+        })
+    return rows
+
+
+def extract_institution_mentions(payload: dict, parsed, text: str) -> list[dict]:
+    """Structured-only: no reliable generic regex exists for institution names,
+    so responses whose JSON didn't include an institution/lab_or_group/organization
+    field on a ranked item simply contribute no rows here (documented limitation,
+    not a bug -- e.g. this yields nothing for prompts other than P11-P14)."""
+    rows = []
+    if not isinstance(parsed, dict):
+        return rows
+    for idx, item in enumerate(normalize_items(parsed.get("ranked_items")), start=1):
+        if not isinstance(item, dict):
+            continue
+        institution = item.get("institution") or item.get("lab_or_group") or item.get("organization")
+        if not institution:
+            continue
+        rows.append(base_row(payload) | {
+            "rank": item.get("rank") or idx,
+            "institution_raw": clean_scalar(institution),
+            "justification": clean_scalar(item.get("justification") or item.get("summary") or item.get("text")),
+        })
+    return rows
 
 
 def extract_links(payload: dict, citations: list[dict]) -> list[dict]:
@@ -187,7 +246,7 @@ def main() -> None:
 
     input_dir = ROOT / args.input
     output_dir = ROOT / args.output
-    rankings, citations, links = [], [], []
+    rankings, citations, links, institution_mentions, papers = [], [], [], [], []
 
     for path in sorted(input_dir.glob("**/*.json")):
         payload = json.loads(path.read_text(encoding="utf-8"))
@@ -198,11 +257,15 @@ def main() -> None:
         rankings.extend(rs)
         citations.extend(cs)
         links.extend(extract_links(payload, cs))
+        institution_mentions.extend(extract_institution_mentions(payload, parsed, text))
+        papers.extend(extract_papers(payload, parsed, text))
 
     write_csv(output_dir / "conference_rankings.csv", rankings, ["model", "provider", "prompt_id", "run_id", "rank", "acronym", "full_name", "justification"])
-    write_csv(output_dir / "citations.csv", citations, ["model", "provider", "prompt_id", "run_id", "title", "authors", "venue", "year", "doi", "arxiv_id", "url"])
+    write_csv(output_dir / "citations.csv", citations, ["model", "provider", "prompt_id", "run_id", "title", "authors", "venue", "year", "doi", "arxiv_id", "url", "institution"])
     write_csv(output_dir / "source_links.csv", links, ["model", "provider", "prompt_id", "run_id", "url", "domain", "source_type", "claimed_purpose", "validation_status"])
-    print(f"parsed {len(rankings)} rankings, {len(citations)} citations, {len(links)} links")
+    write_csv(output_dir / "institution_mentions.csv", institution_mentions, ["model", "provider", "prompt_id", "run_id", "rank", "institution_raw", "justification"])
+    write_csv(output_dir / "paper_mentions.csv", papers, ["model", "provider", "prompt_id", "run_id", "rank", "title", "authors", "year", "venue", "claimed_affiliation"])
+    print(f"parsed {len(rankings)} rankings, {len(citations)} citations, {len(links)} links, {len(institution_mentions)} institution mentions, {len(papers)} papers")
 
 
 if __name__ == "__main__":

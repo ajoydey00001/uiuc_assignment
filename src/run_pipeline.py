@@ -15,8 +15,11 @@ def run(args: list[str]) -> None:
 
 def main() -> None:
     run(["src/parse_responses.py", "--input", "data/raw_responses", "--output", "data/parsed"])
+    run(["src/resolve_affiliations.py"])
     run(["src/analyze_rankings.py", "--input", "data/parsed/conference_rankings.csv"])
     run(["src/analyze_sources.py", "--links", "data/parsed/source_links.csv", "--citations", "data/parsed/citations.csv"])
+    run(["src/analyze_institutional_bias.py"])
+    run(["src/analyze_paper_institutions.py"])
     run(["src/visualize_results.py"])
 
 

@@ -1,0 +1,76 @@
+model,provider,prompt_id,run_id,url,domain,source_type,claimed_purpose,validation_status
+claude-sonnet-4-6,anthropic,SE_SOURCES_APR,run01,https://doi.org/10.1109/TSE.2011.104,doi.org,academic_paper,GenProg: A Generic Method for Automatic Software Repair,unvalidated
+claude-sonnet-4-6,anthropic,SE_SOURCES_APR,run01,https://doi.org/10.1145/2771783.2771791,doi.org,academic_paper,An Analysis of Patch Plausibility and Correctness for Generate-and-Validate Patch Generation Systems,unvalidated
+claude-sonnet-4-6,anthropic,SE_SOURCES_APR,run01,https://doi.org/10.1145/2837614.2837617,doi.org,academic_paper,Prophet: Generating Patches That Don't Break Things,unvalidated
+claude-sonnet-4-6,anthropic,SE_SOURCES_APR,run01,https://doi.org/10.1109/ICSE.2013.6606626,doi.org,academic_paper,"Automated Patch Generation Learned from Human-Written Patches: Analysis, Challenges, and Prospects",unvalidated
+claude-sonnet-4-6,anthropic,SE_SOURCES_APR,run01,https://doi.org/10.1145/2610384.2628055,doi.org,academic_paper,Defects4J: A Database of Existing Faults to Enable Controlled Testing Studies for Java Programs,unvalidated
+claude-sonnet-4-6,anthropic,SE_SOURCES_APR,run01,https://github.com/rjust/defects4j,github.com,github_repository,Defects4J Benchmark Repository,unvalidated
+claude-sonnet-4-6,anthropic,SE_SOURCES_APR,run01,https://doi.org/10.1109/TSE.2019.2940179,doi.org,academic_paper,SequenceR: Sequence-to-Sequence Learning for End-to-End Program Repair,unvalidated
+claude-sonnet-4-6,anthropic,SE_SOURCES_APR,run01,https://doi.org/10.1109/ICSE48619.2023.00129,doi.org,academic_paper,Automated Program Repair in the Era of Large Pre-trained Language Models,unvalidated
+claude-sonnet-4-6,anthropic,SE_SOURCES_APR,run01,https://arxiv.org/abs/2310.06770,arxiv.org,arxiv,SWE-bench: Can Language Models Resolve Real-World GitHub Issues?,unvalidated
+claude-sonnet-4-6,anthropic,SE_SOURCES_APR,run01,https://www.swebench.com,swebench.com,unknown,SWE-bench Benchmark Website and Leaderboard,unvalidated
+claude-sonnet-4-6,anthropic,SE_SOURCES_APR,run01,https://github.com/SpoonLabs/astor,github.com,github_repository,Astor: A Program Repair Library for Java,unvalidated
+claude-sonnet-4-6,anthropic,SE_SOURCES_APR,run01,https://doi.org/10.1145/3524459,doi.org,academic_paper,A Systematic Literature Review of Automated Program Repair,unvalidated
+claude-sonnet-4-6,anthropic,VIS_SOURCES_DET,run01,https://arxiv.org/abs/1311.2524,arxiv.org,arxiv,Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation (R-CNN),unvalidated
+claude-sonnet-4-6,anthropic,VIS_SOURCES_DET,run01,https://arxiv.org/abs/1506.01497,arxiv.org,arxiv,Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks,unvalidated
+claude-sonnet-4-6,anthropic,VIS_SOURCES_DET,run01,https://arxiv.org/abs/1506.02640,arxiv.org,arxiv,"You Only Look Once: Unified, Real-Time Object Detection (YOLOv1)",unvalidated
+claude-sonnet-4-6,anthropic,VIS_SOURCES_DET,run01,https://arxiv.org/abs/1512.02325,arxiv.org,arxiv,SSD: Single Shot MultiBox Detector,unvalidated
+claude-sonnet-4-6,anthropic,VIS_SOURCES_DET,run01,https://arxiv.org/abs/1612.03144,arxiv.org,arxiv,Feature Pyramid Networks for Object Detection,unvalidated
+claude-sonnet-4-6,anthropic,VIS_SOURCES_DET,run01,https://arxiv.org/abs/1708.02002,arxiv.org,arxiv,Focal Loss for Dense Object Detection (RetinaNet),unvalidated
+claude-sonnet-4-6,anthropic,VIS_SOURCES_DET,run01,https://arxiv.org/abs/2005.12872,arxiv.org,arxiv,End-to-End Object Detection with Transformers (DETR),unvalidated
+claude-sonnet-4-6,anthropic,VIS_SOURCES_DET,run01,https://arxiv.org/abs/2207.02696,arxiv.org,arxiv,YOLOv7: Trainable Bag-of-Freebies Sets New State-of-the-Art for Real-Time Object Detectors,unvalidated
+claude-sonnet-4-6,anthropic,VIS_SOURCES_DET,run01,https://arxiv.org/abs/1405.0312,arxiv.org,arxiv,Microsoft COCO: Common Objects in Context (COCO Benchmark),unvalidated
+claude-sonnet-4-6,anthropic,VIS_SOURCES_DET,run01,https://cocodataset.org/#detection-eval,cocodataset.org,unknown,COCO Detection Benchmark — Official Leaderboard and Dataset Page,unvalidated
+claude-sonnet-4-6,anthropic,VIS_SOURCES_DET,run01,https://github.com/ultralytics/ultralytics,github.com,github_repository,Ultralytics YOLOv8 — Official Repository,unvalidated
+claude-sonnet-4-6,anthropic,VIS_SOURCES_DET,run01,https://github.com/facebookresearch/detectron2,github.com,github_repository,Detectron2 — Official Repository,unvalidated
+gemini-3.1-pro-preview,gemini,SE_SOURCES_APR,run01,https://doi.org/10.1109/ICSE.2009.5070536,doi.org,academic_paper,Automatically finding patches using genetic programming,unvalidated
+gemini-3.1-pro-preview,gemini,SE_SOURCES_APR,run01,https://doi.org/10.1145/2610384.2628055,doi.org,academic_paper,Defects4J: A Database of Existing Faults to Enable Controlled Testing and Debugging Studies,unvalidated
+gemini-3.1-pro-preview,gemini,SE_SOURCES_APR,run01,https://doi.org/10.1109/ICSE.2013.6606623,doi.org,academic_paper,SemFix: Program repair via semantic analysis,unvalidated
+gemini-3.1-pro-preview,gemini,SE_SOURCES_APR,run01,https://doi.org/10.1145/2884781.2884807,doi.org,academic_paper,Angelix: Scalable Multiline Program Patch Synthesis via Symbolic Analysis,unvalidated
+gemini-3.1-pro-preview,gemini,SE_SOURCES_APR,run01,https://doi.org/10.1109/TSE.2016.2560811,doi.org,academic_paper,Nopol: Automatic Repair of Conditional Statement Bugs in Java Programs,unvalidated
+gemini-3.1-pro-preview,gemini,SE_SOURCES_APR,run01,https://doi.org/10.1145/3293882.3330577,doi.org,academic_paper,TBar: Revisiting Template-based Automated Program Repair,unvalidated
+gemini-3.1-pro-preview,gemini,SE_SOURCES_APR,run01,https://doi.org/10.1109/ICSE43902.2021.00107,doi.org,academic_paper,CURE: Code-Aware Neural Machine Translation for Automatic Program Repair,unvalidated
+gemini-3.1-pro-preview,gemini,SE_SOURCES_APR,run01,https://doi.org/10.1145/3105906,doi.org,academic_paper,Automatic Software Repair: A Bibliography,unvalidated
+gemini-3.1-pro-preview,gemini,SE_SOURCES_APR,run01,https://doi.org/10.1145/3540250.3549014,doi.org,academic_paper,"Less Training, More Repairing Please: Revisiting Automated Program Repair via Zero-shot Learning",unvalidated
+gemini-3.1-pro-preview,gemini,SE_SOURCES_APR,run01,https://doi.org/10.1145/3183519.3183540,doi.org,academic_paper,How to Design a Program Repair Bot? Insights from the Repairnator Project,unvalidated
+gemini-3.1-pro-preview,gemini,VIS_SOURCES_DET,run01,https://arxiv.org/abs/1311.2524,arxiv.org,arxiv,Rich feature hierarchies for accurate object detection and semantic segmentation,unvalidated
+gemini-3.1-pro-preview,gemini,VIS_SOURCES_DET,run01,https://arxiv.org/abs/1506.01497,arxiv.org,arxiv,Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks,unvalidated
+gemini-3.1-pro-preview,gemini,VIS_SOURCES_DET,run01,https://arxiv.org/abs/1506.02640,arxiv.org,arxiv,"You Only Look Once: Unified, Real-Time Object Detection",unvalidated
+gemini-3.1-pro-preview,gemini,VIS_SOURCES_DET,run01,https://arxiv.org/abs/1512.02325,arxiv.org,arxiv,SSD: Single Shot MultiBox Detector,unvalidated
+gemini-3.1-pro-preview,gemini,VIS_SOURCES_DET,run01,https://arxiv.org/abs/1703.06870,arxiv.org,arxiv,Mask R-CNN,unvalidated
+gemini-3.1-pro-preview,gemini,VIS_SOURCES_DET,run01,https://arxiv.org/abs/1708.02002,arxiv.org,arxiv,Focal Loss for Dense Object Detection,unvalidated
+gemini-3.1-pro-preview,gemini,VIS_SOURCES_DET,run01,https://arxiv.org/abs/2005.12872,arxiv.org,arxiv,End-to-End Object Detection with Transformers,unvalidated
+gemini-3.1-pro-preview,gemini,VIS_SOURCES_DET,run01,https://arxiv.org/abs/1405.0312,arxiv.org,arxiv,Microsoft COCO: Common Objects in Context,unvalidated
+gemini-3.1-pro-preview,gemini,VIS_SOURCES_DET,run01,https://github.com/facebookresearch/detectron2,github.com,github_repository,Detectron2,unvalidated
+gemini-3.1-pro-preview,gemini,VIS_SOURCES_DET,run01,https://arxiv.org/abs/2004.10934,arxiv.org,arxiv,YOLOv4: Optimal Speed and Accuracy of Object Detection,unvalidated
+gpt-5.4,openai,SE_SOURCES_APR,run01,https://doi.org/10.1109/TSE.2011.104,doi.org,academic_paper,GenProg: A Generic Method for Automatic Software Repair,unvalidated
+gpt-5.4,openai,SE_SOURCES_APR,run01,https://doi.org/10.1109/ICSE.2013.6606623,doi.org,academic_paper,SemFix: Program Repair via Semantic Analysis,unvalidated
+gpt-5.4,openai,SE_SOURCES_APR,run01,https://doi.org/10.1109/ICSE.2015.63,doi.org,academic_paper,DirectFix: Looking for Simple Program Repairs,unvalidated
+gpt-5.4,openai,SE_SOURCES_APR,run01,https://doi.org/10.1145/2786805.2786863,doi.org,academic_paper,SPR: A Search-Based Program Repair Approach for C Programs,unvalidated
+gpt-5.4,openai,SE_SOURCES_APR,run01,https://doi.org/10.1145/2884781.2884807,doi.org,academic_paper,Angelix: Scalable Multiline Program Patch Synthesis via Symbolic Analysis,unvalidated
+gpt-5.4,openai,SE_SOURCES_APR,run01,https://doi.org/10.1109/TSE.2021.3075017,doi.org,academic_paper,SequenceR: Sequence-to-Sequence Learning for End-to-End Program Repair,unvalidated
+gpt-5.4,openai,SE_SOURCES_APR,run01,https://arxiv.org/abs/2302.07820,arxiv.org,arxiv,Automated Repair of Programs from Large Language Models,unvalidated
+gpt-5.4,openai,SE_SOURCES_APR,run01,https://doi.org/10.1145/2610384.2628055,doi.org,academic_paper,Defects4J: A Database of Existing Faults to Enable Controlled Testing Studies for Java Programs,unvalidated
+gpt-5.4,openai,SE_SOURCES_APR,run01,https://github.com/rjust/defects4j,github.com,github_repository,Defects4J official repository,unvalidated
+gpt-5.4,openai,SE_SOURCES_APR,run01,https://doi.org/10.1109/MSR.2019.00077,doi.org,academic_paper,"Bugs.jar: A Large-Scale, Diverse Dataset of Real-World Java Bugs",unvalidated
+gpt-5.4,openai,SE_SOURCES_APR,run01,https://doi.org/10.1109/SANER.2018.8330243,doi.org,academic_paper,Bears: An Extensible Java Bug Benchmark for Automatic Program Repair Studies,unvalidated
+gpt-5.4,openai,VIS_SOURCES_DET,run01,https://openaccess.thecvf.com/content_cvpr_2014/html/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.html,openaccess.thecvf.com,unknown,Rich feature hierarchies for accurate object detection and semantic segmentation,unvalidated
+gpt-5.4,openai,VIS_SOURCES_DET,run01,https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html,openaccess.thecvf.com,unknown,Fast R-CNN,unvalidated
+gpt-5.4,openai,VIS_SOURCES_DET,run01,https://papers.nips.cc/paper_files/paper/2015/hash/14bfa6bb14875e45bba028a21ed38046-Abstract.html,papers.nips.cc,unknown,Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks,unvalidated
+gpt-5.4,openai,VIS_SOURCES_DET,run01,https://openaccess.thecvf.com/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html,openaccess.thecvf.com,unknown,"You Only Look Once: Unified, Real-Time Object Detection",unvalidated
+gpt-5.4,openai,VIS_SOURCES_DET,run01,https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2,link.springer.com,unknown,SSD: Single Shot MultiBox Detector,unvalidated
+gpt-5.4,openai,VIS_SOURCES_DET,run01,https://openaccess.thecvf.com/content_cvpr_2017/html/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.html,openaccess.thecvf.com,unknown,Feature Pyramid Networks for Object Detection,unvalidated
+gpt-5.4,openai,VIS_SOURCES_DET,run01,https://openaccess.thecvf.com/content_iccv_2017/html/Lin_Focal_Loss_for_ICCV_2017_paper.html,openaccess.thecvf.com,unknown,Focal Loss for Dense Object Detection,unvalidated
+gpt-5.4,openai,VIS_SOURCES_DET,run01,https://openaccess.thecvf.com/content_iccv_2017/html/He_Mask_R-CNN_ICCV_2017_paper.html,openaccess.thecvf.com,unknown,Mask R-CNN,unvalidated
+gpt-5.4,openai,VIS_SOURCES_DET,run01,https://link.springer.com/chapter/10.1007/978-3-319-10602-1_48,link.springer.com,unknown,COCO: Common Objects in Context,unvalidated
+gpt-5.4,openai,VIS_SOURCES_DET,run01,http://host.robots.ox.ac.uk/pascal/VOC/,host.robots.ox.ac.uk,unknown,PASCAL Visual Object Classes (VOC) Challenge,unvalidated
+qwen2.5:3b,ollama,SE_SOURCES_APR,v2run01,https://dl.acm.org/citation.cfm?id=3345678,dl.acm.org,academic_paper,Automated Program Repair: A Survey,unvalidated
+qwen2.5:3b,ollama,SE_SOURCES_APR,v2run01,https://ieeexplore.ieee.org/document/8765432/,ieeexplore.ieee.org,academic_paper,Automated Program Repair: A Survey and a New Approach,unvalidated
+qwen2.5:3b,ollama,SE_SOURCES_APR,v2run01,https://dl.acm.org/citation.cfm?id=3345678,dl.acm.org,academic_paper,Automated Program Repair: A Survey and a New Approach,unvalidated
+qwen2.5:3b,ollama,VIS_SOURCES_DET,v2run01,https://arxiv.org/abs/1512.02325,arxiv.org,arxiv,SSD: Single Shot MultiBox Detector,unvalidated
+qwen2.5:3b,ollama,VIS_SOURCES_DET,v2run01,https://arxiv.org/abs/1311.2524,arxiv.org,arxiv,Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks,unvalidated
+qwen2.5:3b,ollama,VIS_SOURCES_DET,v2run01,https://arxiv.org/abs/1506.02640,arxiv.org,arxiv,"You Only Look Once: Unified, Real-Time Object Detection",unvalidated
+qwen2.5:3b,ollama,VIS_SOURCES_DET,v2run01,https://arxiv.org/abs/1804.02767,arxiv.org,arxiv,YOLOv3: An Incremental Improvement,unvalidated
+qwen2.5:3b,ollama,VIS_SOURCES_DET,v2run01,https://arxiv.org/abs/1804.03997,arxiv.org,arxiv,CenterNet: Center-Aware Hourglass Networks for Real-Time Instance Detection,unvalidated
+qwen2.5:3b,ollama,VIS_SOURCES_DET,v2run01,https://arxiv.org/abs/1708.02002,arxiv.org,arxiv,RetinaNet: Object Detection without Class Averaging or Standardization,unvalidated
+qwen2.5:3b,ollama,VIS_SOURCES_DET,v2run01,https://arxiv.org/abs/1612.08242,arxiv.org,arxiv,YOLOv2: An Incremental Improvement,unvalidated

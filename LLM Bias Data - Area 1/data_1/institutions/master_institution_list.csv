@@ -1,0 +1,101 @@
+niche,rank,institution,metric_value,metric_type,source_url,retrieved_date
+se,1,Carnegie Mellon University,30.3,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,2,Univ. of California - Irvine,22.7,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,3,Univ. of Illinois at Urbana-Champaign,19.4,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,4,Purdue University,16.3,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,5,North Carolina State University,16.0,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,6,University of Texas at Dallas,15.9,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,7,University of Southern California,15.1,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,8,Univ. of Massachusetts Amherst,12.3,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,9,University of Virginia,11.7,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,10,College of William and Mary,11.5,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,11,Tulane University,10.5,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,12,Virginia Tech,10.1,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,13,Univ. of California - Los Angeles,9.3,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,14,University of Central Florida,9.2,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,15,George Mason University,8.7,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,16,NJIT,7.4,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,17,Northern Arizona University,7.3,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,18,Iowa State University,7.2,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,19,Univ. of California - Riverside,7.0,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,20,Columbia University,6.9,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,21,Texas A&amp;M University,6.7,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,22,University of Nebraska,6.6,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,23,Oregon State University,6.5,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,24,Univ. of California - Davis,6.4,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,25,Massachusetts Inst. of Technology,5.4,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,26,Northeastern University,5.3,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,26,University of Texas at San Antonio,5.3,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,28,Univ. of California - Berkeley,4.9,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,28,University of Colorado Boulder,4.9,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,30,Georgia Institute of Technology,4.7,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,30,University at Buffalo,4.7,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,32,Case Western Reserve University,4.4,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,32,Univ. of California - San Diego,4.4,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,32,University of Michigan,4.4,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,32,University of Notre Dame,4.4,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,32,University of Texas at Austin,4.4,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,32,University of Washington,4.4,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,32,Vanderbilt University,4.4,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,39,Rutgers University,4.2,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,40,Cornell University,4.1,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,40,University of Chicago,4.1,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,40,University of Georgia,4.1,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,43,Oakland University,3.7,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,43,Univ. of California - Santa Barbara,3.7,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,45,Ohio State University,3.5,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,45,University of Utah,3.5,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,47,University of Texas - El Paso,3.4,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,47,University of Wisconsin - Madison,3.4,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,49,Rochester Inst. of Technology,3.3,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+se,50,University of Pennsylvania,3.2,csrankings_adjusted_count,https://csrankings.org/#/index?soft&us,2026-07-12
+vision,1,Carnegie Mellon University,98.0,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,2,Univ. of California - San Diego,83.9,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,3,Univ. of Illinois at Urbana-Champaign,81.5,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,4,Univ. of California - Berkeley,75.6,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,5,Stanford University,74.6,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,6,Massachusetts Inst. of Technology,72.0,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,7,Univ. of Maryland - College Park,71.7,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,8,Johns Hopkins University,66.9,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,9,University of Central Florida,60.5,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,10,University of Texas at Austin,60.2,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,11,Cornell University,58.3,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,12,Boston University,49.9,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,13,University of North Carolina,46.5,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,14,University of Wisconsin - Madison,44.1,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,15,Northeastern University,41.5,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,16,University of Pennsylvania,39.5,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,17,Univ. of California - Merced,37.3,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,18,Georgia Institute of Technology,35.0,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,19,Princeton University,33.5,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,20,University at Buffalo,29.5,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,21,University of Rochester,29.2,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,22,University of Washington,28.3,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,23,Univ. of Massachusetts Amherst,28.2,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,24,Columbia University,28.1,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,25,Stony Brook University,28.0,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,26,New York University,27.9,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,27,University of Michigan,26.1,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,28,Michigan State University,24.0,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,29,Rutgers University,23.5,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,30,Oregon State University,22.5,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,31,Univ. of California - Irvine,22.4,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,32,Univ. of California - Los Angeles,21.8,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,33,Brown University,19.6,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,34,California Inst. of Technology,18.8,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,34,University of Southern California,18.8,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,36,Univ. of California - Riverside,18.7,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,37,University of Illinois at Chicago,18.6,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,38,Dartmouth College,17.9,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,39,Texas A&amp;M University,17.7,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,39,University of Minnesota,17.7,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,41,Rice University,17.4,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,42,Univ. of California - Santa Barbara,17.1,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,43,Purdue University,14.8,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,44,Arizona State University,14.7,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,45,University of Texas at Dallas,13.5,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,46,University of Utah,13.4,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,47,Duke University,11.8,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,48,Northwestern University,11.6,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,49,Wayne State University,11.2,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12
+vision,50,Pennsylvania State University,11.0,csrankings_adjusted_count,https://csrankings.org/#/index?vision&us,2026-07-12

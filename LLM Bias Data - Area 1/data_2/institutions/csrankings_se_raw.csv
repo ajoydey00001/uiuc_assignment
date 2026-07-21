@@ -1,0 +1,119 @@
+rank,institution,country,count,faculty
+1,Carnegie Mellon University,United States,30.3,16
+2,Univ. of California - Irvine,United States,22.7,13
+3,Univ. of Illinois at Urbana-Champaign,United States,19.4,10
+4,Purdue University,United States,16.3,10
+5,North Carolina State University,United States,16.0,17
+6,University of Texas at Dallas,United States,15.9,7
+7,University of Southern California,United States,15.1,7
+8,Univ. of Massachusetts Amherst,United States,12.3,6
+9,University of Virginia,United States,11.7,7
+10,College of William and Mary,United States,11.5,10
+11,Tulane University,United States,10.5,3
+12,Virginia Tech,United States,10.1,7
+13,Univ. of California - Los Angeles,United States,9.3,8
+14,University of Central Florida,United States,9.2,5
+15,George Mason University,United States,8.7,8
+16,NJIT,United States,7.4,4
+17,Northern Arizona University,United States,7.3,3
+18,Iowa State University,United States,7.2,7
+19,Univ. of California - Riverside,United States,7.0,8
+20,Columbia University,United States,6.9,7
+21,Texas A&amp;M University,United States,6.7,1
+22,University of Nebraska,United States,6.6,6
+23,Oregon State University,United States,6.5,4
+24,Univ. of California - Davis,United States,6.4,4
+25,Massachusetts Inst. of Technology,United States,5.4,4
+26,Northeastern University,United States,5.3,4
+26,University of Texas at San Antonio,United States,5.3,6
+28,Univ. of California - Berkeley,United States,4.9,6
+28,University of Colorado Boulder,United States,4.9,6
+30,Georgia Institute of Technology,United States,4.7,6
+30,University at Buffalo,United States,4.7,4
+32,Case Western Reserve University,United States,4.4,2
+32,Univ. of California - San Diego,United States,4.4,6
+32,University of Michigan,United States,4.4,4
+32,University of Notre Dame,United States,4.4,7
+32,University of Texas at Austin,United States,4.4,6
+32,University of Washington,United States,4.4,4
+32,Vanderbilt University,United States,4.4,4
+39,Rutgers University,United States,4.2,4
+40,Cornell University,United States,4.1,3
+40,University of Chicago,United States,4.1,5
+40,University of Georgia,United States,4.1,4
+43,Oakland University,United States,3.7,3
+43,Univ. of California - Santa Barbara,United States,3.7,4
+45,Ohio State University,United States,3.5,3
+45,University of Utah,United States,3.5,3
+47,University of Texas - El Paso,United States,3.4,3
+47,University of Wisconsin - Madison,United States,3.4,5
+49,Rochester Inst. of Technology,United States,3.3,7
+50,University of Pennsylvania,United States,3.2,6
+50,University of Tennessee,United States,3.2,2
+52,University of Hawaii at Manoa,United States,2.9,2
+53,CUNY,United States,2.8,2
+53,Drexel University,United States,2.8,2
+53,Univ. of Maryland - College Park,United States,2.8,5
+53,University of Connecticut,United States,2.8,1
+53,University of Michigan-Dearborn,United States,2.8,3
+58,University of Cincinnati,United States,2.7,1
+58,University of Minnesota,United States,2.7,4
+60,Auburn University,United States,2.5,3
+60,Binghamton University,United States,2.5,1
+60,Virginia Commonwealth University,United States,2.5,1
+63,Stevens Institute of Technology,United States,2.4,3
+63,Stony Brook University,United States,2.4,5
+65,Colorado State University,United States,2.3,2
+65,Pennsylvania State University,United States,2.3,3
+65,University of Texas at Arlington,United States,2.3,3
+68,Louisiana State University,United States,2.2,3
+68,University of Kansas,United States,2.2,3
+70,University of Illinois at Chicago,United States,2.0,2
+70,Wayne State University,United States,2.0,1
+72,Arizona State University,United States,1.9,1
+72,Brown University,United States,1.9,3
+72,The University of Alabama,United States,1.9,2
+72,University of Houston,United States,1.9,2
+72,University of South Carolina,United States,1.9,2
+77,Florida State University,United States,1.8,2
+77,Rice University,United States,1.8,2
+77,Univ. of California - Santa Cruz,United States,1.8,3
+77,Univ. of Maryland - Baltimore County,United States,1.8,2
+77,University of Delaware,United States,1.8,2
+77,University of Nevada Las Vegas,United States,1.8,3
+83,Clemson University,United States,1.7,1
+83,Missouri S&amp;T,United States,1.7,1
+83,Southern Methodist University,United States,1.7,1
+83,Utah State University,United States,1.7,1
+87,Northwestern University,United States,1.6,2
+87,UCCS,United States,1.6,2
+87,Univ. of California - Merced,United States,1.6,1
+87,University of Arizona,United States,1.6,1
+91,Florida International University,United States,1.5,2
+91,Texas State University,United States,1.5,1
+91,Tufts University,United States,1.5,2
+91,University of North Texas,United States,1.5,2
+91,University of Vermont,United States,1.5,1
+96,Harvard University,United States,1.4,2
+96,Johns Hopkins University,United States,1.4,1
+96,Kent State University,United States,1.4,1
+96,New York University,United States,1.4,1
+96,UNC - Charlotte,United States,1.4,2
+101,Baylor University,United States,1.3,1
+101,Colorado School of Mines,United States,1.3,1
+101,Dartmouth College,United States,1.3,1
+101,Indiana University,United States,1.3,1
+101,Michigan State University,United States,1.3,1
+101,Princeton University,United States,1.3,1
+101,Stanford University,United States,1.3,1
+101,University of Nebraska - Omaha,United States,1.3,1
+101,Washington State University,United States,1.3,1
+101,Wichita State University,United States,1.3,1
+101,Worcester Polytechnic Institute,United States,1.3,1
+112,University at Albany - SUNY,United States,1.2,1
+112,University of Memphis,United States,1.2,1
+112,University of Oklahoma,United States,1.2,1
+115,Lehigh University,United States,1.1,1
+115,Old Dominion University,United States,1.1,1
+115,Syracuse University,United States,1.1,1
+118,Boston College,United States,1.0,1

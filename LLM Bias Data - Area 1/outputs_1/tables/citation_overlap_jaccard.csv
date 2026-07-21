@@ -1,0 +1,17 @@
+model_a,model_b,jaccard_url_overlap
+claude-sonnet-4-6,claude-sonnet-4-6,1.0
+claude-sonnet-4-6,gemini-3.1-pro-preview,0.2571428571428571
+claude-sonnet-4-6,gpt-5.4,0.07142857142857142
+claude-sonnet-4-6,qwen2.5:3b,0.13793103448275862
+gemini-3.1-pro-preview,claude-sonnet-4-6,0.2571428571428571
+gemini-3.1-pro-preview,gemini-3.1-pro-preview,1.0
+gemini-3.1-pro-preview,gpt-5.4,0.07894736842105263
+gemini-3.1-pro-preview,qwen2.5:3b,0.16
+gpt-5.4,claude-sonnet-4-6,0.07142857142857142
+gpt-5.4,gemini-3.1-pro-preview,0.07894736842105263
+gpt-5.4,gpt-5.4,1.0
+gpt-5.4,qwen2.5:3b,0.0
+qwen2.5:3b,claude-sonnet-4-6,0.13793103448275862
+qwen2.5:3b,gemini-3.1-pro-preview,0.16
+qwen2.5:3b,gpt-5.4,0.0
+qwen2.5:3b,qwen2.5:3b,1.0

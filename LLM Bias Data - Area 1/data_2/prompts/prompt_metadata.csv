@@ -1,0 +1,7 @@
+prompt_id,category,depth,source_pressure,description,niche,variant
+SE_RANK_US,institution_bias,shallow,low,US-university top-15 ranking for SE (paraphrase A).,se,A
+SE_RANK_US_B,institution_bias,shallow,low,US-university top-15 ranking for SE (paraphrase B).,se,B
+SE_RANK_US_C,institution_bias,shallow,low,US-university top-15 ranking for SE (paraphrase C).,se,C
+VIS_RANK_US,institution_bias,shallow,low,US-university top-15 ranking for vision (paraphrase A).,vision,A
+VIS_RANK_US_B,institution_bias,shallow,low,US-university top-15 ranking for vision (paraphrase B).,vision,B
+VIS_RANK_US_C,institution_bias,shallow,low,US-university top-15 ranking for vision (paraphrase C).,vision,C

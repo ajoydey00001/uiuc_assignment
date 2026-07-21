@@ -1,0 +1,18 @@
+acronym,source,value,notes
+ICSE,manual_baseline,Software Engineering,CSRankings area mapping used as comparison signal.
+FSE,manual_baseline,Software Engineering,CSRankings area mapping used as comparison signal.
+ASE,manual_baseline,Software Engineering,CSRankings area mapping used as comparison signal.
+ISSTA,manual_baseline,Software Engineering,CSRankings area mapping used as comparison signal.
+MSR,manual_baseline,Software Engineering,CSRankings area mapping used as comparison signal.
+PLDI,manual_baseline,Programming Languages,CSRankings area mapping used as comparison signal.
+OOPSLA,manual_baseline,Programming Languages,CSRankings area mapping used as comparison signal.
+POPL,manual_baseline,Programming Languages,CSRankings area mapping used as comparison signal.
+CAV,manual_baseline,Programming Languages,CSRankings area mapping used as comparison signal.
+NeurIPS,manual_baseline,Artificial Intelligence,CSRankings area mapping used as comparison signal.
+ICML,manual_baseline,Artificial Intelligence,CSRankings area mapping used as comparison signal.
+AAAI,manual_baseline,Artificial Intelligence,CSRankings area mapping used as comparison signal.
+IJCAI,manual_baseline,Artificial Intelligence,CSRankings area mapping used as comparison signal.
+KDD,manual_baseline,Data Mining,CSRankings area mapping used as comparison signal.
+CHI,manual_baseline,Human-Computer Interaction,CSRankings area mapping used as comparison signal.
+UIST,manual_baseline,Human-Computer Interaction,CSRankings area mapping used as comparison signal.
+

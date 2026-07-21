@@ -1,0 +1,17 @@
+model,prompt_id,category,source_type,count
+claude-sonnet-4-6,SE_SOURCES_APR,institution_bias,academic_paper,8
+claude-sonnet-4-6,SE_SOURCES_APR,institution_bias,arxiv,1
+claude-sonnet-4-6,SE_SOURCES_APR,institution_bias,github_repository,2
+claude-sonnet-4-6,SE_SOURCES_APR,institution_bias,unknown,1
+claude-sonnet-4-6,VIS_SOURCES_DET,institution_bias,arxiv,9
+claude-sonnet-4-6,VIS_SOURCES_DET,institution_bias,github_repository,2
+claude-sonnet-4-6,VIS_SOURCES_DET,institution_bias,unknown,1
+gemini-3.1-pro-preview,SE_SOURCES_APR,institution_bias,academic_paper,10
+gemini-3.1-pro-preview,VIS_SOURCES_DET,institution_bias,arxiv,9
+gemini-3.1-pro-preview,VIS_SOURCES_DET,institution_bias,github_repository,1
+gpt-5.4,SE_SOURCES_APR,institution_bias,academic_paper,9
+gpt-5.4,SE_SOURCES_APR,institution_bias,arxiv,1
+gpt-5.4,SE_SOURCES_APR,institution_bias,github_repository,1
+gpt-5.4,VIS_SOURCES_DET,institution_bias,unknown,10
+qwen2.5:3b,SE_SOURCES_APR,institution_bias,academic_paper,3
+qwen2.5:3b,VIS_SOURCES_DET,institution_bias,arxiv,7

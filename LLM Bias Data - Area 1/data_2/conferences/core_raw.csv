@@ -1,0 +1,18 @@
+acronym,source,value,notes
+ICSE,manual_baseline,A*,CORE rank used as comparison signal; verify against latest CORE portal before final submission.
+FSE,manual_baseline,A*,CORE rank used as comparison signal; verify against latest CORE portal before final submission.
+ASE,manual_baseline,A*,CORE rank used as comparison signal; verify against latest CORE portal before final submission.
+ISSTA,manual_baseline,A,CORE rank used as comparison signal; verify against latest CORE portal before final submission.
+MSR,manual_baseline,A,CORE rank used as comparison signal; verify against latest CORE portal before final submission.
+ICSME,manual_baseline,A,CORE rank used as comparison signal; verify against latest CORE portal before final submission.
+SANER,manual_baseline,A,CORE rank used as comparison signal; verify against latest CORE portal before final submission.
+RE,manual_baseline,A,CORE rank used as comparison signal; verify against latest CORE portal before final submission.
+MODELS,manual_baseline,A,CORE rank used as comparison signal; verify against latest CORE portal before final submission.
+PLDI,manual_baseline,A*,CORE rank used as comparison signal; verify against latest CORE portal before final submission.
+OOPSLA,manual_baseline,A*,CORE rank used as comparison signal; verify against latest CORE portal before final submission.
+POPL,manual_baseline,A*,CORE rank used as comparison signal; verify against latest CORE portal before final submission.
+CAV,manual_baseline,A*,CORE rank used as comparison signal; verify against latest CORE portal before final submission.
+NeurIPS,manual_baseline,A*,CORE rank used as comparison signal; verify against latest CORE portal before final submission.
+ICML,manual_baseline,A*,CORE rank used as comparison signal; verify against latest CORE portal before final submission.
+ICLR,manual_baseline,A*,CORE rank used as comparison signal; verify against latest CORE portal before final submission.
+

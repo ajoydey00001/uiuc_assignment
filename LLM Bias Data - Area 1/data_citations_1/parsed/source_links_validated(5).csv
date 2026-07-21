@@ -1,0 +1,87 @@
+model,provider,prompt_id,run_id,url,domain,source_type,claimed_purpose,validation_status,http_status
+google/gemma-4-31b-it:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,http://portal.core.edu.au/conf-ranks/,portal.core.edu.au,unknown,CORE Rankings,valid,200.0
+google/gemma-4-31b-it:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,https://csrankings.org/,csrankings.org,unknown,CSRankings,valid,200.0
+google/gemma-4-31b-it:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2107.03374,arxiv.org,arxiv,Evaluating Large Language Models Trained on Code,valid,200.0
+google/gemma-4-31b-it:free,openrouter,P04_EXACT_SOURCES,final01,https://github.com/openai/human-eval,github.com,github_repository,HumanEval: Evaluating Large Language Models via Unit Testing,valid,200.0
+google/gemma-4-31b-it:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2310.15916,arxiv.org,arxiv,SWE-bench: Can Language Models Resolve Real-World GitHub Issues?,valid,200.0
+google/gemma-4-31b-it:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2108.07732,arxiv.org,arxiv,Measuring Massive Code Generation: The MBPP Benchmark,valid,200.0
+google/gemma-4-31b-it:free,openrouter,P05_RECENT_WORK,final01,https://arxiv.org/abs/2310.15916,arxiv.org,arxiv,SWE-bench: Can Language Models Resolve Real-World GitHub Issues?,valid,200.0
+google/gemma-4-31b-it:free,openrouter,P05_RECENT_WORK,final01,https://cognition.ai/blog/introducing-devin,cognition.ai,unknown,Introducing Devin,valid,200.0
+google/gemma-4-31b-it:free,openrouter,P05_RECENT_WORK,final01,https://arxiv.org/abs/2308.12950,arxiv.org,arxiv,Code Llama: Open Foundation Models for Code,valid,200.0
+google/gemma-4-31b-it:free,openrouter,P05_RECENT_WORK,final01,https://huggingface.co/blog/starcoder2,huggingface.co,unknown,StarCoder2,valid,200.0
+google/gemma-4-31b-it:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,https://arxiv.org/abs/2107.03374,arxiv.org,arxiv,HumanEval: Evaluating Large Language Models Trained on Code,valid,200.0
+google/gemma-4-31b-it:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,https://owasp.org/www-project-top-10-for-large-language-model-applications/,owasp.org,unknown,OWASP Top 10 for Large Language Model Applications,valid,200.0
+google/gemma-4-31b-it:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,https://github.com/features/copilot/trust,github.com,github_repository,GitHub Copilot Trust Center,dead_link,404.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,https://www.core.edu.au/conference-portal,core.edu.au,unknown,CORE Conference Portal (2023/2024 rankings),valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,https://csrankings.org/,csrankings.org,unknown,"CSRankings: Computer Science Rankings (Software Engineering, AI, ML, PL areas)",valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,https://conf.researchr.org/track/icse-2024/icse-2024-ai-for-software-engineering,conf.researchr.org,conference_page,ICSE 2024 Call for Papers — AI for Software Engineering Track,dead_link,404.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,https://ase2024.org/call-for-papers/,ase2024.org,unknown,ASE 2024 Call for Papers,unverifiable,
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,https://2024.msrconf.org/track/msr-2024-papers,2024.msrconf.org,conference_page,MSR 2024 Call for Papers,dead_link,404.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2107.03374,arxiv.org,arxiv,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2203.13474,arxiv.org,arxiv,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2305.06161,arxiv.org,arxiv,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://github.com/openai/human-eval,github.com,github_repository,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2108.07732,arxiv.org,arxiv,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2102.04664,arxiv.org,arxiv,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2105.09938,arxiv.org,arxiv,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2303.17012,arxiv.org,arxiv,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://github.com/features/copilot,github.com,github_repository,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://aws.amazon.com/codewhisperer/,aws.amazon.com,unknown,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://conf.researchr.org/track/icse-2024/icse-2024-technical-papers?,conf.researchr.org,conference_page,,dead_link,404.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2002.06853,arxiv.org,arxiv,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2009.08366,arxiv.org,arxiv,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2104.02823,arxiv.org,arxiv,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2109.00859,arxiv.org,arxiv,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2310.06770,arxiv.org,arxiv,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://doi.org/10.48550/arXiv.XXXX.XXXXX,doi.org,academic_paper,,dead_link,404.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2107.03374,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2203.13474,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2305.06161,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2108.07732,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2102.04664,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2105.09938,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2303.17012,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2002.06853,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2009.08366,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2104.02823,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2109.00859,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P04_EXACT_SOURCES,final01,https://arxiv.org/abs/2310.06770,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,https://docs.github.com/en/copilot,docs.github.com,github_repository,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,https://docs.aws.amazon.com/codewhisperer/,docs.aws.amazon.com,unknown,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,https://www.tabnine.com/docs/,tabnine.com,unknown,,dead_link,404.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,https://www.jetbrains.com/ai-assistant/,jetbrains.com,unknown,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,https://github.blog/tag/copilot-research/,github.blog,personal_blog,,dead_link,404.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,https://www.amazon.science/working-at-amazon/codewhisperer,amazon.science,unknown,,dead_link,404.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,https://deepmind.google/technologies/alphacode/,deepmind.google,company_blog,,dead_link,404.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,https://arxiv.org/abs/2107.03374,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,https://arxiv.org/abs/2211.03622,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,https://arxiv.org/abs/2108.07732,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,https://arxiv.org/abs/2310.06770,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final01,https://arxiv.org/abs/2102.04664,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P07_PRACTITIONER_GUIDANCE,final02,https://arxiv.org/abs/2107.03374,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,https://docs.github.com/en/copilot,docs.github.com,github_repository,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,https://github.blog/2021-06-29-introducing-github-copilot-ai-pair-programmer/,github.blog,personal_blog,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,https://conf.researchr.org/home/icse-2024,conf.researchr.org,conference_page,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,https://www.cognition-labs.com/blog/introducing-devin,cognition-labs.com,unknown,,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,https://doi.org/10.1109/MC.1987.1663532,doi.org,academic_paper,,valid,202.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,https://arxiv.org/abs/2107.03374,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,https://arxiv.org/abs/2203.07814,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,https://arxiv.org/abs/2310.06770,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,https://arxiv.org/abs/2002.08155,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final01,https://arxiv.org/abs/2102.04664,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final02,https://arxiv.org/abs/2107.03374,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final02,https://arxiv.org/abs/2102.04664,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final02,https://arxiv.org/abs/2108.07732,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final02,https://arxiv.org/abs/2203.07814,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final02,https://arxiv.org/abs/2305.06161,arxiv.org,arxiv,arXiv,valid,200.0
+nvidia/nemotron-3-ultra-550b-a55b:free,openrouter,P10_SOURCE_VALIDATION_AUDIT,final02,https://arxiv.org/abs/2308.12950,arxiv.org,arxiv,arXiv,valid,200.0
+openai/gpt-oss-120b:free,openrouter,P01_CONFERENCE_RANKING,final01,http://csrankings.org,csrankings.org,unknown,,valid,200.0
+openai/gpt-oss-120b:free,openrouter,P01_CONFERENCE_RANKING,final01,https://conf.researchr.org/home/icse-2024/seip,conf.researchr.org,conference_page,,dead_link,404.0
+openai/gpt-oss-120b:free,openrouter,P01_CONFERENCE_RANKING,final01,https://neurips.cc/Conferences/2023/CallForPapers,neurips.cc,unknown,,valid,200.0
+openai/gpt-oss-120b:free,openrouter,P01_CONFERENCE_RANKING,final01,https://www.msrconf.org/2024,msrconf.org,conference_page,,dead_link,404.0
+openai/gpt-oss-120b:free,openrouter,P01_CONFERENCE_RANKING,final01,https://ase2023.org,ase2023.org,unknown,,valid,200.0
+openai/gpt-oss-120b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,https://core.edu.au/ranking,core.edu.au,unknown,CORE Conference Ranking 2023,unverifiable,
+openai/gpt-oss-120b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,http://csrankings.org,csrankings.org,unknown,CSRankings – Computer Science Rankings,valid,200.0
+openai/gpt-oss-120b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,https://doi.org/10.1109/TSE.2022.3151234,doi.org,academic_paper,The State of the Art in AI‑Assisted Software Engineering,dead_link,404.0
+openai/gpt-oss-120b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,https://arxiv.org/abs/2006.10730,arxiv.org,arxiv,Deep Learning for Code: A Survey,valid,200.0
+openai/gpt-oss-120b:free,openrouter,P02_CONFERENCE_RANKING_SOURCED,final01,https://doi.org/10.1145/3377811.3380415,doi.org,academic_paper,Program Synthesis and Its Applications in Software Engineering,valid,200.0

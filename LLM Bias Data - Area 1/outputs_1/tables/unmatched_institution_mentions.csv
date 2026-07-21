@@ -1,0 +1,154 @@
+model,prompt_id,run_id,niche,institution_raw,best_match_candidate,match_score
+claude-sonnet-4-6,SE_RANK_A,run01,se,Microsoft Research,Rochester Inst. of Technology,47.5
+claude-sonnet-4-6,SE_RANK_A,run01,se,Google,George Mason University,60.00000000000001
+claude-sonnet-4-6,SE_RANK_A,run01,se,ETH Zurich,University of Michigan,37.89473684210526
+claude-sonnet-4-6,SE_RANK_A,run01,se,IBM Research,Massachusetts Inst. of Technology,47.36842105263159
+claude-sonnet-4-6,SE_RANK_B,run01,se,Microsoft Research,Rochester Inst. of Technology,47.5
+claude-sonnet-4-6,SE_RANK_B,run01,se,ETH Zurich,University of Michigan,37.89473684210526
+claude-sonnet-4-6,SE_RANK_B,run01,se,Google Research / Google DeepMind,George Mason University,35.71428571428571
+claude-sonnet-4-6,SE_RANK_DEBIAS,run01,se,Microsoft Research,Rochester Inst. of Technology,47.5
+claude-sonnet-4-6,SE_RANK_DEBIAS,run01,se,Google,George Mason University,60.00000000000001
+claude-sonnet-4-6,SE_RANK_DEBIAS,run01,se,ETH Zurich,University of Michigan,37.89473684210526
+claude-sonnet-4-6,SE_SALIENCE,run01,se,Microsoft Research,Rochester Inst. of Technology,47.5
+claude-sonnet-4-6,SE_SALIENCE,run01,se,Google,George Mason University,60.00000000000001
+claude-sonnet-4-6,SE_SALIENCE,run01,se,ETH Zurich,University of Michigan,37.89473684210526
+claude-sonnet-4-6,SE_SALIENCE,run01,se,Simula Research Laboratory,Virginia Tech,41.04
+claude-sonnet-4-6,VIS_RANK_A,run01,vision,Google / Google DeepMind,Georgia Institute of Technology,32.72727272727273
+claude-sonnet-4-6,VIS_RANK_A,run01,vision,Meta AI (FAIR),Texas A&amp;M University,34.285714285714285
+claude-sonnet-4-6,VIS_RANK_A,run01,vision,Microsoft Research,University of Rochester,53.65853658536586
+claude-sonnet-4-6,VIS_RANK_A,run01,vision,NVIDIA Research,University of Rochester,43.2
+claude-sonnet-4-6,VIS_RANK_A,run01,vision,ETH Zurich,Michigan State University,38.57142857142858
+claude-sonnet-4-6,VIS_RANK_A,run01,vision,Apple,Univ. of California - Berkeley,45.0
+claude-sonnet-4-6,VIS_RANK_B,run01,vision,Google DeepMind / Google Research,Univ. of Maryland - College Park,40.0
+claude-sonnet-4-6,VIS_RANK_B,run01,vision,Meta AI (FAIR),Texas A&amp;M University,34.285714285714285
+claude-sonnet-4-6,VIS_RANK_B,run01,vision,Microsoft Research,University of Rochester,53.65853658536586
+claude-sonnet-4-6,VIS_RANK_B,run01,vision,OpenAI,Oregon State University,45.0
+claude-sonnet-4-6,VIS_RANK_B,run01,vision,ETH Zürich,Michigan State University,38.57142857142858
+claude-sonnet-4-6,VIS_RANK_B,run01,vision,NVIDIA Research,University of Rochester,43.2
+claude-sonnet-4-6,VIS_RANK_DEBIAS,run01,vision,Google / Google Brain / Google DeepMind,Univ. of California - Merced,37.254901960784316
+claude-sonnet-4-6,VIS_RANK_DEBIAS,run01,vision,Meta AI (FAIR),Texas A&amp;M University,34.285714285714285
+claude-sonnet-4-6,VIS_RANK_DEBIAS,run01,vision,Microsoft Research,University of Rochester,53.65853658536586
+claude-sonnet-4-6,VIS_RANK_DEBIAS,run01,vision,NVIDIA Research,University of Rochester,43.2
+claude-sonnet-4-6,VIS_RANK_DEBIAS,run01,vision,ETH Zurich,Michigan State University,38.57142857142858
+claude-sonnet-4-6,VIS_RANK_DEBIAS,run01,vision,Adobe Research,University of Rochester,48.46153846153846
+claude-sonnet-4-6,VIS_SALIENCE,run01,vision,Google DeepMind,University of North Carolina,36.0
+claude-sonnet-4-6,VIS_SALIENCE,run01,vision,Meta AI Research (FAIR),University of Rochester,39.13043478260869
+claude-sonnet-4-6,VIS_SALIENCE,run01,vision,Microsoft Research,University of Rochester,53.65853658536586
+claude-sonnet-4-6,VIS_SALIENCE,run01,vision,OpenAI,Oregon State University,45.0
+claude-sonnet-4-6,VIS_SALIENCE,run01,vision,ETH Zurich,Michigan State University,38.57142857142858
+claude-sonnet-4-6,VIS_SALIENCE,run01,vision,NVIDIA Research,University of Rochester,43.2
+gemini-3.1-pro-preview,SE_RANK_A,run01,se,Microsoft Research (MSR),University of Nebraska,39.13043478260869
+gemini-3.1-pro-preview,SE_RANK_A,run01,se,ETH Zurich,University of Michigan,37.89473684210526
+gemini-3.1-pro-preview,SE_RANK_B,run01,se,Microsoft,University of Wisconsin - Madison,47.5
+gemini-3.1-pro-preview,SE_RANK_DEBIAS,run01,se,Microsoft,University of Wisconsin - Madison,47.5
+gemini-3.1-pro-preview,SE_RANK_DEBIAS,run01,se,Google,George Mason University,60.00000000000001
+gemini-3.1-pro-preview,SE_SALIENCE,run01,se,University College London,Purdue University,70.37037037037037
+gemini-3.1-pro-preview,SE_SALIENCE,run01,se,Imperial College London,College of William and Mary,57.0
+gemini-3.1-pro-preview,SE_SALIENCE,run01,se,Microsoft Research,Rochester Inst. of Technology,47.5
+gemini-3.1-pro-preview,VIS_RANK_A,run01,vision,Google,Massachusetts Inst. of Technology,49.090909090909086
+gemini-3.1-pro-preview,VIS_RANK_A,run01,vision,Meta,University of Minnesota,60.00000000000001
+gemini-3.1-pro-preview,VIS_RANK_A,run01,vision,Microsoft,University of Minnesota,50.294117647058826
+gemini-3.1-pro-preview,VIS_RANK_A,run01,vision,ETH Zurich,Michigan State University,38.57142857142858
+gemini-3.1-pro-preview,VIS_RANK_A,run01,vision,Max Planck Society,Pennsylvania State University,42.553191489361694
+gemini-3.1-pro-preview,VIS_RANK_B,run01,vision,Google,Massachusetts Inst. of Technology,49.090909090909086
+gemini-3.1-pro-preview,VIS_RANK_B,run01,vision,Meta,University of Minnesota,60.00000000000001
+gemini-3.1-pro-preview,VIS_RANK_B,run01,vision,Microsoft,University of Minnesota,50.294117647058826
+gemini-3.1-pro-preview,VIS_RANK_B,run01,vision,ETH Zurich,Michigan State University,38.57142857142858
+gemini-3.1-pro-preview,VIS_RANK_B,run01,vision,Max Planck Society,Pennsylvania State University,42.553191489361694
+gemini-3.1-pro-preview,VIS_RANK_DEBIAS,run01,vision,Google,Massachusetts Inst. of Technology,49.090909090909086
+gemini-3.1-pro-preview,VIS_RANK_DEBIAS,run01,vision,Meta,University of Minnesota,60.00000000000001
+gemini-3.1-pro-preview,VIS_RANK_DEBIAS,run01,vision,Microsoft,University of Minnesota,50.294117647058826
+gemini-3.1-pro-preview,VIS_RANK_DEBIAS,run01,vision,ETH Zurich,Michigan State University,38.57142857142858
+gemini-3.1-pro-preview,VIS_RANK_DEBIAS,run01,vision,SenseTime,Univ. of California - Riverside,48.0
+gemini-3.1-pro-preview,VIS_SALIENCE,run01,vision,ETH Zurich,Michigan State University,38.57142857142858
+gemini-3.1-pro-preview,VIS_SALIENCE,run01,vision,Max Planck Institute for Informatics,Georgia Institute of Technology,51.04477611940298
+gemini-3.1-pro-preview,VIS_SALIENCE,run01,vision,Meta,University of Minnesota,60.00000000000001
+gemini-3.1-pro-preview,VIS_SALIENCE,run01,vision,Google,Massachusetts Inst. of Technology,49.090909090909086
+gemini-3.1-pro-preview,VIS_SALIENCE,run01,vision,Microsoft,University of Minnesota,50.294117647058826
+gpt-5.4,SE_RANK_A,run01,se,Microsoft,University of Wisconsin - Madison,47.5
+gpt-5.4,SE_RANK_A,run01,se,ETH Zurich,University of Michigan,37.89473684210526
+gpt-5.4,SE_RANK_A,run01,se,University College London,Purdue University,70.37037037037037
+gpt-5.4,SE_RANK_A,run01,se,Imperial College London,College of William and Mary,57.0
+gpt-5.4,SE_RANK_A,run01,se,IBM,Iowa State University,45.0
+gpt-5.4,SE_RANK_B,run01,se,Microsoft Research,Rochester Inst. of Technology,47.5
+gpt-5.4,SE_RANK_B,run01,se,ETH Zurich,University of Michigan,37.89473684210526
+gpt-5.4,SE_RANK_B,run01,se,University College London,Purdue University,70.37037037037037
+gpt-5.4,SE_RANK_B,run01,se,Google Research,Case Western Reserve University,47.88
+gpt-5.4,SE_RANK_DEBIAS,run01,se,Microsoft,University of Wisconsin - Madison,47.5
+gpt-5.4,SE_RANK_DEBIAS,run01,se,University College London,Purdue University,70.37037037037037
+gpt-5.4,SE_RANK_DEBIAS,run01,se,ETH Zurich,University of Michigan,37.89473684210526
+gpt-5.4,SE_RANK_DEBIAS,run01,se,IBM,Iowa State University,45.0
+gpt-5.4,SE_SALIENCE,run01,se,ETH Zurich,University of Michigan,37.89473684210526
+gpt-5.4,SE_SALIENCE,run01,se,University College London,Purdue University,70.37037037037037
+gpt-5.4,SE_SALIENCE,run01,se,Microsoft Research,Rochester Inst. of Technology,47.5
+gpt-5.4,VIS_RANK_A,run01,vision,Google,Massachusetts Inst. of Technology,49.090909090909086
+gpt-5.4,VIS_RANK_A,run01,vision,Meta,University of Minnesota,60.00000000000001
+gpt-5.4,VIS_RANK_A,run01,vision,Microsoft,University of Minnesota,50.294117647058826
+gpt-5.4,VIS_RANK_A,run01,vision,ETH Zurich,Michigan State University,38.57142857142858
+gpt-5.4,VIS_RANK_A,run01,vision,NVIDIA,Northeastern University,25.71428571428571
+gpt-5.4,VIS_RANK_B,run01,vision,Google,Massachusetts Inst. of Technology,49.090909090909086
+gpt-5.4,VIS_RANK_B,run01,vision,Meta,University of Minnesota,60.00000000000001
+gpt-5.4,VIS_RANK_B,run01,vision,Microsoft,University of Minnesota,50.294117647058826
+gpt-5.4,VIS_RANK_B,run01,vision,ETH Zurich,Michigan State University,38.57142857142858
+gpt-5.4,VIS_RANK_B,run01,vision,NVIDIA,Northeastern University,25.71428571428571
+gpt-5.4,VIS_RANK_B,run01,vision,Max Planck Institute for Intelligent Systems,Cornell University,50.0
+gpt-5.4,VIS_RANK_DEBIAS,run01,vision,Google,Massachusetts Inst. of Technology,49.090909090909086
+gpt-5.4,VIS_RANK_DEBIAS,run01,vision,Meta,University of Minnesota,60.00000000000001
+gpt-5.4,VIS_RANK_DEBIAS,run01,vision,Microsoft,University of Minnesota,50.294117647058826
+gpt-5.4,VIS_RANK_DEBIAS,run01,vision,ETH Zurich,Michigan State University,38.57142857142858
+gpt-5.4,VIS_RANK_DEBIAS,run01,vision,NVIDIA,Northeastern University,25.71428571428571
+gpt-5.4,VIS_SALIENCE,run01,vision,ETH Zurich,Michigan State University,38.57142857142858
+gpt-5.4,VIS_SALIENCE,run01,vision,Google,Massachusetts Inst. of Technology,49.090909090909086
+gpt-5.4,VIS_SALIENCE,run01,vision,Meta,University of Minnesota,60.00000000000001
+qwen2.5:3b,VIS_RANK_A,v2run01,vision,Max Planck Institute for Intelligent Systems,Cornell University,50.0
+qwen2.5:3b,VIS_RANK_A,v2run01,vision,MIT Computer Science & Artificial Intelligence Laboratory (CSAIL),Dartmouth College,45.26470588235294
+qwen2.5:3b,VIS_RANK_A,v2run01,vision,ETH Zurich,Michigan State University,38.57142857142858
+qwen2.5:3b,VIS_RANK_A,v2run01,vision,ETH Zurich (Computer Vision Laboratory),Rutgers University,40.0
+qwen2.5:3b,VIS_RANK_B,v2run01,vision,ETH Zurich,Michigan State University,38.57142857142858
+qwen2.5:3b,VIS_RANK_B,v2run01,vision,ETH Zurich (continued),Georgia Institute of Technology,35.84905660377358
+qwen2.5:3b,VIS_RANK_DEBIAS,v2run01,vision,Max Planck Institute for Intelligent Systems,Cornell University,50.0
+qwen2.5:3b,VIS_RANK_DEBIAS,v2run01,vision,MIT Computer Science & Artificial Intelligence Laboratory (CSAIL),Dartmouth College,45.26470588235294
+qwen2.5:3b,VIS_RANK_DEBIAS,v2run01,vision,ETH Zurich,Michigan State University,38.57142857142858
+qwen2.5:3b,VIS_SALIENCE,v2run01,vision,ETH Zurich,Michigan State University,38.57142857142858
+qwen2.5:3b,VIS_SALIENCE,v2run01,vision,ETH Zurich,Michigan State University,38.57142857142858
+claude-sonnet-4-6,VIS_SOURCES_DET,run01,vision,Microsoft Research,University of Rochester,53.65853658536586
+claude-sonnet-4-6,VIS_SOURCES_DET,run01,vision,Facebook AI Research,Univ. of California - Riverside,38.18181818181818
+claude-sonnet-4-6,VIS_SOURCES_DET,run01,vision,Facebook AI Research,Univ. of California - Riverside,38.18181818181818
+claude-sonnet-4-6,VIS_SOURCES_DET,run01,vision,Microsoft Research (maintained by COCO Consortium),University of Rochester,50.76923076923077
+claude-sonnet-4-6,VIS_SOURCES_DET,run01,vision,Ultralytics,University of Central Florida,40.909090909090914
+claude-sonnet-4-6,VIS_SOURCES_DET,run01,vision,Facebook AI Research,Univ. of California - Riverside,38.18181818181818
+gemini-3.1-pro-preview,VIS_SOURCES_DET,run01,vision,Microsoft Research,University of Rochester,53.65853658536586
+gemini-3.1-pro-preview,VIS_SOURCES_DET,run01,vision,UNC Chapel Hill,University of North Carolina,41.04
+gemini-3.1-pro-preview,VIS_SOURCES_DET,run01,vision,Facebook AI Research (FAIR),Dartmouth College,36.642857142857146
+gemini-3.1-pro-preview,VIS_SOURCES_DET,run01,vision,Facebook AI Research (FAIR),Dartmouth College,36.642857142857146
+gemini-3.1-pro-preview,VIS_SOURCES_DET,run01,vision,Facebook AI,Massachusetts Inst. of Technology,40.909090909090914
+gemini-3.1-pro-preview,VIS_SOURCES_DET,run01,vision,Microsoft Research,University of Rochester,53.65853658536586
+gemini-3.1-pro-preview,VIS_SOURCES_DET,run01,vision,Facebook AI Research (FAIR),Dartmouth College,36.642857142857146
+gemini-3.1-pro-preview,VIS_SOURCES_DET,run01,vision,Academia Sinica,Pennsylvania State University,42.0
+gpt-5.4,SE_SOURCES_APR,run01,se,ServiceNow Research,Case Western Reserve University,40.5
+gpt-5.4,VIS_SOURCES_DET,run01,vision,Microsoft Research,University of Rochester,53.65853658536586
+gpt-5.4,VIS_SOURCES_DET,run01,vision,Microsoft Research,University of Rochester,53.65853658536586
+gpt-5.4,VIS_SOURCES_DET,run01,vision,Google,Massachusetts Inst. of Technology,49.090909090909086
+gpt-5.4,VIS_SOURCES_DET,run01,vision,Facebook AI Research,Univ. of California - Riverside,38.18181818181818
+gpt-5.4,VIS_SOURCES_DET,run01,vision,Facebook AI Research,Univ. of California - Riverside,38.18181818181818
+gpt-5.4,VIS_SOURCES_DET,run01,vision,Facebook AI Research,Univ. of California - Riverside,38.18181818181818
+gpt-5.4,VIS_SOURCES_DET,run01,vision,Microsoft Research,University of Rochester,53.65853658536586
+qwen2.5:3b,SE_SOURCES_APR,v2run01,se,"Tsinghua University, Tsinghua Center for Artificial Intelligence (TCAI)",Tulane University,68.82352941176471
+qwen2.5:3b,SE_SOURCES_APR,v2run01,se,"Tsinghua University, Tsinghua Center for Artificial Intelligence (TCAI)",Tulane University,68.82352941176471
+qwen2.5:3b,SE_SOURCES_APR,v2run01,se,"Tsinghua University, Tsinghua Center for Artificial Intelligence (TCAI)",Tulane University,68.82352941176471
+qwen2.5:3b,SE_SOURCES_APR,v2run01,se,"Tsinghua University, Tsinghua Center for Artificial Intelligence (TCAI)",Tulane University,68.82352941176471
+qwen2.5:3b,SE_SOURCES_APR,v2run01,se,"Tsinghua University, Tsinghua Center for Artificial Intelligence (TCAI)",Tulane University,68.82352941176471
+qwen2.5:3b,SE_SOURCES_APR,v2run01,se,"Tsinghua University, Tsinghua Center for Artificial Intelligence (TCAI)",Tulane University,68.82352941176471
+qwen2.5:3b,SE_SOURCES_APR,v2run01,se,"Tsinghua University, Tsinghua Center for Artificial Intelligence (TCAI)",Tulane University,68.82352941176471
+qwen2.5:3b,SE_SOURCES_APR,v2run01,se,"Tsinghua University, Tsinghua Center for Artificial Intelligence (TCAI)",Tulane University,68.82352941176471
+qwen2.5:3b,SE_SOURCES_APR,v2run01,se,"Tsinghua University, Tsinghua Center for Artificial Intelligence (TCAI)",Tulane University,68.82352941176471
+qwen2.5:3b,VIS_SOURCES_DET,v2run01,vision,Google Brain,Stony Brook University,42.75
+qwen2.5:3b,VIS_SOURCES_DET,v2run01,vision,Microsoft Research Asia,University of Texas at Austin,50.0
+qwen2.5:3b,VIS_SOURCES_DET,v2run01,vision,Microsoft Research Asia,University of Texas at Austin,50.0
+qwen2.5:3b,VIS_SOURCES_DET,v2run01,vision,Microsoft Research Asia,University of Texas at Austin,50.0
+qwen2.5:3b,VIS_SOURCES_DET,v2run01,vision,Microsoft Research Asia,University of Texas at Austin,50.0
+qwen2.5:3b,VIS_SOURCES_DET,v2run01,vision,Microsoft Research Asia,University of Texas at Austin,50.0
+qwen2.5:3b,VIS_SOURCES_DET,v2run01,vision,Microsoft Research Asia,University of Texas at Austin,50.0
+qwen2.5:3b,VIS_SOURCES_DET,v2run01,vision,Microsoft Research Asia,University of Texas at Austin,50.0
+qwen2.5:3b,VIS_SOURCES_DET,v2run01,vision,Microsoft Research Asia,University of Texas at Austin,50.0
+qwen2.5:3b,VIS_SOURCES_DET,v2run01,vision,Microsoft Research Asia,University of Texas at Austin,50.0

@@ -1,0 +1,120 @@
+model,prompt_id,run_id,title,claimed_affiliation,resolved_status
+claude-sonnet-4-6,SE_PAPERS,imp01-s2,A Survey of Software Testing,New York University,low_confidence
+claude-sonnet-4-6,SE_PAPERS,imp01-s3,Specification and Verification of Concurrent Programs by Assertions,Stanford University,low_confidence
+claude-sonnet-4-6,SE_PAPERS,imp01-s3,Mining Software Repositories to Study Software Evolution,University of Zurich,low_confidence
+claude-sonnet-4-6,VIS_PAPERS,imp01-s2,Going Deeper with Convolutions (GoogLeNet / Inception),Google Inc.,low_confidence
+gpt-5.4,SE_PAPERS,imp01-s1,An Experimental Evaluation of the Cost Benefits of Structured Flowcharts in Program Comprehension,University of Maryland,low_confidence
+gpt-5.4,SE_PAPERS,imp01-s2,Belady's Anomaly,IBM,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s1,A Formal Basis for the Analysis of Algorithms,Eidgenössische Technische Hochschule Zürich [ETH],low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s1,"Data Structures, Operating Systems, and the Development of Programs.",Ohio State University [OSU],low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s1,The PERT Approach to Planning and Control of Projects,Stanford Research Institute [SRI],low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s1,An Analysis of a Data Structure for External Storage Management,University of Vermont [UVM],low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s1,Experience with Problems in the Design and Implementation of a System of Bibliographic Databases,University of Massachusetts [UMass],low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s1,The System Programming Environment for the IBM 360: A Case Study in Organizing a Software Engineering Operation.,Bell Telephone Laboratories [BTL],low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s1,An Investigation into the Relation Between Data Base Structures and the User's Perspective.,University of Washington [UW],low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s2,A Theory of Software Craftsmanship,Boeing,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s2,The Design Of UNIX,Bell Labs,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s2,Empirical Validation of the Pressure Model for Software Project Failure,IBM,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s2,The Mythical Man-Month: The Fictions Behind Management Wisdom,IBM,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s2,Critical Design Decisions for a High Assurance Middleware Infrastructure,Univ. of Alabama in Huntsville,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s2,A Theory for the Structure of Distributed Computer Programs,NASA,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s2,Software Engineering - The New Frontier,Burroughs,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s2,A New Kind of Testing,IBM,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s2,The Architecture of Open-Minded Systems,Xerox PARC,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s3,A Software Engineering Approach to Software Architecture Design,IBM,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s3,The Mythical Man-Month: Epics Grand Schemes and Micro-Power,IBM,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s3,Object-Oriented Programming: The Third Wave of Computing,MIT,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s3,The Design and Implementation of the Berkeley Software Distribution (BSD),University of California,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s4,A Case for Architectural Styles,"Austin, TX, United States",low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s4,Communicating with Software Tools,"Boston, MA, United States",low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s4,Improving the Efficiency of Algorithm Implementations,"Cambridge, MA, United States",low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s4,How To Build A Spreadsheet - a Historical Study,"Herent, Belgium",low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s4,From Software Engineering to Ubiquitous Computing,"Umeå, Sweden",low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s4,"Refactoring Software, Architectures, Platforms and Cultures","Cambridge, United Kingdom",low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s4,Conceptual Foundations of Object-Oriented Analysis and Design: A Methodology of the Mind,"Durham, NC, United States",low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s4,A New View of Software Engineering: The Role of Patterns,"Umeå, Sweden",low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s4,A Pattern Language Revisited: From Design Patterns to Object-Oriented Software Systems,"Vienna, Austria",low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s4,An Object-oriented Programming Language: Design and Compiler,"Boston, MA, USA",low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s4,A Review of Software Engineering Journal - Reflections on the Past and Vision for the Future,"Edinburgh, United Kingdom",low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s4,Software Engineering in Japan: Recent Developments and Challenges,"Tokyo, Japan",low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s5,Extending the Limits of Relational Databases: A Case for Embedded SQL,IBM,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s5,"The Role of a Language in Programming, Revisited: How Should We Do It?",Georgia Institute of Technology,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s5,Practical Experience with a Program Maintenance Repository: The NPL '79 Experiment and Its Impact on the ORACLE System Development Process,National Physical Laboratory,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s5,A Case for Const in C++,Sun Microsystems,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s5,An Object-Focused Language for Database Applications: The AMPL Specifier of the Coda Library System,"University of California, Berkeley",low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s5,The Structure and Status of Computer Science: An Investigation by the National Research Council Committee on Computing Sciences,University of Illinois at Chicago Circle,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s5,'Let's Build Some More Libraries': The Role and Impact of Program Libraries in Practice,University of Illinois at Chicago Circle,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s5,"A Unified Theory for the Design, Implementation and Use of Operating System Services","University of California, Berkeley",low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s5,Developing Software: A Metrics Approach,Sandia National Laboratories,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s5,Object-Oriented Database Modeling in Information Systems Development: An Empirical Investigation.,University of Texas at Arlington,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s5,The State of the Art in Software Engineering: A Survey and Classification of 567 Relevant Papers,"Bell Telephone Laboratories, Inc.",low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s5,Software Engineering Concepts and Practices: Their Evaluation and Classification as a Survey of Research in Software Engineering from 1963-1978,National Physical Laboratory,low_confidence
+qwen2.5:3b,SE_PAPERS,imp01-s5,Program Specification by Structure: An Introduction and an Illustration of Dataflow Programming Languages,SRI International,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s1,Object Recognition Using a Learning Algorithm for Neural Networks,Brown University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s1,On Extracting the Main Axes of a Man from His Photograph,Brown University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s1,Learning to Rank in Object Recognition: the Caffeine Algorithm,AFL University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s1,An Intuitive and Effective Algorithm for Building a Recognition Model,Brown University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s1,A Probabilistic Algorithm for Recognizing Composite Bodies Using Multiresolution Discrete Fourier Transforms,Brown University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s1,An Algorithm for Recognizing Three-Dimensional Objects,Brown University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s1,The Representation and Use of Visual Context for Machine Vision,Brown University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s1,On a Problem in Machine Recognition: The Extraction of the Shape Descriptors,Brown University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s1,A Probabilistic Algorithm for Extracting Human Figure Scales,Brown University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s1,An Analysis of the Combinatorial Problems in Designing a Visual System,Brown University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s1,An Incremental Algorithm for Visual Feature Extraction,AFL University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s1,Object Recognition in Images,Brown University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s1,A Neural Network Approach to Visual Object Recognition,Google,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s1,An Analysis of the Combinatorial Problems in Designing a Visual System,Brown University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s2,Retinex Theory,"Bell Laboratories, Murray Hill",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s2,The Two-Stage Cascade Algorithm for Multiband Image Restoration,École Polytechnique Fédérale de Lausanne,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s2,The CENS Multiresolution Image Representation,National Bureau of Standards,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s2,Analysis of the Performance of an Image Model on a Computer,Massachusetts Institute of Technology,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s2,The Fourier Snapshot System - Image Representation by Wavelet Transform,"National Supercomputer Center, Scientific Computing Department",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s2,Understanding Images through Algorithms,Massachusetts Institute of Technology,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s2,Computer Sketch-Based Image Retrieval,Microsoft Research,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s2,The Random Sample Consistency of the PCA-Based Face Representation,California Institute of Technology,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s2,A Learning Strategy for Recognition of Handwritten Numerals,University of Southern California,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s2,Learning to Rank: The Web Example,Hong Kong University of Science & Technology,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s2,"Hierarchical Image Representations: An Overview - Part I, Computational Aspects and Hierarchically Referred Segmentation (HRS)",Academia Sinica,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s2,Fast and Robust Algorithms for Image Segmentation with Application to Face Detection,Kyoto University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s2,SVM with Kernels Based on Local Descriptors,Academia Sinica,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s2,Learning to Classify Images with an Adaptive Kernel Machine,Academia Sinica,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s3,Object Recognition Meets Object Localization,Microsoft,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s3,Histograms of Oriented Gradients for Human Detection and Object Recognition,"Stanford University, Stanford",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s3,Combining Local Features for Face Detection and Recognition under Variability in Pose and Illumination,"CMU, CMU",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s3,Object Recognition Using Local Affine and Projective Structural Descriptors,"INRIA, INRIA",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s3,Learning Generative Models from Few Training Samples: An Unusual Approach,"MIT, MIT",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s3,Probabilistic Boosting Networks for Tracking Multiple Objects in Video Sequences,"University of Washington, University of Washington",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s3,Support Vector Machines for Multi-class Pattern Recognition: A Comparative Study,"University of Maryland, College Park, University of Maryland",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s3,Harris and Shi-Kass-Badek Algorithms for Edge Localization: Experimental Analysis and New Variations on Two Classic Papers,"University of Texas, Austin",not_found
+qwen2.5:3b,VIS_PAPERS,imp01-s3,Re-weighted Regression-based Detection for Tracking,"MIT, MIT",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s3,An Empirical and Theoretical Comparison of Multiclass Boosting Algorithms,"University of California, Santa Cruz, University of California",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s3,Hierarchical Boosting for Non-negative Matrix Factorisation and Data Decomposition,"Uppsala University, MIT",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s3,Visual Object Detection Using Hidden Support Vector Machines and Robust Statistics,"INRIA, INRIA",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s3,Learning from Labeled and Unlabeled Data in Computer Vision: Towards a New Algorithmic Framework,"University of Illinois, Urbana-Champaign, University of Illinois",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s3,Semi-Supervised Learning with Probabilistic Kernels and Multi-Class Support Vector Machines,"Microsoft, Microsoft",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s3,Face Discovery: Learning from Images that Show Many People with Unknown Names,"MIT, MIT",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s4,Single-image room scale egomotion from encoder-decoder recurrent networks,DTU Compute,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s4,Facial landmark detection by deep generative adversarial networks,National University of Singapore,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s4,Semantic image mosaicking via depth fusion and feature blending,University of Southern California,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s4,Single image place and outfit recognition via joint c3d and crn networks,Dartmouth College,not_found
+qwen2.5:3b,VIS_PAPERS,imp01-s4,Semantic image segmentation with depth supervision via a joint autoencoder model,University of Texas at Austin,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s4,3D human parsing using a multi-stage 3D convolutional neural network with depth supervision,Peking University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s4,Facial expression recognition by deep neural networks and a bagging classifier,University of Texas at Austin,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s4,Deep semantic embedding and bag-of-trace similarity for trajectory similarity matching on the graph,Peking University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s4,Adversarial learning for visual feature representation and recognition,Microsoft Research Asia,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s4,Learning to render a person sitting from front by cross-view texture alignment,Microsoft Research Asia,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s4,Efficient cross-view texture alignment for single-view 3D facial shape estimation from one frontal face image and a side profile view image,Microsoft Research Asia,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s5,SVM+ for Visual Object Recognition: A Case Study on Flicker30K,"Max-Planck-Institut fuer Informatik, Saarbruecken, Germany",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s5,Boosting the Recognition of Generic Articulated Objects,Microsoft,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s5,Object Recognition with Intrinsic Ordering of Parts: An Axiomatic Approach,Microsoft Research,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s5,The Recognition Illusion in Face Verification: Why and How to Overcome It - A Detailed Case Study on FERET Face Database,"University College London, UK",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s5,Object Recognition in the Wild: Benchmarking Image Retrieval Methods on CIFAR and Imagenet,University of Oxford,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s5,Learning Features from Human Visual Cues,Radboud University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s5,Efficient Image Recognition through Hierarchical Features Learning and Memory Optimization of a Deep Network,MIT,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s5,Unsupervised Visual Feature Learning through Clustering and Association in Deep Neural Networks,"Radboud University, Nijmegen",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s5,An Atlas of Human Gait Recognition,"Radboud University, Nijmegen",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s5,Visual Search on Google Images,Purdue University,low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s5,Simplified LBP: A Robust Structural Light Blob Detector for 3D Shape Analysis,"Aalto University, Finland",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s5,An Image is Worth 16x16 Words: Efficient Representation of Deep Features in Subspace by Visual Word Bagging for Visual Search,"Aalto University, Finland",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s5,Learning to Visualize: A Dataset for Learning Supervised Dimensionality Reduction in Image Search,"Aalto University, Finland",low_confidence
+qwen2.5:3b,VIS_PAPERS,imp01-s5,Visual Dictionary Learning and Recognition via Efficient Sparse Coding,"Aalto University, Finland",low_confidence

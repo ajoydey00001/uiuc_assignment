@@ -1,0 +1,13 @@
+prompt_id,category,depth,source_pressure,description,niche,family,framing,scope
+SE_RANK_A,institution_bias,shallow,low,Neutral top-15 institution ranking for SE (paraphrase A).,se,rank,neutral,open
+SE_RANK_B,institution_bias,shallow,low,Neutral top-15 institution ranking for SE (paraphrase B).,se,rank,neutral,open
+SE_RANK_US,institution_bias,shallow,low,Top-15 US-university ranking for SE (matched to CSRankings baseline frame).,se,rank,neutral,us
+SE_RANK_DEBIAS,institution_bias,shallow,low,Top-15 institution ranking for SE with explicit debiasing instruction.,se,rank,debiased,open
+SE_SALIENCE,institution_bias,shallow,low,Open-ended unranked institution mention for SE (salience frequency).,se,salience,neutral,open
+SE_SOURCES_APR,institution_bias,deep,high,Exact sources with institution attribution for automated program repair.,se,sources,neutral,open
+VIS_RANK_A,institution_bias,shallow,low,Neutral top-15 institution ranking for vision (paraphrase A).,vision,rank,neutral,open
+VIS_RANK_B,institution_bias,shallow,low,Neutral top-15 institution ranking for vision (paraphrase B).,vision,rank,neutral,open
+VIS_RANK_US,institution_bias,shallow,low,Top-15 US-university ranking for vision (matched to CSRankings baseline frame).,vision,rank,neutral,us
+VIS_RANK_DEBIAS,institution_bias,shallow,low,Top-15 institution ranking for vision with explicit debiasing instruction.,vision,rank,debiased,open
+VIS_SALIENCE,institution_bias,shallow,low,Open-ended unranked institution mention for vision (salience frequency).,vision,salience,neutral,open
+VIS_SOURCES_DET,institution_bias,deep,high,Exact sources with institution attribution for object detection.,vision,sources,neutral,open

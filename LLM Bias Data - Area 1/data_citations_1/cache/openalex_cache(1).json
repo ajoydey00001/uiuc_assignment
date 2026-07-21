@@ -1,0 +1,4832 @@
+{
+ "a taxonomy for software engineering metrics": {
+  "status": "low_confidence",
+  "oa_title": "Guidelines for conducting and reporting case study research in software engineering",
+  "oa_first_author": "Per Runeson",
+  "oa_institution": "Lund University",
+  "oa_country": "SE",
+  "oa_year": 2008,
+  "oa_id": "https://openalex.org/W2162739315"
+ },
+ "formal methods in software engineering": {
+  "status": "resolved",
+  "oa_title": "Formal Methods for Software Engineering",
+  "oa_first_author": "Markus Roggenbach",
+  "oa_institution": "Swansea University",
+  "oa_country": "GB",
+  "oa_year": 2022,
+  "oa_id": "https://openalex.org/W4285251802"
+ },
+ "design patterns elements of reusable object oriented software": {
+  "status": "no_affiliation",
+  "oa_title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+  "oa_first_author": "Erich Gamma",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1994,
+  "oa_id": "https://openalex.org/W1649645444"
+ },
+ "the role of programming methodologies in software systems development": {
+  "status": "low_confidence",
+  "oa_title": "Bioconductor: open software development for computational biology and bioinformatics",
+  "oa_first_author": "Robert Gentleman",
+  "oa_institution": "Dana-Farber Cancer Institute",
+  "oa_country": "US",
+  "oa_year": 2004,
+  "oa_id": "https://openalex.org/W2160697532"
+ },
+ "a formal model of requirements in a concurrent systems implementation": {
+  "status": "low_confidence",
+  "oa_title": "Actors: A Model of Concurrent Computation in Distributed Systems",
+  "oa_first_author": "Gul Agha",
+  "oa_institution": "Massachusetts Institute of Technology",
+  "oa_country": "US",
+  "oa_year": 1986,
+  "oa_id": "https://openalex.org/W2072794470"
+ },
+ "software engineering a nontechnical conceptual framework for an emerging field": {
+  "status": "no_affiliation",
+  "oa_title": "Towards Accountability for Machine Learning Datasets: Practices from Software Engineering and Infrastructure",
+  "oa_first_author": "Ben Hutchinson",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W3135371071"
+ },
+ "software process improvement in the defense industry": {
+  "status": "low_confidence",
+  "oa_title": "Process modeling",
+  "oa_first_author": "Bill Curtis",
+  "oa_institution": "Software Engineering Institute",
+  "oa_country": "US",
+  "oa_year": 1992,
+  "oa_id": "https://openalex.org/W2338335491"
+ },
+ "software engineering the next decade part i a blueprint for sustainable research advances": {
+  "status": "low_confidence",
+  "oa_title": "A vision for the future of genomics research",
+  "oa_first_author": "Francis S. Collins",
+  "oa_institution": "National Institutes of Health",
+  "oa_country": "US",
+  "oa_year": 2003,
+  "oa_id": "https://openalex.org/W1994458586"
+ },
+ "managing complexity in large scale software systems": {
+  "status": "no_affiliation",
+  "oa_title": "TM4: A Free, Open-Source System for Microarray Data Management and Analysis",
+  "oa_first_author": "A Saeed",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2003,
+  "oa_id": "https://openalex.org/W45534775"
+ },
+ "managing complexity through refinement": {
+  "status": "low_confidence",
+  "oa_title": "A short history of<i>SHELX</i>",
+  "oa_first_author": "George M. Sheldrick",
+  "oa_institution": "University of Göttingen",
+  "oa_country": "DE",
+  "oa_year": 2007,
+  "oa_id": "https://openalex.org/W2131350133"
+ },
+ "the impact of formal semantics and specification practice upon programming methodologies": {
+  "status": "low_confidence",
+  "oa_title": "Using formal specifications to support testing",
+  "oa_first_author": "Robert M. Hierons",
+  "oa_institution": "Brunel University of London",
+  "oa_country": "GB",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2124621264"
+ },
+ "empirical support for software engineering principles": {
+  "status": "low_confidence",
+  "oa_title": "Guidelines for conducting and reporting case study research in software engineering",
+  "oa_first_author": "Per Runeson",
+  "oa_institution": "Lund University",
+  "oa_country": "SE",
+  "oa_year": 2008,
+  "oa_id": "https://openalex.org/W2162739315"
+ },
+ "the management of software quality": {
+  "status": "low_confidence",
+  "oa_title": "Software Architecture in Practice",
+  "oa_first_author": "Len Bass",
+  "oa_institution": "Software Engineering Institute",
+  "oa_country": "US",
+  "oa_year": 1997,
+  "oa_id": "https://openalex.org/W1800478330"
+ },
+ "software portability in object oriented systems development": {
+  "status": "low_confidence",
+  "oa_title": "Bioconductor: open software development for computational biology and bioinformatics",
+  "oa_first_author": "Robert Gentleman",
+  "oa_institution": "Dana-Farber Cancer Institute",
+  "oa_country": "US",
+  "oa_year": 2004,
+  "oa_id": "https://openalex.org/W2160697532"
+ },
+ "a paradigm for software engineering": {
+  "status": "low_confidence",
+  "oa_title": "Changing the paradigm of software engineering",
+  "oa_first_author": "Václav Rajlich",
+  "oa_institution": "Wayne State University",
+  "oa_country": "US",
+  "oa_year": 2006,
+  "oa_id": "https://openalex.org/W2083287322"
+ },
+ "the architecture of reliable software the system j approach": {
+  "status": "low_confidence",
+  "oa_title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+  "oa_first_author": "Paolo Giannozzi",
+  "oa_institution": "University of Udine",
+  "oa_country": "IT",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2120145199"
+ },
+ "managing the inheritance of software characteristics a classification framework": {
+  "status": "low_confidence",
+  "oa_title": "Inside a software design team",
+  "oa_first_author": "Diane B. Walz",
+  "oa_institution": "The University of Texas at San Antonio",
+  "oa_country": "US",
+  "oa_year": 1993,
+  "oa_id": "https://openalex.org/W2066173647"
+ },
+ "on the criteria that should govern the technique of splitting structures": {
+  "status": "no_affiliation",
+  "oa_title": "Inorganic Chemistry: Principles of Structure and Reactivity",
+  "oa_first_author": "Haneen Mohammed Abbas Kasar",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2024,
+  "oa_id": "https://openalex.org/W4403733501"
+ },
+ "introduction to software engineering": {
+  "status": "resolved",
+  "oa_title": "Introduction to Software Engineering",
+  "oa_first_author": "Ronald J. Leach",
+  "oa_institution": "Howard University",
+  "oa_country": "US",
+  "oa_year": 2018,
+  "oa_id": "https://openalex.org/W41099606"
+ },
+ "a formal basis for software engineering an overview of the kads methodology": {
+  "status": "no_affiliation",
+  "oa_title": "Overview of methodologies for building ontologies",
+  "oa_first_author": "Mariano Fernández‐López",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1999,
+  "oa_id": "https://openalex.org/W1582734619"
+ },
+ "software engineering a human and engineering approach": {
+  "status": "low_confidence",
+  "oa_title": "Systematic Mapping Studies in Software Engineering",
+  "oa_first_author": "Kai Petersen",
+  "oa_institution": "Ericsson (Sweden)",
+  "oa_country": "SE",
+  "oa_year": 2008,
+  "oa_id": "https://openalex.org/W4214443"
+ },
+ "software engineering practice the challenges of large scale systems": {
+  "status": "low_confidence",
+  "oa_title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+  "oa_first_author": "Paolo Giannozzi",
+  "oa_institution": "University of Udine",
+  "oa_country": "IT",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2120145199"
+ },
+ "refining the concept of a component in object oriented systems development": {
+  "status": "no_affiliation",
+  "oa_title": "Objects, components, and frameworks with UML the catalysis approach",
+  "oa_first_author": "Desmond D’Souza",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2001,
+  "oa_id": "https://openalex.org/W1572116564"
+ },
+ "software engineering education and curriculum a review": {
+  "status": "low_confidence",
+  "oa_title": "Artificial Intelligence in Education: A Review",
+  "oa_first_author": "Lijia Chen",
+  "oa_institution": "Yango University",
+  "oa_country": "CN",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3017131514"
+ },
+ "object oriented design a challenge to software engineering": {
+  "status": "low_confidence",
+  "oa_title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+  "oa_first_author": "Paolo Giannozzi",
+  "oa_institution": "University of Udine",
+  "oa_country": "IT",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2120145199"
+ },
+ "a systems oriented methodology applied to a real software project the case approach": {
+  "status": "low_confidence",
+  "oa_title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+  "oa_first_author": "Paolo Giannozzi",
+  "oa_institution": "University of Udine",
+  "oa_country": "IT",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2120145199"
+ },
+ "the art of software engineering a human approach": {
+  "status": "low_confidence",
+  "oa_title": "Guidelines for conducting and reporting case study research in software engineering",
+  "oa_first_author": "Per Runeson",
+  "oa_institution": "Lund University",
+  "oa_country": "SE",
+  "oa_year": 2008,
+  "oa_id": "https://openalex.org/W2162739315"
+ },
+ "software engineering an introduction to design methods": {
+  "status": "no_affiliation",
+  "oa_title": "Object Oriented Software Engineering: A Use Case Driven Approach",
+  "oa_first_author": "Ivar Jacobson",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1992,
+  "oa_id": "https://openalex.org/W2139907081"
+ },
+ "reengineering the engineering of software architecture the methodology and its applications": {
+  "status": "no_affiliation",
+  "oa_title": "Object-Oriented Reengineering Patterns",
+  "oa_first_author": "Serge Demeyer",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2003,
+  "oa_id": "https://openalex.org/W2121898992"
+ },
+ "emergence and evolution in software engineering a theoretical perspective": {
+  "status": "low_confidence",
+  "oa_title": "Requirements engineering",
+  "oa_first_author": "Bashar Nuseibeh",
+  "oa_institution": "Imperial College London",
+  "oa_country": "GB",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W2124405605"
+ },
+ "an introduction to object oriented programming with c": {
+  "status": "resolved",
+  "oa_title": "An introduction to object-oriented programming and C + +",
+  "oa_first_author": "Greg Michaelson",
+  "oa_institution": "Commonwealth Scientific and Industrial Research Organisation",
+  "oa_country": "AU",
+  "oa_year": 1989,
+  "oa_id": "https://openalex.org/W269389841"
+ },
+ "principles of object oriented programming": {
+  "status": "no_affiliation",
+  "oa_title": "Object-Oriented Analysis and Design with Applications",
+  "oa_first_author": "Grady Booch",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1990,
+  "oa_id": "https://openalex.org/W2986348978"
+ },
+ "object oriented software construction": {
+  "status": "no_affiliation",
+  "oa_title": "Object-Oriented Software Construction",
+  "oa_first_author": "Bertrand Meyer",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1988,
+  "oa_id": "https://openalex.org/W2161825580"
+ },
+ "dynamic types in a static language reflection for smalltalk": {
+  "status": "low_confidence",
+  "oa_title": "Reflective facilities in Smalltalk-80",
+  "oa_first_author": "Brian Foote",
+  "oa_institution": "University of Illinois Urbana-Champaign",
+  "oa_country": "US",
+  "oa_year": 1989,
+  "oa_id": "https://openalex.org/W2012031603"
+ },
+ "object oriented rewriting": {
+  "status": "low_confidence",
+  "oa_title": "An object-oriented scripting interface to a legacy electronic structure code",
+  "oa_first_author": "S. R. Bahn",
+  "oa_institution": "Technical University of Denmark",
+  "oa_country": "DK",
+  "oa_year": 2002,
+  "oa_id": "https://openalex.org/W1981491642"
+ },
+ "classifying object oriented systems using feature grammars and feature automata part i theory": {
+  "status": "low_confidence",
+  "oa_title": "Concepts and paradigms of object-oriented programming",
+  "oa_first_author": "Peter Wegner",
+  "oa_institution": "Bridge University",
+  "oa_country": "SS",
+  "oa_year": 1990,
+  "oa_id": "https://openalex.org/W2012408028"
+ },
+ "metacompatability a theory for classifying and interconnecting object oriented systems": {
+  "status": "not_found"
+ },
+ "an architecture for support during object oriented system development": {
+  "status": "low_confidence",
+  "oa_title": "Inline Hardware KV-Cache Compression for Long-Context Transformer Inference: An Architectural Case for a Memory-Path Compression Engine",
+  "oa_first_author": "Jakubův, Jan",
+  "oa_institution": "Czech Technical University in Prague",
+  "oa_country": "CZ",
+  "oa_year": 2023,
+  "oa_id": "https://openalex.org/W4385245566"
+ },
+ "towards a model driven architecture an object oriented development method": {
+  "status": "low_confidence",
+  "oa_title": "Inline Hardware KV-Cache Compression for Long-Context Transformer Inference: An Architectural Case for a Memory-Path Compression Engine",
+  "oa_first_author": "Jakubův, Jan",
+  "oa_institution": "Czech Technical University in Prague",
+  "oa_country": "CZ",
+  "oa_year": 2023,
+  "oa_id": "https://openalex.org/W4385245566"
+ },
+ "an introduction to programming with c and networks the data structure programming methods algorithms operating systems approach": {
+  "status": "low_confidence",
+  "oa_title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+  "oa_first_author": "Pauli Virtanen",
+  "oa_institution": "University of Jyväskylä",
+  "oa_country": "FI",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3003257820"
+ },
+ "software reengineering to improve performance a case study approach": {
+  "status": "low_confidence",
+  "oa_title": "Reengineering Aircraft Structural Life Prediction Using a Digital Twin",
+  "oa_first_author": "Eric Tuegel",
+  "oa_institution": "United States Air Force Research Laboratory",
+  "oa_country": "US",
+  "oa_year": 2011,
+  "oa_id": "https://openalex.org/W2108366027"
+ },
+ "the role of metrics in the evolutionary specification measurement maintenance management": {
+  "status": "low_confidence",
+  "oa_title": "Many-Objective Evolutionary Algorithms",
+  "oa_first_author": "Bingdong Li",
+  "oa_institution": "University of Science and Technology of China",
+  "oa_country": "CN",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W2040622444"
+ },
+ "an introduction to java programming with uml step by step an integrated approach to develop and test application software in a cross platform environment": {
+  "status": "low_confidence",
+  "oa_title": "Internet of things: Vision, applications and research challenges",
+  "oa_first_author": "Daniele Miorandi",
+  "oa_institution": "FBK CREATE-NET Research Center",
+  "oa_country": "IT",
+  "oa_year": 2012,
+  "oa_id": "https://openalex.org/W2119046642"
+ },
+ "software architecture and the problem of scalability": {
+  "status": "low_confidence",
+  "oa_title": "Inline Hardware KV-Cache Compression for Long-Context Transformer Inference: An Architectural Case for a Memory-Path Compression Engine",
+  "oa_first_author": "Jakubův, Jan",
+  "oa_institution": "Czech Technical University in Prague",
+  "oa_country": "CZ",
+  "oa_year": 2023,
+  "oa_id": "https://openalex.org/W4385245566"
+ },
+ "grady booch s object oriented design patterns elements of reusable object oriented designs": {
+  "status": "no_affiliation",
+  "oa_title": "Verification of object-oriented designs",
+  "oa_first_author": "Wasyl Baluta",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1997,
+  "oa_id": "https://openalex.org/W2346212214"
+ },
+ "a case for object oriented systems engineering the oose process methodology": {
+  "status": "no_affiliation",
+  "oa_title": "Real-time UML (2nd ed.): developing efficient objects for embedded systems",
+  "oa_first_author": "Bruce Powell Douglass",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1997,
+  "oa_id": "https://openalex.org/W2130521512"
+ },
+ "a tutorial on the specification and application of object oriented design patterns": {
+  "status": "low_confidence",
+  "oa_title": "Data clustering",
+  "oa_first_author": "Anil K. Jain",
+  "oa_institution": "Michigan State University",
+  "oa_country": "US",
+  "oa_year": 1999,
+  "oa_id": "https://openalex.org/W1992419399"
+ },
+ "a taxonomy for software project metrics": {
+  "status": "low_confidence",
+  "oa_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+  "oa_first_author": "Alejandro Barredo Arrieta",
+  "oa_institution": "Tecnalia",
+  "oa_country": "ES",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2981731882"
+ },
+ "the role of object oriented metrics in project management and requirements engineering": {
+  "status": "no_affiliation",
+  "oa_title": "The Metric Tide: Report of the Independent Review of the Role of Metrics in Research Assessment and Management",
+  "oa_first_author": "James Wilsdon",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W2163887529"
+ },
+ "design patterns for managing evolutionary change in software systems": {
+  "status": "low_confidence",
+  "oa_title": "BEAST 2.5: An advanced software platform for Bayesian evolutionary analysis",
+  "oa_first_author": "Remco Bouckaert",
+  "oa_institution": "University of Auckland",
+  "oa_country": "NZ",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2901954177"
+ },
+ "a review of software metrics from static analysis to dynamic aspects": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "object oriented design patterns towards a common framework and methodology in the community of systems analysis modeling and simulation researchers": {
+  "status": "low_confidence",
+  "oa_title": "Systematic methodological review: developing a framework for a qualitative semi‐structured interview guide",
+  "oa_first_author": "Hanna Kallio",
+  "oa_institution": "University of Eastern Finland",
+  "oa_country": "FI",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W2396339611"
+ },
+ "design patterns for supporting software product line engineering": {
+  "status": "low_confidence",
+  "oa_title": "Guidelines for conducting and reporting case study research in software engineering",
+  "oa_first_author": "Per Runeson",
+  "oa_institution": "Lund University",
+  "oa_country": "SE",
+  "oa_year": 2008,
+  "oa_id": "https://openalex.org/W2162739315"
+ },
+ "evolutionary design patterns for supporting model based systems engineering an illustrative study": {
+  "status": "low_confidence",
+  "oa_title": "Customization design method for complex product systems based on a meta-model",
+  "oa_first_author": "Rong Li",
+  "oa_institution": "Southwest Jiaotong University",
+  "oa_country": "CN",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2981046656"
+ },
+ "the role of static metrics in requirements engineering": {
+  "status": "low_confidence",
+  "oa_title": "Engineering precision nanoparticles for drug delivery",
+  "oa_first_author": "Michael J. Mitchell",
+  "oa_institution": "California Institute for Regenerative Medicine",
+  "oa_country": "US",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3109746568"
+ },
+ "metasynthesis a process driven framework for software product line engineering": {
+  "status": "low_confidence",
+  "oa_title": "Beyond the basics: a detailed conceptual framework of integrated STEM",
+  "oa_first_author": "Gillian Roehrig",
+  "oa_institution": "University of Minnesota",
+  "oa_country": "US",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W4200372086"
+ },
+ "the role of patterns in enterprise software engineering": {
+  "status": "low_confidence",
+  "oa_title": "Requirements engineering",
+  "oa_first_author": "Bashar Nuseibeh",
+  "oa_institution": "Imperial College London",
+  "oa_country": "GB",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W2124405605"
+ },
+ "patterns for supporting software product line engineering with a case study on automotive": {
+  "status": "low_confidence",
+  "oa_title": "Software product line engineering and variability management: achievements and challenges",
+  "oa_first_author": "Andreas Metzger",
+  "oa_institution": "University of Duisburg-Essen",
+  "oa_country": "DE",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2052296870"
+ },
+ "a discipline for software engineering": {
+  "status": "no_affiliation",
+  "oa_title": "A discipline for software engineering",
+  "oa_first_author": "",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1995,
+  "oa_id": "https://openalex.org/W1522500515"
+ },
+ "object oriented techniques experience and reflections": {
+  "status": "low_confidence",
+  "oa_title": "Digital transformation: A multidisciplinary reflection and research agenda",
+  "oa_first_author": "Peter C. Verhoef",
+  "oa_institution": "University of Groningen",
+  "oa_country": "NL",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2978346165"
+ },
+ "design of robust software": {
+  "status": "low_confidence",
+  "oa_title": "A short history of<i>SHELX</i>",
+  "oa_first_author": "George M. Sheldrick",
+  "oa_institution": "University of Göttingen",
+  "oa_country": "DE",
+  "oa_year": 2007,
+  "oa_id": "https://openalex.org/W2131350133"
+ },
+ "the mythical man month": {
+  "status": "no_affiliation",
+  "oa_title": "The Mythical Man-Month",
+  "oa_first_author": "Fred Brooks",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1975,
+  "oa_id": "https://openalex.org/W2123586642"
+ },
+ "the mythical man month revised edition": {
+  "status": "low_confidence",
+  "oa_title": "Oral Literature in Africa",
+  "oa_first_author": "Ruth Finnegan",
+  "oa_institution": "British Academy",
+  "oa_country": "GB",
+  "oa_year": 2012,
+  "oa_id": "https://openalex.org/W1982850846"
+ },
+ "software engineering": {
+  "status": "no_affiliation",
+  "oa_title": "Software engineering: A practitioner's approach",
+  "oa_first_author": "",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1983,
+  "oa_id": "https://openalex.org/W1936022305"
+ },
+ "the mythical man month essays on software engineering management and politics": {
+  "status": "low_confidence",
+  "oa_title": "The Political Economy of Open Source Software",
+  "oa_first_author": "Steven Weber",
+  "oa_institution": "University of California, Berkeley",
+  "oa_country": "US",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W1896406334"
+ },
+ "object oriented programming systems environments and languages": {
+  "status": "no_affiliation",
+  "oa_title": "Object-Oriented Analysis and Design with Applications",
+  "oa_first_author": "Grady Booch",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1990,
+  "oa_id": "https://openalex.org/W2986348978"
+ },
+ "design considerations for the cm 2 parallel computer": {
+  "status": "low_confidence",
+  "oa_title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+  "oa_first_author": "Paolo Giannozzi",
+  "oa_institution": "University of Udine",
+  "oa_country": "IT",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2120145199"
+ },
+ "concurrency control and recoverability in very large shared data banks": {
+  "status": "no_affiliation",
+  "oa_title": "The Theory and Practice of Concurrency",
+  "oa_first_author": "A. W. Roscoe",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1997,
+  "oa_id": "https://openalex.org/W2129384397"
+ },
+ "on physical design in computer architecture": {
+  "status": "low_confidence",
+  "oa_title": "Inline Hardware KV-Cache Compression for Long-Context Transformer Inference: An Architectural Case for a Memory-Path Compression Engine",
+  "oa_first_author": "Jakubův, Jan",
+  "oa_institution": "Czech Technical University in Prague",
+  "oa_country": "CZ",
+  "oa_year": 2023,
+  "oa_id": "https://openalex.org/W4385245566"
+ },
+ "the evolution of language and computing": {
+  "status": "no_affiliation",
+  "oa_title": "R: A Language and Environment for Statistical Computing",
+  "oa_first_author": "R Core Team",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W2582743722"
+ },
+ "the mythical man month essays on software engineering": {
+  "status": "no_affiliation",
+  "oa_title": "The mythical man-month: essays on software engineering",
+  "oa_first_author": "",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1996,
+  "oa_id": "https://openalex.org/W2983995785"
+ },
+ "object recognition as image completion": {
+  "status": "low_confidence",
+  "oa_title": "The Pascal Visual Object Classes (VOC) Challenge",
+  "oa_first_author": "Mark Everingham",
+  "oa_institution": "University of Leeds",
+  "oa_country": "GB",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2031489346"
+ },
+ "training convolutional neural networks using unsupervised priors via deep convolutions": {
+  "status": "low_confidence",
+  "oa_title": "Deep Convolutional and LSTM Recurrent Neural Networks for Multimodal Wearable Activity Recognition",
+  "oa_first_author": "Francisco Ordóñez",
+  "oa_institution": "University of Sussex",
+  "oa_country": "GB",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W2270470215"
+ },
+ "scene understanding from fuzzy multi view scene graphs for autonomous vehicles": {
+  "status": "low_confidence",
+  "oa_title": "A Survey of Autonomous Driving: <i>Common Practices and Emerging Technologies</i>",
+  "oa_first_author": "Ekim Yurtsever",
+  "oa_institution": "Nagoya University",
+  "oa_country": "JP",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W2953303875"
+ },
+ "a discriminatively pretrained rnn for image captioning": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "learning an image saliency model from few images": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "a discriminative feature encoding model for joint object detection and semantic segmentation in image": {
+  "status": "low_confidence",
+  "oa_title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+  "oa_first_author": "Shaoqing Ren",
+  "oa_institution": "Microsoft Research (United Kingdom)",
+  "oa_country": "GB",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W2613718673"
+ },
+ "deep local feature learning for image classification": {
+  "status": "low_confidence",
+  "oa_title": "ImageNet classification with deep convolutional neural networks",
+  "oa_first_author": "Alex Krizhevsky",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2163605009"
+ },
+ "learning semantic segmentation a multi object tracking perspective": {
+  "status": "low_confidence",
+  "oa_title": "The Pascal Visual Object Classes (VOC) Challenge",
+  "oa_first_author": "Mark Everingham",
+  "oa_institution": "University of Leeds",
+  "oa_country": "GB",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2031489346"
+ },
+ "towards a principled learning of visual features from natural images using multi task hierarchical networks": {
+  "status": "no_affiliation",
+  "oa_title": "Efficient Multi-Scale Attention Module with Cross-Spatial Learning",
+  "oa_first_author": "Daliang Ouyang",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2023,
+  "oa_id": "https://openalex.org/W4372347372"
+ },
+ "visual attention based object localization with contextual image features": {
+  "status": "low_confidence",
+  "oa_title": "The Pascal Visual Object Classes (VOC) Challenge",
+  "oa_first_author": "Mark Everingham",
+  "oa_institution": "University of Leeds",
+  "oa_country": "GB",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2031489346"
+ },
+ "joint deep multi task feature learning via deep attention mechanism for visual recognition": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "an attention based model for end to end image captioning training": {
+  "status": "low_confidence",
+  "oa_title": "Effective Approaches to Attention-based Neural Machine Translation",
+  "oa_first_author": "Thang Luong",
+  "oa_institution": "Stanford University",
+  "oa_country": "US",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W1902237438"
+ },
+ "dense crumb extraction by complement attention in multi view images": {
+  "status": "low_confidence",
+  "oa_title": "New hypotheses for the health-protective mechanisms of whole-grain cereals: what is beyond fibre?",
+  "oa_first_author": "Anthony Fardet",
+  "oa_institution": "Université Clermont Auvergne",
+  "oa_country": "FR",
+  "oa_year": 2010,
+  "oa_id": "https://openalex.org/W2167433110"
+ },
+ "deep learning person re identification with region based loss": {
+  "status": "low_confidence",
+  "oa_title": "Beyond Triplet Loss: A Deep Quadruplet Network for Person Re-identification",
+  "oa_first_author": "Weihua Chen",
+  "oa_institution": "Institute of Automation",
+  "oa_country": "CN",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2606377603"
+ },
+ "faster r cnn towards real time object detection with regression trees": {
+  "status": "low_confidence",
+  "oa_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+  "oa_first_author": "Laith Alzubaidi",
+  "oa_institution": "Queensland University of Technology",
+  "oa_country": "AU",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W3140854437"
+ },
+ "understanding why deep hierarchical networks can be interpreted as probabilistic models": {
+  "status": "low_confidence",
+  "oa_title": "Deep learning for healthcare: review, opportunities and challenges",
+  "oa_first_author": "Riccardo Miotto",
+  "oa_institution": "Icahn School of Medicine at Mount Sinai",
+  "oa_country": "US",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2610332124"
+ },
+ "spectral normalization for generative adversarial networks": {
+  "status": "resolved",
+  "oa_title": "Spectral Normalization for Generative Adversarial Networks",
+  "oa_first_author": "Takeru Miyato",
+  "oa_institution": "Kyoto University",
+  "oa_country": "JP",
+  "oa_year": 2018,
+  "oa_id": "https://openalex.org/W2963836885"
+ },
+ "cyclical learning rates for training neural networks": {
+  "status": "resolved",
+  "oa_title": "Cyclical Learning Rates for Training Neural Networks",
+  "oa_first_author": "Leslie N. Smith",
+  "oa_institution": "United States Naval Research Laboratory",
+  "oa_country": "US",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2544860310"
+ },
+ "image super resolution using very depthwise convolutions and residual attention": {
+  "status": "low_confidence",
+  "oa_title": "Convolutional neural networks in medical image understanding: a survey",
+  "oa_first_author": "D. R. Sarvamangala",
+  "oa_institution": "REVA University",
+  "oa_country": "IN",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W3120795911"
+ },
+ "an extrinsic evaluation method of deep semantic video representation": {
+  "status": "low_confidence",
+  "oa_title": "A survey on Image Data Augmentation for Deep Learning",
+  "oa_first_author": "Connor Shorten",
+  "oa_institution": "Florida Atlantic University",
+  "oa_country": "US",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2954996726"
+ },
+ "spectral clustering using graph filters": {
+  "status": "low_confidence",
+  "oa_title": "Data clustering",
+  "oa_first_author": "Anil K. Jain",
+  "oa_institution": "Michigan State University",
+  "oa_country": "US",
+  "oa_year": 1999,
+  "oa_id": "https://openalex.org/W1992419399"
+ },
+ "end to end learning of invariant representations for image captioning": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "revisiting the invariant causal dependence criterion for image captioning": {
+  "status": "low_confidence",
+  "oa_title": "Causal Inference Meets Deep Learning: A Comprehensive Survey",
+  "oa_first_author": "Licheng Jiao",
+  "oa_institution": "Xidian University",
+  "oa_country": "CN",
+  "oa_year": 2024,
+  "oa_id": "https://openalex.org/W4401547143"
+ },
+ "the importance of encoding a longitudinal view for monocular depth estimation": {
+  "status": "low_confidence",
+  "oa_title": "Delving Into the Devils of Bird’s-Eye-View Perception: A Review, Evaluation and Recipe",
+  "oa_first_author": "Hongyang Li",
+  "oa_institution": "Beijing Academy of Artificial Intelligence",
+  "oa_country": "CN",
+  "oa_year": 2023,
+  "oa_id": "https://openalex.org/W4388757371"
+ },
+ "a generative approach to conditional deep image prior": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "learning visual relations with graph alignment": {
+  "status": "low_confidence",
+  "oa_title": "A survey of transfer learning",
+  "oa_first_author": "Karl R. Weiss",
+  "oa_institution": "Florida Atlantic University",
+  "oa_country": "US",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W2395579298"
+ },
+ "intrinsics estimation from a single image with deep learning": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "deep learning of multi view representations for visual tracking": {
+  "status": "low_confidence",
+  "oa_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+  "oa_first_author": "Karen Simonyan",
+  "oa_institution": "University of Oxford",
+  "oa_country": "GB",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1686810756"
+ },
+ "deep image prior for fast super resolution": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "generative deep representation for object detection and localization": {
+  "status": "low_confidence",
+  "oa_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+  "oa_first_author": "Karen Simonyan",
+  "oa_institution": "University of Oxford",
+  "oa_country": "GB",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1686810756"
+ },
+ "feature extraction using graph theoretical techniques on object recognition": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "training shape contexts a new scheme for deep descriptor learning": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "combining local geometry saliency for multi class object detection": {
+  "status": "low_confidence",
+  "oa_title": "Deep Learning for Generic Object Detection: A Survey",
+  "oa_first_author": "Li Liu",
+  "oa_institution": "National University of Defense Technology",
+  "oa_country": "CN",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2988916019"
+ },
+ "learning a minimum redundancy feature representation with an applications to face classification": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "multiview robust object detection algorithm with non negative matrix factorization": {
+  "status": "low_confidence",
+  "oa_title": "Enter the Matrix: Factorization Uncovers Knowledge from Omics",
+  "oa_first_author": "Genevieve Stein-O’Brien",
+  "oa_institution": "Johns Hopkins University",
+  "oa_country": "US",
+  "oa_year": 2018,
+  "oa_id": "https://openalex.org/W2950245999"
+ },
+ "adaptive spectral regularization for object detection": {
+  "status": "low_confidence",
+  "oa_title": "Using Deep Learning for Image-Based Plant Disease Detection",
+  "oa_first_author": "Sharada P. Mohanty",
+  "oa_institution": "École Polytechnique Fédérale de Lausanne",
+  "oa_country": "CH",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W2473156356"
+ },
+ "deep learning methods and applications": {
+  "status": "resolved",
+  "oa_title": "Deep Learning: Methods and Applications",
+  "oa_first_author": "Li Deng",
+  "oa_institution": "Microsoft (United States)",
+  "oa_country": "US",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W4205947740"
+ },
+ "a survey of the evolution and impact of computer vision research": {
+  "status": "low_confidence",
+  "oa_title": "A survey on Image Data Augmentation for Deep Learning",
+  "oa_first_author": "Connor Shorten",
+  "oa_institution": "Florida Atlantic University",
+  "oa_country": "US",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2954996726"
+ },
+ "the role of color constancy in computer vision": {
+  "status": "low_confidence",
+  "oa_title": "Color constancy",
+  "oa_first_author": "David Foster",
+  "oa_institution": "University of Manchester",
+  "oa_country": "GB",
+  "oa_year": 2010,
+  "oa_id": "https://openalex.org/W4211258697"
+ },
+ "a survey of methods used in segmentation": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "feature matching in computer vision": {
+  "status": "no_affiliation",
+  "oa_title": "Computer and Robot Vision",
+  "oa_first_author": "Robert M. Haralock",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1991,
+  "oa_id": "https://openalex.org/W1564419782"
+ },
+ "data driven methods for classification and recognition": {
+  "status": "low_confidence",
+  "oa_title": "Data clustering",
+  "oa_first_author": "Anil K. Jain",
+  "oa_institution": "Michigan State University",
+  "oa_country": "US",
+  "oa_year": 1999,
+  "oa_id": "https://openalex.org/W1992419399"
+ },
+ "deep learning for semantic segmentation": {
+  "status": "low_confidence",
+  "oa_title": "Fully convolutional networks for semantic segmentation",
+  "oa_first_author": "Jonathan Long",
+  "oa_institution": "Berkeley College",
+  "oa_country": "US",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W1903029394"
+ },
+ "large scale image matching with deep networks": {
+  "status": "low_confidence",
+  "oa_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+  "oa_first_author": "Karen Simonyan",
+  "oa_institution": "University of Oxford",
+  "oa_country": "GB",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1686810756"
+ },
+ "context aware visual search with fully supervised deep hierarchical descriptors": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "feature extraction via spatial pyramid matching in convolutional neural networks": {
+  "status": "low_confidence",
+  "oa_title": "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+  "oa_first_author": "Kaiming He",
+  "oa_institution": "Microsoft Research Asia (China)",
+  "oa_country": "CN",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2179352600"
+ },
+ "spatial pyramid pooling in deep convolutional networks for visual recognition": {
+  "status": "resolved",
+  "oa_title": "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+  "oa_first_author": "Kaiming He",
+  "oa_institution": "Microsoft (United States)",
+  "oa_country": "US",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W2109255472"
+ },
+ "unsupervised feature learning via non negative matrix factorization": {
+  "status": "low_confidence",
+  "oa_title": "A flexible R package for nonnegative matrix factorization",
+  "oa_first_author": "Renaud Gaujoux",
+  "oa_institution": "University of Cape Town",
+  "oa_country": "ZA",
+  "oa_year": 2010,
+  "oa_id": "https://openalex.org/W2149031002"
+ },
+ "learning hierarchical sparse codes for image annotation": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "pascal voc challenges to evaluate the generality of object appearance models": {
+  "status": "low_confidence",
+  "oa_title": "On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation",
+  "oa_first_author": "Sebastian Bach",
+  "oa_institution": "Technische Universität Berlin",
+  "oa_country": "DE",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W1787224781"
+ },
+ "deep learning based image classification models": {
+  "status": "low_confidence",
+  "oa_title": "ImageNet classification with deep convolutional neural networks",
+  "oa_first_author": "Alex Krizhevsky",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2163605009"
+ },
+ "a fast method for image to svg translation using transformer networks": {
+  "status": "low_confidence",
+  "oa_title": "Deep Learning with Graph Convolutional Networks: An Overview and Latest Applications in Computational Intelligence",
+  "oa_first_author": "Uzair Aslam Bhatti",
+  "oa_institution": "Hainan University",
+  "oa_country": "CN",
+  "oa_year": 2023,
+  "oa_id": "https://openalex.org/W4322627364"
+ },
+ "learning deep features for appearance based fingerprint recognition": {
+  "status": "low_confidence",
+  "oa_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+  "oa_first_author": "Laith Alzubaidi",
+  "oa_institution": "Queensland University of Technology",
+  "oa_country": "AU",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W3140854437"
+ },
+ "improving image classification with multiple local convolutional feature maps": {
+  "status": "low_confidence",
+  "oa_title": "ImageNet classification with deep convolutional neural networks",
+  "oa_first_author": "Alex Krizhevsky",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2163605009"
+ },
+ "joint local and global feature learning for scene recognition": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "deep neural networks for video classification": {
+  "status": "low_confidence",
+  "oa_title": "ImageNet classification with deep convolutional neural networks",
+  "oa_first_author": "Alex Krizhevsky",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2163605009"
+ },
+ "a unified approach to face detection verification and identification": {
+  "status": "low_confidence",
+  "oa_title": "Deepfakes and beyond: A Survey of face manipulation and fake detection",
+  "oa_first_author": "Rubén Tolosana",
+  "oa_institution": "Universidad Autónoma de Madrid",
+  "oa_country": "ES",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3038930935"
+ },
+ "visual feature enhancement via multi level group sparse coding": {
+  "status": "low_confidence",
+  "oa_title": "The Pascal Visual Object Classes Challenge: A Retrospective",
+  "oa_first_author": "Mark Everingham",
+  "oa_institution": "University of Leeds",
+  "oa_country": "GB",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2037227137"
+ },
+ "deep image restoration for single image super resolution": {
+  "status": "low_confidence",
+  "oa_title": "Image Super-Resolution Using Deep Convolutional Networks",
+  "oa_first_author": "Chao Dong",
+  "oa_institution": "Chinese University of Hong Kong",
+  "oa_country": "HK",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W1885185971"
+ },
+ "adaptive image to image mapping networks": {
+  "status": "low_confidence",
+  "oa_title": "3D Slicer as an image computing platform for the Quantitative Imaging Network",
+  "oa_first_author": "Andriy Fedorov",
+  "oa_institution": "Brigham and Women's Hospital",
+  "oa_country": "US",
+  "oa_year": 2012,
+  "oa_id": "https://openalex.org/W2026616100"
+ },
+ "sift scale invariant feature transform": {
+  "status": "no_affiliation",
+  "oa_title": "Scale Invariant Feature Transform",
+  "oa_first_author": "Tony Lindeberg",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2012,
+  "oa_id": "https://openalex.org/W2005750530"
+ },
+ "deep residual learning for image recognition": {
+  "status": "resolved",
+  "oa_title": "Deep Residual Learning for Image Recognition",
+  "oa_first_author": "Kaiming He",
+  "oa_institution": "Microsoft Research (United Kingdom)",
+  "oa_country": "GB",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W2194775991"
+ },
+ "pillarnet an end to end approach to object detection": {
+  "status": "low_confidence",
+  "oa_title": "HRNet: 3D object detection network for point cloud with hierarchical refinement",
+  "oa_first_author": "Bin Lu",
+  "oa_institution": "North China Electric Power University",
+  "oa_country": "CN",
+  "oa_year": 2024,
+  "oa_id": "https://openalex.org/W4390619779"
+ },
+ "the caffe convolutional architecture framework": {
+  "status": "low_confidence",
+  "oa_title": "Caffe",
+  "oa_first_author": "Yangqing Jia",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2155893237"
+ },
+ "predicting deep semantic similarity by using image context": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "vggnet very deep convolutional networks for large scale image recognition": {
+  "status": "low_confidence",
+  "oa_title": "A survey on Image Data Augmentation for Deep Learning",
+  "oa_first_author": "Connor Shorten",
+  "oa_institution": "Florida Atlantic University",
+  "oa_country": "US",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2954996726"
+ },
+ "gigazoo large scale multi epoch image datasets": {
+  "status": "not_found"
+ },
+ "unsupervised domain adaptation with joint local global mapping": {
+  "status": "low_confidence",
+  "oa_title": "A survey on concept drift adaptation",
+  "oa_first_author": "João Gama",
+  "oa_institution": "Universidade do Porto",
+  "oa_country": "PT",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2099419573"
+ },
+ "mask r cnn integrating class activation mappings into masked region proposal networks": {
+  "status": "low_confidence",
+  "oa_title": "Video SAR Moving Target Detection Using Dual Faster R-CNN",
+  "oa_first_author": "Liwu Wen",
+  "oa_institution": "Xidian University",
+  "oa_country": "CN",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W3134852047"
+ },
+ "semantic segmentation with deep convolutional networks and fully connected crfs": {
+  "status": "resolved",
+  "oa_title": "Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
+  "oa_first_author": "Liang-Chieh Chen",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1923697677"
+ },
+ "r cnn rich feature hierarchies for accurate object detection": {
+  "status": "low_confidence",
+  "oa_title": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+  "oa_first_author": "Ross Girshick",
+  "oa_institution": "Berkeley College",
+  "oa_country": "US",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2102605133"
+ },
+ "spatial pyramid matching for multiscale classification": {
+  "status": "low_confidence",
+  "oa_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+  "oa_first_author": "Karen Simonyan",
+  "oa_institution": "University of Oxford",
+  "oa_country": "GB",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1686810756"
+ },
+ "unsupervised learning with multiple view data": {
+  "status": "low_confidence",
+  "oa_title": "A survey on Image Data Augmentation for Deep Learning",
+  "oa_first_author": "Connor Shorten",
+  "oa_institution": "Florida Atlantic University",
+  "oa_country": "US",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2954996726"
+ },
+ "a case for integrity based security": {
+  "status": "low_confidence",
+  "oa_title": "Blockchain for IoT security and privacy: The case study of a smart home",
+  "oa_first_author": "Ali Dorri",
+  "oa_institution": "UNSW Sydney",
+  "oa_country": "AU",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2611626082"
+ },
+ "information flow control in an object hierarchical system ii a general framework and a prototype implementation": {
+  "status": "low_confidence",
+  "oa_title": "Industrial automation based on cyber-physical systems technologies: Prototype implementations and challenges",
+  "oa_first_author": "Paulo Leitão",
+  "oa_institution": "Polytechnic Institute of Bragança",
+  "oa_country": "PT",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W1718306640"
+ },
+ "information flow and the specification of integrity in object oriented systems": {
+  "status": "no_affiliation",
+  "oa_title": "Geographic information systems and science",
+  "oa_first_author": "Rocha, Jorge",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2011,
+  "oa_id": "https://openalex.org/W2512173100"
+ },
+ "cohesion of structures in objects a foundation for object oriented design": {
+  "status": "no_affiliation",
+  "oa_title": "Fundamentals of object-oriented design in UML",
+  "oa_first_author": "Meilir Page-Jones",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1999,
+  "oa_id": "https://openalex.org/W1591711427"
+ },
+ "a framework for programming language security": {
+  "status": "low_confidence",
+  "oa_title": "ChatGPT for good? On opportunities and challenges of large language models for education",
+  "oa_first_author": "Enkelejda Kasneci",
+  "oa_institution": "Technical University of Munich",
+  "oa_country": "DE",
+  "oa_year": 2023,
+  "oa_id": "https://openalex.org/W4323655724"
+ },
+ "a taxonomy and architecture for object oriented languages": {
+  "status": "low_confidence",
+  "oa_title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+  "oa_first_author": "Jayavardhana Gubbi",
+  "oa_institution": "University of Melbourne",
+  "oa_country": "AU",
+  "oa_year": 2013,
+  "oa_id": "https://openalex.org/W2111619626"
+ },
+ "object oriented programming with olos a modular approach": {
+  "status": "low_confidence",
+  "oa_title": "A Prosumer-Oriented, Interoperable, Modular and Secure Smart Home Energy Management System Architecture",
+  "oa_first_author": "Pedro Gonzalez-Gil",
+  "oa_institution": "Universidad de Murcia",
+  "oa_country": "ES",
+  "oa_year": 2022,
+  "oa_id": "https://openalex.org/W4293221977"
+ },
+ "secure information flow a general framework for the design and enforcement of memory safety": {
+  "status": "low_confidence",
+  "oa_title": "Enforceable security policies",
+  "oa_first_author": "Fred B. Schneider",
+  "oa_institution": "Cornell University",
+  "oa_country": "US",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W2036910349"
+ },
+ "formalizing trust and confidentiality in information systems a formal model with decentralized enforcement": {
+  "status": "low_confidence",
+  "oa_title": "Advances and Open Problems in Federated Learning",
+  "oa_first_author": "Peter Kairouz",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W2995022099"
+ },
+ "secure services through security tokens an application in a financial system": {
+  "status": "no_affiliation",
+  "oa_title": "Guide to Industrial Control Systems (ICS) Security",
+  "oa_first_author": "Keith Stouffer",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W2619874920"
+ },
+ "a language and system for secure computing the security server facility ssf": {
+  "status": "low_confidence",
+  "oa_title": "Contactless Technologies for Smart Cities: Big Data, IoT, and Cloud Infrastructures",
+  "oa_first_author": "Manimuthu Arunmozhi",
+  "oa_institution": "Nanyang Technological University",
+  "oa_country": "SG",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W3170867005"
+ },
+ "security for object oriented systems an architectural and mechanistic approach to the design and implementation of security in objects and processes": {
+  "status": "low_confidence",
+  "oa_title": "Naming in content-oriented architectures",
+  "oa_first_author": "Ali Ghodsi",
+  "oa_institution": "Berkeley College",
+  "oa_country": "US",
+  "oa_year": 2011,
+  "oa_id": "https://openalex.org/W2155527034"
+ },
+ "object oriented security in an environment with concurrency and a distributed file system": {
+  "status": "low_confidence",
+  "oa_title": "CloudSim: a toolkit for modeling and simulation of cloud computing environments and evaluation of resource provisioning algorithms",
+  "oa_first_author": "Rodrigo N. Calheiros",
+  "oa_institution": "The University of Melbourne",
+  "oa_country": "AU",
+  "oa_year": 2010,
+  "oa_id": "https://openalex.org/W2045287414"
+ },
+ "an architecture for managing information flow in a distributed object based system": {
+  "status": "low_confidence",
+  "oa_title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+  "oa_first_author": "Jayavardhana Gubbi",
+  "oa_institution": "University of Melbourne",
+  "oa_country": "AU",
+  "oa_year": 2013,
+  "oa_id": "https://openalex.org/W2111619626"
+ },
+ "an architectural basis for programming language security": {
+  "status": "low_confidence",
+  "oa_title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+  "oa_first_author": "Jayavardhana Gubbi",
+  "oa_institution": "University of Melbourne",
+  "oa_country": "AU",
+  "oa_year": 2013,
+  "oa_id": "https://openalex.org/W2111619626"
+ },
+ "a software engineering approach to reverse engineering": {
+  "status": "low_confidence",
+  "oa_title": "Reverse engineering and design recovery: a taxonomy",
+  "oa_first_author": "Elliot J. Chikofsky",
+  "oa_institution": "Northeastern University",
+  "oa_country": "US",
+  "oa_year": 1990,
+  "oa_id": "https://openalex.org/W2006267758"
+ },
+ "software evolution principles and practice": {
+  "status": "low_confidence",
+  "oa_title": "The FAIR Guiding Principles for scientific data management and stewardship",
+  "oa_first_author": "Mark D. Wilkinson",
+  "oa_institution": "Centre for Plant Biotechnology and Genomics",
+  "oa_country": "ES",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W2302501749"
+ },
+ "the role of knowledge in the integration and evolution of software products": {
+  "status": "low_confidence",
+  "oa_title": "Product sequencing: co-evolution of knowledge, capabilities and products",
+  "oa_first_author": "Constance E. Helfat",
+  "oa_institution": "Dartmouth College",
+  "oa_country": "US",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W3125318459"
+ },
+ "the design pattern origins development and impact": {
+  "status": "low_confidence",
+  "oa_title": "The Colonial Origins of Comparative Development: An Empirical Investigation: Reply",
+  "oa_first_author": "Daron Acemoğlu",
+  "oa_institution": "Harvard University Press",
+  "oa_country": "US",
+  "oa_year": 2012,
+  "oa_id": "https://openalex.org/W3124131699"
+ },
+ "the manifesto for agile software development": {
+  "status": "no_affiliation",
+  "oa_title": "Manifesto for agile software development",
+  "oa_first_author": "K. Beck",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2001,
+  "oa_id": "https://openalex.org/W1529465401"
+ },
+ "managing ontology changes in an evolution process methodologies and challenges": {
+  "status": "low_confidence",
+  "oa_title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+  "oa_first_author": "Alejandro Barredo Arrieta",
+  "oa_institution": "Tecnalia",
+  "oa_country": "ES",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2981731882"
+ },
+ "an empirical investigation of the influence of testing processes on software reliability": {
+  "status": "low_confidence",
+  "oa_title": "Nonparametric permutation tests for functional neuroimaging: A primer with examples",
+  "oa_first_author": "Thomas E. Nichols",
+  "oa_institution": "University of Michigan",
+  "oa_country": "US",
+  "oa_year": 2001,
+  "oa_id": "https://openalex.org/W2138790588"
+ },
+ "software architecture pattern languages a research roadmap": {
+  "status": "low_confidence",
+  "oa_title": "Software Engineering for Self-Adaptive Systems: A Second Research Roadmap",
+  "oa_first_author": "Rogério de Lemos",
+  "oa_institution": "University of Kent",
+  "oa_country": "GB",
+  "oa_year": 2013,
+  "oa_id": "https://openalex.org/W2142486130"
+ },
+ "the role of the configuration management paradigm in modern software development": {
+  "status": "low_confidence",
+  "oa_title": "Version models for software configuration management",
+  "oa_first_author": "Reidar Conradi",
+  "oa_institution": "Norwegian University of Science and Technology",
+  "oa_country": "NO",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2001907377"
+ },
+ "a methodology for the planning coding and testing of system software": {
+  "status": "low_confidence",
+  "oa_title": "Bioconductor: open software development for computational biology and bioinformatics",
+  "oa_first_author": "Robert Gentleman",
+  "oa_institution": "Dana-Farber Cancer Institute",
+  "oa_country": "US",
+  "oa_year": 2004,
+  "oa_id": "https://openalex.org/W2160697532"
+ },
+ "structured software systems": {
+  "status": "low_confidence",
+  "oa_title": "Crystallography &amp; NMR System: A New Software Suite for Macromolecular Structure Determination",
+  "oa_first_author": "Axel T. Brünger",
+  "oa_institution": "Howard Hughes Medical Institute",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W1995017064"
+ },
+ "structured program design": {
+  "status": "low_confidence",
+  "oa_title": "A short history of<i>SHELX</i>",
+  "oa_first_author": "George M. Sheldrick",
+  "oa_institution": "University of Göttingen",
+  "oa_country": "DE",
+  "oa_year": 2007,
+  "oa_id": "https://openalex.org/W2131350133"
+ },
+ "software engineering concepts techniques": {
+  "status": "low_confidence",
+  "oa_title": "Systematic literature reviews in software engineering – A systematic literature review",
+  "oa_first_author": "Barbara Kitchenham",
+  "oa_institution": "Keele University",
+  "oa_country": "GB",
+  "oa_year": 2008,
+  "oa_id": "https://openalex.org/W2106956101"
+ },
+ "an approach to the design of modular systems": {
+  "status": "low_confidence",
+  "oa_title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+  "oa_first_author": "Paolo Giannozzi",
+  "oa_institution": "University of Udine",
+  "oa_country": "IT",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2120145199"
+ },
+ "software reuse a challenge to the software industry": {
+  "status": "low_confidence",
+  "oa_title": "Reusing software: issues and research directions",
+  "oa_first_author": "Hafedh Mili",
+  "oa_institution": "Université du Québec à Montréal",
+  "oa_country": "CA",
+  "oa_year": 1995,
+  "oa_id": "https://openalex.org/W2115350349"
+ },
+ "an algorithm for structured programming": {
+  "status": "low_confidence",
+  "oa_title": "Genetic Algorithms + Data Structures = Evolution Programs",
+  "oa_first_author": "Zbigniew Michalewicz",
+  "oa_institution": "University of North Carolina at Charlotte",
+  "oa_country": "US",
+  "oa_year": 1992,
+  "oa_id": "https://openalex.org/W2142183404"
+ },
+ "the engineering of computer systems": {
+  "status": "low_confidence",
+  "oa_title": "Fiji: an open-source platform for biological-image analysis",
+  "oa_first_author": "Johannes Schindelin",
+  "oa_institution": "Max Planck Institute of Molecular Cell Biology and Genetics",
+  "oa_country": "DE",
+  "oa_year": 2012,
+  "oa_id": "https://openalex.org/W2167279371"
+ },
+ "a program scheduling algorithm": {
+  "status": "low_confidence",
+  "oa_title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+  "oa_first_author": "Pauli Virtanen",
+  "oa_institution": "University of Jyväskylä",
+  "oa_country": "FI",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3003257820"
+ },
+ "an investigation of a software engineering method": {
+  "status": "low_confidence",
+  "oa_title": "Systematic Mapping Studies in Software Engineering",
+  "oa_first_author": "Kai Petersen",
+  "oa_institution": "Ericsson (Sweden)",
+  "oa_country": "SE",
+  "oa_year": 2008,
+  "oa_id": "https://openalex.org/W4214443"
+ },
+ "concepts and techniques for object oriented software engineering": {
+  "status": "no_affiliation",
+  "oa_title": "Object Oriented Software Engineering: A Use Case Driven Approach",
+  "oa_first_author": "Ivar Jacobson",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1992,
+  "oa_id": "https://openalex.org/W2139907081"
+ },
+ "software engineering a structured approach": {
+  "status": "low_confidence",
+  "oa_title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+  "oa_first_author": "Paolo Giannozzi",
+  "oa_institution": "University of Udine",
+  "oa_country": "IT",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2120145199"
+ },
+ "an algorithm for the construction and testing of programs": {
+  "status": "low_confidence",
+  "oa_title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+  "oa_first_author": "Stephen F. Altschul",
+  "oa_institution": "National Institutes of Health",
+  "oa_country": "US",
+  "oa_year": 1997,
+  "oa_id": "https://openalex.org/W2158714788"
+ },
+ "structured systems analysis and design": {
+  "status": "low_confidence",
+  "oa_title": "UCSF Chimera—A visualization system for exploratory research and analysis",
+  "oa_first_author": "Eric F. Pettersen",
+  "oa_institution": "University of California, San Francisco",
+  "oa_country": "US",
+  "oa_year": 2004,
+  "oa_id": "https://openalex.org/W2132629607"
+ },
+ "a theory of software craftsmanship": {
+  "status": "low_confidence",
+  "oa_title": "Prospects for an engineering discipline of software",
+  "oa_first_author": "Mary Shaw",
+  "oa_institution": "Carnegie Mellon University",
+  "oa_country": "US",
+  "oa_year": 1990,
+  "oa_id": "https://openalex.org/W2122253789"
+ },
+ "the mythical man month essays on software engineering twentieth anniversary edition": {
+  "status": "no_affiliation",
+  "oa_title": "Discriminating Data",
+  "oa_first_author": "Wendy Hui Kyong Chun",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W3208914105"
+ },
+ "refactoring improving the design of existing code": {
+  "status": "resolved",
+  "oa_title": "Refactoring improving the design of existing code",
+  "oa_first_author": "Mauricio A. Saca",
+  "oa_institution": "Universidad Don Bosco",
+  "oa_country": "SV",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2787379525"
+ },
+ "refactoring by contract an introduction to design by contract 2nd edition": {
+  "status": "low_confidence",
+  "oa_title": "Business Process Management: A Comprehensive Survey",
+  "oa_first_author": "Wil M. P. van der Aalst",
+  "oa_institution": "Eindhoven University of Technology",
+  "oa_country": "NL",
+  "oa_year": 2013,
+  "oa_id": "https://openalex.org/W2151164148"
+ },
+ "software metrics understanding the numbers that drive productivity": {
+  "status": "no_affiliation",
+  "oa_title": "The Metric Tide: Report of the Independent Review of the Role of Metrics in Research Assessment and Management",
+  "oa_first_author": "James Wilsdon",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W2163887529"
+ },
+ "an introduction to data abstraction and problem solving with apl": {
+  "status": "low_confidence",
+  "oa_title": "Can programming be liberated from the von Neumann style?",
+  "oa_first_author": "John Backus",
+  "oa_institution": "IBM (United States)",
+  "oa_country": "US",
+  "oa_year": 1978,
+  "oa_id": "https://openalex.org/W2172307690"
+ },
+ "design patterns elements of reusable object oriented software 4th edition": {
+  "status": "low_confidence",
+  "oa_title": "Design for Additive Manufacturing: Trends, opportunities, considerations, and constraints",
+  "oa_first_author": "Mary Kathryn Thompson",
+  "oa_institution": "Technical University of Denmark",
+  "oa_country": "DK",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W2475009926"
+ },
+ "a pattern language town planning and the design of buildings first edition": {
+  "status": "no_affiliation",
+  "oa_title": "Identity and Language Learning",
+  "oa_first_author": "Bonny Norton",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2013,
+  "oa_id": "https://openalex.org/W230660992"
+ },
+ "the role of programming examples in the teaching and learning of programming an international perspective revised edition": {
+  "status": "low_confidence",
+  "oa_title": "Online University Teaching During and After the Covid-19 Crisis: Refocusing Teacher Presence and Learning Activity",
+  "oa_first_author": "Chrysi Rapanta",
+  "oa_institution": "Universidade Nova de Lisboa",
+  "oa_country": "PT",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3042009104"
+ },
+ "design patterns elements of reusable object oriented software 3rd edition": {
+  "status": "low_confidence",
+  "oa_title": "The Anatomy of a Design Theory",
+  "oa_first_author": "David Jones",
+  "oa_institution": "Australian National University",
+  "oa_country": "AU",
+  "oa_year": 2007,
+  "oa_id": "https://openalex.org/W2169571673"
+ },
+ "software design patterns a survey of the state of the art second edition": {
+  "status": "low_confidence",
+  "oa_title": "Network Function Virtualization: State-of-the-Art and Research Challenges",
+  "oa_first_author": "Rashid Mijumbi",
+  "oa_institution": "Universitat Politècnica de Catalunya",
+  "oa_country": "ES",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W2260783129"
+ },
+ "pattern languages design patterns as a structuring mechanism": {
+  "status": "no_affiliation",
+  "oa_title": "R: A Language and Environment for Statistical Computing",
+  "oa_first_author": "R Core Team",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W2582743722"
+ },
+ "design patterns elements of reusable object oriented software 4th edition second printing": {
+  "status": "low_confidence",
+  "oa_title": "CHERI: A Hybrid Capability-System Architecture for Scalable Software Compartmentalization",
+  "oa_first_author": "Robert N. M. Watson",
+  "oa_institution": "University of Cambridge",
+  "oa_country": "GB",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W1904738922"
+ },
+ "software engineering as a scholarly discipline": {
+  "status": "low_confidence",
+  "oa_title": "Web of Science as a data source for research on scientific and scholarly activity",
+  "oa_first_author": "Caroline Birkle",
+  "oa_institution": "Web Science Trust",
+  "oa_country": "GB",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3000895385"
+ },
+ "structured systems design the structure of cadad": {
+  "status": "no_affiliation",
+  "oa_title": "Subject coordinators: Leading professional development for sessional staff",
+  "oa_first_author": "Geraldine Lefoe",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2011,
+  "oa_id": "https://openalex.org/W188036325"
+ },
+ "a discipline of programming": {
+  "status": "no_affiliation",
+  "oa_title": "A Discipline of Programming",
+  "oa_first_author": "Edsger W. Dijkstra",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1976,
+  "oa_id": "https://openalex.org/W2103953153"
+ },
+ "the design methodology of the system development process as applied to a data processing system for banks ssdpl": {
+  "status": "not_found"
+ },
+ "the early history of software engineering the role in it of the international federation for information processing ifip": {
+  "status": "low_confidence",
+  "oa_title": "A brief history of human-computer interaction technology",
+  "oa_first_author": "Brad A. Myers",
+  "oa_institution": "Carnegie Mellon University",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112741432"
+ },
+ "a method for enhancing the design and control quality of software systems": {
+  "status": "no_affiliation",
+  "oa_title": "PID control system analysis, design, and technology",
+  "oa_first_author": "Kiam Heong Ang",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2005,
+  "oa_id": "https://openalex.org/W2140246545"
+ },
+ "a system development approach": {
+  "status": "no_affiliation",
+  "oa_title": "A dynamic systems approach to the development of cognition and action",
+  "oa_first_author": "Esther Thelen",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1996,
+  "oa_id": "https://openalex.org/W1698657956"
+ },
+ "software pioneers my experiences with a personal computer system perc": {
+  "status": "low_confidence",
+  "oa_title": "Accessible Visual Artworks for Blind and Visually Impaired People: Comparing a Multimodal Approach with Tactile Graphics",
+  "oa_first_author": "Luis Cavazos Quero",
+  "oa_institution": "Sungkyunkwan University",
+  "oa_country": "KR",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W3123680532"
+ },
+ "design for manufacturing and design automation dmda": {
+  "status": "low_confidence",
+  "oa_title": "Inclusive Growth in the Era of Automation and AI: How Can Taxation Help?",
+  "oa_first_author": "Rossana Merola",
+  "oa_institution": "International Labour Organization",
+  "oa_country": "CH",
+  "oa_year": 2022,
+  "oa_id": "https://openalex.org/W4281720272"
+ },
+ "an experimental study of the impact of design process improvement on software development effort": {
+  "status": "low_confidence",
+  "oa_title": "Bioconductor: open software development for computational biology and bioinformatics",
+  "oa_first_author": "Robert Gentleman",
+  "oa_institution": "Dana-Farber Cancer Institute",
+  "oa_country": "US",
+  "oa_year": 2004,
+  "oa_id": "https://openalex.org/W2160697532"
+ },
+ "software engineering as a scholarly discipline ii on software maintenance and related issues": {
+  "status": "no_affiliation",
+  "oa_title": "Managing Technical Debt in Software Engineering (Dagstuhl Seminar 16162)",
+  "oa_first_author": "Paris Avgeriou",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W2565244242"
+ },
+ "design science research the role of the university in developing an academic discipline isdr07 volume 4": {
+  "status": "not_found"
+ },
+ "a system development approach an extended description and experiment in a major commercial project edsap": {
+  "status": "not_found"
+ },
+ "the evolution of software engineering as a scholarly discipline a personal perspective isdr07 volume 5": {
+  "status": "not_found"
+ },
+ "a new perspective on the software engineering discipline and educational programs isdr08 volume 6": {
+  "status": "not_found"
+ },
+ "sift a local image descriptor": {
+  "status": "low_confidence",
+  "oa_title": "PCA-SIFT: a more distinctive representation for local image descriptors",
+  "oa_first_author": "Ke Yan",
+  "oa_institution": "Carnegie Mellon University",
+  "oa_country": "US",
+  "oa_year": 2004,
+  "oa_id": "https://openalex.org/W2145072179"
+ },
+ "hedsmote hierarchical edge based dense optical flow model and tracking": {
+  "status": "not_found"
+ },
+ "boltzmann machines": {
+  "status": "low_confidence",
+  "oa_title": "Rectified Linear Units Improve Restricted Boltzmann Machines",
+  "oa_first_author": "Vinod Nair",
+  "oa_institution": "University of Toronto",
+  "oa_country": "CA",
+  "oa_year": 2010,
+  "oa_id": "https://openalex.org/W1665214252"
+ },
+ "freak fast region expansion for keypoint recognition": {
+  "status": "low_confidence",
+  "oa_title": "Development of Effective Methods for Structural Image Recognition Using the Principles of Data Granulation and Apparatus of Fuzzy Logic",
+  "oa_first_author": "Yousef Ibrahim Daradkeh",
+  "oa_institution": "Prince Sattam Bin Abdulaziz University",
+  "oa_country": "SA",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W3119518708"
+ },
+ "vggnet very deep convolutional networks for large scale image recognition and going deeper": {
+  "status": "low_confidence",
+  "oa_title": "A survey on Image Data Augmentation for Deep Learning",
+  "oa_first_author": "Connor Shorten",
+  "oa_institution": "Florida Atlantic University",
+  "oa_country": "US",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2954996726"
+ },
+ "region competition finding superpixels by voting": {
+  "status": "low_confidence",
+  "oa_title": "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)",
+  "oa_first_author": "Bjoern Menze",
+  "oa_institution": "Institut national de recherche en sciences et technologies du numérique",
+  "oa_country": "FR",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1641498739"
+ },
+ "gap graph activation propagation for joint object and region proposal generation": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "fcn fully convolutional networks for semantic segmentation": {
+  "status": "no_affiliation",
+  "oa_title": "Fully Convolutional Networks for Semantic Segmentation",
+  "oa_first_author": "J. D. Long",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W4308909683"
+ },
+ "nips 2009 a discriminatively lightweight cnn for object detection and classification with high resolution images": {
+  "status": "low_confidence",
+  "oa_title": "Deep Learning for Generic Object Detection: A Survey",
+  "oa_first_author": "Li Liu",
+  "oa_institution": "National University of Defense Technology",
+  "oa_country": "CN",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2988916019"
+ },
+ "region proposal by spatial pyramid matching": {
+  "status": "low_confidence",
+  "oa_title": "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+  "oa_first_author": "Kaiming He",
+  "oa_institution": "Microsoft Research Asia (China)",
+  "oa_country": "CN",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2179352600"
+ },
+ "mask r cnn indefense of object segmentation using region proposal networks with a mask branch": {
+  "status": "not_found"
+ },
+ "minkowski neural networks an optimally sparse classifier over a metric space using an optimal number of nonzero weights": {
+  "status": "low_confidence",
+  "oa_title": "Optimal transport on discrete domains",
+  "oa_first_author": "Justin Solomon",
+  "oa_institution": "Carnegie Mellon University",
+  "oa_country": "US",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W2785169672"
+ },
+ "deconvolutional networks": {
+  "status": "resolved",
+  "oa_title": "Deconvolutional networks",
+  "oa_first_author": "Matthew D. Zeiler",
+  "oa_institution": "Courant Institute of Mathematical Sciences",
+  "oa_country": "US",
+  "oa_year": 2010,
+  "oa_id": "https://openalex.org/W2293078015"
+ },
+ "multi object tracking via spatiotemporal bundles of visual features with application to driver monitoring stbvf dm": {
+  "status": "not_found"
+ },
+ "feature extraction and image coding using the laplacian pyramid": {
+  "status": "low_confidence",
+  "oa_title": "scikit-image: image processing in Python",
+  "oa_first_author": "Stéfan van der Walt",
+  "oa_institution": "Stellenbosch University",
+  "oa_country": "ZA",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2015159529"
+ },
+ "eigenfaces for human face recognition": {
+  "status": "low_confidence",
+  "oa_title": "Face recognition using eigenfaces",
+  "oa_first_author": "Matthew Turk",
+  "oa_institution": "Massachusetts Institute of Technology",
+  "oa_country": "US",
+  "oa_year": 2002,
+  "oa_id": "https://openalex.org/W2098693229"
+ },
+ "recurrent neural networks for temporal pattern recognition": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "a survey of techniques for object recognition in the presence of occlusion and deformation": {
+  "status": "low_confidence",
+  "oa_title": "Deep Learning for Generic Object Detection: A Survey",
+  "oa_first_author": "Li Liu",
+  "oa_institution": "National University of Defense Technology",
+  "oa_country": "CN",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2988916019"
+ },
+ "combining local features for image classification and recognition": {
+  "status": "low_confidence",
+  "oa_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+  "oa_first_author": "Karen Simonyan",
+  "oa_institution": "University of Oxford",
+  "oa_country": "GB",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1686810756"
+ },
+ "the cascaded feed forward approach to image recognition": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "image understanding with the hierarchical representation of images": {
+  "status": "low_confidence",
+  "oa_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+  "oa_first_author": "Karen Simonyan",
+  "oa_institution": "University of Oxford",
+  "oa_country": "GB",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1686810756"
+ },
+ "a neural network approach to image understanding": {
+  "status": "low_confidence",
+  "oa_title": "ImageNet classification with deep convolutional neural networks",
+  "oa_first_author": "Alex Krizhevsky",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2163605009"
+ },
+ "image classification by the combination of features": {
+  "status": "low_confidence",
+  "oa_title": "ImageNet classification with deep convolutional neural networks",
+  "oa_first_author": "Alex Krizhevsky",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2163605009"
+ },
+ "learning to understand images a hierarchical top down approach": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "recurrent neural network networks a new class for learning associative task": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "a statistical framework for automatic image synthesis": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "learning in dynamic environments": {
+  "status": "no_affiliation",
+  "oa_title": "R: A Language and Environment for Statistical Computing",
+  "oa_first_author": "R Core Team",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W2582743722"
+ },
+ "using geometric constraints for scene understanding": {
+  "status": "low_confidence",
+  "oa_title": "Learning Hierarchical Features for Scene Labeling",
+  "oa_first_author": "Clément Farabet",
+  "oa_institution": "Courant Institute of Mathematical Sciences",
+  "oa_country": "US",
+  "oa_year": 2012,
+  "oa_id": "https://openalex.org/W2022508996"
+ },
+ "on finding image segmentation boundary lines": {
+  "status": "low_confidence",
+  "oa_title": "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)",
+  "oa_first_author": "Bjoern Menze",
+  "oa_institution": "Institut national de recherche en sciences et technologies du numérique",
+  "oa_country": "FR",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1641498739"
+ },
+ "feature extraction using neurons as features features as points": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "a randomized algorithm for learning binary decision distributions": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "learning nonparametric gauss mixture models for visual tracking": {
+  "status": "low_confidence",
+  "oa_title": "Visual Tracking: An Experimental Survey",
+  "oa_first_author": "A.W.M. Smeulders",
+  "oa_institution": "Centrum Wiskunde & Informatica",
+  "oa_country": "NL",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2126302311"
+ },
+ "solving the puzzle a statistical machine learning approach for automatic generation and categorization of architectural designs": {
+  "status": "low_confidence",
+  "oa_title": "Procedural Content Generation via Machine Learning (PCGML)",
+  "oa_first_author": "Adam Summerville",
+  "oa_institution": "University of California, Santa Cruz",
+  "oa_country": "US",
+  "oa_year": 2018,
+  "oa_id": "https://openalex.org/W2586544230"
+ },
+ "object oriented image analysis based on a hierarchical graph model": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "nonlinear object and event recognition in video with nonparametric bayes networks": {
+  "status": "low_confidence",
+  "oa_title": "A Review on Human Activity Recognition Using Vision-Based Method",
+  "oa_first_author": "Shugang Zhang",
+  "oa_institution": "Ocean University of China",
+  "oa_country": "CN",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2736707111"
+ },
+ "a generalized linear modeling approach to learning neuronal connection weights from ltp data application to the recognition of local image patterns learning spatial saliency with linear models and feedback": {
+  "status": "low_confidence",
+  "oa_title": "A neuronal model of classical conditioning",
+  "oa_first_author": "A. Harry Klopf",
+  "oa_institution": "Wright-Patterson Air Force Base",
+  "oa_country": "US",
+  "oa_year": 1988,
+  "oa_id": "https://openalex.org/W2113077545"
+ },
+ "a learning hebbian rule without a relevance variable spike triggered hebbian learning": {
+  "status": "low_confidence",
+  "oa_title": "Neuromodulated Spike-Timing-Dependent Plasticity, and Theory of Three-Factor Learning Rules",
+  "oa_first_author": "Nicolas Frémaux",
+  "oa_institution": "École Polytechnique Fédérale de Lausanne",
+  "oa_country": "CH",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W2271476098"
+ },
+ "visual recognition task by means of hebbian learning and neuron spikes hebbian image recoginition based on spike trigerred hebbian learning": {
+  "status": "not_found"
+ },
+ "object representation and classification by means of hebbian neuronal connectinws hebbian object representaton": {
+  "status": "not_found"
+ },
+ "object representation by hebbian neuronal connections learning hebbian recognition of objects using spike triggered hebbian learning": {
+  "status": "low_confidence",
+  "oa_title": "A framework for mesencephalic dopamine systems based on predictive Hebbian learning",
+  "oa_first_author": "P. Read Montague",
+  "oa_institution": "Baylor College of Medicine",
+  "oa_country": "US",
+  "oa_year": 1996,
+  "oa_id": "https://openalex.org/W1652173018"
+ },
+ "object recognition in natural images using hebbian neuron learning spatial saliency extraction with linear models": {
+  "status": "low_confidence",
+  "oa_title": "Unsupervised Learning of Visual Features through Spike Timing Dependent Plasticity",
+  "oa_first_author": "Timothée Masquelier",
+  "oa_institution": "GTP Technology",
+  "oa_country": "FR",
+  "oa_year": 2007,
+  "oa_id": "https://openalex.org/W2007815184"
+ },
+ "a neural network approach to image segmentation neural image analysis": {
+  "status": "low_confidence",
+  "oa_title": "ImageNet classification with deep convolutional neural networks",
+  "oa_first_author": "Alex Krizhevsky",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2163605009"
+ },
+ "feature learning for object detection using deep convolutional neural networks": {
+  "status": "low_confidence",
+  "oa_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+  "oa_first_author": "Karen Simonyan",
+  "oa_institution": "University of Oxford",
+  "oa_country": "GB",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1686810756"
+ },
+ "efficient multiclass active learning with graph regularization learning graph regularized": {
+  "status": "low_confidence",
+  "oa_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+  "oa_first_author": "Laith Alzubaidi",
+  "oa_institution": "Queensland University of Technology",
+  "oa_country": "AU",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W3140854437"
+ },
+ "feature based methods for object recognition and image categorization": {
+  "status": "low_confidence",
+  "oa_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+  "oa_first_author": "Karen Simonyan",
+  "oa_institution": "University of Oxford",
+  "oa_country": "GB",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1686810756"
+ },
+ "object recognition from local scale invariant features": {
+  "status": "resolved",
+  "oa_title": "Object recognition from local scale-invariant features",
+  "oa_first_author": "David Lowe",
+  "oa_institution": "University of British Columbia",
+  "oa_country": "CA",
+  "oa_year": 1999,
+  "oa_id": "https://openalex.org/W2124386111"
+ },
+ "pascal voc results for object classification and semantics challenges 2006": {
+  "status": "low_confidence",
+  "oa_title": "Deep Learning for Generic Object Detection: A Survey",
+  "oa_first_author": "Li Liu",
+  "oa_institution": "National University of Defense Technology",
+  "oa_country": "CN",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2988916019"
+ },
+ "semi supervised and active learning with manifold regularization": {
+  "status": "low_confidence",
+  "oa_title": "Semi-Supervised Learning",
+  "oa_first_author": "Olivier Chapelle",
+  "oa_institution": "Max Planck Society",
+  "oa_country": "DE",
+  "oa_year": 2006,
+  "oa_id": "https://openalex.org/W1479807131"
+ },
+ "convolutional lstm networks for end to end captioning of images": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "r cnn regions of interest cnn based detection": {
+  "status": "low_confidence",
+  "oa_title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+  "oa_first_author": "Shaoqing Ren",
+  "oa_institution": "Microsoft Research (United Kingdom)",
+  "oa_country": "GB",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W2613718673"
+ },
+ "3d resnets for semantic segmentation of large scale scans of indoor and outdoor scenes": {
+  "status": "no_affiliation",
+  "oa_title": "Matterport3D: Learning from RGB-D Data in Indoor Environments",
+  "oa_first_author": "Chang, Angel",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2755286543"
+ },
+ "an analysis of software engineering models": {
+  "status": "low_confidence",
+  "oa_title": "Experimentation in Software Engineering",
+  "oa_first_author": "Claes Wohlin",
+  "oa_institution": "Blekinge Institute of Technology",
+  "oa_country": "SE",
+  "oa_year": 2012,
+  "oa_id": "https://openalex.org/W4291213652"
+ },
+ "an object oriented systems approach the coad method": {
+  "status": "no_affiliation",
+  "oa_title": "Object Oriented Software Engineering: A Use Case Driven Approach",
+  "oa_first_author": "Ivar Jacobson",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1992,
+  "oa_id": "https://openalex.org/W2139907081"
+ },
+ "an introduction to object oriented development paradigms": {
+  "status": "low_confidence",
+  "oa_title": "The Pascal Visual Object Classes (VOC) Challenge",
+  "oa_first_author": "Mark Everingham",
+  "oa_institution": "University of Leeds",
+  "oa_country": "GB",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2031489346"
+ },
+ "software evolution concepts and problems": {
+  "status": "low_confidence",
+  "oa_title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+  "oa_first_author": "Paolo Giannozzi",
+  "oa_institution": "University of Udine",
+  "oa_country": "IT",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2120145199"
+ },
+ "software engineering the craft expertise perspective": {
+  "status": "low_confidence",
+  "oa_title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",
+  "oa_first_author": "Yogesh K. Dwivedi",
+  "oa_institution": "Symbiosis International University",
+  "oa_country": "IN",
+  "oa_year": 2023,
+  "oa_id": "https://openalex.org/W4360620450"
+ },
+ "introduction to dynamic software development environments": {
+  "status": "low_confidence",
+  "oa_title": "AI-Assisted Pipeline for Dynamic Generation of Trustworthy Health Supplement Content at Scale",
+  "oa_first_author": "Kefallinos, Dionysios",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2018,
+  "oa_id": "https://openalex.org/W2896457183"
+ },
+ "software engineering process and product analysis": {
+  "status": "no_affiliation",
+  "oa_title": "Software Product Lines: Practices and Patterns",
+  "oa_first_author": "Paul Clements",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2001,
+  "oa_id": "https://openalex.org/W1501652040"
+ },
+ "object oriented methods principles and practices": {
+  "status": "no_affiliation",
+  "oa_title": "Object-Oriented Methods: Principles and Practice",
+  "oa_first_author": "Ian Graham",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W1492481999"
+ },
+ "reactive programming in a dynamic data environment": {
+  "status": "low_confidence",
+  "oa_title": "CHARMM: The biomolecular simulation program",
+  "oa_first_author": "Bernard R. Brooks",
+  "oa_institution": "National Institutes of Health",
+  "oa_country": "US",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2132262459"
+ },
+ "methods in software engineering a tutorial": {
+  "status": "low_confidence",
+  "oa_title": "A Tutorial on the Cross-Entropy Method",
+  "oa_first_author": "Pieter-Tjerk de Boer",
+  "oa_institution": "University of Twente",
+  "oa_country": "NL",
+  "oa_year": 2005,
+  "oa_id": "https://openalex.org/W2132083787"
+ },
+ "software engineering research an agenda for the future": {
+  "status": "low_confidence",
+  "oa_title": "Technology Acceptance Model 3 and a Research Agenda on Interventions",
+  "oa_first_author": "Viswanath Venkatesh",
+  "oa_institution": "University of Arkansas at Fayetteville",
+  "oa_country": "US",
+  "oa_year": 2008,
+  "oa_id": "https://openalex.org/W2112042732"
+ },
+ "modeling software architectures quality considerations": {
+  "status": "low_confidence",
+  "oa_title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+  "oa_first_author": "Jayavardhana Gubbi",
+  "oa_institution": "University of Melbourne",
+  "oa_country": "AU",
+  "oa_year": 2013,
+  "oa_id": "https://openalex.org/W2111619626"
+ },
+ "the art of software": {
+  "status": "no_affiliation",
+  "oa_title": "Art of Software Testing",
+  "oa_first_author": "Glenford J. Myers",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1979,
+  "oa_id": "https://openalex.org/W150374354"
+ },
+ "a methodology for structured software design": {
+  "status": "low_confidence",
+  "oa_title": "Scoping studies: towards a methodological framework",
+  "oa_first_author": "Hilary Arksey",
+  "oa_institution": "University of York",
+  "oa_country": "GB",
+  "oa_year": 2005,
+  "oa_id": "https://openalex.org/W2075950485"
+ },
+ "software engineering a human perspective": {
+  "status": "low_confidence",
+  "oa_title": "Guidelines for conducting and reporting case study research in software engineering",
+  "oa_first_author": "Per Runeson",
+  "oa_institution": "Lund University",
+  "oa_country": "SE",
+  "oa_year": 2008,
+  "oa_id": "https://openalex.org/W2162739315"
+ },
+ "designing information systems an object oriented approac": {
+  "status": "low_confidence",
+  "oa_title": "An object-oriented construction and tool kit for human-computer communication",
+  "oa_first_author": "Gerhard Fischer",
+  "oa_institution": "University of Colorado Hospital",
+  "oa_country": "US",
+  "oa_year": 1987,
+  "oa_id": "https://openalex.org/W1976283572"
+ },
+ "the cathedral and the bazaar": {
+  "status": "no_affiliation",
+  "oa_title": "The cathedral and the bazaar",
+  "oa_first_author": "Eric S. Raymond",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2041114254"
+ },
+ "principles of crowd centered computing and software engineering for social good": {
+  "status": "low_confidence",
+  "oa_title": "A survey of socially interactive robots",
+  "oa_first_author": "Terrence Fong",
+  "oa_institution": "École Polytechnique Fédérale de Lausanne",
+  "oa_country": "CH",
+  "oa_year": 2003,
+  "oa_id": "https://openalex.org/W2099019320"
+ },
+ "a language for communication between independent processes": {
+  "status": "low_confidence",
+  "oa_title": "ELIZA—a computer program for the study of natural language communication between man and machine",
+  "oa_first_author": "Joseph Weizenbaum",
+  "oa_institution": "Massachusetts Institute of Technology",
+  "oa_country": "US",
+  "oa_year": 1966,
+  "oa_id": "https://openalex.org/W4236521339"
+ },
+ "designing operating systems an exercise in engineering": {
+  "status": "low_confidence",
+  "oa_title": "Requirements engineering",
+  "oa_first_author": "Bashar Nuseibeh",
+  "oa_institution": "Imperial College London",
+  "oa_country": "GB",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W2124405605"
+ },
+ "concurrency control and recovery in the dbtg database system": {
+  "status": "low_confidence",
+  "oa_title": "System R",
+  "oa_first_author": "M. M. Astrahan",
+  "oa_institution": "IBM (United States)",
+  "oa_country": "US",
+  "oa_year": 1976,
+  "oa_id": "https://openalex.org/W2116436709"
+ },
+ "programming in parallel with c": {
+  "status": "resolved",
+  "oa_title": "Parallel programming in Split-C",
+  "oa_first_author": "Arvind Krishnamurthy",
+  "oa_institution": "University of California, Berkeley",
+  "oa_country": "US",
+  "oa_year": 1993,
+  "oa_id": "https://openalex.org/W2098815550"
+ },
+ "an introduction to the design and implementation of lightweight concurrency control": {
+  "status": "no_affiliation",
+  "oa_title": "The Theory and Practice of Concurrency",
+  "oa_first_author": "A. W. Roscoe",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1997,
+  "oa_id": "https://openalex.org/W2129384397"
+ },
+ "a model for the construction and exploitation of transaction skeletons in a database system": {
+  "status": "low_confidence",
+  "oa_title": "Version models for software configuration management",
+  "oa_first_author": "Reidar Conradi",
+  "oa_institution": "Norwegian University of Science and Technology",
+  "oa_country": "NO",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2001907377"
+ },
+ "the design of c its features and performance": {
+  "status": "low_confidence",
+  "oa_title": "Features and development of <i>Coot</i>",
+  "oa_first_author": "Paul Emsley",
+  "oa_institution": "University of Oxford",
+  "oa_country": "GB",
+  "oa_year": 2010,
+  "oa_id": "https://openalex.org/W2124026197"
+ },
+ "object oriented programming systems techniques and applications": {
+  "status": "no_affiliation",
+  "oa_title": "Array programming with NumPy",
+  "oa_first_author": "Charles R. Harris",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3035965352"
+ },
+ "the role of programming language support in the development of software intensive systems the case of object oriented programming": {
+  "status": "low_confidence",
+  "oa_title": "Concepts and paradigms of object-oriented programming",
+  "oa_first_author": "Peter Wegner",
+  "oa_institution": "Bridge University",
+  "oa_country": "SS",
+  "oa_year": 1990,
+  "oa_id": "https://openalex.org/W2012408028"
+ },
+ "programming the world software abstractions logic languages and complexity": {
+  "status": "low_confidence",
+  "oa_title": "Markov logic networks",
+  "oa_first_author": "Matthew Richardson",
+  "oa_institution": "University of Washington",
+  "oa_country": "US",
+  "oa_year": 2006,
+  "oa_id": "https://openalex.org/W1977970897"
+ },
+ "the implementation challenge in software engineering education and development the case for a pedagogical programming language": {
+  "status": "low_confidence",
+  "oa_title": "Systematic review of research on artificial intelligence applications in higher education – where are the educators?",
+  "oa_first_author": "Olaf Zawacki‐Richter",
+  "oa_institution": "Carl von Ossietzky Universität Oldenburg",
+  "oa_country": "DE",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2981863007"
+ },
+ "the role of programming language support in the development of software intensive systems the case of object oriented programming revised": {
+  "status": "no_affiliation",
+  "oa_title": "Development and Distortion of Malaysian Public- Private Partnerships: Patronage, Privatised Profits and Pitfalls DOI: 10.1111/j.1467- 8500.2009.00655.x",
+  "oa_first_author": "Loo‐See Beh",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2010,
+  "oa_id": "https://openalex.org/W1797402740"
+ },
+ "designing and evolving a comprehensive software tool to support concurrency programming": {
+  "status": "low_confidence",
+  "oa_title": "Bioconductor: open software development for computational biology and bioinformatics",
+  "oa_first_author": "Robert Gentleman",
+  "oa_institution": "Dana-Farber Cancer Institute",
+  "oa_country": "US",
+  "oa_year": 2004,
+  "oa_id": "https://openalex.org/W2160697532"
+ },
+ "a methodological approach for the specification and validation of embedded control software": {
+  "status": "low_confidence",
+  "oa_title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+  "oa_first_author": "Paolo Giannozzi",
+  "oa_institution": "University of Udine",
+  "oa_country": "IT",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2120145199"
+ },
+ "programming with constraints the application of constraint satisfaction to software engineering the case of sicstus": {
+  "status": "low_confidence",
+  "oa_title": "Solving nesting problems with non‐convex polygons by constraint logic programming",
+  "oa_first_author": "Maria Antónia Carravilla",
+  "oa_institution": "Universidade do Porto",
+  "oa_country": "PT",
+  "oa_year": 2003,
+  "oa_id": "https://openalex.org/W2007670071"
+ },
+ "a pattern language": {
+  "status": "no_affiliation",
+  "oa_title": "A Pattern Language",
+  "oa_first_author": "Christopher Alexander",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1977,
+  "oa_id": "https://openalex.org/W2798977449"
+ },
+ "a case for architectural styles": {
+  "status": "low_confidence",
+  "oa_title": "Inline Hardware KV-Cache Compression for Long-Context Transformer Inference: An Architectural Case for a Memory-Path Compression Engine",
+  "oa_first_author": "Jakubův, Jan",
+  "oa_institution": "Czech Technical University in Prague",
+  "oa_country": "CZ",
+  "oa_year": 2023,
+  "oa_id": "https://openalex.org/W4385245566"
+ },
+ "communicating with software tools": {
+  "status": "low_confidence",
+  "oa_title": "Bioconductor: open software development for computational biology and bioinformatics",
+  "oa_first_author": "Robert Gentleman",
+  "oa_institution": "Dana-Farber Cancer Institute",
+  "oa_country": "US",
+  "oa_year": 2004,
+  "oa_id": "https://openalex.org/W2160697532"
+ },
+ "improving the efficiency of algorithm implementations": {
+  "status": "low_confidence",
+  "oa_title": "IQ-TREE: A Fast and Effective Stochastic Algorithm for Estimating Maximum-Likelihood Phylogenies",
+  "oa_first_author": "Lam-Tung Nguyen",
+  "oa_institution": "Max Perutz Labs",
+  "oa_country": "AT",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2111647009"
+ },
+ "the role of software patterns in developing object oriented software systems": {
+  "status": "no_affiliation",
+  "oa_title": "<scp>WSXM</scp>: A software for scanning probe microscopy and a tool for nanotechnology",
+  "oa_first_author": "Ignacio Horcas",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2007,
+  "oa_id": "https://openalex.org/W2047205370"
+ },
+ "how to build a spreadsheet a historical study": {
+  "status": "low_confidence",
+  "oa_title": "The interdisciplinary study of coordination",
+  "oa_first_author": "Thomas W. Malone",
+  "oa_institution": "Massachusetts Institute of Technology",
+  "oa_country": "US",
+  "oa_year": 1994,
+  "oa_id": "https://openalex.org/W2128677857"
+ },
+ "from software engineering to ubiquitous computing": {
+  "status": "low_confidence",
+  "oa_title": "BEAST 2.5: An advanced software platform for Bayesian evolutionary analysis",
+  "oa_first_author": "Remco Bouckaert",
+  "oa_institution": "University of Auckland",
+  "oa_country": "NZ",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2901954177"
+ },
+ "refactoring software architectures platforms and cultures": {
+  "status": "low_confidence",
+  "oa_title": "A survey of software refactoring",
+  "oa_first_author": "Tom Mens",
+  "oa_institution": "University of Mons",
+  "oa_country": "BE",
+  "oa_year": 2004,
+  "oa_id": "https://openalex.org/W2171383742"
+ },
+ "conceptual foundations of object oriented analysis and design a methodology of the mind": {
+  "status": "low_confidence",
+  "oa_title": "The qualitative content analysis process",
+  "oa_first_author": "Satu Elo",
+  "oa_institution": "University of Oulu",
+  "oa_country": "FI",
+  "oa_year": 2008,
+  "oa_id": "https://openalex.org/W2067404301"
+ },
+ "a new view of software engineering the role of patterns": {
+  "status": "low_confidence",
+  "oa_title": "A new criterion for assessing discriminant validity in variance-based structural equation modeling",
+  "oa_first_author": "Jörg Henseler",
+  "oa_institution": "Universidade Nova de Lisboa",
+  "oa_country": "PT",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2105846236"
+ },
+ "a pattern language revisited from design patterns to object oriented software systems": {
+  "status": "low_confidence",
+  "oa_title": "Generative Programming: Methods, Tools, and Applications",
+  "oa_first_author": "Krzysztof Czarnecki",
+  "oa_institution": "Daimler (Germany)",
+  "oa_country": "DE",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W1500250067"
+ },
+ "the role of software patterns in implementable architectures for web services": {
+  "status": "no_affiliation",
+  "oa_title": "What Is Web 2.0: Design Patterns and Business Models for the Next Generation of Software",
+  "oa_first_author": "Tim O’Reilly",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2007,
+  "oa_id": "https://openalex.org/W3146248460"
+ },
+ "an object oriented programming language design and compiler": {
+  "status": "low_confidence",
+  "oa_title": "Object-oriented modeling and design",
+  "oa_first_author": "James Rumbaugh",
+  "oa_institution": "General Electric (United States)",
+  "oa_country": "US",
+  "oa_year": 1991,
+  "oa_id": "https://openalex.org/W2099293367"
+ },
+ "a review of software engineering journal reflections on the past and vision for the future": {
+  "status": "low_confidence",
+  "oa_title": "Digital transformation: A multidisciplinary reflection and research agenda",
+  "oa_first_author": "Peter C. Verhoef",
+  "oa_institution": "University of Groningen",
+  "oa_country": "NL",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2978346165"
+ },
+ "software engineering in japan recent developments and challenges": {
+  "status": "low_confidence",
+  "oa_title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+  "oa_first_author": "Pauli Virtanen",
+  "oa_institution": "University of Jyväskylä",
+  "oa_country": "FI",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3003257820"
+ },
+ "a language for distributed algorithms": {
+  "status": "no_affiliation",
+  "oa_title": "R: A Language and Environment for Statistical Computing",
+  "oa_first_author": "R Core Team",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W2582743722"
+ },
+ "software engineering for expertise based systems an evaluation of the knowledge based development process": {
+  "status": "no_affiliation",
+  "oa_title": "A field study of the software design process for large systems",
+  "oa_first_author": "Bill Curtis",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1988,
+  "oa_id": "https://openalex.org/W2045571829"
+ },
+ "extending the limits of relational databases a case for embedded sql": {
+  "status": "low_confidence",
+  "oa_title": "DAVID: Database for Annotation, Visualization, and Integrated Discovery",
+  "oa_first_author": "Glynn Dennis",
+  "oa_institution": "National Cancer Institute",
+  "oa_country": "US",
+  "oa_year": 2003,
+  "oa_id": "https://openalex.org/W4249273120"
+ },
+ "the role of a language in programming revisited how should we do it": {
+  "status": "low_confidence",
+  "oa_title": "Nitrous oxide emissions from soils: how well do we understand the processes and their controls?",
+  "oa_first_author": "Klaus Butterbach‐Bahl",
+  "oa_institution": "Karlsruhe Institute of Technology",
+  "oa_country": "DE",
+  "oa_year": 2013,
+  "oa_id": "https://openalex.org/W2158765373"
+ },
+ "practical experience with a program maintenance repository the npl 79 experiment and its impact on the oracle system development process": {
+  "status": "low_confidence",
+  "oa_title": "Towards a smart debt collection system: a Design Science Research approach",
+  "oa_first_author": "Michał R. Przybyłek",
+  "oa_institution": "Polish-Japanese Academy of Information Technology",
+  "oa_country": "PL",
+  "oa_year": 2025,
+  "oa_id": "https://openalex.org/W4412765345"
+ },
+ "a case for const in c": {
+  "status": "low_confidence",
+  "oa_title": "Event horizons in static electrovac space-times",
+  "oa_first_author": "W. Israel",
+  "oa_institution": "Dublin Institute For Advanced Studies",
+  "oa_country": "IE",
+  "oa_year": 1968,
+  "oa_id": "https://openalex.org/W2061159936"
+ },
+ "an object focused language for database applications the ampl specifier of the coda library system": {
+  "status": "low_confidence",
+  "oa_title": "A Deep Dive into Function Inlining and its Security Implications for ML-based Binary Analysis",
+  "oa_first_author": "Omar Abusabha",
+  "oa_institution": "Sungkyunkwan University",
+  "oa_country": "KR",
+  "oa_year": 2026,
+  "oa_id": "https://openalex.org/W4417466206"
+ },
+ "the structure and status of computer science an investigation by the national research council committee on computing sciences": {
+  "status": "low_confidence",
+  "oa_title": "Data‐Driven Materials Science: Status, Challenges, and Perspectives",
+  "oa_first_author": "Lauri Himanen",
+  "oa_institution": "Aalto University",
+  "oa_country": "FI",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2972219719"
+ },
+ "let s build some more libraries the role and impact of program libraries in practice": {
+  "status": "low_confidence",
+  "oa_title": "scikit-image: image processing in Python",
+  "oa_first_author": "Stéfan van der Walt",
+  "oa_institution": "Stellenbosch University",
+  "oa_country": "ZA",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2015159529"
+ },
+ "a unified theory for the design implementation and use of operating system services": {
+  "status": "low_confidence",
+  "oa_title": "Unified Theory of Acceptance and Use of Technology: A Synthesis and the Road Ahead",
+  "oa_first_author": "Viswanath Venkatesh",
+  "oa_institution": "Hong Kong Polytechnic University",
+  "oa_country": "HK",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W3122947385"
+ },
+ "developing software a metrics approach": {
+  "status": "low_confidence",
+  "oa_title": "A metrics suite for object oriented design",
+  "oa_first_author": "Shyam R. Chidamber",
+  "oa_institution": "IIT@MIT",
+  "oa_country": "US",
+  "oa_year": 1994,
+  "oa_id": "https://openalex.org/W2158864412"
+ },
+ "object oriented database modeling in information systems development an empirical investigation": {
+  "status": "low_confidence",
+  "oa_title": "Bioconductor: open software development for computational biology and bioinformatics",
+  "oa_first_author": "Robert Gentleman",
+  "oa_institution": "Dana-Farber Cancer Institute",
+  "oa_country": "US",
+  "oa_year": 2004,
+  "oa_id": "https://openalex.org/W2160697532"
+ },
+ "the state of the art in software engineering a survey and classification of 567 relevant papers": {
+  "status": "low_confidence",
+  "oa_title": "Multi-criteria decision-making for flood risk management: a survey of the current state of the art",
+  "oa_first_author": "Mariana Madruga de Brito",
+  "oa_institution": "University of Bonn",
+  "oa_country": "DE",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W2342485655"
+ },
+ "software engineering concepts and practices their evaluation and classification as a survey of research in software engineering from 1963 1978": {
+  "status": "low_confidence",
+  "oa_title": "The ABC of Software Engineering Research",
+  "oa_first_author": "Klaas-Jan Stol",
+  "oa_institution": "University College Cork",
+  "oa_country": "IE",
+  "oa_year": 2018,
+  "oa_id": "https://openalex.org/W2890801208"
+ },
+ "program specification by structure an introduction and an illustration of dataflow programming languages": {
+  "status": "low_confidence",
+  "oa_title": "A software model and specification language for non-WIMP user interfaces",
+  "oa_first_author": "Robert J.K Jacob",
+  "oa_institution": "Tufts University",
+  "oa_country": "US",
+  "oa_year": 1999,
+  "oa_id": "https://openalex.org/W2049287964"
+ },
+ "sift a visual descriptor from local geometry": {
+  "status": "low_confidence",
+  "oa_title": "SIFT Flow: Dense Correspondence across Scenes and Its Applications",
+  "oa_first_author": "Ce Liu",
+  "oa_institution": "Microsoft (United States)",
+  "oa_country": "US",
+  "oa_year": 2010,
+  "oa_id": "https://openalex.org/W2090518410"
+ },
+ "the histogram of oriented gradients for localizing objects": {
+  "status": "low_confidence",
+  "oa_title": "The Pascal Visual Object Classes (VOC) Challenge",
+  "oa_first_author": "Mark Everingham",
+  "oa_institution": "University of Leeds",
+  "oa_country": "GB",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2031489346"
+ },
+ "dense detection of visual words for image classification using an adaptive histogram": {
+  "status": "low_confidence",
+  "oa_title": "The Pascal Visual Object Classes (VOC) Challenge",
+  "oa_first_author": "Mark Everingham",
+  "oa_institution": "University of Leeds",
+  "oa_country": "GB",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2031489346"
+ },
+ "boosting as a regularized perceptron algorithm for training svms with an application to object recognition": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "pami a library for parallel matrix algorithms and its applications to computational photography": {
+  "status": "low_confidence",
+  "oa_title": "An Image Recapture Detection Algorithm Based on Learning Dictionaries of Edge Profiles",
+  "oa_first_author": "Thirapiroon Thongkamwitoon",
+  "oa_institution": "Office of the Higher Education Commission",
+  "oa_country": "TH",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W1977674021"
+ },
+ "laplacian eigenmaps for dimensionality reduction and data representation": {
+  "status": "resolved",
+  "oa_title": "Laplacian Eigenmaps for Dimensionality Reduction and Data Representation",
+  "oa_first_author": "Mikhail Belkin",
+  "oa_institution": "University of Chicago",
+  "oa_country": "US",
+  "oa_year": 2003,
+  "oa_id": "https://openalex.org/W2097308346"
+ },
+ "feature matching using iterative closest point": {
+  "status": "no_affiliation",
+  "oa_title": "A new point matching algorithm for non-rigid registration",
+  "oa_first_author": "Haili Chui",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2003,
+  "oa_id": "https://openalex.org/W2171490473"
+ },
+ "a local minimization scheme for the svm regularizer": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "sift scale invariant features from local descriptors": {
+  "status": "low_confidence",
+  "oa_title": "SIFT Flow: Dense Correspondence across Scenes and Its Applications",
+  "oa_first_author": "Ce Liu",
+  "oa_institution": "Microsoft (United States)",
+  "oa_country": "US",
+  "oa_year": 2010,
+  "oa_id": "https://openalex.org/W2090518410"
+ },
+ "pascal voc 2007 tutorial object detection as score weighted regression": {
+  "status": "low_confidence",
+  "oa_title": "Contextualizing Object Detection and Classification",
+  "oa_first_author": "Qiang Chen",
+  "oa_institution": "National University of Singapore",
+  "oa_country": "SG",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2048335335"
+ },
+ "object recognition using a combination of appearance and motion features": {
+  "status": "low_confidence",
+  "oa_title": "The Pascal Visual Object Classes (VOC) Challenge",
+  "oa_first_author": "Mark Everingham",
+  "oa_institution": "University of Leeds",
+  "oa_country": "GB",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2031489346"
+ },
+ "combining local and global information for face recognition under variability in lighting pose expression": {
+  "status": "low_confidence",
+  "oa_title": "Face recognition across pose: A review",
+  "oa_first_author": "Xiaozheng Zhang",
+  "oa_institution": "Griffith University",
+  "oa_country": "AU",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2078118580"
+ },
+ "training a support vector machine in a noise tolerant way": {
+  "status": "low_confidence",
+  "oa_title": "Quantum machine learning",
+  "oa_first_author": "Jacob Biamonte",
+  "oa_institution": "Skolkovo Institute of Science and Technology",
+  "oa_country": "RU",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2559394418"
+ },
+ "spatio temporal feature tracking with applications to video based surveillance": {
+  "status": "low_confidence",
+  "oa_title": "ActionVLAD: Learning Spatio-Temporal Aggregation for Action Classification",
+  "oa_first_author": "Rohit Girdhar",
+  "oa_institution": "Carnegie Mellon University",
+  "oa_country": "US",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2608988379"
+ },
+ "the scale invariant feature transform sift paper an overview": {
+  "status": "low_confidence",
+  "oa_title": "The Pascal Visual Object Classes (VOC) Challenge",
+  "oa_first_author": "Mark Everingham",
+  "oa_institution": "University of Leeds",
+  "oa_country": "GB",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2031489346"
+ },
+ "a tutorial on principal component analysis": {
+  "status": "resolved",
+  "oa_title": "A Tutorial on Principal Component Analysis",
+  "oa_first_author": "Jonathon Shlens",
+  "oa_institution": "Salk Institute for Biological Studies",
+  "oa_country": "US",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1555148682"
+ },
+ "image based localization with a single large scale map": {
+  "status": "low_confidence",
+  "oa_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+  "oa_first_author": "Karen Simonyan",
+  "oa_institution": "University of Oxford",
+  "oa_country": "GB",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1686810756"
+ },
+ "learning to detect natural scene categories by examples": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "efficient explicit object detection via feature regression": {
+  "status": "low_confidence",
+  "oa_title": "Deep Learning for Generic Object Detection: A Survey",
+  "oa_first_author": "Li Liu",
+  "oa_institution": "National University of Defense Technology",
+  "oa_country": "CN",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2988916019"
+ },
+ "image matching with uncertainty models": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "face detection the next step in computer vision": {
+  "status": "low_confidence",
+  "oa_title": "Internet of Things (IoT): A vision, architectural elements, and future directions",
+  "oa_first_author": "Jayavardhana Gubbi",
+  "oa_institution": "University of Melbourne",
+  "oa_country": "AU",
+  "oa_year": 2013,
+  "oa_id": "https://openalex.org/W2111619626"
+ },
+ "a scalable hierarchical framework for multi object visual tracking": {
+  "status": "low_confidence",
+  "oa_title": "The Pascal Visual Object Classes (VOC) Challenge",
+  "oa_first_author": "Mark Everingham",
+  "oa_institution": "University of Leeds",
+  "oa_country": "GB",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2031489346"
+ },
+ "human pose estimation using regression trees": {
+  "status": "low_confidence",
+  "oa_title": "Additive logistic regression: a statistical view of boosting (With discussion and a rejoinder by the authors)",
+  "oa_first_author": "Jerome H. Friedman",
+  "oa_institution": "Stanford Synchrotron Radiation Lightsource",
+  "oa_country": "US",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W2024046085"
+ },
+ "single image room scale egomotion from encoder decoder recurrent networks": {
+  "status": "low_confidence",
+  "oa_title": "Event-Based Vision: A Survey",
+  "oa_first_author": "Guillermo Gallego",
+  "oa_institution": "Einstein Center Digital Future",
+  "oa_country": "DE",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3040838455"
+ },
+ "end to end differentiable rendering for photorealistic object reconstructions": {
+  "status": "no_affiliation",
+  "oa_title": "Instant neural graphics primitives with a multiresolution hash encoding",
+  "oa_first_author": "Thomas Müller",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2022,
+  "oa_id": "https://openalex.org/W4221151978"
+ },
+ "facial landmark detection by deep generative adversarial networks": {
+  "status": "low_confidence",
+  "oa_title": "A Survey of Deep Learning-Based Object Detection",
+  "oa_first_author": "Licheng Jiao",
+  "oa_institution": "Xidian University",
+  "oa_country": "CN",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2972006294"
+ },
+ "semantic image mosaicking via depth fusion and feature blending": {
+  "status": "low_confidence",
+  "oa_title": "Seamline Determination Based on PKGC Segmentation for Remote Sensing Image Mosaicking",
+  "oa_first_author": "Qiang Dong",
+  "oa_institution": "Changchun Institute of Optics, Fine Mechanics and Physics",
+  "oa_country": "CN",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2739916017"
+ },
+ "single image place and outfit recognition via joint c3d and crn networks": {
+  "status": "not_found"
+ },
+ "recurrent and dilated convolutional autoencoder for depth estimation from rgb sequences": {
+  "status": "no_affiliation",
+  "oa_title": "Recent Advances in Convolutional Neural Networks",
+  "oa_first_author": "Jiuxiang Gu",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W2200374509"
+ },
+ "semantic image segmentation with depth supervision via a joint autoencoder model": {
+  "status": "low_confidence",
+  "oa_title": "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)",
+  "oa_first_author": "Bjoern Menze",
+  "oa_institution": "Institut national de recherche en sciences et technologies du numérique",
+  "oa_country": "FR",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1641498739"
+ },
+ "real time dense alignment with a single stereo camera using a multi level convolutional network": {
+  "status": "no_affiliation",
+  "oa_title": "FlowNet: Learning Optical Flow with Convolutional Networks",
+  "oa_first_author": "Philipp Fischer",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W2951309005"
+ },
+ "3d human parsing using a multi stage 3d convolutional neural network with depth supervision": {
+  "status": "low_confidence",
+  "oa_title": "Deep Ordinal Regression Network for Monocular Depth Estimation",
+  "oa_first_author": "Huan Fu",
+  "oa_institution": "University of Technology Sydney",
+  "oa_country": "AU",
+  "oa_year": 2018,
+  "oa_id": "https://openalex.org/W2963488291"
+ },
+ "facial expression recognition by deep neural networks and a bagging classifier": {
+  "status": "low_confidence",
+  "oa_title": "Methods for interpreting and understanding deep neural networks",
+  "oa_first_author": "Grégoire Montavon",
+  "oa_institution": "Technische Universität Berlin",
+  "oa_country": "DE",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2657631929"
+ },
+ "deep semantic embedding and bag of trace similarity for trajectory similarity matching on the graph": {
+  "status": "low_confidence",
+  "oa_title": "Image Matching from Handcrafted to Deep Features: A Survey",
+  "oa_first_author": "Jiayi Ma",
+  "oa_institution": "Wuhan University",
+  "oa_country": "CN",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3047057232"
+ },
+ "adversarial learning for visual feature representation and recognition": {
+  "status": "low_confidence",
+  "oa_title": "A survey on Image Data Augmentation for Deep Learning",
+  "oa_first_author": "Connor Shorten",
+  "oa_institution": "Florida Atlantic University",
+  "oa_country": "US",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2954996726"
+ },
+ "learning to render a person sitting from front by cross view texture alignment": {
+  "status": "low_confidence",
+  "oa_title": "lp-Norm Multiple Kernel Learning",
+  "oa_first_author": "Marius Kloft",
+  "oa_institution": "University of California, Berkeley",
+  "oa_country": "US",
+  "oa_year": 2011,
+  "oa_id": "https://openalex.org/W2171188027"
+ },
+ "deep multi source video fusion for indoor scene segmentation using convolutional and recurrent neural networks": {
+  "status": "no_affiliation",
+  "oa_title": "Fully Convolutional Networks for Semantic Segmentation",
+  "oa_first_author": "J. D. Long",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W4308909683"
+ },
+ "efficient cross view texture alignment for single view 3d facial shape estimation from one frontal face image and a side profile view image": {
+  "status": "low_confidence",
+  "oa_title": "A Dynamic Texture-Based Approach to Recognition of Facial Actions and Their Temporal Models",
+  "oa_first_author": "Sander Koelstra",
+  "oa_institution": "Queen Mary University of London",
+  "oa_country": "GB",
+  "oa_year": 2010,
+  "oa_id": "https://openalex.org/W2146780613"
+ },
+ "svm for visual object recognition a case study on flicker30k": {
+  "status": "low_confidence",
+  "oa_title": "A Systematic Literature Review on Using the Encoder-Decoder Models for Image Captioning in English and Arabic Languages",
+  "oa_first_author": "Ashwaq Alsayed",
+  "oa_institution": "Umm al-Qura University",
+  "oa_country": "SA",
+  "oa_year": 2023,
+  "oa_id": "https://openalex.org/W4387235032"
+ },
+ "boosting the recognition of generic articulated objects": {
+  "status": "low_confidence",
+  "oa_title": "Deep Learning for Generic Object Detection: A Survey",
+  "oa_first_author": "Li Liu",
+  "oa_institution": "National University of Defense Technology",
+  "oa_country": "CN",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2988916019"
+ },
+ "object recognition with intrinsic ordering of parts an axiomatic approach": {
+  "status": "low_confidence",
+  "oa_title": "A survey of methods for explaining black box models",
+  "oa_first_author": "Riccardo Guidotti",
+  "oa_institution": "University of Pisa",
+  "oa_country": "IT",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2962772482"
+ },
+ "human pose estimation from clothed images a new benchmark": {
+  "status": "no_affiliation",
+  "oa_title": "PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization",
+  "oa_first_author": "Shunsuke Saito",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2944736082"
+ },
+ "the recognition illusion in face verification why and how to overcome it a detailed case study on feret face database": {
+  "status": "low_confidence",
+  "oa_title": "Recent Advances in Deep Learning Techniques for Face Recognition",
+  "oa_first_author": "Md. Tahmid Hasan Fuad",
+  "oa_institution": "Khulna University of Engineering and Technology",
+  "oa_country": "BD",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W3137650873"
+ },
+ "object recognition in the wild benchmarking image retrieval methods on cifar and imagenet": {
+  "status": "low_confidence",
+  "oa_title": "Survey on deep learning with class imbalance",
+  "oa_first_author": "Justin Johnson",
+  "oa_institution": "Florida Atlantic University",
+  "oa_country": "US",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2936503027"
+ },
+ "learning features from human visual cues": {
+  "status": "low_confidence",
+  "oa_title": "The Pascal Visual Object Classes (VOC) Challenge",
+  "oa_first_author": "Mark Everingham",
+  "oa_institution": "University of Leeds",
+  "oa_country": "GB",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2031489346"
+ },
+ "efficient image recognition through hierarchical features learning and memory optimization of a deep network": {
+  "status": "low_confidence",
+  "oa_title": "ImageNet classification with deep convolutional neural networks",
+  "oa_first_author": "Alex Krizhevsky",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2163605009"
+ },
+ "unsupervised visual feature learning through clustering and association in deep neural networks": {
+  "status": "low_confidence",
+  "oa_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+  "oa_first_author": "Laith Alzubaidi",
+  "oa_institution": "Queensland University of Technology",
+  "oa_country": "AU",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W3140854437"
+ },
+ "an atlas of human gait recognition": {
+  "status": "low_confidence",
+  "oa_title": "Gait-related cerebral alterations in patients with Parkinson’s disease with freezing of gait",
+  "oa_first_author": "Anke H. Snijders",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2010,
+  "oa_id": "https://openalex.org/W2012994259"
+ },
+ "visual search on google images": {
+  "status": "low_confidence",
+  "oa_title": "The Pascal Visual Object Classes (VOC) Challenge",
+  "oa_first_author": "Mark Everingham",
+  "oa_institution": "University of Leeds",
+  "oa_country": "GB",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2031489346"
+ },
+ "simplified lbp a robust structural light blob detector for 3d shape analysis": {
+  "status": "low_confidence",
+  "oa_title": "Image Matching from Handcrafted to Deep Features: A Survey",
+  "oa_first_author": "Jiayi Ma",
+  "oa_institution": "Wuhan University",
+  "oa_country": "CN",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3047057232"
+ },
+ "an image is worth 16x16 words efficient representation of deep features in subspace by visual word bagging for visual search": {
+  "status": "low_confidence",
+  "oa_title": "Deep Learning Attention Mechanism in Medical Image Analysis: Basics and Beyonds",
+  "oa_first_author": "Xiang Li",
+  "oa_institution": "Harbin Institute of Technology",
+  "oa_country": "CN",
+  "oa_year": 2023,
+  "oa_id": "https://openalex.org/W4321479797"
+ },
+ "learning to visualize a dataset for learning supervised dimensionality reduction in image search": {
+  "status": "low_confidence",
+  "oa_title": "A survey on deep learning in medical image analysis",
+  "oa_first_author": "Geert Litjens",
+  "oa_institution": "Radboud University Nijmegen",
+  "oa_country": "NL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2592929672"
+ },
+ "visual dictionary learning and recognition via efficient sparse coding": {
+  "status": "low_confidence",
+  "oa_title": "Dictionary learning for integrative, multimodal and scalable single-cell analysis",
+  "oa_first_author": "Yuhan Hao",
+  "oa_institution": "New York Genome Center",
+  "oa_country": "US",
+  "oa_year": 2023,
+  "oa_id": "https://openalex.org/W4378212544"
+ },
+ "a methodology for software engineering": {
+  "status": "low_confidence",
+  "oa_title": "Methodologies and Software Engineering for Agent Systems",
+  "oa_first_author": "Federico Bergenti",
+  "oa_institution": "University of Parma",
+  "oa_country": "IT",
+  "oa_year": 2004,
+  "oa_id": "https://openalex.org/W17115445"
+ },
+ "object oriented technology principles and patterns for a successful software development practice": {
+  "status": "low_confidence",
+  "oa_title": "Service oriented architectures: approaches, technologies and research issues",
+  "oa_first_author": "Mike P. Papazoglou",
+  "oa_institution": "Tilburg University",
+  "oa_country": "NL",
+  "oa_year": 2007,
+  "oa_id": "https://openalex.org/W2097565277"
+ },
+ "object oriented systems engineering theory and application": {
+  "status": "no_affiliation",
+  "oa_title": "Object-Oriented Analysis and Design with Applications",
+  "oa_first_author": "Grady Booch",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1990,
+  "oa_id": "https://openalex.org/W2986348978"
+ },
+ "the art of computer programming seminumerical algorithms": {
+  "status": "no_affiliation",
+  "oa_title": "The Art of Computer Programming. Volume 2: Seminumerical Algorithms.",
+  "oa_first_author": "Olga Taussky",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1970,
+  "oa_id": "https://openalex.org/W1981663184"
+ },
+ "experience with an object oriented tool in a large project a case study": {
+  "status": "low_confidence",
+  "oa_title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+  "oa_first_author": "Paolo Giannozzi",
+  "oa_institution": "University of Udine",
+  "oa_country": "IT",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2120145199"
+ },
+ "concepts and applications of software metrics": {
+  "status": "low_confidence",
+  "oa_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+  "oa_first_author": "Laith Alzubaidi",
+  "oa_institution": "Queensland University of Technology",
+  "oa_country": "AU",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W3140854437"
+ },
+ "software requirements specification model based methodology in object oriented development": {
+  "status": "low_confidence",
+  "oa_title": "Bioconductor: open software development for computational biology and bioinformatics",
+  "oa_first_author": "Robert Gentleman",
+  "oa_institution": "Dana-Farber Cancer Institute",
+  "oa_country": "US",
+  "oa_year": 2004,
+  "oa_id": "https://openalex.org/W2160697532"
+ },
+ "the management of requirements a view from systems engineering part i": {
+  "status": "low_confidence",
+  "oa_title": "Requirements engineering",
+  "oa_first_author": "Bashar Nuseibeh",
+  "oa_institution": "Imperial College London",
+  "oa_country": "GB",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W2124405605"
+ },
+ "software engineering for complex embedded systems challenges and solutions": {
+  "status": "low_confidence",
+  "oa_title": "<i>PHENIX</i>: a comprehensive Python-based system for macromolecular structure solution",
+  "oa_first_author": "Paul D. Adams",
+  "oa_institution": "Lawrence Berkeley National Laboratory",
+  "oa_country": "US",
+  "oa_year": 2010,
+  "oa_id": "https://openalex.org/W2180229411"
+ },
+ "software metrics a comprehensive look at the metrics in software process improvement and capability maturity model": {
+  "status": "low_confidence",
+  "oa_title": "Building dynamic capabilities for digital transformation: An ongoing process of strategic renewal",
+  "oa_first_author": "Karl Warner",
+  "oa_institution": "Edinburgh Napier University",
+  "oa_country": "GB",
+  "oa_year": 2018,
+  "oa_id": "https://openalex.org/W2904649625"
+ },
+ "software reliability modeling theory to practice": {
+  "status": "low_confidence",
+  "oa_title": "A new criterion for assessing discriminant validity in variance-based structural equation modeling",
+  "oa_first_author": "Jörg Henseler",
+  "oa_institution": "Universidade Nova de Lisboa",
+  "oa_country": "PT",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2105846236"
+ },
+ "software engineering economics tools to design cost effective solutions": {
+  "status": "low_confidence",
+  "oa_title": "Digital Economics",
+  "oa_first_author": "Avi Goldfarb",
+  "oa_institution": "University of Toronto",
+  "oa_country": "CA",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W4252846263"
+ },
+ "a catalogue of software engineering tools": {
+  "status": "no_affiliation",
+  "oa_title": "Evidence-Based Software Engineering and Systematic Reviews",
+  "oa_first_author": "Barbara Kitchenham",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W2612764117"
+ },
+ "a practical approach to estimation in software engineering tools for modeling stakeholder interactions": {
+  "status": "low_confidence",
+  "oa_title": "Selecting among five common modelling approaches for integrated environmental assessment and management",
+  "oa_first_author": "Rebecca A. Kelly",
+  "oa_institution": "Australian National University",
+  "oa_country": "AU",
+  "oa_year": 2013,
+  "oa_id": "https://openalex.org/W2085593420"
+ },
+ "an experimental comparison of some techniques for testing and repairing abstract interpretations": {
+  "status": "low_confidence",
+  "oa_title": "Standards and Guidelines for the Interpretation and Reporting of Sequence Variants in Cancer",
+  "oa_first_author": "Marilyn M. Li",
+  "oa_institution": "Children's Hospital of Philadelphia",
+  "oa_country": "US",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W2566723262"
+ },
+ "the design of a symbolic debugging system": {
+  "status": "low_confidence",
+  "oa_title": "Symbolic execution and program testing",
+  "oa_first_author": "James C. King",
+  "oa_institution": "IBM (United States)",
+  "oa_country": "US",
+  "oa_year": 1976,
+  "oa_id": "https://openalex.org/W2101512909"
+ },
+ "modeling software engineering processes theory and practice": {
+  "status": "low_confidence",
+  "oa_title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+  "oa_first_author": "Paolo Giannozzi",
+  "oa_institution": "University of Udine",
+  "oa_country": "IT",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2120145199"
+ },
+ "software toolkits as programming environments": {
+  "status": "low_confidence",
+  "oa_title": "TBtools: An Integrative Toolkit Developed for Interactive Analyses of Big Biological Data",
+  "oa_first_author": "Chengjie Chen",
+  "oa_institution": "South China Agricultural University",
+  "oa_country": "CN",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3036319615"
+ },
+ "the architecture driven model checking approach for concurrency and security analysis": {
+  "status": "low_confidence",
+  "oa_title": "Service oriented architectures: approaches, technologies and research issues",
+  "oa_first_author": "Mike P. Papazoglou",
+  "oa_institution": "Tilburg University",
+  "oa_country": "NL",
+  "oa_year": 2007,
+  "oa_id": "https://openalex.org/W2097565277"
+ },
+ "model driven development principles and tools": {
+  "status": "low_confidence",
+  "oa_title": "Bioinformatics enrichment tools: paths toward the comprehensive functional analysis of large gene lists",
+  "oa_first_author": "Da Wei Huang",
+  "oa_institution": "National Cancer Institute",
+  "oa_country": "US",
+  "oa_year": 2008,
+  "oa_id": "https://openalex.org/W2133465414"
+ },
+ "software product lines a comprehensive taxonomy": {
+  "status": "low_confidence",
+  "oa_title": "NCBI Taxonomy: a comprehensive update on curation, resources and tools",
+  "oa_first_author": "Conrad L. Schoch",
+  "oa_institution": "National Institutes of Health",
+  "oa_country": "US",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3048090444"
+ },
+ "formal verification and model checking in systems a step forward for verification challenges": {
+  "status": "low_confidence",
+  "oa_title": "ChatGPT for good? On opportunities and challenges of large language models for education",
+  "oa_first_author": "Enkelejda Kasneci",
+  "oa_institution": "Technical University of Munich",
+  "oa_country": "DE",
+  "oa_year": 2023,
+  "oa_id": "https://openalex.org/W4323655724"
+ },
+ "software engineering for cloud aware systems the cloud native architecture": {
+  "status": "low_confidence",
+  "oa_title": "On Multi-Access Edge Computing: A Survey of the Emerging 5G Network Edge Cloud Architecture and Orchestration",
+  "oa_first_author": "Tarik Taleb",
+  "oa_institution": "Sejong University",
+  "oa_country": "KR",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2615459164"
+ },
+ "context adaptive middleware for dynamic software systems": {
+  "status": "low_confidence",
+  "oa_title": "Software Engineering for Self-Adaptive Systems: A Second Research Roadmap",
+  "oa_first_author": "Rogério de Lemos",
+  "oa_institution": "University of Kent",
+  "oa_country": "GB",
+  "oa_year": 2013,
+  "oa_id": "https://openalex.org/W2142486130"
+ },
+ "principles of middleware for distributed applications": {
+  "status": "low_confidence",
+  "oa_title": "Service oriented architectures: approaches, technologies and research issues",
+  "oa_first_author": "Mike P. Papazoglou",
+  "oa_institution": "Tilburg University",
+  "oa_country": "NL",
+  "oa_year": 2007,
+  "oa_id": "https://openalex.org/W2097565277"
+ },
+ "quality oriented metrics and measurement techniques in software process improvement": {
+  "status": "low_confidence",
+  "oa_title": "Guidelines for conducting and reporting case study research in software engineering",
+  "oa_first_author": "Per Runeson",
+  "oa_institution": "Lund University",
+  "oa_country": "SE",
+  "oa_year": 2008,
+  "oa_id": "https://openalex.org/W2162739315"
+ },
+ "software product lines in practice case studies from leading enterprises": {
+  "status": "low_confidence",
+  "oa_title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+  "oa_first_author": "Yogesh K. Dwivedi",
+  "oa_institution": "Swansea University",
+  "oa_country": "GB",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2969625533"
+ },
+ "a language for parallel programming": {
+  "status": "no_affiliation",
+  "oa_title": "The Semantics of a Simple Language for Parallel Programming.",
+  "oa_first_author": "Gilles Kahn",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1974,
+  "oa_id": "https://openalex.org/W1597755753"
+ },
+ "conceptual data models and implementation strategies": {
+  "status": "low_confidence",
+  "oa_title": "Asymptotic and resampling strategies for assessing and comparing indirect effects in multiple mediator models",
+  "oa_first_author": "Kristopher J. Preacher",
+  "oa_institution": "University of Kansas",
+  "oa_country": "US",
+  "oa_year": 2008,
+  "oa_id": "https://openalex.org/W2038702827"
+ },
+ "anatomy of an operating system the unix time sharing system": {
+  "status": "low_confidence",
+  "oa_title": "Serverless network file systems",
+  "oa_first_author": "Thomas E. Anderson",
+  "oa_institution": "University of California, Berkeley",
+  "oa_country": "US",
+  "oa_year": 1995,
+  "oa_id": "https://openalex.org/W2025413686"
+ },
+ "databases and data bases concepts structure implementation": {
+  "status": "low_confidence",
+  "oa_title": "Data clustering",
+  "oa_first_author": "Anil K. Jain",
+  "oa_institution": "Michigan State University",
+  "oa_country": "US",
+  "oa_year": 1999,
+  "oa_id": "https://openalex.org/W1992419399"
+ },
+ "managing computer resources a survey of time sharing systems": {
+  "status": "low_confidence",
+  "oa_title": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications",
+  "oa_first_author": "Ala Al‐Fuqaha",
+  "oa_institution": "Western Michigan University",
+  "oa_country": "US",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W2134295053"
+ },
+ "a comparison of two computer science departments": {
+  "status": "no_affiliation",
+  "oa_title": "Department of Computer Science",
+  "oa_first_author": "Dr. P. Subashini",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1993,
+  "oa_id": "https://openalex.org/W4205241946"
+ },
+ "an analysis of software engineering literature a tool for research and practice": {
+  "status": "low_confidence",
+  "oa_title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+  "oa_first_author": "Paolo Giannozzi",
+  "oa_institution": "University of Udine",
+  "oa_country": "IT",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2120145199"
+ },
+ "the design of compiler generators the algol w editor and debugger system": {
+  "status": "low_confidence",
+  "oa_title": "A semantics-directed compiler generator",
+  "oa_first_author": "Lawrence C. Paulson",
+  "oa_institution": "University of Cambridge",
+  "oa_country": "GB",
+  "oa_year": 1982,
+  "oa_id": "https://openalex.org/W2044862400"
+ },
+ "on the relationship between the user interface abstractions and tools": {
+  "status": "low_confidence",
+  "oa_title": "Generative Programming: Methods, Tools, and Applications",
+  "oa_first_author": "Krzysztof Czarnecki",
+  "oa_institution": "Daimler (Germany)",
+  "oa_country": "DE",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W1500250067"
+ },
+ "software engineering practices and the software crisis a cross section of practitioners": {
+  "status": "low_confidence",
+  "oa_title": "Six strategies for generalizing software engineering theories",
+  "oa_first_author": "Roel Wieringa",
+  "oa_institution": "University of Twente",
+  "oa_country": "NL",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2104858895"
+ },
+ "an investigation into the complexity of managing database systems": {
+  "status": "low_confidence",
+  "oa_title": "The Cambridge Structural Database",
+  "oa_first_author": "Colin R. Groom",
+  "oa_institution": "Cambridge Crystallographic Data Centre",
+  "oa_country": "GB",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W2319902168"
+ },
+ "an investigation into the complexity of managing database systems a historical perspective": {
+  "status": "low_confidence",
+  "oa_title": "The Top 1 Percent in International and Historical Perspective",
+  "oa_first_author": "Facundo Alvaredo",
+  "oa_institution": "Centro Científico Tecnológico - San Juan",
+  "oa_country": "AR",
+  "oa_year": 2013,
+  "oa_id": "https://openalex.org/W2142202291"
+ },
+ "a survey of recent books on software engineering from text to applications": {
+  "status": "low_confidence",
+  "oa_title": "A survey of transfer learning",
+  "oa_first_author": "Karl R. Weiss",
+  "oa_institution": "Florida Atlantic University",
+  "oa_country": "US",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W2395579298"
+ },
+ "maximization by conditionalization in a probabilistic algorithm for extracting human figure scales": {
+  "status": "no_affiliation",
+  "oa_title": "",
+  "oa_first_author": "Mandi, Jayanta",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W2964121744"
+ },
+ "object recognition using a learning algorithm for neural networks": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "on extracting the main axes of a man from his photograph": {
+  "status": "low_confidence",
+  "oa_title": "Morphology and development of the Portuguese man of war, Physalia physalis",
+  "oa_first_author": "Catriona Munro",
+  "oa_institution": "Brown University",
+  "oa_country": "US",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2982606755"
+ },
+ "learning to rank in object recognition the caffeine algorithm": {
+  "status": "low_confidence",
+  "oa_title": "FPGA-Based Accelerators of Deep Learning Networks for Learning and Classification: A Review",
+  "oa_first_author": "Ahmad Shawahna",
+  "oa_institution": "King Fahd University of Petroleum and Minerals",
+  "oa_country": "SA",
+  "oa_year": 2018,
+  "oa_id": "https://openalex.org/W2907463061"
+ },
+ "an intuitive and effective algorithm for building a recognition model": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "a probabilistic algorithm for recognizing composite bodies using multiresolution discrete fourier transforms": {
+  "status": "low_confidence",
+  "oa_title": "Advanced monitoring of machining operations",
+  "oa_first_author": "Roberto Teti",
+  "oa_institution": "University of Naples Federico II",
+  "oa_country": "IT",
+  "oa_year": 2010,
+  "oa_id": "https://openalex.org/W2000304567"
+ },
+ "an algorithm for recognizing three dimensional objects": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "the representation and use of visual context for machine vision": {
+  "status": "low_confidence",
+  "oa_title": "The Pascal Visual Object Classes (VOC) Challenge",
+  "oa_first_author": "Mark Everingham",
+  "oa_institution": "University of Leeds",
+  "oa_country": "GB",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2031489346"
+ },
+ "on a problem in machine recognition the extraction of the shape descriptors": {
+  "status": "low_confidence",
+  "oa_title": "Selective Search for Object Recognition",
+  "oa_first_author": "Jasper Uijlings",
+  "oa_institution": "University of Trento",
+  "oa_country": "IT",
+  "oa_year": 2013,
+  "oa_id": "https://openalex.org/W2088049833"
+ },
+ "a probabilistic algorithm for extracting human figure scales": {
+  "status": "low_confidence",
+  "oa_title": "The Human Genome Browser at UCSC",
+  "oa_first_author": "W. James Kent",
+  "oa_institution": "Howard Hughes Medical Institute",
+  "oa_country": "US",
+  "oa_year": 2002,
+  "oa_id": "https://openalex.org/W2128016314"
+ },
+ "an analysis of the combinatorial problems in designing a visual system": {
+  "status": "low_confidence",
+  "oa_title": "Representational similarity analysis – connecting the branches of systems neuroscience",
+  "oa_first_author": "Nikolaus Kriegeskorte",
+  "oa_institution": "National Institutes of Health",
+  "oa_country": "US",
+  "oa_year": 2008,
+  "oa_id": "https://openalex.org/W2160654481"
+ },
+ "an incremental algorithm for visual feature extraction": {
+  "status": "low_confidence",
+  "oa_title": "The use of the area under the ROC curve in the evaluation of machine learning algorithms",
+  "oa_first_author": "Andrew P. Bradley",
+  "oa_institution": "University of Queensland",
+  "oa_country": "AU",
+  "oa_year": 1997,
+  "oa_id": "https://openalex.org/W2155653793"
+ },
+ "object recognition in images": {
+  "status": "low_confidence",
+  "oa_title": "Deep Residual Learning for Image Recognition",
+  "oa_first_author": "Kaiming He",
+  "oa_institution": "Microsoft Research (United Kingdom)",
+  "oa_country": "GB",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W2194775991"
+ },
+ "a neural network approach to visual object recognition": {
+  "status": "low_confidence",
+  "oa_title": "ImageNet classification with deep convolutional neural networks",
+  "oa_first_author": "Alex Krizhevsky",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2163605009"
+ },
+ "two dimensional visualization on a two dimensional screen": {
+  "status": "no_affiliation",
+  "oa_title": "Recommendations for evaluation of the severity of native valvular regurgitation with two-dimensional and doppler echocardiography",
+  "oa_first_author": "William A. Zoghbi",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2003,
+  "oa_id": "https://openalex.org/W2121842052"
+ },
+ "retinex theory": {
+  "status": "low_confidence",
+  "oa_title": "Lightness and Retinex Theory",
+  "oa_first_author": "Edwin H. Land",
+  "oa_institution": "Polaroid (United States)",
+  "oa_country": "US",
+  "oa_year": 1971,
+  "oa_id": "https://openalex.org/W2164847484"
+ },
+ "the two stage cascade algorithm for multiband image restoration": {
+  "status": "low_confidence",
+  "oa_title": "High-throughput terahertz imaging: progress and challenges",
+  "oa_first_author": "Xurong Li",
+  "oa_institution": "California NanoSystems Institute",
+  "oa_country": "US",
+  "oa_year": 2023,
+  "oa_id": "https://openalex.org/W4386777086"
+ },
+ "the cens multiresolution image representation": {
+  "status": "low_confidence",
+  "oa_title": "Data clustering",
+  "oa_first_author": "Anil K. Jain",
+  "oa_institution": "Michigan State University",
+  "oa_country": "US",
+  "oa_year": 1999,
+  "oa_id": "https://openalex.org/W1992419399"
+ },
+ "analysis of the performance of an image model on a computer": {
+  "status": "low_confidence",
+  "oa_title": "NIH Image to ImageJ: 25 years of image analysis",
+  "oa_first_author": "Caroline A Schneider",
+  "oa_institution": "University of Wisconsin–Madison",
+  "oa_country": "US",
+  "oa_year": 2012,
+  "oa_id": "https://openalex.org/W2099540110"
+ },
+ "the fourier snapshot system image representation by wavelet transform": {
+  "status": "low_confidence",
+  "oa_title": "Review of snapshot spectral imaging technologies",
+  "oa_first_author": "Nathan Hagen",
+  "oa_institution": "Photonic Systems (United States)",
+  "oa_country": "US",
+  "oa_year": 2013,
+  "oa_id": "https://openalex.org/W2138621882"
+ },
+ "understanding images through algorithms": {
+  "status": "low_confidence",
+  "oa_title": "A survey on Image Data Augmentation for Deep Learning",
+  "oa_first_author": "Connor Shorten",
+  "oa_institution": "Florida Atlantic University",
+  "oa_country": "US",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2954996726"
+ },
+ "computer sketch based image retrieval": {
+  "status": "low_confidence",
+  "oa_title": "Sketch-based manga retrieval using manga109 dataset",
+  "oa_first_author": "Yusuke Matsui",
+  "oa_institution": "The University of Tokyo",
+  "oa_country": "JP",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W2192954843"
+ },
+ "the random sample consistency of the pca based face representation": {
+  "status": "low_confidence",
+  "oa_title": "A survey on Image Data Augmentation for Deep Learning",
+  "oa_first_author": "Connor Shorten",
+  "oa_institution": "Florida Atlantic University",
+  "oa_country": "US",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2954996726"
+ },
+ "a learning strategy for recognition of handwritten numerals": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "learning to rank the web example": {
+  "status": "low_confidence",
+  "oa_title": "XGBoost",
+  "oa_first_author": "Tianqi Chen",
+  "oa_institution": "University of Washington",
+  "oa_country": "US",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W2295598076"
+ },
+ "hierarchical image representations an overview part i computational aspects and hierarchically referred segmentation hrs": {
+  "status": "low_confidence",
+  "oa_title": "Land-Use Mapping for High-Spatial Resolution Remote Sensing Image Via Deep Learning: A Review",
+  "oa_first_author": "Ning Zang",
+  "oa_institution": "China University of Geosciences (Beijing)",
+  "oa_country": "CN",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W3159993994"
+ },
+ "fast and robust algorithms for image segmentation with application to face detection": {
+  "status": "low_confidence",
+  "oa_title": "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)",
+  "oa_first_author": "Bjoern Menze",
+  "oa_institution": "Institut national de recherche en sciences et technologies du numérique",
+  "oa_country": "FR",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1641498739"
+ },
+ "svm with kernels based on local descriptors": {
+  "status": "low_confidence",
+  "oa_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+  "oa_first_author": "Karen Simonyan",
+  "oa_institution": "University of Oxford",
+  "oa_country": "GB",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1686810756"
+ },
+ "learning to classify images with an adaptive kernel machine": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "object recognition meets object localization": {
+  "status": "low_confidence",
+  "oa_title": "The Pascal Visual Object Classes (VOC) Challenge",
+  "oa_first_author": "Mark Everingham",
+  "oa_institution": "University of Leeds",
+  "oa_country": "GB",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2031489346"
+ },
+ "histograms of oriented gradients for human detection and object recognition": {
+  "status": "low_confidence",
+  "oa_title": "Histograms of Oriented Gradients for Human Detection",
+  "oa_first_author": "Navneet Dalal",
+  "oa_institution": "Institut national de recherche en sciences et technologies du numérique",
+  "oa_country": "FR",
+  "oa_year": 2005,
+  "oa_id": "https://openalex.org/W2161969291"
+ },
+ "combining local features for face detection and recognition under variability in pose and illumination": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "object recognition using local affine and projective structural descriptors": {
+  "status": "low_confidence",
+  "oa_title": "Visual Place Recognition: A Survey",
+  "oa_first_author": "Stephanie Lowry",
+  "oa_institution": "Queensland University of Technology",
+  "oa_country": "AU",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W2284029970"
+ },
+ "learning generative models from few training samples an unusual approach": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "probabilistic boosting networks for tracking multiple objects in video sequences": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "support vector machines for multi class pattern recognition a comparative study": {
+  "status": "low_confidence",
+  "oa_title": "A comprehensive survey on support vector machine classification: Applications, challenges and trends",
+  "oa_first_author": "Jair Cervantes",
+  "oa_institution": "Universidad Autónoma del Estado de México",
+  "oa_country": "MX",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3023211159"
+ },
+ "harris and shi kass badek algorithms for edge localization experimental analysis and new variations on two classic papers": {
+  "status": "not_found"
+ },
+ "re weighted regression based detection for tracking": {
+  "status": "low_confidence",
+  "oa_title": "WGCNA: an R package for weighted correlation network analysis",
+  "oa_first_author": "Peter Langfelder",
+  "oa_institution": "University of California, Los Angeles",
+  "oa_country": "US",
+  "oa_year": 2008,
+  "oa_id": "https://openalex.org/W1966327575"
+ },
+ "an empirical and theoretical comparison of multiclass boosting algorithms": {
+  "status": "low_confidence",
+  "oa_title": "An Empirical Comparison of Voting Classification Algorithms: Bagging, Boosting, and Variants",
+  "oa_first_author": "Eric Bauer",
+  "oa_institution": "Laboratoire d'Informatique de Paris-Nord",
+  "oa_country": "FR",
+  "oa_year": 1999,
+  "oa_id": "https://openalex.org/W2152761983"
+ },
+ "hierarchical boosting for non negative matrix factorisation and data decomposition": {
+  "status": "low_confidence",
+  "oa_title": "The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations",
+  "oa_first_author": "Johan Alwall",
+  "oa_institution": "National Taiwan University",
+  "oa_country": "TW",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2110999179"
+ },
+ "visual object detection using hidden support vector machines and robust statistics": {
+  "status": "low_confidence",
+  "oa_title": "A comprehensive survey on support vector machine classification: Applications, challenges and trends",
+  "oa_first_author": "Jair Cervantes",
+  "oa_institution": "Universidad Autónoma del Estado de México",
+  "oa_country": "MX",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3023211159"
+ },
+ "learning from labeled and unlabeled data in computer vision towards a new algorithmic framework": {
+  "status": "low_confidence",
+  "oa_title": "Combining labeled and unlabeled data with co-training",
+  "oa_first_author": "Avrim Blum",
+  "oa_institution": "Carnegie Mellon University",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2048679005"
+ },
+ "semi supervised learning with probabilistic kernels and multi class support vector machines": {
+  "status": "low_confidence",
+  "oa_title": "A survey on semi-supervised learning",
+  "oa_first_author": "Jesper E. van Engelen",
+  "oa_institution": "Leiden University",
+  "oa_country": "NL",
+  "oa_year": 2019,
+  "oa_id": "https://openalex.org/W2984353870"
+ },
+ "face discovery learning from images that show many people with unknown names": {
+  "status": "low_confidence",
+  "oa_title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+  "oa_first_author": "Laith Alzubaidi",
+  "oa_institution": "Queensland University of Technology",
+  "oa_country": "AU",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W3140854437"
+ },
+ "no silver bullet essence and accidents of software engineering": {
+  "status": "resolved",
+  "oa_title": "No Silver Bullet Essence and Accidents of Software Engineering",
+  "oa_first_author": "Brooks",
+  "oa_institution": "North Carolina State University",
+  "oa_country": "US",
+  "oa_year": 1987,
+  "oa_id": "https://openalex.org/W2154774499"
+ },
+ "a relational model of data for large shared data banks": {
+  "status": "resolved",
+  "oa_title": "A relational model of data for large shared data banks",
+  "oa_first_author": "E. F. Codd",
+  "oa_institution": "IBM (United States)",
+  "oa_country": "US",
+  "oa_year": 1970,
+  "oa_id": "https://openalex.org/W2185907055"
+ },
+ "on the criteria to be used in decomposing systems into modules": {
+  "status": "resolved",
+  "oa_title": "On the criteria to be used in decomposing systems into modules",
+  "oa_first_author": "David Lorge Parnas",
+  "oa_institution": "Carnegie Mellon University",
+  "oa_country": "US",
+  "oa_year": 1972,
+  "oa_id": "https://openalex.org/W2134119432"
+ },
+ "structured design": {
+  "status": "no_affiliation",
+  "oa_title": "Structured design",
+  "oa_first_author": "W. P. Stevens",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1974,
+  "oa_id": "https://openalex.org/W2913217271"
+ },
+ "managing the development of large software systems": {
+  "status": "no_affiliation",
+  "oa_title": "Managing the Development of Large Software Systems (1970)",
+  "oa_first_author": "W. W. Royce",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W2095152777"
+ },
+ "an axiomatic basis for computer programming": {
+  "status": "resolved",
+  "oa_title": "An axiomatic basis for computer programming",
+  "oa_first_author": "C. A. R. Hoare",
+  "oa_institution": "Queen's University Belfast",
+  "oa_country": "GB",
+  "oa_year": 1969,
+  "oa_id": "https://openalex.org/W2987907651"
+ },
+ "a unified framework for version modeling using an algebra of elementary objects": {
+  "status": "low_confidence",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "software aging": {
+  "status": "resolved",
+  "oa_title": "Software aging",
+  "oa_first_author": "David Lorge Parnas",
+  "oa_institution": "McMaster University",
+  "oa_country": "CA",
+  "oa_year": 1994,
+  "oa_id": "https://openalex.org/W2294305189"
+ },
+ "empirical studies of programmers second workshop": {
+  "status": "resolved",
+  "oa_title": "Empirical Studies of Programmers: Second Workshop",
+  "oa_first_author": "Gary M. Olson",
+  "oa_institution": "University of Michigan",
+  "oa_country": "US",
+  "oa_year": 1991,
+  "oa_id": "https://openalex.org/W202909246"
+ },
+ "a metrics suite for object oriented design": {
+  "status": "resolved",
+  "oa_title": "A metrics suite for object oriented design",
+  "oa_first_author": "Shyam R. Chidamber",
+  "oa_institution": "IIT@MIT",
+  "oa_country": "US",
+  "oa_year": 1994,
+  "oa_id": "https://openalex.org/W2158864412"
+ },
+ "aspect oriented programming": {
+  "status": "resolved",
+  "oa_title": "Aspect-oriented programming",
+  "oa_first_author": "Gregor Kiczales",
+  "oa_institution": "Palo Alto Research Center",
+  "oa_country": "US",
+  "oa_year": 1996,
+  "oa_id": "https://openalex.org/W2029414465"
+ },
+ "manifesto for agile software development": {
+  "status": "no_affiliation",
+  "oa_title": "Manifesto for agile software development",
+  "oa_first_author": "K. Beck",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2001,
+  "oa_id": "https://openalex.org/W1529465401"
+ },
+ "mining software repositories to study software evolution": {
+  "status": "low_confidence",
+  "oa_title": "Mining Software Repositories to Study Co-Evolution of Production &amp; Test Code",
+  "oa_first_author": "Andy Zaidman",
+  "oa_institution": "Delft University of Technology",
+  "oa_country": "NL",
+  "oa_year": 2008,
+  "oa_id": "https://openalex.org/W2115919801"
+ },
+ "a survey of software testing": {
+  "status": "low_confidence",
+  "oa_title": "Search‐based software test data generation: a survey",
+  "oa_first_author": "Phil McMinn",
+  "oa_institution": "University of Sheffield",
+  "oa_country": "GB",
+  "oa_year": 2004,
+  "oa_id": "https://openalex.org/W2114869486"
+ },
+ "go to statement considered harmful": {
+  "status": "resolved",
+  "oa_title": "Go to Statement Considered Harmful",
+  "oa_first_author": "Edsger W. Dijkstra",
+  "oa_institution": "Eindhoven University of Technology",
+  "oa_country": "NL",
+  "oa_year": 2002,
+  "oa_id": "https://openalex.org/W2154403892"
+ },
+ "a note on two problems in connexion with graphs": {
+  "status": "no_affiliation",
+  "oa_title": "A note on two problems in connexion with graphs",
+  "oa_first_author": "E. Dijkstra",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1959,
+  "oa_id": "https://openalex.org/W2169528473"
+ },
+ "structured programming with go to statements": {
+  "status": "resolved",
+  "oa_title": "Structured Programming with <i>go to</i> Statements",
+  "oa_first_author": "Donald E. Knuth",
+  "oa_institution": "Stanford University",
+  "oa_country": "US",
+  "oa_year": 1974,
+  "oa_id": "https://openalex.org/W2177002043"
+ },
+ "a model and framework for reliability growth during system test": {
+  "status": "low_confidence",
+  "oa_title": "The Community Earth System Model: A Framework for Collaborative Research",
+  "oa_first_author": "James W. Hurrell",
+  "oa_institution": "NSF National Center for Atmospheric Research",
+  "oa_country": "US",
+  "oa_year": 2013,
+  "oa_id": "https://openalex.org/W2115247641"
+ },
+ "architectural styles and the design of network based software architectures": {
+  "status": "no_affiliation",
+  "oa_title": "Architectural styles and the design of network-based software architectures",
+  "oa_first_author": "Roy T. Fielding",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W1577231857"
+ },
+ "a unified model of software evolution": {
+  "status": "low_confidence",
+  "oa_title": "Fitting Linear Mixed-Effects Models Using <b>lme4</b>",
+  "oa_first_author": "Douglas M. Bates",
+  "oa_institution": "University of Wisconsin–Madison",
+  "oa_country": "US",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W1951724000"
+ },
+ "an experimental evaluation of the assumption of independence in multiversion programming": {
+  "status": "resolved",
+  "oa_title": "An experimental evaluation of the assumption of independence in multiversion programming",
+  "oa_first_author": "John Knight",
+  "oa_institution": "University of Virginia",
+  "oa_country": "US",
+  "oa_year": 1986,
+  "oa_id": "https://openalex.org/W1971991620"
+ },
+ "goto statement considered harmful": {
+  "status": "resolved",
+  "oa_title": "Go To Statement Considered Harmful",
+  "oa_first_author": "Edsger W. Dijkstra",
+  "oa_institution": "Eindhoven University of Technology",
+  "oa_country": "NL",
+  "oa_year": 2001,
+  "oa_id": "https://openalex.org/W2983418616"
+ },
+ "a complexity measure": {
+  "status": "resolved",
+  "oa_title": "A Complexity Measure",
+  "oa_first_author": "Thomas J. McCabe",
+  "oa_institution": "National Security Agency",
+  "oa_country": "US",
+  "oa_year": 1976,
+  "oa_id": "https://openalex.org/W1964962870"
+ },
+ "programming as theory building": {
+  "status": "no_affiliation",
+  "oa_title": "Programming as theory building",
+  "oa_first_author": "Peter Naur",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1985,
+  "oa_id": "https://openalex.org/W2030836928"
+ },
+ "an empirical study of the reliability of unix utilities": {
+  "status": "resolved",
+  "oa_title": "An empirical study of the reliability of UNIX utilities",
+  "oa_first_author": "Barton P. Miller",
+  "oa_institution": "University of Wisconsin–Madison",
+  "oa_country": "US",
+  "oa_year": 1990,
+  "oa_id": "https://openalex.org/W2002934700"
+ },
+ "recursive functions of symbolic expressions and their computation by machine part i": {
+  "status": "resolved",
+  "oa_title": "Recursive functions of symbolic expressions and their computation by machine, Part I",
+  "oa_first_author": "John McCarthy",
+  "oa_institution": "Massachusetts Institute of Technology",
+  "oa_country": "US",
+  "oa_year": 1960,
+  "oa_id": "https://openalex.org/W2045255985"
+ },
+ "imagenet large scale visual recognition challenge": {
+  "status": "resolved",
+  "oa_title": "ImageNet Large Scale Visual Recognition Challenge",
+  "oa_first_author": "Olga Russakovsky",
+  "oa_institution": "Stanford University",
+  "oa_country": "US",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W2117539524"
+ },
+ "imagenet classification with deep convolutional neural networks": {
+  "status": "resolved",
+  "oa_title": "ImageNet classification with deep convolutional neural networks",
+  "oa_first_author": "Alex Krizhevsky",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2163605009"
+ },
+ "generative adversarial nets": {
+  "status": "resolved",
+  "oa_title": "GAN（Generative Adversarial Nets）",
+  "oa_first_author": "柴田 淳司",
+  "oa_institution": "Université de Montréal",
+  "oa_country": "CA",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2099471712"
+ },
+ "very deep convolutional networks for large scale image recognition": {
+  "status": "resolved",
+  "oa_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+  "oa_first_author": "Karen Simonyan",
+  "oa_institution": "University of Oxford",
+  "oa_country": "GB",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1686810756"
+ },
+ "fully convolutional networks for semantic segmentation": {
+  "status": "resolved",
+  "oa_title": "Fully convolutional networks for semantic segmentation",
+  "oa_first_author": "Jonathan Long",
+  "oa_institution": "Berkeley College",
+  "oa_country": "US",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W1903029394"
+ },
+ "faster r cnn towards real time object detection with region proposal networks": {
+  "status": "resolved",
+  "oa_title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+  "oa_first_author": "Shaoqing Ren",
+  "oa_institution": "University of Science and Technology of China",
+  "oa_country": "CN",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W639708223"
+ },
+ "rich feature hierarchies for accurate object detection and semantic segmentation": {
+  "status": "resolved",
+  "oa_title": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+  "oa_first_author": "Ross Girshick",
+  "oa_institution": "Berkeley College",
+  "oa_country": "US",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W2102605133"
+ },
+ "going deeper with convolutions": {
+  "status": "resolved",
+  "oa_title": "Going deeper with convolutions",
+  "oa_first_author": "Christian Szegedy",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W2097117768"
+ },
+ "batch normalization accelerating deep network training by reducing internal covariate shift": {
+  "status": "resolved",
+  "oa_title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+  "oa_first_author": "Sergey Ioffe",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W1836465849"
+ },
+ "an image is worth 16x16 words transformers for image recognition at scale": {
+  "status": "resolved",
+  "oa_title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+  "oa_first_author": "Alexey Dosovitskiy",
+  "oa_institution": "Google (United States)",
+  "oa_country": "US",
+  "oa_year": 2020,
+  "oa_id": "https://openalex.org/W3094502228"
+ },
+ "u net convolutional networks for biomedical image segmentation": {
+  "status": "resolved",
+  "oa_title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+  "oa_first_author": "Olaf Ronneberger",
+  "oa_institution": "University of Freiburg",
+  "oa_country": "DE",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W1901129140"
+ },
+ "gradient based learning applied to document recognition": {
+  "status": "resolved",
+  "oa_title": "Gradient-based learning applied to document recognition",
+  "oa_first_author": "Yann LeCun",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W2112796928"
+ },
+ "densely connected convolutional networks": {
+  "status": "resolved",
+  "oa_title": "Densely Connected Convolutional Networks",
+  "oa_first_author": "Gao Huang",
+  "oa_institution": "Cornell University",
+  "oa_country": "US",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2963446712"
+ },
+ "clip learning transferable visual models from natural language supervision": {
+  "status": "resolved",
+  "oa_title": "Learning Transferable Visual Models From Natural Language Supervision",
+  "oa_first_author": "Alec Radford",
+  "oa_institution": "OpenAI (United States)",
+  "oa_country": "US",
+  "oa_year": 2021,
+  "oa_id": "https://openalex.org/W3135367836"
+ },
+ "mask r cnn": {
+  "status": "resolved",
+  "oa_title": "Mask R-CNN",
+  "oa_first_author": "Kaiming He",
+  "oa_institution": "Meta (Israel)",
+  "oa_country": "IL",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2963150697"
+ },
+ "deformable convolutional networks": {
+  "status": "resolved",
+  "oa_title": "Deformable Convolutional Networks",
+  "oa_first_author": "Jifeng Dai",
+  "oa_institution": "Microsoft Research Asia (China)",
+  "oa_country": "CN",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2601564443"
+ },
+ "you only look once unified real time object detection": {
+  "status": "resolved",
+  "oa_title": "You Only Look Once: Unified, Real-Time Object Detection",
+  "oa_first_author": "Joseph Redmon",
+  "oa_institution": "University of Washington",
+  "oa_country": "US",
+  "oa_year": 2016,
+  "oa_id": "https://openalex.org/W1483870316"
+ },
+ "feature pyramid networks for object detection": {
+  "status": "resolved",
+  "oa_title": "Feature Pyramid Networks for Object Detection",
+  "oa_first_author": "Tsung-Yi Lin",
+  "oa_institution": "Cornell University",
+  "oa_country": "US",
+  "oa_year": 2017,
+  "oa_id": "https://openalex.org/W2565639579"
+ },
+ "symbolic execution and program testing": {
+  "status": "resolved",
+  "oa_title": "Symbolic execution and program testing",
+  "oa_first_author": "James C. King",
+  "oa_institution": "IBM (United States)",
+  "oa_country": "US",
+  "oa_year": 1976,
+  "oa_id": "https://openalex.org/W2101512909"
+ },
+ "program slicing": {
+  "status": "resolved",
+  "oa_title": "Program Slicing",
+  "oa_first_author": "Mark Weiser",
+  "oa_institution": "University of Maryland, College Park",
+  "oa_country": "US",
+  "oa_year": 1984,
+  "oa_id": "https://openalex.org/W2293624369"
+ },
+ "statecharts a visual formalism for complex systems": {
+  "status": "resolved",
+  "oa_title": "Statecharts: a visual formalism for complex systems",
+  "oa_first_author": "David Harel",
+  "oa_institution": "Weizmann Institute of Science",
+  "oa_country": "IL",
+  "oa_year": 1987,
+  "oa_id": "https://openalex.org/W2099529102"
+ },
+ "an introduction to software architecture": {
+  "status": "resolved",
+  "oa_title": "AN INTRODUCTION TO SOFTWARE ARCHITECTURE",
+  "oa_first_author": "David Garlan",
+  "oa_institution": "Carnegie Mellon University",
+  "oa_country": "US",
+  "oa_year": 1993,
+  "oa_id": "https://openalex.org/W4292492869"
+ },
+ "architectural blueprints the 4 1 view model of software architecture": {
+  "status": "no_affiliation",
+  "oa_title": "Architecture blueprints—the “4+1” view model of software architecture",
+  "oa_first_author": "Phillippe Kruchten",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1995,
+  "oa_id": "https://openalex.org/W2123431646"
+ },
+ "yesterday my program worked today it does not why": {
+  "status": "resolved",
+  "oa_title": "Yesterday, my program worked. Today, it does not. Why?",
+  "oa_first_author": "Andreas Zeller",
+  "oa_institution": "University of Passau",
+  "oa_country": "DE",
+  "oa_year": 1999,
+  "oa_id": "https://openalex.org/W2148329403"
+ },
+ "a classification and comparison framework for software architecture description languages": {
+  "status": "resolved",
+  "oa_title": "A classification and comparison framework for software architecture description languages",
+  "oa_first_author": "Nenad Medvidović",
+  "oa_institution": "University of Southern California",
+  "oa_country": "US",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W2162366870"
+ },
+ "dynamically discovering likely program invariants to support program evolution": {
+  "status": "resolved",
+  "oa_title": "Dynamically discovering likely program invariants to support program evolution",
+  "oa_first_author": "Michael D. Ernst",
+  "oa_institution": "IIT@MIT",
+  "oa_country": "US",
+  "oa_year": 2001,
+  "oa_id": "https://openalex.org/W3106729728"
+ },
+ "mining metrics to predict component failures": {
+  "status": "resolved",
+  "oa_title": "Mining metrics to predict component failures",
+  "oa_first_author": "Nachiappan Nagappan",
+  "oa_institution": "Microsoft (United States)",
+  "oa_country": "US",
+  "oa_year": 2006,
+  "oa_id": "https://openalex.org/W2105300539"
+ },
+ "a spiral model of software development and enhancement": {
+  "status": "resolved",
+  "oa_title": "A Spiral Model of Software Development and Enhancement",
+  "oa_first_author": "Barry Boehm",
+  "oa_institution": "Defense Systems (United States)",
+  "oa_country": "US",
+  "oa_year": 1995,
+  "oa_id": "https://openalex.org/W1538749659"
+ },
+ "software processes are software too": {
+  "status": "resolved",
+  "oa_title": "Software processes are software too",
+  "oa_first_author": "Leon J. Osterweil",
+  "oa_institution": "University of Colorado Boulder",
+  "oa_country": "US",
+  "oa_year": 1987,
+  "oa_id": "https://openalex.org/W2095958260"
+ },
+ "a rational design process how and why to fake it": {
+  "status": "resolved",
+  "oa_title": "A rational design process: How and why to fake it",
+  "oa_first_author": "David Lorge Parnas",
+  "oa_institution": "United States Naval Research Laboratory",
+  "oa_country": "US",
+  "oa_year": 1986,
+  "oa_id": "https://openalex.org/W2096360482"
+ },
+ "a validation of object oriented design metrics as quality indicators": {
+  "status": "resolved",
+  "oa_title": "A validation of object-oriented design metrics as quality indicators",
+  "oa_first_author": "Victor R. Basili",
+  "oa_institution": "University of Maryland, College Park",
+  "oa_country": "US",
+  "oa_year": 1996,
+  "oa_id": "https://openalex.org/W2121866145"
+ },
+ "mining version histories to guide software changes": {
+  "status": "resolved",
+  "oa_title": "Mining version histories to guide software changes",
+  "oa_first_author": "Thomas Zimmermann",
+  "oa_institution": "Saarland University",
+  "oa_country": "DE",
+  "oa_year": 2005,
+  "oa_id": "https://openalex.org/W2141558501"
+ },
+ "visualization of test information to assist fault localization": {
+  "status": "resolved",
+  "oa_title": "Visualization of test information to assist fault localization",
+  "oa_first_author": "James A. Jones",
+  "oa_institution": "Georgia Institute of Technology",
+  "oa_country": "US",
+  "oa_year": 2002,
+  "oa_id": "https://openalex.org/W2162045655"
+ },
+ "dart directed automated random testing": {
+  "status": "resolved",
+  "oa_title": "DART: Directed Automated Random Testing",
+  "oa_first_author": "Koushik Sen",
+  "oa_institution": "Berkeley College",
+  "oa_country": "US",
+  "oa_year": 2011,
+  "oa_id": "https://openalex.org/W1634497122"
+ },
+ "distinctive image features from scale invariant keypoints": {
+  "status": "resolved",
+  "oa_title": "Distinctive Image Features from Scale-Invariant Keypoints",
+  "oa_first_author": "David Lowe",
+  "oa_institution": "University of British Columbia",
+  "oa_country": "CA",
+  "oa_year": 2004,
+  "oa_id": "https://openalex.org/W2151103935"
+ },
+ "histograms of oriented gradients for human detection": {
+  "status": "resolved",
+  "oa_title": "Histograms of Oriented Gradients for Human Detection",
+  "oa_first_author": "Navneet Dalal",
+  "oa_institution": "Institut national de recherche en sciences et technologies du numérique",
+  "oa_country": "FR",
+  "oa_year": 2005,
+  "oa_id": "https://openalex.org/W2161969291"
+ },
+ "a computational approach to edge detection": {
+  "status": "resolved",
+  "oa_title": "A Computational Approach to Edge Detection",
+  "oa_first_author": "John Canny",
+  "oa_institution": "Massachusetts Institute of Technology",
+  "oa_country": "US",
+  "oa_year": 1986,
+  "oa_id": "https://openalex.org/W2145023731"
+ },
+ "rapid object detection using a boosted cascade of simple features": {
+  "status": "resolved",
+  "oa_title": "Rapid object detection using a boosted cascade of simple features",
+  "oa_first_author": "Paul Viola",
+  "oa_institution": "Mitsubishi Electric (United States)",
+  "oa_country": "US",
+  "oa_year": 2005,
+  "oa_id": "https://openalex.org/W2164598857"
+ },
+ "imagenet a large scale hierarchical image database": {
+  "status": "resolved",
+  "oa_title": "ImageNet: A large-scale hierarchical image database",
+  "oa_first_author": "Jia Deng",
+  "oa_institution": "Princeton University",
+  "oa_country": "US",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2108598243"
+ },
+ "on understanding types data abstraction and polymorphism": {
+  "status": "resolved",
+  "oa_title": "On understanding types, data abstraction, and polymorphism",
+  "oa_first_author": "Luca Cardelli",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1985,
+  "oa_id": "https://openalex.org/W2027657506"
+ },
+ "the chaos report": {
+  "status": "low_confidence",
+  "oa_title": "The rise and fall of the Chaos report figures",
+  "oa_first_author": "J.L. Eveleens",
+  "oa_institution": "Vrije Universiteit Amsterdam",
+  "oa_country": "NL",
+  "oa_year": 2009,
+  "oa_id": "https://openalex.org/W2015115857"
+ },
+ "agile software development principles patterns and practices": {
+  "status": "no_affiliation",
+  "oa_title": "Agile Software Development, Principles, Patterns, and Practices",
+  "oa_first_author": "Robert Martin",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2002,
+  "oa_id": "https://openalex.org/W1507539036"
+ },
+ "a case for redundancy in data centers": {
+  "status": "low_confidence",
+  "oa_title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
+  "oa_first_author": "Paul J. McMurdie",
+  "oa_institution": "Stanford University",
+  "oa_country": "US",
+  "oa_year": 2013,
+  "oa_id": "https://openalex.org/W2056279562"
+ },
+ "why programs fail a guide to systematic debugging": {
+  "status": "no_affiliation",
+  "oa_title": "Why Programs Fail: A Guide to Systematic Debugging",
+  "oa_first_author": "Andreas Zeller",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2005,
+  "oa_id": "https://openalex.org/W1574060188"
+ },
+ "program development by stepwise refinement": {
+  "status": "resolved",
+  "oa_title": "Program development by stepwise refinement",
+  "oa_first_author": "Niklaus Wirth",
+  "oa_institution": "Board of the Swiss Federal Institutes of Technology",
+  "oa_country": "CH",
+  "oa_year": 1971,
+  "oa_id": "https://openalex.org/W2987977008"
+ },
+ "the economics of software quality": {
+  "status": "no_affiliation",
+  "oa_title": "The Economics of Software Quality",
+  "oa_first_author": "Capers Jones",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2011,
+  "oa_id": "https://openalex.org/W603420404"
+ },
+ "the c programming language": {
+  "status": "resolved",
+  "oa_title": "The C++ Programming Language",
+  "oa_first_author": "Bjarne Stroustrup",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1985,
+  "oa_id": "https://openalex.org/W2987803397"
+ },
+ "the rational unified process an introduction": {
+  "status": "no_affiliation",
+  "oa_title": "The Rational Unified Process: An Introduction",
+  "oa_first_author": "Philippe Kruchten",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1998,
+  "oa_id": "https://openalex.org/W1562934601"
+ },
+ "extreme programming explained embrace change": {
+  "status": "no_affiliation",
+  "oa_title": "Extreme Programming Explained: Embrace Change",
+  "oa_first_author": "Kent Beck",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 2000,
+  "oa_id": "https://openalex.org/W1493688518"
+ },
+ "software s chronic crisis": {
+  "status": "no_affiliation",
+  "oa_title": "Software's Chronic Crisis",
+  "oa_first_author": "W. Wayt Gibbs",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1994,
+  "oa_id": "https://openalex.org/W2049704651"
+ },
+ "the economics of reusable software components": {
+  "status": "low_confidence",
+  "oa_title": "Foundations for the study of software architecture",
+  "oa_first_author": "Dewayne E. Perry",
+  "oa_institution": "AT&T (United States)",
+  "oa_country": "US",
+  "oa_year": 1992,
+  "oa_id": "https://openalex.org/W2118023438"
+ },
+ "software engineering report on a conference sponsored by the nato science committee": {
+  "status": "no_affiliation",
+  "oa_title": "Software Engineering: Report of a conference sponsored by the NATO Science Committee, Garmisch, Germany, 7-11 Oct. 1968, Brussels, Scientific Affairs Division, NATO",
+  "oa_first_author": "Peter Naur",
+  "oa_institution": "",
+  "oa_country": "",
+  "oa_year": 1969,
+  "oa_id": "https://openalex.org/W98733118"
+ },
+ "the unix time sharing system": {
+  "status": "resolved",
+  "oa_title": "The UNIX time-sharing system",
+  "oa_first_author": "Dennis M. Ritchie",
+  "oa_institution": "Nokia (United States)",
+  "oa_country": "US",
+  "oa_year": 1983,
+  "oa_id": "https://openalex.org/W2105986919"
+ },
+ "visualizing and understanding convolutional networks": {
+  "status": "resolved",
+  "oa_title": "Visualizing and Understanding Convolutional Networks",
+  "oa_first_author": "Matthew D. Zeiler",
+  "oa_institution": "New York University",
+  "oa_country": "US",
+  "oa_year": 2014,
+  "oa_id": "https://openalex.org/W1849277567"
+ },
+ "a theory of the learnable": {
+  "status": "resolved",
+  "oa_title": "A theory of the learnable",
+  "oa_first_author": "Leslie G. Valiant",
+  "oa_institution": "Harvard University",
+  "oa_country": "US",
+  "oa_year": 1984,
+  "oa_id": "https://openalex.org/W2019363670"
+ },
+ "random sample consensus a paradigm for model fitting with applications to image analysis and automated cartography": {
+  "status": "resolved",
+  "oa_title": "Random Sample Consensus: A Paradigm for Model Fitting with Applications to Image Analysis and Automated Cartography",
+  "oa_first_author": "Martin A. Fischler",
+  "oa_institution": "SRI International",
+  "oa_country": "US",
+  "oa_year": 1987,
+  "oa_id": "https://openalex.org/W4243493583"
+ },
+ "fast r cnn": {
+  "status": "resolved",
+  "oa_title": "Fast R-CNN",
+  "oa_first_author": "Ross Girshick",
+  "oa_institution": "Microsoft (United States)",
+  "oa_country": "US",
+  "oa_year": 2015,
+  "oa_id": "https://openalex.org/W1536680647"
+ },
+ "an invitation to 3 d vision from images to geometric models": {
+  "status": "resolved",
+  "oa_title": "An invitation to 3-D vision. From images to geometric models",
+  "oa_first_author": "Piotr Zarzycki",
+  "oa_institution": "University of Gdańsk",
+  "oa_country": "PL",
+  "oa_year": 2005,
+  "oa_id": "https://openalex.org/W2587603528"
+ },
+ "probabilistic robotics": {
+  "status": "resolved",
+  "oa_title": "Probabilistic robotics",
+  "oa_first_author": "Sebastian Thrun",
+  "oa_institution": "Carnegie Mellon University",
+  "oa_country": "US",
+  "oa_year": 2002,
+  "oa_id": "https://openalex.org/W2336416123"
+ }
+}

@@ -1,0 +1,46 @@
+niche,institution_normalized,claude-sonnet-4-6,gemini-3.1-pro-preview,gpt-5.4,qwen2.5:3b,baseline_rank
+se,Carnegie Mellon University,1.0,1.0,1.0,3.0,1
+se,Univ. of California - Irvine,15.0,9.333333333333334,11.0,,2
+se,Univ. of Illinois at Urbana-Champaign,4.0,2.6666666666666665,5.333333333333333,6.0,3
+se,Purdue University,11.333333333333334,9.0,14.0,,4
+se,North Carolina State University,14.0,10.0,12.0,,5
+se,University of Southern California,13.666666666666666,14.0,15.0,14.333333333333334,7
+se,Univ. of Massachusetts Amherst,15.0,13.5,,,8
+se,University of Virginia,,,15.0,,9
+se,Virginia Tech,,,14.5,,12
+se,Univ. of California - Los Angeles,10.0,,,9.333333333333334,13
+se,Columbia University,9.333333333333334,,,,20
+se,Univ. of California - Davis,,9.5,,,24
+se,Massachusetts Inst. of Technology,2.0,5.333333333333333,3.0,1.0,25
+se,Northeastern University,,,,11.333333333333334,26
+se,Univ. of California - Berkeley,3.0,5.666666666666667,2.0,4.0,28
+se,Georgia Institute of Technology,6.333333333333333,5.666666666666667,8.0,8.666666666666666,30
+se,Univ. of California - San Diego,10.666666666666666,,8.0,11.666666666666666,32
+se,University of Notre Dame,,,,15.0,32
+se,University of Texas at Austin,7.333333333333333,6.0,9.333333333333334,7.666666666666667,32
+se,University of Washington,5.333333333333333,2.3333333333333335,4.666666666666667,7.0,32
+se,University of Michigan,11.666666666666666,12.666666666666666,8.666666666666666,11.5,32
+vision,Carnegie Mellon University,1.0,1.0,3.3333333333333335,1.5,1
+vision,Univ. of California - San Diego,15.0,9.666666666666666,9.666666666666666,10.5,2
+vision,Univ. of Illinois at Urbana-Champaign,9.0,5.0,5.333333333333333,8.0,3
+vision,Univ. of California - Berkeley,4.0,4.0,3.6666666666666665,4.333333333333333,4
+vision,Stanford University,2.3333333333333335,3.0,1.6666666666666667,2.6666666666666665,5
+vision,Massachusetts Inst. of Technology,2.6666666666666665,2.0,1.3333333333333333,1.3333333333333333,6
+vision,Univ. of Maryland - College Park,14.0,8.0,11.333333333333334,12.0,7
+vision,Johns Hopkins University,11.0,15.0,,,8
+vision,University of Texas at Austin,14.0,8.666666666666666,14.0,9.333333333333334,10
+vision,Cornell University,8.0,6.0,6.333333333333333,6.0,11
+vision,University of Pennsylvania,,,,14.0,16
+vision,Georgia Institute of Technology,6.333333333333333,11.333333333333334,7.333333333333333,8.0,18
+vision,Princeton University,10.333333333333334,15.0,14.0,,19
+vision,University of Washington,7.333333333333333,9.0,9.333333333333334,5.0,22
+vision,Columbia University,13.5,13.333333333333334,14.333333333333334,3.0,24
+vision,New York University,13.0,,,,26
+vision,University of Michigan,6.0,11.666666666666666,7.0,12.0,27
+vision,Univ. of California - Irvine,,,,13.0,31
+vision,Univ. of California - Los Angeles,9.666666666666666,12.333333333333334,11.666666666666666,7.333333333333333,32
+vision,University of Southern California,,,,13.333333333333334,34
+vision,California Inst. of Technology,,,,5.0,34
+vision,Rice University,,,,12.333333333333334,41
+vision,Duke University,,,,15.0,47
+vision,Northwestern University,,,,14.0,48

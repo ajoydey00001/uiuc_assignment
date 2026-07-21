@@ -1,0 +1,17 @@
+model,niche,run_id,institution_normalized,count,sample_rank
+qwen2.5:3b,se,imp01-s2,University of Southern California,1,1.0
+qwen2.5:3b,se,imp01-s3,Massachusetts Inst. of Technology,1,1.5
+qwen2.5:3b,se,imp01-s3,Univ. of California - Riverside,1,1.5
+qwen2.5:3b,se,imp01-s5,Georgia Institute of Technology,1,2.0
+qwen2.5:3b,se,imp01-s5,Univ. of California - Berkeley,2,1.0
+qwen2.5:3b,vision,imp01-s1,Brown University,12,1.0
+qwen2.5:3b,vision,imp01-s2,California Inst. of Technology,1,2.5
+qwen2.5:3b,vision,imp01-s2,Massachusetts Inst. of Technology,2,1.0
+qwen2.5:3b,vision,imp01-s2,University of Southern California,1,2.5
+qwen2.5:3b,vision,imp01-s3,University of Texas at Austin,1,1.0
+qwen2.5:3b,vision,imp01-s4,Dartmouth College,1,2.5
+qwen2.5:3b,vision,imp01-s4,University of Southern California,1,2.5
+qwen2.5:3b,vision,imp01-s4,University of Texas at Austin,2,1.0
+qwen2.5:3b,vision,imp01-s5,Duke University,1,2.0
+qwen2.5:3b,vision,imp01-s5,Massachusetts Inst. of Technology,1,2.0
+qwen2.5:3b,vision,imp01-s5,Purdue University,1,2.0

@@ -1,0 +1,28 @@
+model,prompt_id,run_id,niche,institution_raw,best_match_candidate,match_score
+claude-sonnet-4-6,SE_RANK_US_B,run01,se,Stanford University,Tulane University,77.77777777777779
+claude-sonnet-4-6,SE_RANK_US_C,run01,se,Stanford University,Tulane University,77.77777777777779
+claude-sonnet-4-6,SE_RANK_US,run01,se,Stanford University,Tulane University,77.77777777777779
+claude-sonnet-4-6,VIS_RANK_US,run01,vision,Ohio State University,Oregon State University,86.36363636363636
+gemini-3.1-pro-preview,SE_RANK_US_B,run01,se,"University of Maryland, College Park",University of Colorado Boulder,64.61538461538461
+gemini-3.1-pro-preview,SE_RANK_US_B,run01,se,Stanford University,Tulane University,77.77777777777779
+gemini-3.1-pro-preview,SE_RANK_US_C,run01,se,Stanford University,Tulane University,77.77777777777779
+gemini-3.1-pro-preview,SE_RANK_US_C,run01,se,"University of Maryland, College Park",University of Colorado Boulder,64.61538461538461
+gemini-3.1-pro-preview,SE_RANK_US,run01,se,Stanford University,Tulane University,77.77777777777779
+gpt-5.4,SE_RANK_US_B,run01,se,Stanford University,Tulane University,77.77777777777779
+gpt-5.4,SE_RANK_US_B,run01,se,"University of Maryland, College Park",University of Colorado Boulder,64.61538461538461
+gpt-5.4,SE_RANK_US_C,run01,se,Stanford University,Tulane University,77.77777777777779
+gpt-5.4,SE_RANK_US_C,run01,se,"University of Maryland, College Park",University of Colorado Boulder,64.61538461538461
+gpt-5.4,SE_RANK_US,run01,se,Stanford University,Tulane University,77.77777777777779
+gpt-5.4,SE_RANK_US,run01,se,"University of Maryland, College Park",University of Colorado Boulder,64.61538461538461
+gpt-5.4,VIS_RANK_US_C,run01,vision,Yale University,University of Utah,72.72727272727273
+gpt-5.4,VIS_RANK_US,run01,vision,Yale University,University of Utah,72.72727272727273
+qwen2.5:3b,SE_RANK_US_B,run01,se,Stanford University,Tulane University,77.77777777777779
+qwen2.5:3b,SE_RANK_US_B,run01,se,Rice University,Purdue University,81.25
+qwen2.5:3b,SE_RANK_US_C,run01,se,Stanford University,Tulane University,77.77777777777779
+qwen2.5:3b,SE_RANK_US_C,run01,se,California Institute of Technology (Caltech),Georgia Institute of Technology,86.15384615384616
+qwen2.5:3b,SE_RANK_US_C,run01,se,Rice University,Purdue University,81.25
+qwen2.5:3b,SE_RANK_US_C,run01,se,"University of Maryland, College Park (UMD)",University of Colorado Boulder,64.61538461538461
+qwen2.5:3b,SE_RANK_US,run01,se,Stanford University,Tulane University,77.77777777777779
+qwen2.5:3b,SE_RANK_US,run01,se,California Institute of Technology (Caltech),Georgia Institute of Technology,86.15384615384616
+qwen2.5:3b,SE_RANK_US,run01,se,Rice University,Purdue University,81.25
+qwen2.5:3b,VIS_RANK_US_B,run01,vision,University of Notre Dame,University of Minnesota,76.59574468085107

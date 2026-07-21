@@ -1,0 +1,334 @@
+model,provider,prompt_id,run_id,niche,variant,rank,institution_raw,institution_normalized,match_score,baseline_rank,baseline_rank_avg,rank_deviation,abs_deviation
+claude-sonnet-4-6,anthropic,SE_RANK_US_B,run01,se,B,1,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,0.0,0.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_B,run01,se,B,2,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,25,25.0,-23.0,23.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_B,run01,se,B,3,"University of California, Berkeley",Univ. of California - Berkeley,100.0,28,28.5,-25.5,25.5
+claude-sonnet-4-6,anthropic,SE_RANK_US_B,run01,se,B,4,University of Illinois Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,1.0,1.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_B,run01,se,B,5,University of Washington,University of Washington,100.0,32,35.0,-30.0,30.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_B,run01,se,B,6,Georgia Institute of Technology,Georgia Institute of Technology,100.0,30,30.5,-24.5,24.5
+claude-sonnet-4-6,anthropic,SE_RANK_US_B,run01,se,B,7,University of Texas at Austin,University of Texas at Austin,100.0,32,35.0,-28.0,28.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_B,run01,se,B,9,Columbia University,Columbia University,100.0,20,20.0,-11.0,11.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_B,run01,se,B,10,"University of California, Los Angeles",Univ. of California - Los Angeles,100.0,13,13.0,-3.0,3.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_B,run01,se,B,11,Purdue University,Purdue University,100.0,4,4.0,7.0,7.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_B,run01,se,B,12,University of Michigan,University of Michigan,100.0,32,35.0,-23.0,23.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_B,run01,se,B,13,"University of California, San Diego",Univ. of California - San Diego,100.0,32,35.0,-22.0,22.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_B,run01,se,B,14,North Carolina State University,North Carolina State University,100.0,5,5.0,9.0,9.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_B,run01,se,B,15,University of Southern California,University of Southern California,100.0,7,7.0,8.0,8.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_C,run01,se,C,1,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,0.0,0.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_C,run01,se,C,2,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,25,25.0,-23.0,23.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_C,run01,se,C,3,"University of California, Berkeley",Univ. of California - Berkeley,100.0,28,28.5,-25.5,25.5
+claude-sonnet-4-6,anthropic,SE_RANK_US_C,run01,se,C,4,University of Illinois Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,1.0,1.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_C,run01,se,C,5,University of Washington,University of Washington,100.0,32,35.0,-30.0,30.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_C,run01,se,C,6,Georgia Institute of Technology,Georgia Institute of Technology,100.0,30,30.5,-24.5,24.5
+claude-sonnet-4-6,anthropic,SE_RANK_US_C,run01,se,C,7,University of Texas at Austin,University of Texas at Austin,100.0,32,35.0,-28.0,28.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_C,run01,se,C,9,"University of California, San Diego",Univ. of California - San Diego,100.0,32,35.0,-26.0,26.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_C,run01,se,C,10,Columbia University,Columbia University,100.0,20,20.0,-10.0,10.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_C,run01,se,C,11,University of Michigan,University of Michigan,100.0,32,35.0,-24.0,24.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_C,run01,se,C,12,Purdue University,Purdue University,100.0,4,4.0,8.0,8.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_C,run01,se,C,13,University of Southern California,University of Southern California,100.0,7,7.0,6.0,6.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_C,run01,se,C,14,North Carolina State University,North Carolina State University,100.0,5,5.0,9.0,9.0
+claude-sonnet-4-6,anthropic,SE_RANK_US_C,run01,se,C,15,University of Massachusetts Amherst,Univ. of Massachusetts Amherst,100.0,8,8.0,7.0,7.0
+claude-sonnet-4-6,anthropic,SE_RANK_US,run01,se,A,1,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,0.0,0.0
+claude-sonnet-4-6,anthropic,SE_RANK_US,run01,se,A,2,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,25,25.0,-23.0,23.0
+claude-sonnet-4-6,anthropic,SE_RANK_US,run01,se,A,3,"University of California, Berkeley",Univ. of California - Berkeley,100.0,28,28.5,-25.5,25.5
+claude-sonnet-4-6,anthropic,SE_RANK_US,run01,se,A,4,University of Illinois Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,1.0,1.0
+claude-sonnet-4-6,anthropic,SE_RANK_US,run01,se,A,6,University of Washington,University of Washington,100.0,32,35.0,-29.0,29.0
+claude-sonnet-4-6,anthropic,SE_RANK_US,run01,se,A,7,Georgia Institute of Technology,Georgia Institute of Technology,100.0,30,30.5,-23.5,23.5
+claude-sonnet-4-6,anthropic,SE_RANK_US,run01,se,A,8,University of Texas at Austin,University of Texas at Austin,100.0,32,35.0,-27.0,27.0
+claude-sonnet-4-6,anthropic,SE_RANK_US,run01,se,A,9,Columbia University,Columbia University,100.0,20,20.0,-11.0,11.0
+claude-sonnet-4-6,anthropic,SE_RANK_US,run01,se,A,10,"University of California, San Diego",Univ. of California - San Diego,100.0,32,35.0,-25.0,25.0
+claude-sonnet-4-6,anthropic,SE_RANK_US,run01,se,A,11,Purdue University,Purdue University,100.0,4,4.0,7.0,7.0
+claude-sonnet-4-6,anthropic,SE_RANK_US,run01,se,A,12,University of Michigan,University of Michigan,100.0,32,35.0,-23.0,23.0
+claude-sonnet-4-6,anthropic,SE_RANK_US,run01,se,A,13,University of Southern California,University of Southern California,100.0,7,7.0,6.0,6.0
+claude-sonnet-4-6,anthropic,SE_RANK_US,run01,se,A,14,North Carolina State University,North Carolina State University,100.0,5,5.0,9.0,9.0
+claude-sonnet-4-6,anthropic,SE_RANK_US,run01,se,A,15,"University of California, Irvine",Univ. of California - Irvine,100.0,2,2.0,13.0,13.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_B,run01,vision,B,1,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,0.0,0.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_B,run01,vision,B,2,Stanford University,Stanford University,100.0,5,5.0,-3.0,3.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_B,run01,vision,B,3,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,6,6.0,-3.0,3.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_B,run01,vision,B,4,"University of California, Berkeley",Univ. of California - Berkeley,100.0,4,4.0,0.0,0.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_B,run01,vision,B,5,University of Michigan,University of Michigan,100.0,27,27.0,-22.0,22.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_B,run01,vision,B,6,Georgia Institute of Technology,Georgia Institute of Technology,100.0,18,18.0,-12.0,12.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_B,run01,vision,B,7,"University of California, Los Angeles",Univ. of California - Los Angeles,100.0,32,32.0,-25.0,25.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_B,run01,vision,B,8,Cornell University,Cornell University,100.0,11,11.0,-3.0,3.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_B,run01,vision,B,9,University of Illinois Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,6.0,6.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_B,run01,vision,B,10,Johns Hopkins University,Johns Hopkins University,100.0,8,8.0,2.0,2.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_B,run01,vision,B,11,Princeton University,Princeton University,100.0,19,19.0,-8.0,8.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_B,run01,vision,B,12,University of Washington,University of Washington,100.0,22,22.0,-10.0,10.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_B,run01,vision,B,13,New York University,New York University,100.0,26,26.0,-13.0,13.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_B,run01,vision,B,14,University of Texas at Austin,University of Texas at Austin,100.0,10,10.0,4.0,4.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_B,run01,vision,B,15,Columbia University,Columbia University,100.0,24,24.0,-9.0,9.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_C,run01,vision,C,1,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,0.0,0.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_C,run01,vision,C,2,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,6,6.0,-4.0,4.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_C,run01,vision,C,3,Stanford University,Stanford University,100.0,5,5.0,-2.0,2.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_C,run01,vision,C,4,"University of California, Berkeley",Univ. of California - Berkeley,100.0,4,4.0,0.0,0.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_C,run01,vision,C,5,University of Washington,University of Washington,100.0,22,22.0,-17.0,17.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_C,run01,vision,C,6,Georgia Institute of Technology,Georgia Institute of Technology,100.0,18,18.0,-12.0,12.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_C,run01,vision,C,7,University of Michigan,University of Michigan,100.0,27,27.0,-20.0,20.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_C,run01,vision,C,8,Cornell University,Cornell University,100.0,11,11.0,-3.0,3.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_C,run01,vision,C,9,University of Illinois Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,6.0,6.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_C,run01,vision,C,10,Princeton University,Princeton University,100.0,19,19.0,-9.0,9.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_C,run01,vision,C,11,"University of California, Los Angeles",Univ. of California - Los Angeles,100.0,32,32.0,-21.0,21.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_C,run01,vision,C,12,Johns Hopkins University,Johns Hopkins University,100.0,8,8.0,4.0,4.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_C,run01,vision,C,13,New York University,New York University,100.0,26,26.0,-13.0,13.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_C,run01,vision,C,14,"University of Maryland, College Park",Univ. of Maryland - College Park,100.0,7,7.0,7.0,7.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US_C,run01,vision,C,15,University of Texas at Austin,University of Texas at Austin,100.0,10,10.0,5.0,5.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US,run01,vision,A,1,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,0.0,0.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US,run01,vision,A,2,Stanford University,Stanford University,100.0,5,5.0,-3.0,3.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US,run01,vision,A,3,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,6,6.0,-3.0,3.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US,run01,vision,A,4,"University of California, Berkeley",Univ. of California - Berkeley,100.0,4,4.0,0.0,0.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US,run01,vision,A,5,University of Washington,University of Washington,100.0,22,22.0,-17.0,17.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US,run01,vision,A,6,University of Michigan,University of Michigan,100.0,27,27.0,-21.0,21.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US,run01,vision,A,7,Georgia Institute of Technology,Georgia Institute of Technology,100.0,18,18.0,-11.0,11.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US,run01,vision,A,8,Cornell University,Cornell University,100.0,11,11.0,-3.0,3.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US,run01,vision,A,9,University of Illinois Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,6.0,6.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US,run01,vision,A,10,Princeton University,Princeton University,100.0,19,19.0,-9.0,9.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US,run01,vision,A,11,"University of California, Los Angeles",Univ. of California - Los Angeles,100.0,32,32.0,-21.0,21.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US,run01,vision,A,12,Columbia University,Columbia University,100.0,24,24.0,-12.0,12.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US,run01,vision,A,13,University of Texas at Austin,University of Texas at Austin,100.0,10,10.0,3.0,3.0
+claude-sonnet-4-6,anthropic,VIS_RANK_US,run01,vision,A,15,"University of California, San Diego",Univ. of California - San Diego,100.0,2,2.0,13.0,13.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_B,run01,se,B,1,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,0.0,0.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_B,run01,se,B,2,University of Washington,University of Washington,100.0,32,35.0,-33.0,33.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_B,run01,se,B,3,University of Illinois Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,0.0,0.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_B,run01,se,B,4,Georgia Institute of Technology,Georgia Institute of Technology,100.0,30,30.5,-26.5,26.5
+gemini-3.1-pro-preview,gemini,SE_RANK_US_B,run01,se,B,5,University of Texas at Austin,University of Texas at Austin,100.0,32,35.0,-30.0,30.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_B,run01,se,B,6,Purdue University,Purdue University,100.0,4,4.0,2.0,2.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_B,run01,se,B,7,"University of California, Berkeley",Univ. of California - Berkeley,100.0,28,28.5,-21.5,21.5
+gemini-3.1-pro-preview,gemini,SE_RANK_US_B,run01,se,B,8,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,25,25.0,-17.0,17.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_B,run01,se,B,9,North Carolina State University,North Carolina State University,100.0,5,5.0,4.0,4.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_B,run01,se,B,10,"University of California, Davis",Univ. of California - Davis,88.88888888888889,24,24.0,-14.0,14.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_B,run01,se,B,11,"University of California, Irvine",Univ. of California - Irvine,100.0,2,2.0,9.0,9.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_B,run01,se,B,12,University of Michigan,University of Michigan,100.0,32,35.0,-23.0,23.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_B,run01,se,B,13,University of Southern California,University of Southern California,100.0,7,7.0,6.0,6.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_C,run01,se,C,1,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,0.0,0.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_C,run01,se,C,2,University of Washington,University of Washington,100.0,32,35.0,-33.0,33.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_C,run01,se,C,3,University of Illinois Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,0.0,0.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_C,run01,se,C,4,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,25,25.0,-21.0,21.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_C,run01,se,C,5,"University of California, Berkeley",Univ. of California - Berkeley,100.0,28,28.5,-23.5,23.5
+gemini-3.1-pro-preview,gemini,SE_RANK_US_C,run01,se,C,6,Georgia Institute of Technology,Georgia Institute of Technology,100.0,30,30.5,-24.5,24.5
+gemini-3.1-pro-preview,gemini,SE_RANK_US_C,run01,se,C,7,University of Texas at Austin,University of Texas at Austin,100.0,32,35.0,-28.0,28.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_C,run01,se,C,9,"University of California, Irvine",Univ. of California - Irvine,100.0,2,2.0,7.0,7.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_C,run01,se,C,10,North Carolina State University,North Carolina State University,100.0,5,5.0,5.0,5.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_C,run01,se,C,11,Purdue University,Purdue University,100.0,4,4.0,7.0,7.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_C,run01,se,C,13,"University of Michigan, Ann Arbor",University of Michigan,100.0,32,35.0,-22.0,22.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_C,run01,se,C,14,University of Southern California,University of Southern California,100.0,7,7.0,7.0,7.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US_C,run01,se,C,15,University of Massachusetts Amherst,Univ. of Massachusetts Amherst,100.0,8,8.0,7.0,7.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US,run01,se,A,1,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,0.0,0.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US,run01,se,A,2,University of Illinois at Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,-1.0,1.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US,run01,se,A,3,University of Washington,University of Washington,100.0,32,35.0,-32.0,32.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US,run01,se,A,4,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,25,25.0,-21.0,21.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US,run01,se,A,5,"University of California, Berkeley",Univ. of California - Berkeley,100.0,28,28.5,-23.5,23.5
+gemini-3.1-pro-preview,gemini,SE_RANK_US,run01,se,A,6,University of Texas at Austin,University of Texas at Austin,100.0,32,35.0,-29.0,29.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US,run01,se,A,7,Georgia Institute of Technology,Georgia Institute of Technology,100.0,30,30.5,-23.5,23.5
+gemini-3.1-pro-preview,gemini,SE_RANK_US,run01,se,A,8,"University of California, Irvine",Univ. of California - Irvine,100.0,2,2.0,6.0,6.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US,run01,se,A,9,"University of California, Davis",Univ. of California - Davis,88.88888888888889,24,24.0,-15.0,15.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US,run01,se,A,10,Purdue University,Purdue University,100.0,4,4.0,6.0,6.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US,run01,se,A,11,North Carolina State University,North Carolina State University,100.0,5,5.0,6.0,6.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US,run01,se,A,12,University of Massachusetts Amherst,Univ. of Massachusetts Amherst,100.0,8,8.0,4.0,4.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US,run01,se,A,13,University of Michigan,University of Michigan,100.0,32,35.0,-22.0,22.0
+gemini-3.1-pro-preview,gemini,SE_RANK_US,run01,se,A,15,University of Southern California,University of Southern California,100.0,7,7.0,8.0,8.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_B,run01,vision,B,1,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,0.0,0.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_B,run01,vision,B,2,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,6,6.0,-4.0,4.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_B,run01,vision,B,3,Stanford University,Stanford University,100.0,5,5.0,-2.0,2.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_B,run01,vision,B,4,"University of California, Berkeley",Univ. of California - Berkeley,100.0,4,4.0,0.0,0.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_B,run01,vision,B,5,University of Illinois at Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,2.0,2.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_B,run01,vision,B,6,Cornell University,Cornell University,100.0,11,11.0,-5.0,5.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_B,run01,vision,B,7,University of Washington,University of Washington,100.0,22,22.0,-15.0,15.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_B,run01,vision,B,8,"University of California, San Diego",Univ. of California - San Diego,100.0,2,2.0,6.0,6.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_B,run01,vision,B,9,University of Texas at Austin,University of Texas at Austin,100.0,10,10.0,-1.0,1.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_B,run01,vision,B,10,"University of Maryland, College Park",Univ. of Maryland - College Park,100.0,7,7.0,3.0,3.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_B,run01,vision,B,11,Georgia Institute of Technology,Georgia Institute of Technology,100.0,18,18.0,-7.0,7.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_B,run01,vision,B,12,Columbia University,Columbia University,100.0,24,24.0,-12.0,12.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_B,run01,vision,B,13,"University of California, Los Angeles",Univ. of California - Los Angeles,100.0,32,32.0,-19.0,19.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_B,run01,vision,B,14,"University of Michigan, Ann Arbor",University of Michigan,100.0,27,27.0,-13.0,13.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_B,run01,vision,B,15,Princeton University,Princeton University,100.0,19,19.0,-4.0,4.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_C,run01,vision,C,1,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,0.0,0.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_C,run01,vision,C,2,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,6,6.0,-4.0,4.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_C,run01,vision,C,3,Stanford University,Stanford University,100.0,5,5.0,-2.0,2.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_C,run01,vision,C,4,"University of California, Berkeley",Univ. of California - Berkeley,100.0,4,4.0,0.0,0.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_C,run01,vision,C,5,University of Illinois at Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,2.0,2.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_C,run01,vision,C,6,Cornell University,Cornell University,100.0,11,11.0,-5.0,5.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_C,run01,vision,C,7,"University of Maryland, College Park",Univ. of Maryland - College Park,100.0,7,7.0,0.0,0.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_C,run01,vision,C,8,"University of Michigan, Ann Arbor",University of Michigan,100.0,27,27.0,-19.0,19.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_C,run01,vision,C,9,University of Texas at Austin,University of Texas at Austin,100.0,10,10.0,-1.0,1.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_C,run01,vision,C,10,University of Washington,University of Washington,100.0,22,22.0,-12.0,12.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_C,run01,vision,C,11,Georgia Institute of Technology,Georgia Institute of Technology,100.0,18,18.0,-7.0,7.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_C,run01,vision,C,12,"University of California, San Diego",Univ. of California - San Diego,100.0,2,2.0,10.0,10.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_C,run01,vision,C,13,"University of California, Los Angeles",Univ. of California - Los Angeles,100.0,32,32.0,-19.0,19.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_C,run01,vision,C,14,Columbia University,Columbia University,100.0,24,24.0,-10.0,10.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US_C,run01,vision,C,15,Johns Hopkins University,Johns Hopkins University,100.0,8,8.0,7.0,7.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US,run01,vision,A,1,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,0.0,0.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US,run01,vision,A,2,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,6,6.0,-4.0,4.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US,run01,vision,A,3,Stanford University,Stanford University,100.0,5,5.0,-2.0,2.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US,run01,vision,A,4,"University of California, Berkeley",Univ. of California - Berkeley,100.0,4,4.0,0.0,0.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US,run01,vision,A,5,University of Illinois at Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,2.0,2.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US,run01,vision,A,6,Cornell University,Cornell University,100.0,11,11.0,-5.0,5.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US,run01,vision,A,7,"University of Maryland, College Park",Univ. of Maryland - College Park,100.0,7,7.0,0.0,0.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US,run01,vision,A,8,University of Texas at Austin,University of Texas at Austin,100.0,10,10.0,-2.0,2.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US,run01,vision,A,9,"University of California, San Diego",Univ. of California - San Diego,100.0,2,2.0,7.0,7.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US,run01,vision,A,10,University of Washington,University of Washington,100.0,22,22.0,-12.0,12.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US,run01,vision,A,11,"University of California, Los Angeles",Univ. of California - Los Angeles,100.0,32,32.0,-21.0,21.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US,run01,vision,A,12,Georgia Institute of Technology,Georgia Institute of Technology,100.0,18,18.0,-6.0,6.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US,run01,vision,A,13,"University of Michigan, Ann Arbor",University of Michigan,100.0,27,27.0,-14.0,14.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US,run01,vision,A,14,Columbia University,Columbia University,100.0,24,24.0,-10.0,10.0
+gemini-3.1-pro-preview,gemini,VIS_RANK_US,run01,vision,A,15,Johns Hopkins University,Johns Hopkins University,100.0,8,8.0,7.0,7.0
+gpt-5.4,openai,SE_RANK_US_B,run01,se,B,1,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,0.0,0.0
+gpt-5.4,openai,SE_RANK_US_B,run01,se,B,2,"University of California, Berkeley",Univ. of California - Berkeley,100.0,28,28.5,-26.5,26.5
+gpt-5.4,openai,SE_RANK_US_B,run01,se,B,3,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,25,25.0,-22.0,22.0
+gpt-5.4,openai,SE_RANK_US_B,run01,se,B,4,University of Washington,University of Washington,100.0,32,35.0,-31.0,31.0
+gpt-5.4,openai,SE_RANK_US_B,run01,se,B,5,University of Illinois Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,2.0,2.0
+gpt-5.4,openai,SE_RANK_US_B,run01,se,B,6,University of Michigan,University of Michigan,100.0,32,35.0,-29.0,29.0
+gpt-5.4,openai,SE_RANK_US_B,run01,se,B,7,"University of California, San Diego",Univ. of California - San Diego,100.0,32,35.0,-28.0,28.0
+gpt-5.4,openai,SE_RANK_US_B,run01,se,B,8,Georgia Institute of Technology,Georgia Institute of Technology,100.0,30,30.5,-22.5,22.5
+gpt-5.4,openai,SE_RANK_US_B,run01,se,B,9,University of Texas at Austin,University of Texas at Austin,100.0,32,35.0,-26.0,26.0
+gpt-5.4,openai,SE_RANK_US_B,run01,se,B,11,"University of California, Irvine",Univ. of California - Irvine,100.0,2,2.0,9.0,9.0
+gpt-5.4,openai,SE_RANK_US_B,run01,se,B,12,North Carolina State University,North Carolina State University,100.0,5,5.0,7.0,7.0
+gpt-5.4,openai,SE_RANK_US_B,run01,se,B,14,Purdue University,Purdue University,100.0,4,4.0,10.0,10.0
+gpt-5.4,openai,SE_RANK_US_B,run01,se,B,15,Virginia Tech,Virginia Tech,100.0,12,12.0,3.0,3.0
+gpt-5.4,openai,SE_RANK_US_C,run01,se,C,1,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,0.0,0.0
+gpt-5.4,openai,SE_RANK_US_C,run01,se,C,2,"University of California, Berkeley",Univ. of California - Berkeley,100.0,28,28.5,-26.5,26.5
+gpt-5.4,openai,SE_RANK_US_C,run01,se,C,3,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,25,25.0,-22.0,22.0
+gpt-5.4,openai,SE_RANK_US_C,run01,se,C,4,University of Washington,University of Washington,100.0,32,35.0,-31.0,31.0
+gpt-5.4,openai,SE_RANK_US_C,run01,se,C,6,University of Illinois Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,3.0,3.0
+gpt-5.4,openai,SE_RANK_US_C,run01,se,C,7,University of Michigan,University of Michigan,100.0,32,35.0,-28.0,28.0
+gpt-5.4,openai,SE_RANK_US_C,run01,se,C,8,Georgia Institute of Technology,Georgia Institute of Technology,100.0,30,30.5,-22.5,22.5
+gpt-5.4,openai,SE_RANK_US_C,run01,se,C,9,University of Texas at Austin,University of Texas at Austin,100.0,32,35.0,-26.0,26.0
+gpt-5.4,openai,SE_RANK_US_C,run01,se,C,10,"University of California, San Diego",Univ. of California - San Diego,100.0,32,35.0,-25.0,25.0
+gpt-5.4,openai,SE_RANK_US_C,run01,se,C,12,North Carolina State University,North Carolina State University,100.0,5,5.0,7.0,7.0
+gpt-5.4,openai,SE_RANK_US_C,run01,se,C,13,"University of California, Irvine",Univ. of California - Irvine,100.0,2,2.0,11.0,11.0
+gpt-5.4,openai,SE_RANK_US_C,run01,se,C,14,Virginia Tech,Virginia Tech,100.0,12,12.0,2.0,2.0
+gpt-5.4,openai,SE_RANK_US_C,run01,se,C,15,University of Southern California,University of Southern California,100.0,7,7.0,8.0,8.0
+gpt-5.4,openai,SE_RANK_US,run01,se,A,1,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,0.0,0.0
+gpt-5.4,openai,SE_RANK_US,run01,se,A,2,"University of California, Berkeley",Univ. of California - Berkeley,100.0,28,28.5,-26.5,26.5
+gpt-5.4,openai,SE_RANK_US,run01,se,A,3,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,25,25.0,-22.0,22.0
+gpt-5.4,openai,SE_RANK_US,run01,se,A,5,University of Illinois Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,2.0,2.0
+gpt-5.4,openai,SE_RANK_US,run01,se,A,6,University of Washington,University of Washington,100.0,32,35.0,-29.0,29.0
+gpt-5.4,openai,SE_RANK_US,run01,se,A,7,"University of California, San Diego",Univ. of California - San Diego,100.0,32,35.0,-28.0,28.0
+gpt-5.4,openai,SE_RANK_US,run01,se,A,8,Georgia Institute of Technology,Georgia Institute of Technology,100.0,30,30.5,-22.5,22.5
+gpt-5.4,openai,SE_RANK_US,run01,se,A,9,"University of California, Irvine",Univ. of California - Irvine,100.0,2,2.0,7.0,7.0
+gpt-5.4,openai,SE_RANK_US,run01,se,A,10,University of Texas at Austin,University of Texas at Austin,100.0,32,35.0,-25.0,25.0
+gpt-5.4,openai,SE_RANK_US,run01,se,A,12,North Carolina State University,North Carolina State University,100.0,5,5.0,7.0,7.0
+gpt-5.4,openai,SE_RANK_US,run01,se,A,13,University of Michigan,University of Michigan,100.0,32,35.0,-22.0,22.0
+gpt-5.4,openai,SE_RANK_US,run01,se,A,14,Purdue University,Purdue University,100.0,4,4.0,10.0,10.0
+gpt-5.4,openai,SE_RANK_US,run01,se,A,15,University of Virginia,University of Virginia,100.0,9,9.0,6.0,6.0
+gpt-5.4,openai,VIS_RANK_US_B,run01,vision,B,1,Stanford University,Stanford University,100.0,5,5.0,-4.0,4.0
+gpt-5.4,openai,VIS_RANK_US_B,run01,vision,B,2,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,6,6.0,-4.0,4.0
+gpt-5.4,openai,VIS_RANK_US_B,run01,vision,B,3,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,2.0,2.0
+gpt-5.4,openai,VIS_RANK_US_B,run01,vision,B,4,"University of California, Berkeley",Univ. of California - Berkeley,100.0,4,4.0,0.0,0.0
+gpt-5.4,openai,VIS_RANK_US_B,run01,vision,B,5,University of Illinois Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,2.0,2.0
+gpt-5.4,openai,VIS_RANK_US_B,run01,vision,B,6,Georgia Institute of Technology,Georgia Institute of Technology,100.0,18,18.0,-12.0,12.0
+gpt-5.4,openai,VIS_RANK_US_B,run01,vision,B,7,University of Michigan,University of Michigan,100.0,27,27.0,-20.0,20.0
+gpt-5.4,openai,VIS_RANK_US_B,run01,vision,B,8,Cornell University,Cornell University,100.0,11,11.0,-3.0,3.0
+gpt-5.4,openai,VIS_RANK_US_B,run01,vision,B,9,University of Washington,University of Washington,100.0,22,22.0,-13.0,13.0
+gpt-5.4,openai,VIS_RANK_US_B,run01,vision,B,10,"University of California, San Diego",Univ. of California - San Diego,100.0,2,2.0,8.0,8.0
+gpt-5.4,openai,VIS_RANK_US_B,run01,vision,B,11,"University of Maryland, College Park",Univ. of Maryland - College Park,100.0,7,7.0,4.0,4.0
+gpt-5.4,openai,VIS_RANK_US_B,run01,vision,B,12,"University of California, Los Angeles",Univ. of California - Los Angeles,100.0,32,32.0,-20.0,20.0
+gpt-5.4,openai,VIS_RANK_US_B,run01,vision,B,13,University of Texas at Austin,University of Texas at Austin,100.0,10,10.0,3.0,3.0
+gpt-5.4,openai,VIS_RANK_US_B,run01,vision,B,14,Princeton University,Princeton University,100.0,19,19.0,-5.0,5.0
+gpt-5.4,openai,VIS_RANK_US_B,run01,vision,B,15,Columbia University,Columbia University,100.0,24,24.0,-9.0,9.0
+gpt-5.4,openai,VIS_RANK_US_C,run01,vision,C,1,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,6,6.0,-5.0,5.0
+gpt-5.4,openai,VIS_RANK_US_C,run01,vision,C,2,Stanford University,Stanford University,100.0,5,5.0,-3.0,3.0
+gpt-5.4,openai,VIS_RANK_US_C,run01,vision,C,3,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,2.0,2.0
+gpt-5.4,openai,VIS_RANK_US_C,run01,vision,C,4,"University of California, Berkeley",Univ. of California - Berkeley,100.0,4,4.0,0.0,0.0
+gpt-5.4,openai,VIS_RANK_US_C,run01,vision,C,5,Cornell University,Cornell University,100.0,11,11.0,-6.0,6.0
+gpt-5.4,openai,VIS_RANK_US_C,run01,vision,C,6,University of Illinois Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,3.0,3.0
+gpt-5.4,openai,VIS_RANK_US_C,run01,vision,C,7,University of Michigan,University of Michigan,100.0,27,27.0,-20.0,20.0
+gpt-5.4,openai,VIS_RANK_US_C,run01,vision,C,8,Georgia Institute of Technology,Georgia Institute of Technology,100.0,18,18.0,-10.0,10.0
+gpt-5.4,openai,VIS_RANK_US_C,run01,vision,C,9,University of Washington,University of Washington,100.0,22,22.0,-13.0,13.0
+gpt-5.4,openai,VIS_RANK_US_C,run01,vision,C,10,"University of California, San Diego",Univ. of California - San Diego,100.0,2,2.0,8.0,8.0
+gpt-5.4,openai,VIS_RANK_US_C,run01,vision,C,11,"University of Maryland, College Park",Univ. of Maryland - College Park,100.0,7,7.0,4.0,4.0
+gpt-5.4,openai,VIS_RANK_US_C,run01,vision,C,12,"University of California, Los Angeles",Univ. of California - Los Angeles,100.0,32,32.0,-20.0,20.0
+gpt-5.4,openai,VIS_RANK_US_C,run01,vision,C,14,University of Texas at Austin,University of Texas at Austin,100.0,10,10.0,4.0,4.0
+gpt-5.4,openai,VIS_RANK_US_C,run01,vision,C,15,Columbia University,Columbia University,100.0,24,24.0,-9.0,9.0
+gpt-5.4,openai,VIS_RANK_US,run01,vision,A,1,Massachusetts Institute of Technology,Massachusetts Inst. of Technology,100.0,6,6.0,-5.0,5.0
+gpt-5.4,openai,VIS_RANK_US,run01,vision,A,2,Stanford University,Stanford University,100.0,5,5.0,-3.0,3.0
+gpt-5.4,openai,VIS_RANK_US,run01,vision,A,3,"University of California, Berkeley",Univ. of California - Berkeley,100.0,4,4.0,-1.0,1.0
+gpt-5.4,openai,VIS_RANK_US,run01,vision,A,4,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,3.0,3.0
+gpt-5.4,openai,VIS_RANK_US,run01,vision,A,5,University of Illinois Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,2.0,2.0
+gpt-5.4,openai,VIS_RANK_US,run01,vision,A,6,Cornell University,Cornell University,100.0,11,11.0,-5.0,5.0
+gpt-5.4,openai,VIS_RANK_US,run01,vision,A,7,University of Michigan,University of Michigan,100.0,27,27.0,-20.0,20.0
+gpt-5.4,openai,VIS_RANK_US,run01,vision,A,8,Georgia Institute of Technology,Georgia Institute of Technology,100.0,18,18.0,-10.0,10.0
+gpt-5.4,openai,VIS_RANK_US,run01,vision,A,9,"University of California, San Diego",Univ. of California - San Diego,100.0,2,2.0,7.0,7.0
+gpt-5.4,openai,VIS_RANK_US,run01,vision,A,10,University of Washington,University of Washington,100.0,22,22.0,-12.0,12.0
+gpt-5.4,openai,VIS_RANK_US,run01,vision,A,11,"University of California, Los Angeles",Univ. of California - Los Angeles,100.0,32,32.0,-21.0,21.0
+gpt-5.4,openai,VIS_RANK_US,run01,vision,A,12,"University of Maryland, College Park",Univ. of Maryland - College Park,100.0,7,7.0,5.0,5.0
+gpt-5.4,openai,VIS_RANK_US,run01,vision,A,13,Columbia University,Columbia University,100.0,24,24.0,-11.0,11.0
+gpt-5.4,openai,VIS_RANK_US,run01,vision,A,15,University of Texas at Austin,University of Texas at Austin,100.0,10,10.0,5.0,5.0
+qwen2.5:3b,ollama,SE_RANK_US_B,run01,se,B,1,Massachusetts Institute of Technology (MIT),Massachusetts Inst. of Technology,100.0,25,25.0,-24.0,24.0
+qwen2.5:3b,ollama,SE_RANK_US_B,run01,se,B,3,Carnegie Mellon University (CMU),Carnegie Mellon University,100.0,1,1.0,2.0,2.0
+qwen2.5:3b,ollama,SE_RANK_US_B,run01,se,B,4,"University of California, Berkeley",Univ. of California - Berkeley,100.0,28,28.5,-24.5,24.5
+qwen2.5:3b,ollama,SE_RANK_US_B,run01,se,B,5,University of Illinois at Urbana-Champaign (UIUC),Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,2.0,2.0
+qwen2.5:3b,ollama,SE_RANK_US_B,run01,se,B,6,University of Washington,University of Washington,100.0,32,35.0,-29.0,29.0
+qwen2.5:3b,ollama,SE_RANK_US_B,run01,se,B,7,"University of California, Los Angeles (UCLA)",Univ. of California - Los Angeles,100.0,13,13.0,-6.0,6.0
+qwen2.5:3b,ollama,SE_RANK_US_B,run01,se,B,8,University of Texas at Austin (UT-Austin),University of Texas at Austin,100.0,32,35.0,-27.0,27.0
+qwen2.5:3b,ollama,SE_RANK_US_B,run01,se,B,9,Georgia Institute of Technology (Georgia Tech),Georgia Institute of Technology,100.0,30,30.5,-21.5,21.5
+qwen2.5:3b,ollama,SE_RANK_US_B,run01,se,B,10,"University of California, San Diego (UCSD)",Univ. of California - San Diego,100.0,32,35.0,-25.0,25.0
+qwen2.5:3b,ollama,SE_RANK_US_B,run01,se,B,11,University of Michigan at Ann Arbor (UMich),University of Michigan,100.0,32,35.0,-24.0,24.0
+qwen2.5:3b,ollama,SE_RANK_US_B,run01,se,B,12,Northwestern University,Northeastern University,95.65217391304348,26,26.5,-14.5,14.5
+qwen2.5:3b,ollama,SE_RANK_US_B,run01,se,B,14,University of Southern California (USC),University of Southern California,100.0,7,7.0,7.0,7.0
+qwen2.5:3b,ollama,SE_RANK_US_B,run01,se,B,15,University of Notre Dame,University of Notre Dame,100.0,32,35.0,-20.0,20.0
+qwen2.5:3b,ollama,SE_RANK_US_C,run01,se,C,1,Massachusetts Institute of Technology (MIT),Massachusetts Inst. of Technology,100.0,25,25.0,-24.0,24.0
+qwen2.5:3b,ollama,SE_RANK_US_C,run01,se,C,3,Carnegie Mellon University (CMU),Carnegie Mellon University,100.0,1,1.0,2.0,2.0
+qwen2.5:3b,ollama,SE_RANK_US_C,run01,se,C,4,"University of California, Berkeley",Univ. of California - Berkeley,100.0,28,28.5,-24.5,24.5
+qwen2.5:3b,ollama,SE_RANK_US_C,run01,se,C,6,University of Washington,University of Washington,100.0,32,35.0,-29.0,29.0
+qwen2.5:3b,ollama,SE_RANK_US_C,run01,se,C,7,University of Illinois at Urbana-Champaign (UIUC),Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,4.0,4.0
+qwen2.5:3b,ollama,SE_RANK_US_C,run01,se,C,8,University of Texas at Austin (UT-Austin),University of Texas at Austin,100.0,32,35.0,-27.0,27.0
+qwen2.5:3b,ollama,SE_RANK_US_C,run01,se,C,9,Georgia Institute of Technology (Georgia Tech),Georgia Institute of Technology,100.0,30,30.5,-21.5,21.5
+qwen2.5:3b,ollama,SE_RANK_US_C,run01,se,C,10,"University of California, Los Angeles (UCLA)",Univ. of California - Los Angeles,100.0,13,13.0,-3.0,3.0
+qwen2.5:3b,ollama,SE_RANK_US_C,run01,se,C,11,"University of California, San Diego (UCSD)",Univ. of California - San Diego,100.0,32,35.0,-24.0,24.0
+qwen2.5:3b,ollama,SE_RANK_US_C,run01,se,C,12,Northwestern University,Northeastern University,95.65217391304348,26,26.5,-14.5,14.5
+qwen2.5:3b,ollama,SE_RANK_US_C,run01,se,C,14,University of Southern California (USC),University of Southern California,100.0,7,7.0,7.0,7.0
+qwen2.5:3b,ollama,SE_RANK_US,run01,se,A,1,Massachusetts Institute of Technology (MIT),Massachusetts Inst. of Technology,100.0,25,25.0,-24.0,24.0
+qwen2.5:3b,ollama,SE_RANK_US,run01,se,A,3,Carnegie Mellon University (CMU),Carnegie Mellon University,100.0,1,1.0,2.0,2.0
+qwen2.5:3b,ollama,SE_RANK_US,run01,se,A,4,"University of California, Berkeley (UCB)",Univ. of California - Berkeley,100.0,28,28.5,-24.5,24.5
+qwen2.5:3b,ollama,SE_RANK_US,run01,se,A,6,University of Illinois at Urbana-Champaign (UIUC),Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,3.0,3.0
+qwen2.5:3b,ollama,SE_RANK_US,run01,se,A,7,University of Texas at Austin (UT-Austin),University of Texas at Austin,100.0,32,35.0,-28.0,28.0
+qwen2.5:3b,ollama,SE_RANK_US,run01,se,A,8,Georgia Institute of Technology (Georgia Tech),Georgia Institute of Technology,100.0,30,30.5,-22.5,22.5
+qwen2.5:3b,ollama,SE_RANK_US,run01,se,A,9,University of Washington (UW),University of Washington,100.0,32,35.0,-26.0,26.0
+qwen2.5:3b,ollama,SE_RANK_US,run01,se,A,10,Northwestern University (NU),Northeastern University,95.65217391304348,26,26.5,-16.5,16.5
+qwen2.5:3b,ollama,SE_RANK_US,run01,se,A,11,"University of California, Los Angeles (UCLA)",Univ. of California - Los Angeles,100.0,13,13.0,-2.0,2.0
+qwen2.5:3b,ollama,SE_RANK_US,run01,se,A,12,University of Michigan at Ann Arbor (UMich),University of Michigan,100.0,32,35.0,-23.0,23.0
+qwen2.5:3b,ollama,SE_RANK_US,run01,se,A,14,"University of California, San Diego (UCSD)",Univ. of California - San Diego,100.0,32,35.0,-21.0,21.0
+qwen2.5:3b,ollama,SE_RANK_US,run01,se,A,15,University of Southern California (USC),University of Southern California,100.0,7,7.0,8.0,8.0
+qwen2.5:3b,ollama,VIS_RANK_US_B,run01,vision,B,1,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,0.0,0.0
+qwen2.5:3b,ollama,VIS_RANK_US_B,run01,vision,B,2,Massachusetts Institute of Technology (MIT),Massachusetts Inst. of Technology,100.0,6,6.0,-4.0,4.0
+qwen2.5:3b,ollama,VIS_RANK_US_B,run01,vision,B,3,Stanford University,Stanford University,100.0,5,5.0,-2.0,2.0
+qwen2.5:3b,ollama,VIS_RANK_US_B,run01,vision,B,4,University of Washington,University of Washington,100.0,22,22.0,-18.0,18.0
+qwen2.5:3b,ollama,VIS_RANK_US_B,run01,vision,B,5,"University of California, Berkeley",Univ. of California - Berkeley,100.0,4,4.0,1.0,1.0
+qwen2.5:3b,ollama,VIS_RANK_US_B,run01,vision,B,6,"University of California, Los Angeles (UCLA)",Univ. of California - Los Angeles,100.0,32,32.0,-26.0,26.0
+qwen2.5:3b,ollama,VIS_RANK_US_B,run01,vision,B,7,Georgia Institute of Technology,Georgia Institute of Technology,100.0,18,18.0,-11.0,11.0
+qwen2.5:3b,ollama,VIS_RANK_US_B,run01,vision,B,8,University of Illinois at Urbana-Champaign,Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,5.0,5.0
+qwen2.5:3b,ollama,VIS_RANK_US_B,run01,vision,B,9,University of Texas at Austin,University of Texas at Austin,100.0,10,10.0,-1.0,1.0
+qwen2.5:3b,ollama,VIS_RANK_US_B,run01,vision,B,10,"University of California, San Diego",Univ. of California - San Diego,100.0,2,2.0,8.0,8.0
+qwen2.5:3b,ollama,VIS_RANK_US_B,run01,vision,B,11,Rice University,Rice University,100.0,41,41.0,-30.0,30.0
+qwen2.5:3b,ollama,VIS_RANK_US_B,run01,vision,B,12,University of Southern California (USC),University of Southern California,100.0,34,34.5,-22.5,22.5
+qwen2.5:3b,ollama,VIS_RANK_US_B,run01,vision,B,13,"University of Maryland, College Park",Univ. of Maryland - College Park,100.0,7,7.0,6.0,6.0
+qwen2.5:3b,ollama,VIS_RANK_US_B,run01,vision,B,14,University of Pennsylvania (UPenn),University of Pennsylvania,100.0,16,16.0,-2.0,2.0
+qwen2.5:3b,ollama,VIS_RANK_US_C,run01,vision,C,1,Massachusetts Institute of Technology (MIT),Massachusetts Inst. of Technology,100.0,6,6.0,-5.0,5.0
+qwen2.5:3b,ollama,VIS_RANK_US_C,run01,vision,C,2,Stanford University,Stanford University,100.0,5,5.0,-3.0,3.0
+qwen2.5:3b,ollama,VIS_RANK_US_C,run01,vision,C,3,Columbia University,Columbia University,100.0,24,24.0,-21.0,21.0
+qwen2.5:3b,ollama,VIS_RANK_US_C,run01,vision,C,4,"University of California, Berkeley (UCB)",Univ. of California - Berkeley,100.0,4,4.0,0.0,0.0
+qwen2.5:3b,ollama,VIS_RANK_US_C,run01,vision,C,5,University of Washington (UW),University of Washington,100.0,22,22.0,-17.0,17.0
+qwen2.5:3b,ollama,VIS_RANK_US_C,run01,vision,C,6,Cornell University,Cornell University,100.0,11,11.0,-5.0,5.0
+qwen2.5:3b,ollama,VIS_RANK_US_C,run01,vision,C,7,"University of California, Los Angeles (UCLA)",Univ. of California - Los Angeles,100.0,32,32.0,-25.0,25.0
+qwen2.5:3b,ollama,VIS_RANK_US_C,run01,vision,C,8,University of Illinois at Urbana-Champaign (UIUC),Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,5.0,5.0
+qwen2.5:3b,ollama,VIS_RANK_US_C,run01,vision,C,9,University of Texas at Austin (UT-Austin),University of Texas at Austin,100.0,10,10.0,-1.0,1.0
+qwen2.5:3b,ollama,VIS_RANK_US_C,run01,vision,C,10,Georgia Institute of Technology (Georgia Tech),Georgia Institute of Technology,100.0,18,18.0,-8.0,8.0
+qwen2.5:3b,ollama,VIS_RANK_US_C,run01,vision,C,11,"University of California, San Diego (UCSD)",Univ. of California - San Diego,100.0,2,2.0,9.0,9.0
+qwen2.5:3b,ollama,VIS_RANK_US_C,run01,vision,C,12,University of Michigan (UM),University of Michigan,100.0,27,27.0,-15.0,15.0
+qwen2.5:3b,ollama,VIS_RANK_US_C,run01,vision,C,13,"University of California, Irvine (UCI)",Univ. of California - Irvine,100.0,31,31.0,-18.0,18.0
+qwen2.5:3b,ollama,VIS_RANK_US_C,run01,vision,C,14,Rice University,Rice University,100.0,41,41.0,-27.0,27.0
+qwen2.5:3b,ollama,VIS_RANK_US_C,run01,vision,C,15,University of Southern California (USC),University of Southern California,100.0,34,34.5,-19.5,19.5
+qwen2.5:3b,ollama,VIS_RANK_US,run01,vision,A,1,Massachusetts Institute of Technology (MIT),Massachusetts Inst. of Technology,100.0,6,6.0,-5.0,5.0
+qwen2.5:3b,ollama,VIS_RANK_US,run01,vision,A,2,Carnegie Mellon University,Carnegie Mellon University,100.0,1,1.0,1.0,1.0
+qwen2.5:3b,ollama,VIS_RANK_US,run01,vision,A,3,Stanford University,Stanford University,100.0,5,5.0,-2.0,2.0
+qwen2.5:3b,ollama,VIS_RANK_US,run01,vision,A,4,"University of California, Berkeley",Univ. of California - Berkeley,100.0,4,4.0,0.0,0.0
+qwen2.5:3b,ollama,VIS_RANK_US,run01,vision,A,5,California Institute of Technology (Caltech),California Inst. of Technology,92.06349206349206,34,34.5,-29.5,29.5
+qwen2.5:3b,ollama,VIS_RANK_US,run01,vision,A,6,University of Washington,University of Washington,100.0,22,22.0,-16.0,16.0
+qwen2.5:3b,ollama,VIS_RANK_US,run01,vision,A,7,Georgia Institute of Technology,Georgia Institute of Technology,100.0,18,18.0,-11.0,11.0
+qwen2.5:3b,ollama,VIS_RANK_US,run01,vision,A,8,University of Illinois at Urbana-Champaign (UIUC),Univ. of Illinois at Urbana-Champaign,100.0,3,3.0,5.0,5.0
+qwen2.5:3b,ollama,VIS_RANK_US,run01,vision,A,9,"University of California, Los Angeles (UCLA)",Univ. of California - Los Angeles,100.0,32,32.0,-23.0,23.0
+qwen2.5:3b,ollama,VIS_RANK_US,run01,vision,A,10,University of Texas at Austin,University of Texas at Austin,100.0,10,10.0,0.0,0.0
+qwen2.5:3b,ollama,VIS_RANK_US,run01,vision,A,11,"University of Maryland, College Park",Univ. of Maryland - College Park,100.0,7,7.0,4.0,4.0
+qwen2.5:3b,ollama,VIS_RANK_US,run01,vision,A,12,Rice University,Rice University,100.0,41,41.0,-29.0,29.0
+qwen2.5:3b,ollama,VIS_RANK_US,run01,vision,A,13,University of Southern California (USC),University of Southern California,100.0,34,34.5,-21.5,21.5
+qwen2.5:3b,ollama,VIS_RANK_US,run01,vision,A,14,Northwestern University,Northwestern University,100.0,48,48.0,-34.0,34.0
+qwen2.5:3b,ollama,VIS_RANK_US,run01,vision,A,15,Duke University,Duke University,100.0,47,47.0,-32.0,32.0

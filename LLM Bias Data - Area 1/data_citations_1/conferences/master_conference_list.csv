@@ -1,0 +1,31 @@
+conference,acronym,full_name,field,core_rank,csrankings_area,baseline_rank
+ICSE,ICSE,International Conference on Software Engineering,software_engineering,A*,Software Engineering,1
+FSE/ESEC-FSE,FSE,ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering,software_engineering,A*,Software Engineering,2
+ASE,ASE,IEEE/ACM International Conference on Automated Software Engineering,software_engineering,A*,Software Engineering,3
+ISSTA,ISSTA,ACM SIGSOFT International Symposium on Software Testing and Analysis,software_engineering,A,Software Engineering,4
+MSR,MSR,International Conference on Mining Software Repositories,software_engineering,A,Software Engineering,5
+ICSME,ICSME,IEEE International Conference on Software Maintenance and Evolution,software_engineering,A,Software Engineering,6
+SANER,SANER,IEEE International Conference on Software Analysis Evolution and Reengineering,software_engineering,A,Software Engineering,7
+RE,RE,IEEE International Requirements Engineering Conference,software_engineering,A,Software Engineering,8
+MODELS,MODELS,ACM/IEEE International Conference on Model Driven Engineering Languages and Systems,software_engineering,A,Software Engineering,9
+PLDI,PLDI,ACM SIGPLAN Conference on Programming Language Design and Implementation,programming_languages,A*,Programming Languages,10
+OOPSLA,OOPSLA,ACM SIGPLAN Conference on Object-Oriented Programming Systems Languages and Applications,programming_languages,A*,Programming Languages,11
+POPL,POPL,ACM SIGPLAN Symposium on Principles of Programming Languages,programming_languages,A*,Programming Languages,12
+ECOOP,ECOOP,European Conference on Object-Oriented Programming,programming_languages,A,Programming Languages,13
+CAV,CAV,International Conference on Computer Aided Verification,formal_methods,A*,Programming Languages,14
+TACAS,TACAS,International Conference on Tools and Algorithms for the Construction and Analysis of Systems,formal_methods,A,Programming Languages,15
+FM,FM,International Symposium on Formal Methods,formal_methods,A,Programming Languages,16
+VMCAI,VMCAI,International Conference on Verification Model Checking and Abstract Interpretation,formal_methods,A,Programming Languages,17
+NeurIPS,NeurIPS,Conference on Neural Information Processing Systems,artificial_intelligence,A*,Artificial Intelligence,18
+ICML,ICML,International Conference on Machine Learning,artificial_intelligence,A*,Artificial Intelligence,19
+ICLR,ICLR,International Conference on Learning Representations,artificial_intelligence,A*,Artificial Intelligence,20
+AAAI,AAAI,AAAI Conference on Artificial Intelligence,artificial_intelligence,A*,Artificial Intelligence,21
+IJCAI,IJCAI,International Joint Conference on Artificial Intelligence,artificial_intelligence,A*,Artificial Intelligence,22
+KDD,KDD,ACM SIGKDD Conference on Knowledge Discovery and Data Mining,data_mining,A*,Data Mining,23
+WWW,WWW,ACM Web Conference,web_hci,A*,Web and Information Retrieval,24
+CHI,CHI,ACM CHI Conference on Human Factors in Computing Systems,hci,A*,Human-Computer Interaction,25
+UIST,UIST,ACM Symposium on User Interface Software and Technology,hci,A*,Human-Computer Interaction,26
+ICPC,ICPC,IEEE/ACM International Conference on Program Comprehension,software_engineering,A,Software Engineering,27
+COMPSAC,COMPSAC,IEEE International Computers Software and Applications Conference,software_engineering,B,Software Engineering,28
+ICST,ICST,IEEE International Conference on Software Testing Verification and Validation,software_engineering,B,Software Engineering,29
+SAC,SAC,ACM Symposium on Applied Computing,software_engineering,C,Software Engineering,30
